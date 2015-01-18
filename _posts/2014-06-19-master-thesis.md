@@ -7,42 +7,37 @@ tags: [Thesis, Joint Inversion, rake, rise time, dip, Finite Fault, Jalisco 1995
 ---
 
 <font size="6">Abstract <font size="2">(english)
+
+<br>
+<br>
+
+<font size="6">Resumen <font size="2">(spanish)
 <p align="justify">
 <br>
 <br>
-Travel time estimation is a very challenging problem in seismology. 
-This seismic attribut is highly important to understand the Earth's interior and the wave 
-propagation. In order to estimate a multi-value travel time field, by tracking the wavefront,
-the eikonal equation must be solved. However, solving a non-linear Partial Differential 
-Equation, which solution implies a discontinuity propagating (wavefront), is not an easy 
-task. \cite{cheng2007}, \cite{boka2011} and \cite{boka2011} showed that the Discontinuous 
-Galerkin Finite Element Method (DG-FEM) is suitable for wavefront propagation problems. 
-In this work, some assumptions are supplied in order to treat the eikonal equation as a 1D 
-advection, and the DG-FEM is implemented to solve our formulation. Three different numerical
-examples of wavefront tracking along different media, homogeneous and heterogeneous, are 
-provided to show applications of this methodology. Requirements to extend this work to 2D 
-and 3D are also included.
+<font size="2">
 
 <br>
 <br>
-<font size="6">Résumé <font size="2">(french)
+<br>
+<br>
+El análisis de los registros telesísmicos tanto observados como sintéticos se realizó con la transformada de ondículas Meyer-Yamada (Ji et al., 2001). Las ondículas permiten separan en grupos el contenido de frecuencias de los registros. La suma ponderada de las funciones de error entre sintéticos y observados de cada grupo forma la función objetivo en términos de los coeficientes ondiculares. La rutina de inversión de falla finita ocupa el algoritmo de cristalización simulada para determinar el modelo de la fuente sísmica que minimiza a la función objetivo. 
 
 <br>
 <br>
-L'estimation des temps de trajet est un véritable défi en sismologie. Cet attribut sismique 
-est essentiel pour comprendre l'intérieur de la Terre et la propagation des ondes. Afin de 
-calculer le champ de temps de trajet, par le suivi d'un front d'onde, il faut résoudre 
-l'équation eikonal. Néanmoins, résoudre une équation différentielle partielle non-linéaire, 
-où la solution implique une discontinuité qui se propage (front d'onde), n'est pas une tâche
-facile. \cite{cheng2007}, \cite{boka2011} et \cite{boka2012} ont 
-démontré que la Méthode des Elements Finis Galerkin Discontinue (DG-FEM) peut être adaptée 
-avec succès aux problèmes de propagation du front d'onde. Dans ce travail, certaines 
-hypothèses sont fournies afin de traiter l'équation eikonal comme une advection 1D, et la 
-DG-FEM est implémentée pour résoudre notre formulation. Trois exemples numériques différents
-d'éstimation des temps de trajet, dans des milieux homogènes et hétérogènes, sont fournis 
-pour montrer les applications de cette méthodologie. Les outils nécessaires à l'extension 
-de ce travail en 2D et en 3D sont également fournis en fin de rapport.\pagebreak
+De manera simultánea se agrega la información de 11 GPS. El añadir la información geodésica permite agregar la componente estática del desplazamiento a nuestro modelo, además de restringir a la solución a ajustarse al desplazamiento
+cosísmico registrados en el campo lejano.
 
+<br>
+<br>
+Como resultado se presentan 3 modelos. El modelo de inversión telesísmica indica que la zona de mayor deslizamiento (~250 cm) es muy próxima a la trinchera. Este resultado coincide con lo descrito por Zobin (1997), Mendoza y Hartzell (1999), y Mendoza et al. (2011).
+La inversión geodésica muestra a los mayores deslizamientos (~350 cm) más próximos a la zona de continente.
+
+<br>
+<br>
+Finalmente, una inversión conjunta con datos telesísmicos y geodésicos es realizada. La distribución de los deslizamientos obtenida muestra máximos (~300 cm) entre la zona señalada por la inversión telesísmica y la geodésica. Los diferentes tipos de información geodésica y sísmica compiten para determinar la mejor localización de los deslizamientos. Todos los diversos resultados son comparados en busca de explicar las diferencias, la contribución en la inversión de cada tipo de registros y la cinemática de la fuente sísmica.
+
+<br>
 <br>
 <br>
 <font size="6"> Links:
