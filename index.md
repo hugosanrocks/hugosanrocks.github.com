@@ -1,27 +1,22 @@
 ---
 layout: page
 title: Wellcome to Hugo's blog!
-tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+{%Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)%}
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Follow my FB profile at: [Hugo' FB](https://www.facebook.com/hugosamuel.sanchezreyes)
 
-## Update Author Attributes
+## Author
 
-In `_config.yml` remember to specify your own data:
+    title : My Home Page
     
-    title : Hugo's Home Page
-    
-    author :
       name : Hugo S. Sánchez-Reyes
       email : [hugo.geofisica@gmail.com](http://www.gmail.com)
       github : hugosanrocks
 
-The theme should reference these variables whenever needed.
-    
+
 ## My Posts
 
 This blog contains my posts
