@@ -7,7 +7,7 @@ tags: [Thesis, Joint Inversion, rake, rise time, dip, Finite Fault, Jalisco 1995
 ---
 
 <font size="6">Abstract <font size="2">(english)
-
+<p align="justify">
 <br>
 <br>
 Travel time estimation is a very challenging problem in seismology. 
@@ -23,6 +23,8 @@ examples of wavefront tracking along different media, homogeneous and heterogene
 provided to show applications of this methodology. Requirements to extend this work to 2D 
 and 3D are also included.
 
+<br>
+<br>
 <font size="6">Résumé <font size="2">(french)
 
 <br>
