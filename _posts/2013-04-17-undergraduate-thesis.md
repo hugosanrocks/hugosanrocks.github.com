@@ -6,12 +6,12 @@ category: Documents
 tags: [Thesis, Joint Inversion, rake, rise time, dip, Finite Fault, Jalisco 1995]
 ---
 
-<font size="4">Abstract <font size="2">(english)
+<font size="6">Abstract <font size="2">(english)
 
 <br>
 <br>
 
-<font size="4">Resumen <font size="2">(spanish)
+<font size="6">Resumen <font size="2">(spanish)
 <p align="justify">
 <br>
 <br>
@@ -40,7 +40,9 @@ La inversión geodésica muestra a los mayores deslizamientos (~350 cm) más pr�
 Finalmente, una inversión conjunta con datos telesísmicos y geodésicos es realizada. La distribución de los deslizamientos obtenida muestra máximos (~300 cm) entre la zona señalada por la inversión telesísmica y la geodésica. Los diferentes tipos de información geodésica y sísmica compiten para determinar la mejor localización de los deslizamientos. Todos los diversos resultados son comparados en busca de explicar las diferencias, la contribución en la inversión de cada tipo de registros y la cinemática de la fuente sísmica.
 
 <br>
-<font size="4"> Links:
+<br>
+<br>
+<font size="6"> Links:
 <br>
 <font size="2">Follow this link to have <a href="http://132.248.9.195/ptd2013/abril/305148315/Index.html">direct access to full text</a>
 
