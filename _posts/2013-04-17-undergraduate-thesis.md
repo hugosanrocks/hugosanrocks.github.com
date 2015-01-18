@@ -3,7 +3,7 @@ layout: post
 title: "Undergraduate Thesis"
 description: ""
 category: Documents
-tags: [Thesis, Joint Inversion, rake, rise time, dip, Finite Fault, Jalisco 1995]
+tags: [Thesis, Joint Inversion, Finite Fault, Jalisco 1995]
 ---
 
 <font size="6">Abstract <font size="2">(english)

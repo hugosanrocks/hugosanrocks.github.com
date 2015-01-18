@@ -3,7 +3,7 @@ layout: post
 title: "Master Thesis"
 description: ""
 category: Documents
-tags: [wavefront propagation, DGFEM, Eikonal equation]
+tags: [Thesis, wavefront propagation, DG-FEM, Eikonal equation]
 ---
 
 <font size="6">Abstract <font size="2">(english)
