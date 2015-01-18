@@ -18,10 +18,6 @@ github : hugosanrocks
 
 ## My Posts
 
-This blog contains my posts
-
-    $ rm -rf _posts/core-samples
-
 Here's my posts list.
 
 <ul class="posts">
