@@ -7,11 +7,11 @@ Follow my FB profile at: [Hugo's FB](https://www.facebook.com/hugosamuel.sanchez
 
 ## Author
 
-    title : My Home Page
+
     
-      name : Hugo S. Sánchez-Reyes
-      email : [hugo.geofisica@gmail.com](http://www.gmail.com)
-      github : hugosanrocks
+name : Hugo S. Sánchez-Reyes
+email : [hugo.geofisica@gmail.com](http://www.gmail.com)
+github : hugosanrocks
 
 
 ## My Posts
