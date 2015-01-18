@@ -6,11 +6,16 @@ category: Documents
 tags: [Thesis, Joint Inversion, rake, rise time, dip, Finite Fault, Jalisco 1995]
 ---
 
-<font size="20">Resumen <font size="6">(spanish)
+<font size="16">Abstract <font size="6">(english)
+
+<br>
+<br>
+
+<font size="16">Resumen <font size="6">(spanish)
 <p align="justify">
 <br>
 <br>
-En este trabajo se presentan modelados cinemáticos de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
+<font size="6">En este trabajo se presentan modelados cinemáticos de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
 
 <br>
 <br>
@@ -39,7 +44,7 @@ Finalmente, una inversión conjunta con datos telesísmicos y geodésicos es rea
 <font size="16"> Links:
 <br>
 <br>
-Follow this link to have [direct access to the full text](http://132.248.9.195/ptd2013/abril/305148315/Index.html)
+<font size="6">Follow this link to have [direct access to the full text](http://132.248.9.195/ptd2013/abril/305148315/Index.html)
 
 {% include JB/setup %}
 
