@@ -6,7 +6,7 @@ category: Documents
 tags: [Thesis, Joint Seismic Source Inversion]
 ---
 
-En este trabajo se presentan modelado cinemático de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
+<p align="justify">En este trabajo se presentan modelado cinemático de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
 
 El temblor del 9 de Octubre de 1995 es interesante debido a algunas características anómalas y complejidad de su ruptura. Para este evento, el cociente de energía entre momento Es 4.2e-6 (Pérez-Campos et al., 2003), el cual es menor en comparación con temblores con mecanismos similares en la zona. El área de ruptura parece ser similar con aquella calculada para los eventos del 3 y 18 de junio de 1932, y respectivamente. En contraste con otros grandes temblores a lo largo de la zona de subducción mexicana. Previas investigaciones han mostrado que los mayores deslizamientos en este temblor son cercanos a la trinchera.
 
