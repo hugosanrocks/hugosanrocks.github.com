@@ -9,12 +9,13 @@ Follow my FB profile at: [Hugo's FB](https://www.facebook.com/hugosamuel.sanchez
 
 
     
-name : Hugo S. Sánchez-Reyes
+Name : Hugo S. Sánchez-Reyes
 
-email : [hugo.geofisica@gmail.com](http://www.gmail.com)
+e-mail : [hugo.geofisica@gmail.com](http://www.gmail.com)
 
 github : hugosanrocks
 
+Undergaduate Student at UJF France & IUSS Italy
 
 ## My Posts
 
