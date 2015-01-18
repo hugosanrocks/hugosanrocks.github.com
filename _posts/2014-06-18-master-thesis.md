@@ -7,7 +7,8 @@ tags: [wavefront propagation, DGFEM, Eikonal equation]
 ---
 
 <font size="6">Abstract
-
+<p align="justify">
+<br>
 <font size="2">Travel time estimation is a very challenging problem in seismology. This seismic attribut
 is highly important to understand the Earth’s interior and the wave propagation. In order to
 estimate a multi-value travel time field, by tracking the wavefront, the eikonal equation must
@@ -20,12 +21,12 @@ DG-FEM is implemented to solve our formulation. Three different numerical exampl
 front tracking along different media, homogeneous and heterogeneous, are provided to show
 applications of this methodology. Requirements to extend this work to 2D and 3D are also
 included.
+<br>
+<br>
 
-
-
-## Résumé
-
-L’estimation des temps de trajet est un veritable defi en sismologie. Cet attribut sismique est
+<font size="6">Résumé
+<br>
+<font size="2">L’estimation des temps de trajet est un veritable defi en sismologie. Cet attribut sismique est
 essentiel pour comprendre l’interieur de la Terre et la propagation des ondes. Afin de calculer
 le champ de temps de trajet, par le suivi d’un front d’onde, il faut resoudre l’equation eikonal.
 Neanmoins, resoudre une equation differentielle partielle non-lineaire, ou la solution implique
@@ -38,11 +39,11 @@ resoudre notre formulation. Trois exemples numeriques differents d’estimation 
 trajet, dans des milieux homogenes et heterogenes, sont fournis pour montrer les applications
 de cette methodologie. Les outils necessaires a l’extension de ce travail en 2D et en 3D sont
 egalement fournis en fin de rapport.
-
-
-
-## Links
-
-Follow this link to have [direct access to full text](https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Master_Thesis_Hugo_S_Sanchez_Reyes_MEEES2013_14.pdf)
+<br>
+<br>
+<font size="6">Links
+<br>
+<font size="2">
+<a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Master_Thesis_Hugo_S_Sanchez_Reyes_MEEES2013_14.pdf">Follow this link to have [direct access to full text<\a>
 
 {% include JB/setup %}
