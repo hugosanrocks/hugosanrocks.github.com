@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: Wellcome to Hugo's blog!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -13,24 +13,22 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 In `_config.yml` remember to specify your own data:
     
-    title : My Blog =)
+    title : Hugo's Home Page
     
     author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+      name : Hugo S. Sánchez-Reyes
+      email : [hugo.geofisica@gmail.com](http://www.gmail.com)
+      github : hugosanrocks
 
 The theme should reference these variables whenever needed.
     
-## Sample Posts
+## My Posts
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+This blog contains my posts
 
     $ rm -rf _posts/core-samples
 
-Here's a sample "posts list".
+Here's my posts list.
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -40,7 +38,4 @@ Here's a sample "posts list".
 
 ## To-Do
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+Please let me know any broken link or doubt releated to this site.
