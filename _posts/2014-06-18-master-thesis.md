@@ -15,9 +15,6 @@ Galerkin Finite Element Method (DG-FEM) is suitable for wavefront propagation pr
 <br>
 <br>
 <br>
-<font size="6">Résumé <font size="2">(french)<p align="justify"><br><br>
-L'estimation des temps de trajet est un véritable défi en sismologie. Cet attribut sismique est essentiel pour comprendre l'intérieur de la Terre et la propagation des ondes. Afin de calculer le champ de temps de trajet, par le suivi d'un front d'onde, il faut résoudre l'équation eikonal. Néanmoins, résoudre une équation différentielle partielle non-linéaire, où la solution implique une discontinuité qui se propage (front d'onde), n'est pas une tâche facile. \cite{cheng2007}, \cite{boka2011} et \cite{boka2012} ont démontré que la Méthode des Elements Finis Galerki<br>
-<br>
 <font size="6">Links
 <br>
 <font size="2">
