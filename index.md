@@ -2,11 +2,8 @@
 layout: page
 title: Wellcome to Hugo's blog!
 ---
-{% include JB/setup %}
 
-{%Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)%}
-
-Follow my FB profile at: [Hugo' FB](https://www.facebook.com/hugosamuel.sanchezreyes)
+Follow my FB profile at: [Hugo's FB](https://www.facebook.com/hugosamuel.sanchezreyes)
 
 ## Author
 
