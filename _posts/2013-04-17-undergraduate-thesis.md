@@ -6,16 +6,16 @@ category: Documents
 tags: [Thesis, Joint Inversion, rake, rise time, dip, Finite Fault, Jalisco 1995]
 ---
 
-<font size="16">Abstract <font size="6">(english)
+<font size="6">Abstract <font size="1">(english)
 
 <br>
 <br>
 
-<font size="16">Resumen <font size="6">(spanish)
+<font size="6">Resumen <font size="1">(spanish)
 <p align="justify">
 <br>
 <br>
-<font size="6">En este trabajo se presentan modelados cinemáticos de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
+<font size="1">En este trabajo se presentan modelados cinemáticos de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
 
 <br>
 <br>
@@ -40,9 +40,9 @@ La inversión geodésica muestra a los mayores deslizamientos (~350 cm) más pr�
 Finalmente, una inversión conjunta con datos telesísmicos y geodésicos es realizada. La distribución de los deslizamientos obtenida muestra máximos (~300 cm) entre la zona señalada por la inversión telesísmica y la geodésica. Los diferentes tipos de información geodésica y sísmica compiten para determinar la mejor localización de los deslizamientos. Todos los diversos resultados son comparados en busca de explicar las diferencias, la contribución en la inversión de cada tipo de registros y la cinemática de la fuente sísmica.
 
 <br>
-<font size="16"> Links:
+<font size="6"> Links:
 <br>
-<font size="6">Follow this link to have [direct access to the full text](http://132.248.9.195/ptd2013/abril/305148315/Index.html)
+<font size="1">Follow this link to have <a href="http://132.248.9.195/ptd2013/abril/305148315/Index.html">direct access to full text</a>
 
 {% include JB/setup %}
 
