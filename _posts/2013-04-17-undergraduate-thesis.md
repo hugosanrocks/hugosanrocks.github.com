@@ -40,8 +40,6 @@ La inversión geodésica muestra a los mayores deslizamientos (~350 cm) más pr�
 Finalmente, una inversión conjunta con datos telesísmicos y geodésicos es realizada. La distribución de los deslizamientos obtenida muestra máximos (~300 cm) entre la zona señalada por la inversión telesísmica y la geodésica. Los diferentes tipos de información geodésica y sísmica compiten para determinar la mejor localización de los deslizamientos. Todos los diversos resultados son comparados en busca de explicar las diferencias, la contribución en la inversión de cada tipo de registros y la cinemática de la fuente sísmica.
 
 <br>
-<br>
-<br>
 <font size="16"> Links:
 <br>
 <font size="6">Follow this link to have [direct access to the full text](http://132.248.9.195/ptd2013/abril/305148315/Index.html)
