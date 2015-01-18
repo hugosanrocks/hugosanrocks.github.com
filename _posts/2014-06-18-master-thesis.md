@@ -21,6 +21,6 @@ tags: [wavefront propagation, DGFEM, Eikonal equation]
 <font size="6">Links
 <br>
 <font size="2">
-<a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Master_Thesis_Hugo_S_Sanchez_Reyes_MEEES2013_14.pdf">Follow this link to have [direct access to full text<\a>
+Follow this link to have <a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Master_Thesis_Hugo_S_Sanchez_Reyes_MEEES2013_14.pdf">direct access to full text<\a>
 
 {% include JB/setup %}
