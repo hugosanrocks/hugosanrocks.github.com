@@ -6,9 +6,9 @@ category: Documents
 tags: [wavefront propagation, DGFEM, Eikonal equation]
 ---
 
-## Abstract
+<font size="6">Abstract
 
-Travel time estimation is a very challenging problem in seismology. This seismic attribut
+<font size="2">Travel time estimation is a very challenging problem in seismology. This seismic attribut
 is highly important to understand the Earth’s interior and the wave propagation. In order to
 estimate a multi-value travel time field, by tracking the wavefront, the eikonal equation must
 be solved. However, solving a non-linear Partial Differential Equation, which solution implies a
