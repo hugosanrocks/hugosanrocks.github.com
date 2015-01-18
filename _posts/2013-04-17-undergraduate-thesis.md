@@ -3,10 +3,11 @@ layout: post
 title: "Undergraduate Thesis"
 description: ""
 category: Documents
-tags: [Thesis, Joint Seismic Source Inversion]
+tags: [Thesis, Joint Inversion, rake, rise time, dip, Finite Fault, Jalisco 1995]
 ---
 
-<p align="justify">En este trabajo se presentan modelado cinemático de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
+<p align="justify">
+En este trabajo se presentan modelados cinemáticos de la fuente del sismo de Jalisco del 9 de Octubre de 1995, Mw=8.0, obtenidos a partir de la inversión de registros telesísmicos y geodésicos. Los parámetros obtenidos son: 1) el ángulo y 2) amplitud del deslizamiento, 3) el tiempo de ascenso y 4) la velocidad de ruptura de cada sub-evento sobre una falla finita.
 
 <br>
 <br>
