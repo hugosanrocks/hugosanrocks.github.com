@@ -33,7 +33,7 @@ Here's my posts list.
 
 [Short stories](http://username.github.io/Short%20stories/index.html)
 
-[Scientific thoughts](http://username.github.io/Scientific%20thoughts/index.htm)
+[Scientific thoughts](http://username.github.io/Scientific%20thoughts/index.html)
 
 
 
