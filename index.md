@@ -5,7 +5,7 @@ title: Hugo's blog!
 
 Follow my FB profile at: [Hugo's FB](https://www.facebook.com/hugosamuel.sanchezreyes)
 
-## Author
+## Author coordinates
 
 
     
@@ -16,6 +16,8 @@ e-mail : [hugo.geofisica@gmail.com](http://www.gmail.com)
 github : hugosanrocks
 
 Undergaduate Student at UJF France & IUSS Italy
+
+
 
 ## Diary
 
@@ -29,7 +31,7 @@ Here's my posts list.
 
 ## Stories & more ...
 
-
+    <li><span>{{ Short stories }}</span> &raquo; <a href="{{ http://hugosanrocks.github.io/short%20stories.html }}">{{ post.title }}</a></li>
 
 ## To-Do
 
