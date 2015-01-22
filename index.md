@@ -33,6 +33,10 @@ Here's my posts list.
 
 [Short stories](http://hugosanrocks.github.io/short%20stories.html)
 
+[Scientific thoughts](http://hugosanrocks.github.io/short%20stories.html)
+
+
+
 ## To-Do
 
 Please let me know any broken link or doubt releated to this site.
