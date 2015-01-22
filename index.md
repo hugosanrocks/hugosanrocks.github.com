@@ -31,7 +31,7 @@ Here's my posts list.
 
 ## Stories & more ...
 
-    <li><span>{{ Short stories }}</span> &raquo; <a href="{{ http://hugosanrocks.github.io/short%20stories.html }}">{{ post.title }}</a></li>
+[Short stories](http://hugosanrocks.github.io/short%20stories.html)
 
 ## To-Do
 
