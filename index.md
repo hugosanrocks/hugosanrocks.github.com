@@ -17,7 +17,7 @@ github : hugosanrocks
 
 Undergaduate Student at UJF France & IUSS Italy
 
-## My Posts
+## Diary
 
 Here's my posts list.
 
@@ -26,6 +26,10 @@ Here's my posts list.
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+## Stories & more ...
+
+
 
 ## To-Do
 
