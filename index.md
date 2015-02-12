@@ -33,7 +33,7 @@ Here's my posts list.
 
 [Short stories](http://hugosanrocks.github.io/Short stories.html)
 
-[Scientific thoughts](http://hugosanrocks.github.io/Positive Reflections/index.html)
+[Positive Reflections](http://hugosanrocks.github.io/Positive Reflections/index.html)
 
 
 
