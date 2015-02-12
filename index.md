@@ -31,7 +31,7 @@ Here's my posts list.
 
 ## Stories & more ...
 
-[Short stories](http://hugosanrocks.github.io/Short stories.html)
+[Short stories](http://hugosanrocks.github.io/Short stories/index.html)
 
 [Positive Reflections](http://hugosanrocks.github.io/Positive Reflections/index.html)
 
