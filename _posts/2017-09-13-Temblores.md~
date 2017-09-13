@@ -23,7 +23,9 @@ La figura 1 muestra México y el fondo oceánico vecino. Las dos placas tectóni
 Mapa de México
 <br>
 <br>
-[![Alt Message](https://raw.github.com/hugosanrocks/assets/img/volcanoes.jpg)]Figura 1. Zanja profunda de la costa sur de México. Un mapa del fondo del océano revela una profunda zanja submarina (línea azul oscuro) que discurre a lo largo de la costa sur de México, definiendo el límite entre dos placas tectónicas. La inserción muestra estas placas para ser la placa de Cocos y la placa norteamericana. Tenga en cuenta que la línea azul oscuro no corre más arriba de la costa. Allí la placa del Pacífico y la placa de América del Norte están pasando lado a lado. La Falla de San Andrés es un ejemplo bien conocido de este tipo de movimiento de lado a lado, llamado huelga-deslizamiento. Los triángulos rojos son volcanes. Observe cómo en Guatemala, los volcanes corren paralelos a la trinchera, mientras que en el sur de México se encuentran más hacia el interior. También se indica la velocidad de la placa subductora, 61mm / año. [Crédito: Lisa Christiansen, TO]
+[![Alt Message](https://github.com/hugosanrocks/hugosanrocks.github.com/tree/master/assets/img)]
+<br>
+Figura 1. Zanja profunda de la costa sur de México. Un mapa del fondo del océano revela una profunda zanja submarina (línea azul oscuro) que discurre a lo largo de la costa sur de México, definiendo el límite entre dos placas tectónicas. La inserción muestra estas placas para ser la placa de Cocos y la placa norteamericana. Tenga en cuenta que la línea azul oscuro no corre más arriba de la costa. Allí la placa del Pacífico y la placa de América del Norte están pasando lado a lado. La Falla de San Andrés es un ejemplo bien conocido de este tipo de movimiento de lado a lado, llamado huelga-deslizamiento. Los triángulos rojos son volcanes. Observe cómo en Guatemala, los volcanes corren paralelos a la trinchera, mientras que en el sur de México se encuentran más hacia el interior. También se indica la velocidad de la placa subductora, 61mm / año. [Crédito: Lisa Christiansen, TO]
 <br>
 <br>
 En el sur de México se pueden observar tres rasgos geológicos inusuales:
