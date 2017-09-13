@@ -26,13 +26,14 @@ La figura 1 muestra México y el fondo oceánico vecino. Las dos placas tectóni
 Mapa de México
 <br>
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/volcanoes.jpg">
-</p>
 <br>
-Figura 1. Zanja profunda de la costa sur de México. Un mapa del fondo del océano revela una profunda zanja submarina (línea azul oscuro) que discurre a lo largo de la costa sur de México, definiendo el límite entre dos placas tectónicas. La inserción muestra estas placas para ser la placa de Cocos y la placa norteamericana. Tenga en cuenta que la línea azul oscuro no corre más arriba de la costa. Allí la placa del Pacífico y la placa de América del Norte están pasando lado a lado. La Falla de San Andrés es un ejemplo bien conocido de este tipo de movimiento de lado a lado, llamado huelga-deslizamiento. Los triángulos rojos son volcanes. Observe cómo en Guatemala, los volcanes corren paralelos a la trinchera, mientras que en el sur de México se encuentran más hacia el interior. También se indica la velocidad de la placa subductora, 61mm / año. [Crédito: Lisa Christiansen, TO]
+Figura 1. Trinchera profunda de la costa sur de México. Un mapa del fondo del océano revela una profunda Trinchera submarina (línea azul oscuro) que discurre a lo largo de la costa sur de México, definiendo el límite entre dos placas tectónicas. La figura muestra las placas de Cocos y la placa Norteamericana. Tenga en cuenta que la línea azul oscuro no se extiende más arriba de la costa. Más al norte de esta costa la placa del Pacífico y la placa Norteamericana están pasando lado a lado y no hay subducción. La Falla de San Andrés es un ejemplo bien conocido de este tipo de movimiento de lado a lado, llamado deslizamiento en dirección del rumbo de la falla (stike-slip). En la figura los triángulos rojos representan las ubicaciones de los volcanes. Observe cómo en Guatemala, la ubicación de los volcanes corre en una línea paralela a la trinchera, mientras que en el sur de México se encuentran más hacia el interior. También se indica la velocidad de la placa subductora, 61 mm por año. [Crédito: Lisa Christiansen, TO]
+</p>
 <br>
 <br>
 En el sur de México se pueden observar tres rasgos geológicos inusuales:
-
+<br>
+<br>
 Primero, en la mayoría de las zonas de subducción, grandes terremotos ocurren en la interfase entre las dos placas, a profundidades que van desde la superficie de la tierra hasta unos 600 km. Esta región, llamada "Zona Benioff", se utiliza para localizar la placa subductante, como se muestra en el caso de Japón en el lado izquierdo de la Figura 2. Sin embargo, en el sur de México, se observan pocos terremotos por debajo de 100 km de profundidad (ver el lado derecho de la Figura 2).
 <br>
 <br>
