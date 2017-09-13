@@ -24,7 +24,8 @@ Mapa de México
 <br>
 <br>
 <p align="center">
-[<img src="http://www.tectonics.caltech.edu/images/outreach/mase/volcanoes.jpg">](http://google.com.au/)</p>
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/volcanoes.jpg">
+</p>
 <br>
 Figura 1. Zanja profunda de la costa sur de México. Un mapa del fondo del océano revela una profunda zanja submarina (línea azul oscuro) que discurre a lo largo de la costa sur de México, definiendo el límite entre dos placas tectónicas. La inserción muestra estas placas para ser la placa de Cocos y la placa norteamericana. Tenga en cuenta que la línea azul oscuro no corre más arriba de la costa. Allí la placa del Pacífico y la placa de América del Norte están pasando lado a lado. La Falla de San Andrés es un ejemplo bien conocido de este tipo de movimiento de lado a lado, llamado huelga-deslizamiento. Los triángulos rojos son volcanes. Observe cómo en Guatemala, los volcanes corren paralelos a la trinchera, mientras que en el sur de México se encuentran más hacia el interior. También se indica la velocidad de la placa subductora, 61mm / año. [Crédito: Lisa Christiansen, TO]
 <br>
@@ -39,6 +40,10 @@ Primero, en la mayoría de las zonas de subducción, grandes terremotos ocurren 
 Profundidad del terremoto
 <br>
 <br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/benioff_jap_mex_mod.jpg">
+</p>
+<br>
 Figura 2. Distribución de fuertes sismos para dos zonas de subducción. Para Japón (arriba a la izquierda), la distribución en profundidad de los fuertes sismos revela la interfaz de la placa (abajo a la izquierda). [Observe que la línea de A a A 'en la parcela superior corre de derecha a izquierda, mientras que en la parcela inferior se ejecuta de izquierda a derecha.] En contraste, para el sur de México (arriba a la derecha), hay pocos fuertes terremotos por debajo 150 km de profundidad, dejándonos con la pregunta de dónde está la placa subductora (abajo a la derecha)? Sismicidad de NEIC-USGS; Crédito: Anthony Sladen, TO]
 <br>
 <br>
@@ -52,6 +57,8 @@ Estas tres características son poco conocidas. Los científicos del Observatori
 <br>
 <br>
 Una mejor comprensión de los terremotos y temblores silenciosos puede conducir a una mejor evaluación del riesgo sísmico. Todavía no está claro si hay alguna relación entre los terremotos gigantes de las zonas de subducción y los terremotos silenciosos. ¿Los terremotos silenciosos alivian la tensión y por lo tanto disminuyen el riesgo sísmico o, al aliviar la tensión en un área, hacen que la tensión se acumule en otras partes y, por lo tanto, aumenten el riesgo sísmico? Este es un área activa de investigación.
+<br>
+<br>
 I. ¿Dónde está la placa subductora?
 <br>
 <br>
@@ -62,6 +69,10 @@ Dado que esta técnica requiere una amplia gama de estaciones sísmicas, los cie
 Ni siquiera es posible
 <br>
 <br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/contours.jpg">
+</p>
+<br>
 Figura 3. Línea densa de 100 sismómetros de banda ancha denominada matriz MASE (MesoAmerican Subduction Experiment). Esta matriz (puntos rojos), con sismómetros espaciados a 5 km de distancia, cruza México. Fue instalado en 2005. Las líneas de contorno muestran la profundidad de la losa de subducción. [Modificado de Chen y Clayton, JGR 2009]
 
 Lo que los científicos descubrieron a partir del análisis de los datos sísmicos de MASE sorprendieron a todos. La imagen de alta resolución de la losa subductante debajo de México (Figura 4) muestra que la losa es tan superficial que en realidad se encuentra plana contra la corteza continental por encima de ella. Y se queda así, casi horizontal, por 250 km, casi todo el camino a la Ciudad de México. Esto es muy inusual. Se le da el nombre de "subducción de losas planas".
@@ -70,6 +81,10 @@ Lo que los científicos descubrieron a partir del análisis de los datos sísmic
 Función del receptor El análisis de los datos sísmicos MASE se muestra en la figura 4, que muestra una vista lateral de la línea de los sismómetros MASE (triángulos negros). A la izquierda está Acapulco, en el centro de la ciudad de México y el cinturón volcánico, ya la derecha está la ciudad de Tempoal. La altura de los triángulos muestra la topografía de la tierra. La extensión abajo de los sismómetros es una sección transversal vertical de la Tierra abajo; los colores corresponden a las amplitudes de la función del receptor. Aunque estas funciones de receptor pueden ser difíciles de descifrar para el ojo no entrenado, la inserción en la parte inferior izquierda muestra una vista ampliada de un área para un evento sísmico. La cinta azul oscuro representa la posición de la losa de subducción, mostrando el ángulo bajo debajo de Acapulco y posterior aplanamiento.
 No lo dejes.
 <br>
+<br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/receiver_fcn_mod.jpg">
+</p>
 <br>
 Figura 4. Imagen de alta resolución de la placa de subducción "Abrazando" la corteza superior. Los sismómetros MASE (triángulos negros) corren a lo largo de la línea superior en la superficie de la Tierra. Sus alturas muestran la topografía del terreno. Se ve que el arco volcánico se encuentra más al interior de lo esperado para una zona de subducción. Las funciones del receptor debajo de cada estación revelan la posición de la losa de subducción. La inserción en la parte inferior izquierda muestra un soplado de la región de la losa plana. La posición de la losa se muestra mediante la señal azul más oscura. El área azul claro encima es corteza continental, la área anaranjada clara abajo es capa. La losa se encuentra justo contra la corteza. [Modificado de Perez-Campos et al., GRL 2008]
 <br>
@@ -80,6 +95,10 @@ Para ver a profundidades aún mayores por debajo de la superficie terrestre, los
 La Figura 5 muestra la imagen completa de la losa de subducción, obtenida combinando los resultados tanto del Análisis de Función de Receptor como de la Tomografía Sísmica. La losa comienza a forzar su camino hacia abajo bajo la corteza continental en un ángulo poco profundo, luego nivela hasta casi horizontal. Por debajo de la Ciudad de México, se hunde abruptamente en el manto y termina abruptamente a una profundidad de unos 500 km. Los científicos sospechan que esta terminación abrupta de la placa puede deberse a un desgarro anterior en esa ubicación, antes de que esa parte del fondo del océano se hubiera subducido.
 losa de subducción
 <br>
+<br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/MASE_WideShot_A_Final_small.jpg">
+</p>
 <br>
 Figura 5. Imagen completa de la placa de subducción. Esta imagen es similar a la de la figura 4, pero baja a mayor profundidad. La línea púrpura muestra toda la losa subductante, ya que toma una inmersión poco profunda por debajo de Acapulco, nivela casi hasta la ciudad de México, luego se mete más fuertemente en el manto, y finalmente rompe abruptamente a unos 500 km de profundidad. Las líneas de contorno indican la velocidad de la ola. Las líneas azules muestran donde las ondas sísmicas viajaron más rápido, indicando que el área es densa (por lo tanto es la losa). Las líneas rosadas muestran donde las ondas viajaron más lentamente, indicando que el área es menos densa (por lo tanto es el manto). [De Perez-Campos et al., GRL 2008]
 <br>
@@ -114,6 +133,10 @@ Una forma en la que podría haber ocurrido un cambio de subducción normal a una
 Modelo de zona de subducción americana
 <br>
 <br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/modeling.jpg">
+</p>
+<br>
 Figura 6. Modelo informático de la evolución de la subducción de losas planas. Al tener una cuña de manto de baja viscosidad (roja en el panel a la izquierda) justo debajo de la corteza, la placa subductante puede aplastarse, ya que exprime ese material fuera del camino. [Modificado de Perez-Campos et al., GRL 2008]
 <br>
 <br>
@@ -125,6 +148,10 @@ Otro aspecto inusual sobre la zona de subducción mexicana es la ocurrencia de t
 GPS
 <br>
 <br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/nvt_mod.jpg">
+</p>
+<br>
 Figura 7. Señales GPS continuas que muestran eventos de deslizamiento lento y su relación con los temblores Los datos GPS (amarillo) que muestran deslizamiento lento, y los datos sísmicos (rojo y verde) que muestran temblores, se representan en el mismo gráfico. Los datos GPS muestran dos terremotos silenciosos, a principios de 2002 y mediados de 2006. La agrupación de temblores durante estos dos eventos (áreas circundadas) confirma que el deslizamiento lento es una causa del temblor. [Modificado de Payero et al., GRL 2008]
 <br>
 <br>
@@ -135,6 +162,10 @@ No podemos sentir estos eventos de deslizamiento lento. Los sismómetros ni siqu
 No estaba mal
 <br>
 <br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/seismic_data1_mod.jpg">
+</p>
+<br>
 Figura 8. Detección de temblores y localización de sus fuentes El panel A muestra señales muy débiles, llamadas temblores, de nueve de los sismómetros MASE (lado izquierdo) y funciones de correlación cruzada entre esas señales (lado derecho). Las flechas azules muestran las veces que diferentes estaciones detectaron la misma onda sísmica casi imperceptible. El panel B muestra la misma línea de sismómetros MASE que en la figura 4, con el nombre de cada uno de ellos y la topografía de la tierra. El hyocenter, o fuentes, de los temblores se muestran por las estrellas rojas y amarillas. El límite entre las dos placas tectónicas se muestra por la línea discontinua, y la losa subductante por la "cinta" nebulosa azul. [Modificado de Payero et al., GRL 2008]
 <br>
 <br>
@@ -144,6 +175,10 @@ La frecuencia de estos temblores se compara con la señal GPS en la Figura 7. Do
 Los científicos piensan que los temblores pueden ser producidos por fluidos que circulan en el medio altamente tenso y deformado de la placa subductora. Un análisis detallado de las ondas sísmicas que cruzan la interfase entre las placas subductivas y las placas superpuestas ha revelado la existencia de una capa fina anómala, intercalada entre las dos placas. Esta capa ralentiza algunos tipos de ondas sísmicas hasta en un 30% a 50%, y por lo tanto se llama la capa de velocidad ultra-lenta (USL). Los científicos han encontrado que esta capa coincide con las localizaciones de terremotos lentos, como se muestra esquemáticamente en la Figura 9, y que adyacentes a estas regiones se encuentran los hipocentros del temblor.
 Comparación USL
 <br>
+<br>
+<p align="center">
+<img src="http://www.tectonics.caltech.edu/images/outreach/mase/usl_mod.jpg">
+</p>
 <br>
 Figura 9. Corte transversal esquemático comparando diferentes mediciones. La geometría de la losa se muestra en comparación con la ubicación de grandes terremotos, terremotos silenciosos, temblor, capa de velocidad ultra lenta (USL) y temperatura [Modificado de Song et al., Science 2009]
 <br>

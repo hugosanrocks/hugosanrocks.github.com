@@ -13,17 +13,18 @@ tags: [Subducción, México, terremotos]
 El siguiente artículo es mi traducción de un resumen sobre algunas de las características y conocimientos que los sismologos y expertos en Ciencias de Tieraa tenemos hoy en día sobre la zona de subducción mexicana. Creí bastante conveniente el traducir y compartir con los lectores de habla hispana este documento como una respuesta al creciente interes de la población mexicana después del terremoto del pasado 10 de Septiembre.
 <br>
 <br>
-México se encuentra en una de las zonas de subducción de la Tierra, donde el fondo oceánico de la placa tectónica de Cocos está forzando su descenso ("subducting") bajo el borde continental de la placa norteamericana. Las zonas de subducción son propensas a grandes terremotos, porque las dos placas se mueven una contra otra, a veces se pegan ("bloqueo"), la placa inferior tira de la placa superior hacia abajo con ella y, por lo tanto, aumenta la tensión. Cuando la tensión se acumula hasta el punto de rotura, la placa superior se libera y regresa a donde había estado, levantando así el fondo del océano. Esto produce un terremoto ya veces un tsunami (ver animación). La placa inferior se mueve lentamente, sólo alrededor de 6 cm / año, aproximadamente tan rápido como las uñas crecen. Por lo tanto, toma cientos de años para que el estrés se acumule antes de causar un gran terremoto.
+México se encuentra en una de las zonas de subducción de la Tierra, donde el fondo oceánico de la placa tectónica de Cocos está forzando su descenso ("subduce") bajo el borde continental de la placa Norteamericana. Las zonas de subducción son propensas a grandes terremotos, porque las dos placas se mueven una contra otra, a veces se pueden quedar pegadas ("bloqueadas"), la placa inferior tira de la placa superior hacia abajo con ella y, por lo tanto, aumenta la tensión entre ellas. Cuando la tensión se acumula hasta el punto de rotura, la placa superior se libera y regresa a donde había estado, levantando así el fondo del océano. Esto produce un terremoto, y a veces un tsunami (ver animación más abajo). La placa inferior se mueve lentamente, sólo alrededor de 6 cm por año, aproximadamente tan rápido como el crecimiento de las uñas. Por lo tanto, toma cientos de años para que el estrés se acumule antes de causar un gran terremoto.
 <br>
 <br>
-Las zonas de subducción también suelen tener una cadena de volcanes, llamada arco volcánico. Se produce un arco volcánico cuando la corteza oceánica de la placa subductante alcanza temperaturas y presiones suficientemente altas para sufrir metamorfismo, liberando agua que provoca la fusión del manto. (Igual que cuando salpica sal en el pavimento helado para derretir el hielo - el punto de fusión de la mezcla hielo / sal es menor que el del hielo puro.) El magma resultante se eleva a la superficie, arrojando como lava, y formando volcanes.
+Las zonas de subducción también suelen tener una cadena de volcanes asociada, llamada arco volcánico. Se produce un arco volcánico cuando la corteza oceánica de la placa subductante alcanza temperaturas y presiones suficientemente altas para sufrir metamorfismo (las rocas se funden a grandes temperaturas y presiones), liberando agua que provoca la fusión del manto. El magma (roca fundida) resultante se eleva a la superficie atravesando la placa continental, arrojando lava en la superficie terrestre, lo cual forma volcanes.
 <br>
 <br>
-La figura 1 muestra México y el fondo oceánico vecino. Las dos placas tectónicas se encuentran en la costa sur de México, formando una profunda zanja submarina paralela a la costa (línea azul oscuro). Esta área se llama la Zona de Subducción de Medio Americano.
-Mapa de México
+La figura 1 muestra México y el fondo oceánico vecino. Las dos placas tectónicas se encuentran en la costa sur de México, formando una profunda trinchera (una gran zanja) submarina paralela a la costa (línea azul oscuro). Esta área se llama la Zona de Subducción Mezoamericana.
 <br>
 <br>
 <p align="center">
+Mapa de México
+<br>
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/volcanoes.jpg">
 </p>
 <br>
