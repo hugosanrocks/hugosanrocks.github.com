@@ -24,11 +24,8 @@ Mapa de México
 <br>
 <br>
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")<br>
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 <br>
-<figure>
-  <img src="../assets/img/volcanoes.jpg" alt="Image" />
-</figure>
 Figura 1. Zanja profunda de la costa sur de México. Un mapa del fondo del océano revela una profunda zanja submarina (línea azul oscuro) que discurre a lo largo de la costa sur de México, definiendo el límite entre dos placas tectónicas. La inserción muestra estas placas para ser la placa de Cocos y la placa norteamericana. Tenga en cuenta que la línea azul oscuro no corre más arriba de la costa. Allí la placa del Pacífico y la placa de América del Norte están pasando lado a lado. La Falla de San Andrés es un ejemplo bien conocido de este tipo de movimiento de lado a lado, llamado huelga-deslizamiento. Los triángulos rojos son volcanes. Observe cómo en Guatemala, los volcanes corren paralelos a la trinchera, mientras que en el sur de México se encuentran más hacia el interior. También se indica la velocidad de la placa subductora, 61mm / año. [Crédito: Lisa Christiansen, TO]
 <br>
 <br>
