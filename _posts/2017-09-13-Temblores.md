@@ -23,7 +23,7 @@ La figura 1 muestra México y el fondo oceánico vecino. Las dos placas tectóni
 Mapa de México
 <br>
 <br>
-![image-title-here](https://github.com/hugosanrocks/hugosanrocks.github.com/tree/master/assets/img/volcanoes.jpg){:class="img-responsive"}
+[[images/volcanoes.jpg]]
 <br>
 <br>
 <figure>
