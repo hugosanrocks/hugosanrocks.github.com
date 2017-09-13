@@ -6,11 +6,11 @@ category: Documents
 tags: [Subducción, México, terremotos]
 ---
 
-<font size="6">Abstract <font size="2">(spanish)
+<font size="2">
 <p align="justify">
 <br>
 <br>
-
+El siguiente artículo es mi traducción de un resumen sobre algunas de las características y conocimientos que los sismologos y expertos en Ciencias de Tieraa tenemos hoy en día sobre la zona de subducción mexicana. Creí bastante conveniente el traducir y compartir con los lectores de habla hispana este documento como una respuesta al creciente interes de la población mexicana después del terremoto del pasado 10 de Septiembre.
 <br>
 <br>
 <br>
