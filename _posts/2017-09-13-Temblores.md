@@ -19,7 +19,7 @@ México se encuentra en una de las zonas de subducción de la Tierra, donde el f
 Las zonas de subducción también suelen tener una cadena de volcanes asociada, llamada arco volcánico. Se produce un arco volcánico cuando la corteza oceánica de la placa subductante alcanza temperaturas y presiones suficientemente altas para sufrir metamorfismo (las rocas se funden a grandes temperaturas y presiones), liberando agua que provoca la fusión del manto. El magma (roca fundida) resultante se eleva a la superficie atravesando la placa continental, arrojando lava en la superficie terrestre, lo cual forma volcanes.
 <br>
 <br>
-La figura 1 muestra México y el fondo oceánico vecino. Las dos placas tectónicas se encuentran en la costa sur de México, formando una profunda trinchera (una gran zanja) submarina paralela a la costa (línea azul oscuro). Esta área se llama la Zona de Subducción Mezoamericana.
+La figura 1 muestra México y el fondo oceánico vecino. Las dos placas tectónicas se encuentran en la costa sur de México, formando una profunda trinchera (una gran zanja) submarina paralela a la costa (línea azul oscuro). Esta área se llama la Zona de Subducción Mesoamericana.
 </p>
 <br>
 <br>
@@ -37,7 +37,7 @@ Figura 1. Trinchera profunda de la costa sur de México. Un mapa del fondo del o
 <br>
 <br>
 <ul>
-<li>Primero, en la mayoría de las zonas de subducción, grandes terremotos ocurren en la interfase entre las dos placas, a profundidades que van desde la superficie de la tierra hasta unos 600 km. Esta región, llamada "Zona Benioff", se utiliza para localizar la placa subductante, como se muestra en el caso de Japón en el lado izquierdo de la Figura 2. Sin embargo, en el sur de México, se observan pocos terremotos por debajo de 100 km de profundidad (ver el lado derecho de la Figura 2).</li>
+<li>Primero, en la mayoría de las zonas de subducción, grandes terremotos ocurren en la interfase entre las dos placas, a profundidades que van desde la superficie de la tierra hasta unos 600 km. Esta región, llamada "Zona de Benioff", se utiliza para localizar la placa subductante, como se muestra en el caso de Japón en el lado izquierdo de la Figura 2. Sin embargo, en el sur de México, se observan pocos terremotos por debajo de 100 km de profundidad (ver el lado derecho de la Figura 2).</li>
 </p>
 <br>
 <br>
@@ -49,24 +49,25 @@ Profundidad de los terremotos
 </p>
 <br>
 <p align="justify">
-Figura 2. Distribución de fuertes sismos para dos zonas de subducción. Para Japón (arriba a la izquierda), la distribución en profundidad de los fuertes sismos revela la interfaz de la placa (abajo a la izquierda). [Observe que la línea de A a A 'en la parcela superior corre de derecha a izquierda, mientras que en la parcela inferior se ejecuta de izquierda a derecha.] En contraste, para el sur de México (arriba a la derecha), hay pocos fuertes terremotos por debajo 150 km de profundidad, dejándonos con la pregunta de dónde está la placa subductora (abajo a la derecha)? Sismicidad de NEIC-USGS; Crédito: Anthony Sladen, TO]
+Figura 2. Distribución de fuertes sismos para dos zonas de subducción. Para Japón (arriba a la izquierda), la distribución en profundidad de los fuertes sismos revela la interfaz de la placa (abajo a la izquierda). Observe que la línea A-A' en la figura superior izquiera corre de derecha a izquierda, mientras que en la parte inferior izquierda va de izquierda a derecha. En contraste, para el sur de México (arriba a la derecha), hay pocos fuertes terremotos por debajo de 150 km de profundidad, dejándonos con la pregunta de ¿dónde está la placa subductora (abajo a la derecha)? [Sismicidad de NEIC-USGS; Crédito: Anthony Sladen, TO]
 <br>
 <br>
-<li>En segundo lugar, en la mayoría de las zonas de subducción, hay un arco volcánico en el interior paralelo a la zanja. Pero en el sur de México, el arco volcánico se curva fuera de la zanja, con un ángulo de aproximadamente 15 ° (ver Figura 1).</li>
+<li>En segundo lugar, en la mayoría de las zonas de subducción, hay un arco volcánico paralelo a la trinchera. Pero en el sur de México, el arco volcánico se curva hacia afuera de la trinchera, con un ángulo de aproximadamente 15° (véase Figura 1).</li>
 <br>
 <br>
-<li>Por último, en la mayoría de las zonas de subducción, los terremotos gigantes ocurren cada pocos cientos de años más o menos. Tales terremotos ocurren también en el sur de México (por ejemplo, el terremoto de Michoacán, México de magnitud 8.5 en 1985), pero sólo cerca de la costa. Además, recientemente se ha descubierto otra forma de terremoto, llamada "terremoto silencioso" (o un evento de deslizamiento lento). Estos ocurren tan lentamente que un solo "terremoto" puede durar hasta un mes, y las ondas sísmicas que producen, llamadas temblores, son tan débiles que no podemos sentirlas.</li>
+<li>Por último, en la mayoría de las zonas de subducción, los terremotos gigantes ocurren cada pocos cientos de años más o menos. Tales terremotos ocurren también en el sur de México (por ejemplo, el terremoto de Michoacán, México de magnitud 8.5 en 1985), pero sólo cerca de la costa. Además, recientemente se ha descubierto otra forma de terremoto, llamada "terremoto silencioso" (o un evento de deslizamiento lento). Estos ocurren tan lentamente que uno solo de estos "terremotos silenciosos" puede durar hasta un mes, y las ondas sísmicas que producen, llamadas tremores, son tan débiles que no podemos sentirlas.</li>
 </p>
 </ul>
 <br>
 <br>
-Estas tres características son poco conocidas. Los científicos del Observatorio Tectónico (TO) de Caltech esperan que su estudio, denominado Experimento de Subducción MesoAmericana (MASE), tenga importantes implicaciones más allá de México. Por ejemplo, ¿por qué son tan grandes las grandes llanuras del oeste de los Estados Unidos? (por ejemplo, ¿Por qué es Denver la "ciudad de milla de altura"?) Los científicos creen que la comprensión del proceso de subducción en el sur de México puede arrojar luz sobre cómo el oeste de Estados Unidos llegó a ser.
+<p align="justify">
+Estas tres características son poco conocidas. Los científicos del Observatorio Tectónico (TO) de Caltech esperan que su estudio, denominado Experimento de Subducción MesoAmericana (MASE), tenga importantes implicaciones más allá de México. Por ejemplo, ¿por qué son tan grandes las grandes llanuras del oeste de los Estados Unidos? Los científicos creen que la comprensión del proceso de subducción en el sur de México puede arrojar luz sobre cómo el oeste de Estados Unidos llegó a estar a tan gran altitud con respecto al nivel del mar.
 <br>
 <br>
-Una mejor comprensión de los terremotos y temblores silenciosos puede conducir a una mejor evaluación del riesgo sísmico. Todavía no está claro si hay alguna relación entre los terremotos gigantes de las zonas de subducción y los terremotos silenciosos. ¿Los terremotos silenciosos alivian la tensión y por lo tanto disminuyen el riesgo sísmico o, al aliviar la tensión en un área, hacen que la tensión se acumule en otras partes y, por lo tanto, aumenten el riesgo sísmico? Este es un área activa de investigación.
+Una mejor comprensión de los terremotos y temblores silenciosos puede conducir a una mejor evaluación del riesgo sísmico. Todavía no está claro si hay alguna relación entre los terremotos gigantes de las zonas de subducción y los terremotos silenciosos. ¿Los terremotos silenciosos llegan a aliviar la tensión acumulada y por lo tanto disminuye el riesgo sísmico o, al aliviar la tensión en un área, hacen que la tensión se acumule en otras partes y, por lo tanto, aumenta el riesgo sísmico en otros lugares? Este es un área activa de investigación.
 <br>
 <br>
-I. ¿Dónde está la placa subductora?
+<b>I. ¿Dónde está la placa subductora?</b>
 <br>
 <br>
 La zona de subducción mexicana carece de la típica "Zona Benioff" de sismicidad, lo que ayuda a delinear la losa subductora en la mayoría de las zonas de subducción alrededor del mundo (Figura 2). Para evitar este problema, los científicos de la AE buscan la losa usando un método diferente de analizar los datos sísmicos, que se basa en el Análisis de la Función del Receptor. Este método localiza interfaces por debajo de la superficie de la tierra (como el límite de corteza / manto) detectando el efecto de la interfaz en las ondas sísmicas. Por ejemplo, el límite de corteza / manto puede cambiar una onda P en una onda S. Como resultado, el Análisis de Función de Receptor proporciona una imagen de la placa de subducción por debajo de los sismómetros.
@@ -74,6 +75,7 @@ La zona de subducción mexicana carece de la típica "Zona Benioff" de sismicida
 <br>
 Dado que esta técnica requiere una amplia gama de estaciones sísmicas, los científicos de la OT instalaron 100 sismómetros en una línea a través de México (Figura 3). La línea, llamada la matriz de MASE, se extiende de Acapulco en la costa pacífica, a través de Ciudad de México, casi a Tempico en el golfo de México. (Ver instalación de un sismómetro)
 Ni siquiera es posible
+</p>
 <br>
 <br>
 <p align="center">
