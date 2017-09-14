@@ -11,17 +11,17 @@ Follow my FB profile at: [Hugo's FB](https://www.facebook.com/hugosamuel.sanchez
     
 Name : Hugo S. Sánchez-Reyes
 
-e-mail : [hugo.geofisica@gmail.com](http://www.gmail.com)
+e-mail : [hugo.sanchez-reyes@univ-grenoble-alpes.fr](http://www.gmail.com)
 
 github : hugosanrocks
 
-Undergaduate Student at UJF France & IUSS Italy
+Graduate Student at UGA, France
 
 
 
 ## Diary
 
-Here's my posts list.
+Here's my post list.
 
 <ul class="posts">
   {% for post in site.posts %}
