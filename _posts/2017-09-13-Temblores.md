@@ -38,7 +38,6 @@ Figura 1. Trinchera profunda de la costa sur de México. Un mapa del fondo del o
 <br>
 <ul>
 <li>Primero, en la mayoría de las zonas de subducción, grandes terremotos ocurren en la interfase entre las dos placas, a profundidades que van desde la superficie de la tierra hasta unos 600 km. Esta región, llamada "Zona de Benioff", se utiliza para localizar la placa subductante, como se muestra en el caso de Japón en el lado izquierdo de la Figura 2. Sin embargo, en el sur de México, se observan pocos terremotos por debajo de 100 km de profundidad (ver el lado derecho de la Figura 2).</li>
-</p>
 <br>
 <br>
 <br>
@@ -204,5 +203,8 @@ Los científicos también esperan que las mediciones de tremores, además de pro
 <font size="6">Links
 <br>
 <font size="2">
-Puede seguir este link para acceder a la versión original de esta información <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/">direct access to original version
+Puede seguir este link para acceder a la versión original de esta información <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/">click aqui
+<br>
+Links a los artículos citados <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/">click aqui
+<br>
 {% include JB/setup %}
