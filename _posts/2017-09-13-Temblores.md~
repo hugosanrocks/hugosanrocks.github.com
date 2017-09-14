@@ -10,7 +10,7 @@ tags: [Subducción, México, terremotos]
 <p align="justify">
 <br>
 <br>
-El siguiente artículo es mi traducción de un resumen sobre algunas de las características y conocimientos que los sismologos y expertos en Ciencias de Tieraa tenemos hoy en día sobre la zona de subducción mexicana. Creí bastante conveniente el traducir y compartir con los lectores de habla hispana este documento como una respuesta al creciente interes de la población mexicana después del terremoto del pasado 10 de Septiembre.
+El siguiente artículo es mi traducción de un resumen sobre algunas de las características y conocimientos que los sismólogos y expertos en Ciencias de Tierra tienen hoy en día sobre la zona de subducción mexicana. Creí bastante conveniente el traducir y compartir con los lectores de habla hispana este documento como respuesta al creciente interés de la población mexicana después del terremoto del pasado 10 de Septiembre.
 <br>
 <br>
 México se encuentra en una de las zonas de subducción de la Tierra, donde el fondo oceánico de la placa tectónica de Cocos está forzando su descenso ("subduce") bajo el borde continental de la placa Norteamericana. Las zonas de subducción son propensas a grandes terremotos, porque las dos placas se mueven una contra otra, a veces se pueden quedar pegadas ("bloqueadas"), la placa inferior tira de la placa superior hacia abajo con ella y, por lo tanto, aumenta la tensión entre ellas. Cuando la tensión se acumula hasta el punto de rotura, la placa superior se libera y regresa a donde había estado, levantando así el fondo del océano. Esto produce un terremoto, y a veces un tsunami (ver animación más abajo). La placa inferior se mueve lentamente, sólo alrededor de 6 cm por año, aproximadamente tan rápido como el crecimiento de las uñas. Por lo tanto, toma cientos de años para que el estrés se acumule antes de causar un gran terremoto.
@@ -112,7 +112,7 @@ Figura 5. Imagen completa de la placa en subducción. Esta imagen es similar a l
 <br>
 <br>
 <br>
-II. ¿Por qué el arco volcánico se desvía hacia el interior?
+<b>II. ¿Por qué el arco volcánico se desvía hacia el interior?</b>
 <br>
 <br>
 En las zonas de subducción, los volcanes se forman cuando minerales hidratados en la placa subductante sufren metamorfismo (cambios a altas presiones y temperaturas) y liberan agua (deshidratación). Esta agua se filtra en el manto, causando que parches del manto se derritan a temperaturas más bajas de lo habitual. El magma resultante se eleva a la superficie atravesando la corteza y siendo arrojada violentamente como lava, formando un volcán. Este proceso de deshidratación requiere temperaturas y presiones muy altas, y generalmente ocurre cuando la placa alcanza una profundidad de unos 100 km. Así, cuando vemos volcanes cerca de las zonas de subducción, sabemos que justo debajo de ellos, a unos 100 km de profundidad, se encuentra lo que solía ser el fondo del océano.
@@ -122,7 +122,7 @@ Para la mayoría de las zonas de subducción, la placa subductante alcanza 100 k
 <br>
 <br>
 <br>
-III. ¿Cómo llegó a ser esta placa inusual?
+<b>III. ¿Cómo llegó a ser esta placa inusual?</b>
 <br>
 <br>
 ¿Cuáles fueron las condiciones que causaron que esta placa subductante se aplanara? ¿Y qué entonces la hizo terminar abruptamente en 500 kilómetros de profundidad? Para responder a estas preguntas, los científicos están desarrollando modelos numéricos para simular las fuerzas dentro de la Tierra durante los últimos 22 millones de años. Con estos modelos, seríamos capaces de predecir cómo fue la evolución que llevo a una región de subducción normal a cambiar a una subducción de placas planas durante este lapso de tiempo.
@@ -147,7 +147,7 @@ Figura 6. Modelo digital de la evolución de la subducción de placas planas. Al
 <br>
 <br>
 <br>
-IV. Temblores y terremotos lentos y silenciosos
+<b>IV. Tremores y terremotos lentos o silenciosos</b>
 <br>
 <br>
 Otro aspecto inusual sobre la zona de subducción mexicana es la ocurrencia de terremotos silenciosos (eventos de deslizamiento asismico) que son tan lentos que no podemos sentirlos. De hecho, estos eventos de deslizamiento lento sólo son visibles en las series temporales de GPS (Sistema de Posicionamiento Global), que muestran la posición de una estación GPS en la corteza continental de la placa superior (puntos amarillos en la Figura 7) en función del tiempo.
@@ -188,7 +188,7 @@ Los científicos piensan que los tremores pueden ser producidos por fluidos que 
 Figura 9. Corte transversal esquemático comparando diferentes mediciones. La geometría de la placa se muestra en comparación con la ubicación de grandes terremotos, terremotos silenciosos, tremores, capa de velocidad ultra lenta (USL) y temperatura [Modificado de Song et al., Science 2009]
 <br>
 <br>
-¿Cuáles son algunas de las implicaciones de este estudio?
+<b>¿Cuáles son algunas de las implicaciones de este estudio?</b>
 <br>
 <br>
 Al estudiar esta inusual zona de subducción de placas planas, los científicos están adquiriendo una visión del funcionamiento de las zonas de subducción en general, y en la historia de las zonas de subducción plana en particular. Estas ideas pueden ayudar a desentrañar la historia de las zonas de subducción que han ocurrido hace mucho tiempo.
@@ -203,8 +203,5 @@ Los científicos también esperan que las mediciones de tremores, además de pro
 <font size="6">Links
 <br>
 <font size="2">
-Puede seguir este link para acceder a la versión original de esta información <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/">click aqui
-<br>
-Links a los artículos citados <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/">click aqui
-<br>
+Puede seguir este link para acceder a la versión original de esta información <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/"> click aqui
 {% include JB/setup %}
