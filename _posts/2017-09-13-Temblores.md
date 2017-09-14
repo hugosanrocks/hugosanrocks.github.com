@@ -203,8 +203,5 @@ Los científicos también esperan que las mediciones de tremores, además de pro
 <font size="6">Links
 <br>
 <font size="2">
-Puede seguir este link para acceder a la versión original de esta información <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/">click aqui
-<br>
-Links a los artículos citados <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/">click aqui
-<br>
+Puede seguir este link para acceder a la versión original de esta información <a href="http://www.tectonics.caltech.edu/outreach/highlights/mase/"> click aqui
 {% include JB/setup %}
