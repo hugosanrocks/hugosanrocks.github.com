@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "El inusual caso de la zona de subducción mexicana"
-description: "Una traducción de un post from CALTECH"
+description: "Una traducción de un post de CALTECH"
 category: Documents
 tags: [Subducción, México, terremotos]
 ---
