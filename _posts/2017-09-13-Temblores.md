@@ -6,7 +6,7 @@ category: Documents
 tags: [Subducción, México, terremotos]
 ---
 
-<font size="6">
+<font size="4">
 <p align="justify">
 <br>
 <br>
