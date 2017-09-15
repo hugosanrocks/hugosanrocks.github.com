@@ -6,7 +6,7 @@ category: Documents
 tags: [Subducción, México, terremotos]
 ---
 
-<font size="2">
+<font size="6">
 <p align="justify">
 <br>
 <br>
@@ -80,6 +80,7 @@ Dado que esta técnica requiere una amplia gama de estaciones sísmicas, los cie
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/contours.jpg">
 </p>
 <br>
+<p align="justify">
 Figura 3. Línea de 100 sismómetros de banda ancha denominada arreglo MASE (Experimento de la Subducción MesoAmericana). Este arreglo (puntos rojos), con sismómetros espaciados a 5 km de distancia, cruza México. Fue instalado en 2005. Las líneas de contorno muestran la profundidad de la placa en subducción. [Modificado de Chen y Clayton, JGR 2009]
 <br>
 <br>
@@ -87,12 +88,14 @@ Lo que los científicos descubrieron a partir del análisis de los datos sísmic
 <br>
 <br>
 El análisis de los datos sísmicos de MASE usando el método de Función de Receptor se muestra en la figura 4, que muestra una vista lateral de la línea de los sismómetros MASE (triángulos negros). A la izquierda está Acapulco, en el centro se encuentra la Ciudad de México y el cinturón volcánico, y a la derecha está la Ciudad de Tempoal. La altura de los triángulos muestra la topografía de la tierra. La extensión abajo de los sismómetros es una sección transversal vertical de la Tierra hacia abajo; los colores corresponden a las amplitudes de la función del receptor. Aunque estas funciones de receptor pueden ser difíciles de descifrar para el ojo no entrenado, la inserción en la parte inferior izquierda muestra una vista ampliada de un área para un evento sísmico. La línea azul oscuro representa la posición de la placa en subducción, mostrando un ángulo pronunciado por debajo de Acapulco y posteriormente un aplanamiento.
+</p>
 <br>
 <br>
 <p align="center">
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/receiver_fcn_mod.jpg">
 </p>
 <br>
+<p align="justify">
 Figura 4. Imagen de alta resolución de la placa en subducción "Abrazando" la corteza superior. Los sismómetros del arreglo MASE (triángulos negros) corren a lo largo de la línea superior en la superficie de la Tierra. Sus alturas muestran la topografía del terreno. Se ve que el arco volcánico se encuentra más al interior de lo esperado para una zona de subducción. Las funciones receptor por debajo de cada estación revelan la posición de la placa en subducción. La imagen en la parte inferior izquierda muestra un zoom de la región de la placa plana. La posición de la placa se muestra mediante la señal azul más oscura. El área azul claro encima representa la corteza continental, el área anaranjado clara de abajo es el manto. La placa se encuentra justo contra la corteza. [Modificado de Perez-Campos et al., GRL 2008]
 <br>
 <br>
@@ -100,6 +103,7 @@ Para ver a profundidades aún mayores por debajo de la superficie terrestre, los
 <br>
 <br>
 La Figura 5 muestra la imagen completa de la placa de subducción, obtenida combinando los resultados tanto del Análisis de Función del Receptor como de la Tomografía Sísmica. La placa comienza a forzar su camino hacia abajo de la corteza continental en un ángulo poco profundo, luego se nivela hasta casi ser horizontal. Por debajo de la Ciudad de México, se hunde abruptamente en el manto y termina abruptamente a una profundidad de unos 500 km. Los científicos sospechan que esta terminación abrupta de la placa puede deberse a un desgarro anterior en esa ubicación, antes de que esa parte del fondo del océano se hubiera subducido.
+</p>
 <br>
 <br>
 <p align="center">
@@ -108,6 +112,7 @@ Placa en subducción
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/MASE_WideShot_A_Final_small.jpg">
 </p>
 <br>
+<p align="justify">
 Figura 5. Imagen completa de la placa en subducción. Esta imagen es similar a la de la figura 4, pero baja a mayor profundidad. La línea púrpura muestra toda la placa subductante, ya que toma una inmersión poco profunda por debajo de Acapulco, se nivela casi hasta la ciudad de México, luego se mete más fuertemente en el manto, y finalmente rompe abruptamente a unos 500 km de profundidad. Las líneas de contorno indican la velocidad de onda. Las líneas azules muestran donde las ondas sísmicas viajaron más rápido, indicando que el área es densa (por lo tanto es la placa). Las líneas rosadas muestran donde las ondas viajaron más lentamente, indicando que el área es menos densa (por lo tanto es el manto). [De Perez-Campos et al., GRL 2008]
 <br>
 <br>
@@ -135,6 +140,7 @@ Esta marcha de 22 millones de años de los volcanes desde la costa del Golfo hac
 <br>
 <br>
 Una forma en la que podría haber ocurrido un cambio de subducción normal a una subducción plana es si hubiera habido una capa de material de baja viscosidad (que fluía fácilmente) justo por debajo de la corteza, que luego cedió cuando la placa subductante se presionó contra ella desde abajo. Una fuente posible de una capa de manto de baja viscosidad podría ser la liberación de agua por la placa en subducción a medida que alcanza altas presiones y temperaturas, como se discutió en la sección anterior. Los resultados del modelo (Figura 6) predicen una geometría de la placa similar a la obtenida por los datos sísmicos (Figura 5).
+</p>
 <br>
 <br>
 <p align="center">
@@ -143,6 +149,7 @@ Modelo de la zona de subducción americana
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/modeling.jpg">
 </p>
 <br>
+<p align="justify">
 Figura 6. Modelo digital de la evolución de la subducción de placas planas. Al tener una cuña de manto de baja viscosidad (roja en el panel a la izquierda) justo debajo de la corteza, la placa subductante puede aplastarse, ya que exprime ese material fuera del camino. [Modificado de Perez-Campos et al., GRL 2008]
 <br>
 <br>
@@ -151,6 +158,7 @@ Figura 6. Modelo digital de la evolución de la subducción de placas planas. Al
 <br>
 <br>
 Otro aspecto inusual sobre la zona de subducción mexicana es la ocurrencia de terremotos silenciosos (eventos de deslizamiento asismico) que son tan lentos que no podemos sentirlos. De hecho, estos eventos de deslizamiento lento sólo son visibles en las series temporales de GPS (Sistema de Posicionamiento Global), que muestran la posición de una estación GPS en la corteza continental de la placa superior (puntos amarillos en la Figura 7) en función del tiempo.
+</p>
 <br>
 <br>
 <p align="center">
@@ -159,6 +167,7 @@ Serie temporal GPS
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/nvt_mod.jpg">
 </p>
 <br>
+<p align="justify">
 Figura 7. Señales GPS continuas que muestran eventos de deslizamiento lento y su relación con los temblores. Los datos GPS (amarillo) que muestran deslizamiento lento, y los datos sísmicos (rojo y verde) que muestran temblores, se representan en el mismo gráfico. Los datos GPS muestran dos terremotos silenciosos, a principios de 2002 y mediados de 2006. La agrupación de temblores durante estos dos eventos (áreas circundadas) confirma que el deslizamiento lento es una causa del temblor. [Modificado de Payero et al., GRL 2008]
 <br>
 <br>
@@ -166,12 +175,14 @@ El movimiento gradual de la estación GPS hacia tierra, lejos de la trinchera (e
 <br>
 <br>
 No podemos sentir estos eventos de deslizamiento lento. Los sismómetros ni siquiera los pueden detectar, al menos no directamente. Sólo mediante la comparación de sismógrafos de diferentes instrumentos, utilizando la técnica de correlación cruzada (o buscando patrones en las señales), los científicos detectaron las débiles señales sísmicas, llamadas tremores, y localizaron sus fuentes (llamadas hipocentros). Este análisis se muestra en la Figura 8. El Panel A muestra las señales débiles a la izquierda. Las flechas azules a la derecha muestran que los sismómetros están recogiendo las mismas señales casi imperceptibles, aunque en diferentes momentos. El panel B muestra que las fuentes de las señales sísmicas (estrellas rojas y amarillas) se producen principalmente en y por encima del límite de la placa, lo que indica que el estrés en la placa superior causa los tremores.
+</p>
 <br>
 <br>
 <p align="center">
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/seismic_data1_mod.jpg">
 </p>
 <br>
+<p align="justify">
 Figura 8. Detección de tremores y localización de sus fuentes El panel A muestra señales muy débiles, llamadas tremores, de nueve de los sismómetros MASE (lado izquierdo) y funciones de correlación cruzada entre esas señales (lado derecho). Las flechas azules muestran las veces que diferentes estaciones detectaron la misma onda sísmica casi imperceptible. El panel B muestra la misma línea de sismómetros MASE que en la figura 4, con el nombre de cada uno de ellos y la topografía de la tierra. El hyocenter, o fuentes, de los tremores se muestran por las estrellas rojas y amarillas. El límite entre las dos placas tectónicas se muestra por la línea discontinua, y la placa subductante por el "liston" azul. [Modificado de Payero et al., GRL 2008]
 <br>
 <br>
@@ -179,12 +190,14 @@ La frecuencia de estos temblores lentos se compara con la señal GPS en la Figur
 <br>
 <br>
 Los científicos piensan que los tremores pueden ser producidos por fluidos que circulan en el medio altamente tenso y deformado de la placa subductora. Un análisis detallado de las ondas sísmicas que cruzan la interfase entre las placas subductivas y las placas superpuestas ha revelado la existencia de una capa fina anómala, intercalada entre las dos placas. Esta capa ralentiza algunos tipos de ondas sísmicas hasta en un 30% a 50%, y por lo tanto se le llama capa de velocidad ultra-lenta (USL). Los científicos han encontrado que esta capa coincide con las localizaciones de terremotos lentos, como se muestra esquemáticamente en la Figura 9, y que adyacentes a estas regiones se encuentran los hipocentros de los tremores.
+</p>
 <br>
 <br>
 <p align="center">
 <img src="http://www.tectonics.caltech.edu/images/outreach/mase/usl_mod.jpg">
 </p>
 <br>
+<p align="justify">
 Figura 9. Corte transversal esquemático comparando diferentes mediciones. La geometría de la placa se muestra en comparación con la ubicación de grandes terremotos, terremotos silenciosos, tremores, capa de velocidad ultra lenta (USL) y temperatura [Modificado de Song et al., Science 2009]
 <br>
 <br>
@@ -198,6 +211,7 @@ Un ejemplo de esto es la placa Farallon, que se cree que se ha subducido bajo lo
 <br>
 <br>
 Los científicos también esperan que las mediciones de tremores, además de proporcionar una ventana a la dinámica de las zonas de subducción y los eventos que llevan a grandes terremotos, puedan mejorar algún día la evaluación del riesgo de terremotos. Por ejemplo, si se demuestra que un aumento en el número de tremores precede a grandes terremotos, esto podría proporcionar algún día algún aviso anticipado.
+</p>
 <br>
 <br>
 <font size="6">Links
