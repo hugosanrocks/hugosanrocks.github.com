@@ -21,22 +21,24 @@ Graduate Student at UGA, France
 
 
 
+## Publications
+
+<b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i>Under Review in the <b>Journal of Geophysical Research</b></i>, December 2017.
+
+[Short stories](http://hugosanrocks.github.io/Short stories/index.html)
+
+[Positive Reflections](http://hugosanrocks.github.io/Positive Reflections/index.html)
+
+
 ## Diary
 
-Here's my post list.
+Here is my post list.
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## Stories & more ...
-
-[Short stories](http://hugosanrocks.github.io/Short stories/index.html)
-
-[Positive Reflections](http://hugosanrocks.github.io/Positive Reflections/index.html)
-
 
 
 ## To-Do
