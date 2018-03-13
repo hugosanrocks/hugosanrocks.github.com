@@ -27,7 +27,7 @@ Jara, J., <b>Sánchez-Reyes, H. S.</b>, Socquet, A., Cotton, F., Virieux, J., Ma
 
 <b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i>Under Review in the <b>Journal of Geophysical Research</b></i>, December 2017.
 
-Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-Herrera, M. T., Castillo-Aja, R., Singh, S. K. and Chen Ji. Was the October 9th 1995 Mw8 Jalisco, Mexico earthquake a near trench event? <i>Under Review in the <b>Journal of Geophysical Research</b></i>, November 2017.
+Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-Herrera, M. T., Castillo-Aja, R., Singh, S. K. and Ji, C. Was the October 9th 1995 Mw8 Jalisco Mexico earthquake a near trench event? <i>Under Review in the <b>Journal of Geophysical Research</b></i>, November 2017.
 
 [Short stories](http://hugosanrocks.github.io/Short stories/index.html)
 
