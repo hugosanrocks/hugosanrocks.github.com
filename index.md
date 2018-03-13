@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hugo's blog!
+title: Hugo Samuel Sánchez-Reyes
 ---
 
 Follow my FB profile at: [Hugo's FB](https://www.facebook.com/hugosamuel.sanchezreyes)
