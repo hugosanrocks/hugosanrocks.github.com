@@ -5,6 +5,8 @@ title: Hugo Samuel Sánchez-Reyes
 
 
 ## Author coordinates
+
+![useful image](http://hugosanrocks.github.io/assets/image1.pdf)
     
 Name : Hugo S. Sánchez-Reyes
 
