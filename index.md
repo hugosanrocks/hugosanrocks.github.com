@@ -6,7 +6,7 @@ title: Hugo Samuel Sánchez-Reyes
 
 ## Author coordinates
 
-![useful image](http://hugosanrocks.github.io/assets/image1.pdf)
+![useful image](http://hugosanrocks.github.io/assets/img/volcanoes.jpg)
     
 Name : Hugo S. Sánchez-Reyes
 
