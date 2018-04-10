@@ -35,8 +35,8 @@ Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-H
 </dl>
 <div>
    <img src="http://www.ssn.unam.mx/recursos/imagenes/sismogramas/sismogramaHU.gif" class="center-block img-responsive" data-action="zoom" id="sismograma" alt="Sismograma CUIG">
-  Data taken from: [SSN webpage](http://www.ssn.unam.mx/sismogramas/)
 </div>
+Data taken from: [SSN webpage](http://www.ssn.unam.mx/sismogramas/)
 
 
 ## Diary
