@@ -36,7 +36,7 @@ Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-H
   <dd class="dd-2"><i>Longitud:</i> -99.178</dd>
 </dl>
 <div>
-   <img src="../recursos/imagenes/sismogramas/sismogramaCU.gif" class="center-block img-responsive" data-action="zoom" id="sismograma" alt="Sismograma CUIG">
+   <img src="http://www.ssn.unam.mx/recursos/imagenes/sismogramas/sismogramaCU.gif" class="center-block img-responsive" data-action="zoom" id="sismograma" alt="Sismograma CUIG">
 </div>
 
 ## Diary
