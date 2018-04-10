@@ -6,7 +6,7 @@ title: Hugo Samuel Sánchez-Reyes
 
 ## Author coordinates
 
-![useful image](http://hugosanrocks.github.io/assets/img/volcanoes.jpg)
+![useful image](http://hugosanrocks.github.io/assets/img/model_time_space_windows.jpg)
     
 Name : Hugo S. Sánchez-Reyes
 
@@ -29,17 +29,18 @@ Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-H
 ## Quasi-real-time data
 
 <dl>
-  <dt>Estación sismológica: El Pozo (Ciudad Universitaria, Coyoacán, Ciudad de México)</dt><br class="br-dummy">
-  <dt>Mnemónico: CUIG</dt><br class="br-dummy">
-  <dt>Localización: <i>Latitud:</i> 19.329</dd> <i>Longitud:</i> -99.178</dt>
+  <dt>Station: El Pozo (Ciudad Universitaria, Coyoacán, Ciudad de México)</dt><br class="br-dummy">
+  <dt>Keyname: CUIG</dt><br class="br-dummy">
+  <dt>Location: <i>Latitude:</i> 19.329</dd> <i>Longitude:</i> -99.178</dt>
 </dl>
 <div>
    <img src="http://www.ssn.unam.mx/recursos/imagenes/sismogramas/sismogramaCU.gif" class="center-block img-responsive" data-action="zoom" id="sismograma" alt="Sismograma CUIG">
 </div>
 
+
 ## Diary
 
-Here is my post list.
+Here is my post list:
 
 <ul class="posts">
   {% for post in site.posts %}
