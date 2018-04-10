@@ -29,12 +29,13 @@ Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-H
 ## Quasi-real-time data
 
 <dl>
-  <dt>Station: El Pozo (Ciudad Universitaria, Coyoacán, Ciudad de México)</dt><br class="br-dummy">
-  <dt>Keyname: CUIG</dt><br class="br-dummy">
-  <dt>Location: <i>Latitude:</i> 19.329</dd> <i>Longitude:</i> -99.178</dt>
+  <dt><b>Data taken from [SSN webpage](http://www.ssn.unam.mx/sismogramas/)</b></dt>
+  <dt>Station: Huatulco (Oaxaca) </dt><br class="br-dummy">
+  <dt>Keyname: HUIG</dt><br class="br-dummy">
+  <dt>Location: <i>Latitude:</i> 15.769</dd> <i>Longitude:</i> -96.108</dt>
 </dl>
 <div>
-   <img src="http://www.ssn.unam.mx/recursos/imagenes/sismogramas/sismogramaCU.gif" class="center-block img-responsive" data-action="zoom" id="sismograma" alt="Sismograma CUIG">
+   <img src="http://www.ssn.unam.mx/recursos/imagenes/sismogramas/sismogramaHU.gif" class="center-block img-responsive" data-action="zoom" id="sismograma" alt="Sismograma CUIG">
 </div>
 
 
