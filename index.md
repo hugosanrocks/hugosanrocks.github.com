@@ -29,7 +29,7 @@ Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-H
 ## Quasi-real-time data
 
 <dl>
-  <dt><b>Data taken from [SSN webpage](http://www.ssn.unam.mx/sismogramas/)</b></dt>
+  <dt><b>Data taken from:</b> [SSN webpage](http://www.ssn.unam.mx/sismogramas/) </dt>
   <dt>Station: Huatulco (Oaxaca) </dt><br class="br-dummy">
   <dt>Keyname: HUIG</dt><br class="br-dummy">
   <dt>Location: <i>Latitude:</i> 15.769</dd> <i>Longitude:</i> -96.108</dt>
