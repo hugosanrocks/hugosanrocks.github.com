@@ -3,7 +3,6 @@ layout: page
 title: Hugo Samuel Sánchez-Reyes
 ---
 
-[![HitCount](http://hits.dwyl.io/{username}/{project}.svg)](http://hits.dwyl.io/{username}/{project})
 
 ## Author coordinates
 
@@ -71,3 +70,7 @@ and on Twitter as: [@Hugosanrocks](https://twitter.com/Hugosanrocks)
 ## To-Do
 
 Please let me know any broken link or doubt releated to this site.
+
+
+[![HitCount](http://hits.dwyl.io/{username}/{project}.svg)](http://hits.dwyl.io/{username}/{project})
+
