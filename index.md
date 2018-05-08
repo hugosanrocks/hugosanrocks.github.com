@@ -3,6 +3,7 @@ layout: page
 title: Hugo Samuel Sánchez-Reyes
 ---
 
+[![HitCount](http://hits.dwyl.io/{username}/{project}.svg)](http://hits.dwyl.io/{username}/{project})
 
 ## Author coordinates
 
