@@ -19,7 +19,7 @@ Graduate Student at UGA, France
 
 ## Publications
 
-<b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i><b>Journal of Geophysical Research</b></i> <b> DOI: </b> 10.1029/2017JB015388, April 2018. [link to paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388)
+<b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i><b>Journal of Geophysical Research</b></i> <b> DOI: </b> 10.1029/2017JB015388, April 2018. [Link to paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388) <em><a href="Papers/Paper_SRL_Accepted_April_2018-opt.pdf"><img src="pdf_image.gif" alt="" width="18" height="19" border="0"></a></em>
 
 
 ## Under review
