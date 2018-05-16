@@ -1,0 +1,277 @@
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+%`  \usepackage{fontspec}
+%  \usepackage{polyglossia}
+%  \setmainlanguage{french}
+
+\usepackage{url,parskip} % Formatting packages
+\setlength{\parskip}{5pt}
+\setlength{\parsep}{0pt}
+\setlength{\itemsep}{0pt}
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: 
+%\addtolength{\voffset}{-2cm}
+	\addtolength{\topmargin}{-1.1in}
+	\addtolength{\textheight}{2.5in}
+	\addtolength{\textwidth}{0.7in}
+
+\addtolength{\hoffset}{-1cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage[dvips,xetex]{graphicx}
+
+
+\def\logo{%
+\begin{picture}(0,0)\unitlength=3cm
+\put (0,-0.25) {\includegraphics[width=4.25em]{logo-is.png}}
+\end{picture}
+}
+\def\photo{%
+\begin{picture}(0,0)\unitlength=3cm
+\put (4.7,-1.1) {\includegraphics[width=6em]{my_orcid_qrcode.png}}
+\end{picture}
+}
+\usepackage{marvosym}
+
+
+\begin{document}
+
+
+%\pagestyle{empty} % Removes page numbering
+
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+%\logo \photo
+\photo
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Hugo \textsc{S. S\'anchez Reyes}}\bigskip\par} % Your name
+
+
+%\section{Personal Data}
+\begin{tabular}{rl}
+\textsc{Birth:} & 4 July 1989 \\
+\textsc{Address:} & 1220 rue de R\'esidences, 38406 Saint Martin d'H\`eres, France \\
+\textsc{Contact:} & \Email \, \href{mailto:hugo.sanchez-reyes@univ-grenoble-alpes.fr}{hugo.sanchez-reyes@univ-grenoble-alpes.fr} \quad \Telefon \, +33 07 71 89 30 07\\
+& \ComputerMouse \, \href{http://hugosanrocks.github.io/}{http://hugosanrocks.github.io/}
+\end{tabular}
+
+\section{Work Experience}
+
+\begin{tabular}{rp{11cm}}
+{\bf \textsc{Oct. 2015 - Currently }} & {\bf PhD. Student at Universit\'e Grenoble Alpes, ISTerre} \\
+& Thesis: \emph{An Adjoint-State Method for 3D Seismic Source Inversion} \\[0.4em] 
+%& \footnotesize{Funded by the Centre National de la Recherche Scientifique (CNRS), France}\\
+%\multicolumn{2}{c}{} \\
+%\end{tabular}
+
+%\begin{tabular}{rp{11cm}}
+{\bf \textsc{Mar. 2015 - Jun. 2015}} & {\bf Internship at Universit\'e Joseph Fourier, ISTerre} \\
+& Project:  ANR S4 \emph{Subduction: standard and slow seismology}\\[0.4em]
+%& Tasks: \footnotesize{3D kinematic seismic source inversion of mexican earthquakes.}\\
+%\multicolumn{2}{c}{} \\
+
+{\bf \textsc{Feb. 2014 - Jun. 2014}} & {\bf Internship at Universit\'e Joseph Fourier, ISTerre} \\
+%& Equipe: Ondes, Stagiaire Master 2 Erasmus Mundus\\ 
+& Project: \emph{1D Eikonal equation by a DG Finite Element Method}\\[0.4em]
+%\multicolumn{2}{c}{} \\
+
+{\bf \textsc{Oct. 2012 - Aug. 2013}} & {\bf Geophysical Specialist in Exploration at \textsc{COMESA S. A.}} \\
+& Tasks: \emph{Development of didactic software for PSTM seismic data.}
+%\multicolumn{2}{c}{} \\
+\end{tabular}
+
+
+\section{Education and trainning}
+
+\begin{tabular}{rl}	
+{\bf \textsc{Feb.} 2015} & {\bf MSc. in Engineering Seismology} \\
+& Thesis: \emph{Eikonal Equation by a DG-FEM} $|$ \small Advisor: Prof. Jean \textsc{Virieux}\\
+& \small{Universit\'e Joseph Fourier, Istituto Universitario di Studi Superiori di Pavia}\\[0.4em]
+%& \small\emph{Erasmus Mundus} $|$ Major: Engineering Seismology $|$ \textsc{GPA}: 14.109/20.0
+
+{\bf \textsc{Apr.} 2013} & {\bf BSc. in Geophysical Engineering} \\
+& Thesis: \emph{Seismic source modeling of Jalisco earthquake (Mw=8.0), 1995, from the} \\
+& \emph{inversion of seismic and static records} $|$ \small Advisor: PhD. Vala \textsc{Hjorleifsdottir}\\
+& \small{National Autonomous University of Mexico, UNAM, Mexico} $|$ \bf{Graduated with honors} \\[0.4em]
+%& Major: Seismology $|$ \textsc{GPA}: 9.18/10.0 $|$ \small\emph{Graduated with honors} \\[0.4em] %{\hfill \\| \footnotesize Degree 5$^{th}$ page}\\
+
+{\bf Other trainings:}\\[0.4em]
+%------------------------------------------------
+{\bf \textsc{Mar.} 2013} & Guralp-Amp\`ere Latin American Instrumentation Workshop\\
+& Basic use and setup of Guralp and FreeWave instruments\\
+& \small\textbf{Amp\`ere Instrumentation and Telemetry}, Mexico\\[0.4em]
+
+{\bf \textsc{Jul.} 2011} & Course of field seismic instrumentation\\
+& Use of seismic sensors and digitizers\\
+& \small\textbf{Institute of Geophysics, National Autonomous University of Mexico}, Mexico\\
+\end{tabular}
+
+
+
+
+\section{Papers}
+\begin{tabular}{ll}
+ [1] & {\bf S\'anchez-Reyes}, H. S., Tago, J., Métivier, L., Cruz-Atienza, V. M. and Virieux, J., 2017. \tabularnewline 
+     & An evolutive linear kinematic source inversion. {\it JGR Solid Earth, 123}, DOI: 10.1029/2017JB015388.\\
+
+ [2] & Jara, J., {\bf S\'anchez-Reyes, H. S.}, Socquet, A., Cotton, F., Virieux, J., Maksymowicz, A., \tabularnewline
+     & Diaz-Mojica, J., Walpersdorf, A., Ruiz, J., Cotte, N. and Norabuena, E., 2018. Kinematic Study \tabularnewline
+     & of Iquique 2014 M$_w$8.1 earthquake: understanding the segmentation of the seismogenic zone. \tabularnewline 
+     & {\it Under Review in {\bf Earth and Planetary Sciences}}. \\
+     
+ [3] & Hjorleifsdottir, V., {\bf S\'anchez-Reyes}, H. S., Ruiz Angulo, A., Ramírez-Herrera, M. T., \tabularnewline
+     &  Castillo-Aja, R., Singh, S. K. and Ji, C., 2017. Large early afterslip following the 1995/10/09  \tabularnewline
+     &  M$_w$8 Jalisco, Mexico earthquake.  {\it Under Review in {\bf JGR Solid Earth}}.
+\end{tabular}
+
+\section{Languages \hspace{0.55cm} \& \hspace{0.55cm} other skills}
+
+\begin{tabular}{{l}{l}|{l}{l}}
+\textsc{French:}  & Fluent B2		 & Basic: 		& C++, ArcGIS, SEISAN \\%\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+\textsc{English:} & Fluent IELTS 7.0 	 & Intermediate: 	& Python, QGIS, OpenQuake, SAC, MPI, Perl, SU \\
+\textsc{Russian:} & Basic A1		 & Advanced: 		& Fortran, MatLab, GMT, OpenMP \\  
+\textsc{Spanish:} & Mothertongue         & Leadership: 		& 2011-2012 President of UNAM's SEG Student Chapter \\
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships \hspace{1.1cm} \& \hspace{1.1cm} Conferences}
+
+\begin{tabular}{{r}{l}|{r}{l}}
+%& {\bf Scholarships:} & & {\bf Conferences:} \\
+2013 & Erasmus Mundus MEEES 		& 2017 & IAG-IASPEI Kobe Meeting (Poster Participation) \\
+2012 & ExxonMobil Research Scholarship 	& 2016 & AGU Fall Meeting (Poster Participation) \\
+2011 & Chevron/SEG SLS Travel Grant  	& 2015 & UGM Annual Meeting (Oral Participation) \\
+     &					& 2012 & UGM Annual Meeting (Oral Participation) \\
+\end{tabular}
+
+\section{Interests and Activities}
+
+Technology, open-source, programming, languages, saxophone, guitar, writing science-fiction \\ 
+travelling, literature, jogging
+
+
+%\begin{tabular}{rl}
+%\textsc{Oct.} 2016 & Congress: Poster Participation\\
+%& \footnotesize\emph{An evolutive quasi-real-time source inversion based on a linear inverse formulation}\\
+%& \footnotesize{2016 Annual Fall Meeting | American Geophysical Union, San Francisco, CA., USA}\\
+%&\\
+%\textsc{Oct.} 2016 & Congress: Oral Participation\\
+%& \footnotesize\emph{3D Seismic source inversion using the Adjoint-state method}\\
+%& \footnotesize{2015 Annual Meeting | Mexican Geophysical Union, Puerto Vallarta, Mexico}\\
+%&\\
+%\textsc{Sept.} 2013 & Scholarship: Erasmus Mundus MEEES Consortium Scholarship \\
+%& \footnotesize{Consortium: UJF (France), IUSS (Italy), METU (Turkey), University of Patras (Grece)}\\
+%&\\
+%\textsc{Jan.} 2012 & Congress: ExxonMobil Research Scholarship\\
+%& \footnotesize{\emph{Seismic source modeling of Jalisco earthquake (M$_w$8), 1995, from seismic and static records}}\\
+%& \footnotesize{ExxonMobil and Institute of International Education, IIE}\\
+%&\\
+%\textsc{Sept.} 2011 & Scholarship: Travel Grant, Chevron Student Leadership Symposium \\
+%& \footnotesize{Chevron and Society of Exploration Geophysicists}\\
+%& \footnotesize{81$^{th}$ SEG Annual Meeting. San Antonio, TX., USA}\\
+%&\\
+%\textsc{Oct.} 2012 & Congress: Oral Participation\\
+%& \footnotesize\emph{Seismic source modeling of Jalisco earthquake (Mw=8.0), 1995, from seismic and static records}\\
+%& \footnotesize{2012 Annual Meeting | Mexican Geophysical Union, Puerto Vallarta, Mexico }\\
+%\end{tabular}
+
+
+%\section{Mobility}
+
+%I have decided to study abroad to expand my knowledge, skills and culture on all the fields I am
+%interested in. Traveling and living in the UK and France, allowed me to master my second and third
+%languages. This skills and cultural exposure encouraged me to pursue a Master Degree in Engineering
+%Seismology, which is my main interest, at two of the most recognized European educational institutions
+%specialized in this field. In addition, I believe that participating in national and international 
+%congresses is the best way to establish working networks with collegues and to be constantly updated 
+%on the advances in Seismology which certainly enriches my professional research life.
+
+%As a visually impaired person, I have chosen to develop my professional career in France where
+%the well organized and handicap-inclusive society allows me to make the best out of my life.
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%-----------------------L-----------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+
+
+
+\end{document}
+
+
+
+ [1] & {\bf S\'anchez-Reyes}, H. S., Tago, J., Métivier, L., \tabularnewline
+     & Cruz-Atienza, V. M. and Virieux, J. \tabularnewline
+     & 2017. An evolutive \\ quasi-real-time \tabularnewline 
+     & kinematic source inversion based on a linear \tabularnewline
+     & formulation. (Submitted)\\[0.4em]
+
+ [2] & Jara, J., {\bf S\'anchez-Reyes, H. S.}, Socquet, A., Cotton, F., Virieux, J., Maksymowicz, 
+       A., Diaz-Mojica, J., \\ Walpersdorf, A., Ruiz, J., Cotte, N. and Norabuena, E., 2017.
+       Kinematic Study of Iquique 2014 \\
+       Mw 8.1 earthquake: understanding the segmentation of the seismogenic zone. (Submitted)\\[0.4em]
+       
+ [3] & Hjorleifsdottir, V., {\bf S\'anchez-Reyes}, H. S., Ruiz Angulo, A., Ramírez-Herrera, M. T.,
+       Castillo-Aja, R., \\ Singh, S. K. and Ji, C., 2017. Large early afterslip following the
+       1995/10/09 M$_w$8 Jalisco, Mexico earthquake.
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
