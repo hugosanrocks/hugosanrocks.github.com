@@ -16,6 +16,7 @@ github : hugosanrocks
 
 Graduate Student at UGA, France
 
+Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/cv/CV_Hugo_Sanchez-Reyes.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="CV" width="15" height="16" border="0"></a></em>
 
 ## Publications
 
