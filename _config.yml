@@ -77,20 +77,25 @@ JB :
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-    provider : disqus
-    disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
-   
+   comments:
+ provider: "staticman"
+   staticman:
+ allowedFields          : ['name', 'email', 'url', 'message']
+ branch                 : # "master", "gh-pages"
+ commitMessage          : "New comment."
+ filename               : comment-{@timestamp}
+ format                 : "yml"
+ moderation             : false
+ path                   : "_data/comments/{options.slug}"
+ requiredFields         : ['name', 'email', 'message']
+ transforms:
+   email                : "md5"
+ generatedFields:
+   date:
+type               : "date"
+options:
+  format           : "iso8601"
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
