@@ -30,6 +30,11 @@ Jara, J., <b>Sánchez-Reyes, H. S.</b>, Socquet, A., Cotton, F., Virieux, J., Ma
 Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-Herrera, M. T., Castillo-Aja, R., Singh, S. K. and Ji, C. Was the October 9th 1995 Mw8 Jalisco Mexico earthquake a near trench event? <i>Under Review in the <b>Journal of Geophysical Research</b></i>, November 2017.
 
 
+## Interests
+
+Inverse problems, uncertainty assessment, kinematic source modeling, strong motion prediction
+
+
 ## Quasi-real-time data
 
 <dl>
