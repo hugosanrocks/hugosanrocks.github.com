@@ -12,7 +12,7 @@ Name : Hugo S. Sánchez-Reyes
 
 e-mail : [hugo.sanchez-reyes@univ-grenoble-alpes.fr](http://www.gmail.com)
 
-github : hugosanrocks
+github : [hugosanrocks](https://github.com/hugosanrocks)
 
 Graduate Student at UGA, France
 
