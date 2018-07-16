@@ -114,13 +114,6 @@ JB :
   #
   sharing :
     provider : false
-
-# Disqus Comments
-disqus:
-    # Leave shortname blank to disable comments site-wide.
-    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: Earthquake-precursors
-
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:

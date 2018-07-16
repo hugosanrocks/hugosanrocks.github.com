@@ -46,4 +46,7 @@ megathrust. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com
 <br>
 <font size="3">
 To fork all papers at once: <a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/"> follow this link
+
+{% include disqus.html %}
+
 {% include JB/setup %}
