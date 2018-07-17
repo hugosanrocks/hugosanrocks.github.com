@@ -39,9 +39,9 @@ interplate earthquakes. <em><a href="https://github.com/hugosanrocks/hugosanrock
   <br>
   <li>Jones & Molnar (1979). Some characteristics of foreshocks and their possible relationship to earthquake prediction and premonitory slip on faults. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Jones_1979_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
-  Kato et al. (2012). Propagation of Slow Slip Leading Up to the 2011 Mw 9.0 Tohoku-Oki Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Kato_2012_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <li>Kato et al. (2012). Propagation of Slow Slip Leading Up to the 2011 Mw 9.0 Tohoku-Oki Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Kato_2012_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
-  Kato et al. (2016). Accelerated nucleation of the 2014
+  <li>Kato et al. (2016). Accelerated nucleation of the 2014
 Iquique, Chile Mw 8.2 Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Kato_2016_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
   <li>Marsan & Lengliné (2008). Extending Earthquakes Reach Through Cascading. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Marsan_2008_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
