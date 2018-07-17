@@ -15,6 +15,14 @@ The following is a list of possible papers to discuss during our meetings:
 <ol>
   <li>Abercrombie and Mori (1996). Occurrence patterns of foreshocks to large earthquakes in the western United States. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Abercrombie_1996_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
+  <li>Bouchon et al. (2011). Extended Nucleation of the 1999
+Mw 7.6 Izmit Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Bouchon_2011_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>Bouchon et al. (2013). The long precursory phase of most large
+interplate earthquakes. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Bouchon_2013_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>Bouchon et al. (2016). Potential slab deformation and plunge prior to tHe Tohoku, Iquique and Maule earthquakes. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Bouchon_2016_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
   <li>Bouchon et al. (2018). Suspected Deep Interaction and Triggering Between Giant Earthquakes in the Chilean Subduction Zone. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Bouchon_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
   <li>Dietrich (1978). Preseismic Fault Slip and Earthquake Prediction. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Dietrich_1978_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
