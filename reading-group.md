@@ -10,7 +10,7 @@ tags: [Seismic precursors, earthquakes, precursory phase]
 <p align="justify">
 <br>
 <br>
-<b>Attention: First meeting on 24th July 2018 at 10:00 room 340 (ISTerre Grenoble). The paper to be discussed will be Dietrich (1978). Bring your favorite hot drink!</b><img src="http://hugosanrocks.github.io/assets/img/coffe.png alt="" width="15" height="16" border="0">
+<b>Attention: First meeting on 24th July 2018 at 10:00 room 340 (ISTerre Grenoble). The paper to be discussed will be Dietrich (1978). Bring your favorite hot drink!</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Dietrich_1978_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/coffee.png" alt="" width="15" height="16" border="0"></a></em>
 <br>
 <br>
 The following is a list of possible papers to discuss during our meetings:
