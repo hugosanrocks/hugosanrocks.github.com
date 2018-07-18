@@ -10,6 +10,9 @@ tags: [Seismic precursors, earthquakes, precursory phase]
 <p align="justify">
 <br>
 <br>
+<b>Attention: First meeting on 24th July 2018 at 10:00 room 340 (ISTerre Grenoble)</b>
+<br>
+<br>
 The following is a list of possible papers to discuss during our meetings:
 </p>
 <ol>
