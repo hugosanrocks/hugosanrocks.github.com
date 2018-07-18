@@ -46,14 +46,28 @@ Iquique, Chile Mw 8.2 Earthquake. <em><a href="https://github.com/hugosanrocks/h
   <br>
   <li>Marsan & Lengliné (2008). Extending Earthquakes Reach Through Cascading. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Marsan_2008_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
+  <li>Mavrommatis et al. (2014). A decadal-scale deformation transient prior to the 2011 M w 9.0 Tohoku-oki earthquake.  <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Mavrommatis_2014_GRL.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
   <li>McGuire et al. (2005). Foreshock sequences and short-term earthquake predictability on East Pacific Rise transform faults. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/McGuire_2005_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
   <li>Ohnaka (1992). Earthquake
 source nucleation: a physical model
 for short-term precursors. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Ohnaka_1992_TECTO.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
+  <li>Ruiz et al. (2014). Intense foreshocks and a slow slip event preceded the 2014 Iquique M w 8.1 earthquake.  <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Ruiz_2014_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>Sato & Mori (2013). Precursory Seismic Activity Surrounding the High-Slip Patches of the 2011 M w 9.0 Tohoku-Oki Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Sato_2013_BSSA.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>Schurr et al. (2014). Gradual unlocking of plate boundary controlled initiation of the 2014 Iquique earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Schurr_2014_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
   <li>Socquet et al. (2017). An 8-month slow slip event triggers progressive nucleation of the 2014 Chile
 megathrust. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Socquet_2017_GRL.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>Tal et al. (2018). The Effects of Fault Roughness on the Earthquake Nucleation Process. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Tal_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>Tape et al. (2018). Earthquake nucleation and fault slip complexity in the lower crust of central Alaska.  <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Tape_2018_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>Yokota & Koketsu (2015). A very long-term transient event preceding the 2011 Tohoku earthquake.  <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Yokota_2015_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
   <li>Zanzerkia et al. (2003). Waveform analysis of the 1999 Hector Mine foreshock sequence. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Zanzerkia_2003_GRL.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
 </ol>
