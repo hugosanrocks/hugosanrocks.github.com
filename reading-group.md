@@ -65,6 +65,8 @@ for short-term precursors. <em><a href="https://github.com/hugosanrocks/hugosanr
   <br>
   <li>Sato & Mori (2013). Precursory Seismic Activity Surrounding the High-Slip Patches of the 2011 M w 9.0 Tohoku-Oki Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Sato_2013_BSSA.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
+  <li>Scholz et al. (1973). Earthquake Prediction: A Physical Basis. <<em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Scholz_1973_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
   <li>Schurr et al. (2014). Gradual unlocking of plate boundary controlled initiation of the 2014 Iquique earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Schurr_2014_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
   <li>Socquet et al. (2017). An 8-month slow slip event triggers progressive nucleation of the 2014 Chile

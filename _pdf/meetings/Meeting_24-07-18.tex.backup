@@ -1,0 +1,372 @@
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% TUNING OF THE THEME AND PACKAGES
+
+%Here should be chosen the global font size and aspect ratio
+%\documentclass[aspectratio=169,9pt]{beamer}
+\documentclass[aspectratio=43,9pt]{beamer}
+
+%here is the advised tuning of the metroseiscope theme -> a seiscope tuned version of metropolis
+\usetheme[sectionpage=seiscope, numbering=counter, progressbar=frametitle, background=light]{metroseiscope}
+%possible choices are
+%numbering=none,counter,fraction
+%progressbar=foot,head,frametitle
+\usepackage{pifont}
+\usepackage{marvosym}
+\usepackage{appendixnumberbeamer}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{shapes.misc}
+
+\usepackage{animate,media9} %,movie15}
+
+\usepackage{color}
+\input{Figs/rgb}
+
+
+
+
+\tikzset{cross/.style={cross out, draw=black, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},
+%default radius will be 1pt. 
+cross/.default={20pt}}
+
+
+\usepackage{datetime}
+%\usepackage{unicode-math} %work with Xelatex only
+
+\usepackage{animate}
+\usepackage{perpage}       %reinit the footnote number at each page/slide
+\MakePerPage{footnote}
+
+%font of the seiscope logo used for the beamer also
+%\setsansfont{Montserrat}
+
+
+%correct rendering of some png, pdf figure, which appears weird on Adobe Reader
+%\pdfpageattr{/Group <</S /Transparency /I true /CS /DeviceRGB>>}
+
+%*********************
+%footnote management
+%--------------------
+\let\oldfootnote\footnote
+\renewcommand\footnote[1][]{\oldfootnote[frame,#1]}
+%put defaultfootnote without number
+%\renewcommand{\thefootnote}{\*}
+%or manage it on the fly with
+%\renewcommand{\thefootnote}{\arabic{footnote}}
+%\renewcommand{\thefootnote}{\*}
+%*********************
+
+%size of the text, if required
+%\setbeamerfont{footnote}{size=\scriptsize}
+%\setbeamerfont{caption}{size=\scriptsize}
+
+
+%path to logo and biblio -> to be adapted to your local directories management
+\newcommand\dirlogo{/home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE/}
+\newcommand\dirbiblio{/home/hugo/svn/SEISCOPE_ARTICLES/BIBLIO/}
+
+
+% automatic logo in the header on slides -> should not be changed
+\addtobeamertemplate{frametitle}{}{%
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_dark_background}};
+  %\node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_light_background}};
+\end{tikzpicture}}
+
+
+
+% END OF TUNING OF THE THEME AND PACKAGES
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% INFORMATIONS
+\title{Article: Preseismic Fault Slip and Earthquake Prediction}								% TITLE
+\subtitle{Author: J. H. Dietrich (USGS 1978)}					% SUBTITLE
+\setbeamertemplate{frame footer}{Earthquake precursors - Reading group}		% BOTTOM TITLE ON EACH SLIDES
+\newdate{date}{05}{01}{2017}							% DEFINE DATE
+\date{\today}
+\author{Hugo S. S\'anchez-Reyes}								% AUTHOR
+\institute{ISTerre, Universit\'e Grenoble Alpes}							% INSTITUTE
+\titlegraphic{\hfill\includegraphics[height=1.6cm]{Figs/cover.jpg}}	% Edit path to seiscope_color_light_background
+%\titlegraphic{\hfill\includegraphics[height=1.6cm]{\dirlogo/seiscope_color_dark_background}}	% Edit path to seiscope_color_dark_background
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% BEGIN DOCUMENT
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+\begin{document}
+
+% TITLE PAGE
+\maketitle
+
+
+
+\section{Introduction}
+
+\begin{frame}{2018 Mw5.7 19th July Mexico}
+
+  \centering \large Weird isn't it?\\
+  \vskip 0.5cm
+  \includegraphics[width=0.55\linewidth]{Figs/weird.jpg}
+  \vskip 0.05cm
+  A bug? antropogenic? coinsidence?
+
+\end{frame}
+
+
+
+\begin{frame}{Inverse problems}
+
+Most attempts to determine this mechanism have concentrated 
+on observations of the ratio of compressional to shear velocity, $V_p/V_s$ 
+prior to earthquakes.\\
+\vskip 0.5cm
+One of the most widely reported earthquake precursors, indicate that 
+$V_p/V_s$ first decreases to anomalously low values in advance of 
+an earthquake and then recovers to approximately the normal values 
+shortly prior to the earthquake.\\
+\vskip 0.5cm
+Dilatancy would predict a progressive decrease in $V_p/V_s$ but not the recovery.\\
+\vskip 0.5cm
+\begin{minipage}{0.45\linewidth}
+Diffusion+Dilatancy = fluid migration would better explain both: \\
+fits the observed precursor time VS magnitude data.
+\end{minipage}\quad
+\begin{minipage}{0.45\linewidth}
+Other mechanism+Dilatancy explaining Velocity recovery without fluid diffusion in the focal
+\end{minipage}
+
+\end{frame}
+
+
+\begin{frame}{Inverse problems}
+
+Several authors cite evidence which suggests that preseismic fault slip has occurred before at least some earthquake.\\
+\begin{itemize}
+ \item At Cienega Winery (San Andreas fault), fault creep rates accelerated from 12 to 20 mm/yr 
+       18 months prior to two earthquakes (Mw=5.5 and 5.6).
+ \item Before M=5.5 June 27 1966 Parkfield unusual ground cracking was observed that could
+       exceeds the dilational strain rates. 
+ \item Others ...
+\end{itemize}
+
+
+This paper has two purposes: 
+\begin{itemize}
+ \item Laboratory evidence for preseismic slip in artificially faulted samples.
+ \item Mechanisms involving premonitory fault slip are compatible with the slope of the $\log t$ vs $M$ data.
+\end{itemize}
+
+
+\end{frame}
+
+
+\begin{frame}{}
+
+\begin{minipage}{0.45\linewidth}
+  \includegraphics[width=1\linewidth]{Figs/figure_1.jpg}
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+Two processes:
+\begin{itemize}
+ \item Stable sliding: aseismic creep ... smooth displacement on the fault surfaces without sudden changes in the displacement rate
+ \item Stick slip: earthquakes ... relative long period with no slip and the shear stress increases, punctuated by the abrupt onset of rapid slip accompanied by a stress drop
+ \item Mixtures
+\end{itemize}
+Scholz et al. and Byerlee and Summers experiments have suggested 
+that stable fault slip may precede earthquakes.
+
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}
+ 
+Hence preseismic slip displacements could be of similar magnitude for 
+laboratory specimens and large faults. \\
+{\bf Would make difficult to observe 
+premonitory slip. Bad scenario.} \\
+\vskip 0.5cm
+Premonitory displacements may be proportional to slip-induced stress or 
+strain changes on the fault. {\bf Good scenario.}
+
+ 
+
+\end{frame}
+
+
+
+\begin{frame}{}
+
+\begin{minipage}{0.45\linewidth}
+  \includegraphics[width=1\linewidth]{Figs/figure_1.jpg}
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \includegraphics[width=1\linewidth]{Figs/figure_2.jpg}
+\end{minipage}
+
+Experiments were conducted at low normal stresses 4-18 MPa. 
+Stick slip was observed throughout this range. Of more than 150 stick slip 
+events recorded in detail, premonitory slip was observed in all but two cases.
+
+
+\end{frame}
+
+
+\begin{frame}{}
+\vspace{20pt}
+\begin{minipage}{0.45\linewidth}
+  \includegraphics[width=1\linewidth]{Figs/figure_2.jpg}
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \includegraphics[width=1\linewidth]{Figs/figure_3.jpg}
+\end{minipage}\\
+\vskip 0.2cm
+{\small Stage I is the slow propagation of slip across the sample, with slip rates 
+controlled by the externally applied.\\
+\vskip 0.1cm
+Stage ii consists of a much shorter interval (< 10$^{-2}s$)
+after the initial slip event reaches the sample edge. The shear
+stress decreases. Consists of a slip velocity perturbation triggered
+when the stage i slip breaks out at the end of the sample. \\
+\vskip 0.1cm
+Stage III is the resulting unstable (seismic) slip that is driven by a sharp drop in frictional force.}
+
+
+\end{frame}
+
+
+\begin{frame}{}
+
+\begin{center}
+\includegraphics[width=0.7\linewidth]{Figs/figure_4.jpg} 
+\end{center}
+
+
+
+Seismic slip in the absence of premonitory creep occurred only 
+when the barriers, i.e., stress, were very small. 
+In the usual situation, where seismic slip occurs following fault creep, 
+the heterogeneity in the fault at the time of unstable slip is also effectively zero.
+
+\end{frame}
+
+
+
+\begin{frame}
+ 
+Two questions relevant to the application of
+preseismic slip to earthquake faults may be asked:
+
+\begin{itemize}
+ \item what is the magnitude of the average change in shear stress required to 
+overcome the fault friction measured in relation to the shear stress when 
+slip first begin for faults? 
+ \item Is it possible that preslip occurs on very limited portions of a fault and that
+seismic slip propagates well beyond the preslip zones?
+\end{itemize}
+
+
+
+\end{frame}
+
+
+\begin{frame}{}
+
+\begin{center}
+  \includegraphics[width=0.6\linewidth]{Figs/figure_5.jpg}
+\end{center}
+
+ 
+
+A number of investigators have reported a correlation between 
+$M$ and duration of the anomalous period $t$.
+
+\begin{equation}
+ M = \alpha + \beta \log t
+\end{equation}
+
+TIme dependence argues a dilatancy/diffusion behaviour.
+
+\end{frame}
+
+
+\begin{frame}{}
+
+\begin{center}
+  \includegraphics[width=0.6\linewidth]{Figs/figure_6.jpg}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{}
+
+\begin{center}
+  \includegraphics[width=0.6\linewidth]{Figs/figure_7.jpg}
+\end{center}
+
+\end{frame}
+
+
+
+
+
+
+
+
+\begin{frame}{}
+
+\begin{minipage}{0.45\linewidth}
+  \includegraphics[width=1\linewidth]{Figs/tables.jpg}
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+\end{minipage}
+
+\end{frame}
+
+
+
+
+
+%\scriptsize
+\begin{frame}[allowframebreaks]{References}
+
+{\Large For further reading on MCMC, SMCMC, HMCMC:}
+
+%    \bibliography{\dirbiblio/biblioseiscope,\dirbiblio/bibliotmp}							% Edit path to biblio
+%    \bibliographystyle{apalike}
+%    \vskip 0.5cm
+%    \centering {\Large Thanks for listening!}\\
+%    {\Large Please let me know if you know more strategies!}
+    
+\end{frame}
+
+
+
+
+
+
+\end{document}
+
+
