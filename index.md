@@ -10,7 +10,7 @@ title: Hugo Samuel Sánchez-Reyes
     
 Name : Hugo S. Sánchez-Reyes
 
-e-mail : [hugo.sanchez-reyes@univ-grenoble-alpes.fr](http://www.gmail.com)
+e-mail : [hugo.sanchez-reyes@univ-grenoble-alpes.fr](mailto:hugo.sanchez-reyes@univ-grenoble-alpes.fr)
 
 github : [hugosanrocks](https://github.com/hugosanrocks)
 
