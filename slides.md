@@ -20,9 +20,9 @@ tags: [Seismic precursors, earthquakes, precursory phase]
 Presentations from previous discussions:
 </p>
 <ol>
-  <li>24/07/18 Discussion about Dietrich (1978). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Abercrombie_1996_NAT.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <li>24/07/18 Discussion about Dietrich (1978). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/dietrich_1978_24_07_18/Meeting_24-07-18.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
-  <li>06/10/18 Discussion about Scholz (1973). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Bouchon_2011_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <li>06/10/18 Discussion about Scholz (1973). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/scholz_1973_6_10_18/01_Scholz_1973.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
 </ol>
 <br>

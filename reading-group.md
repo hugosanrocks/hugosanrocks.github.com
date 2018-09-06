@@ -17,7 +17,7 @@ tags: [Seismic precursors, earthquakes, precursory phase]
 <hr>
 <br>
 <br>
-Presentations from previous discussions click <a href="http://hugosanrocks.github.io/slides"> here.
+Presentations from previous discussions click <a href="http://hugosanrocks.github.io/slides"> here</a>.
 <br>
 <br>
 The following is a list of possible papers to discuss during our meetings:
