@@ -12,9 +12,12 @@ tags: [Seismic precursors, earthquakes, precursory phase]
 <br>
 <hr>
 <hr>
-<b>Attention: Next meeting on 6th September 2018 at 10:00 room 340 (ISTerre Grenoble). The paper to be discussed will be Scholz (1973). Bring your favorite hot drink!</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Dietrich_1978_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/coffee.png" alt="" width="15" height="16" border="0"></a></em>
+<b>Attention: Next meeting on 20th September 2018 at 14:00 room 340 (ISTerre Grenoble). The paper to be discussed will be Jones & Molnar (1979). Bring your favorite hot drink!</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Jones_1979_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/coffee.png" alt="" width="15" height="16" border="0"></a></em>
 <hr>
 <hr>
+<br>
+<br>
+Presentations from previous discussions click [here](https://www.facebook.com/hugosamuel.sanchezreyes)
 <br>
 <br>
 The following is a list of possible papers to discuss during our meetings:
