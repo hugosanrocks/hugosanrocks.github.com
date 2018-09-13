@@ -28,7 +28,7 @@ Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github
 <li> Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-Herrera, M. T., Castillo-Aja, R., Singh, S. K. and Ji, C. Was the October 9th 1995 Mw8 Jalisco Mexico earthquake a near trench event? <i>Accepted for publication in <b>Journal of Geophysical Research</b></i>. </li>
 <br>
 <li><b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i><b>Journal of Geophysical Research</b></i>, <b> DOI: </b> 10.1029/2017JB015388.</li> [Link to paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388) <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
-</ol>
+
 
 ## Under review
 
