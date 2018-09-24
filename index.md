@@ -48,7 +48,7 @@ Inverse problems, uncertainty assessment, kinematic source modeling, strong moti
 <dl>
   <dt>Station: Huatulco (Oaxaca) </dt><br class="br-dummy">
   <dt>Keyname: HUIG</dt><br class="br-dummy">
-  <dt>Location: <br><i>Latitude:</i> 15.769</dt> <i>Longitude:</i> -96.108</dt>
+  <dt>Location: <br><i>Latitude:</i> 15.769</dt> <i>Longitude:</i> -96.108
 </dl>
 <div>
    <img src="http://www.ssn.unam.mx/recursos/imagenes/sismogramas/sismogramaHU.gif" class="center-block img-responsive" data-action="zoom" id="sismograma" alt="Sismograma CUIG">
