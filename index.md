@@ -29,9 +29,11 @@ Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github
 <br>
 2. <b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i><b>Journal of Geophysical Research</b></i>, <b> DOI: </b> 10.1029/2017JB015388. [link to journal](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388) <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
 
+Jara, J., <b>Sánchez-Reyes, H. S.</b>, Socquet, A., Cotton, F., Virieux, J., Maksymowicz, A., Díaz-Mojica, J., Walpersdorf, A., Ruiz, J., Cotte, N.and Norabuena, E. Kinematic Study of Iquique 2014 Mw8.1 earthquake: understanding the segmentation of the seismogenic zone. <i><b>Earth and Planetary Science Letters</b></i>, 503 (2018) 131–143. [link to journal](https://authors.elsevier.com/c/1Xqo3,Ig4DCTm) <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Jara_2018_EPSL.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
+
 ## Under review
 
-Jara, J., <b>Sánchez-Reyes, H. S.</b>, Socquet, A., Cotton, F., Virieux, J., Maksymowicz, A., Díaz-Mojica, J., Walpersdorf, A., Ruiz, J., Cotte, N.and Norabuena, E. Kinematic Study of Iquique 2014 Mw8.1 earthquake: understanding the segmentation of the seismogenic zone. <i> Under Review in <b>Earth and Planetary Science Letters</b></i>, January 2018.
+
 
 ## Reading group
 
