@@ -22,7 +22,9 @@ Presentations from previous discussions:
 <ol>
   <li>24/07/18 Discussion about Dietrich (1978). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/dietrich_1978_24_07_18/Meeting_24-07-18.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
-  <li>06/10/18 Discussion about Scholz (1973). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/scholz_1973_6_10_18/01_Scholz_1973.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <li>06/09/18 Discussion about Scholz (1973). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/scholz_1973_6_10_18/01_Scholz_1973.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>04/10/18 Discussion about Dodges et al. (1996). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/Dodge_1996_4_10_18/Reading_groupe_4-10-18.pptx"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
 </ol>
 <br>
