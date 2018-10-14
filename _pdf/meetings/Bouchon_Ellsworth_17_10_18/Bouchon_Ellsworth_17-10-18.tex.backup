@@ -238,54 +238,48 @@ Acceleration increase again 1 min before the earthquake:
 \end{frame}
 
 
-\begin{frame}{Why do they look so similar:}
+\begin{frame}{Why they can look so similar:}
 
 \begin{minipage}{0.45\linewidth}
+ Their spectral corner frequencies are both higher than
+the maximum frequency displayed (35 Hz), which
+means that the two shocks appear as point sources
+over the frequency range considered and that
+their source size is not resolvable with the data.
 
- Their spectral corner frequencies is higher than
- the maximum frequency displayed (35 Hz): \\
- {\bf (seen as false point sources)} \\
- \vskip 0.1cm
- Or, the two events may have nearly the same corner frequencies, 
- because spectral amplitude drops off rapidly beyond an event corner frequency. \\
- \vskip 0.1cm
- Same patch, same length ($\approx$ 300 m) \\
- but different slip: \\
- 1st a little less than 1 cm (0.8 cm) \\ 
- 2nd a little less than 1 mm (0.8 mm) \\ 
- 1st stress drop of ~2.6 MPa  \\
- 2nd stress drop of ~0.3 MPa 
-%The spectra you showed is from the S wave.... this arrivval does 
-%not represent the source length (from my experience). The source 
-%length might not be related to this peak/amplitude of the S wave
-\end{minipage} \,
+Alternatively, the two events may have nearly
+the same corner frequencies, because spectral am-
+plitude drops off rapidly beyond an event corner
+frequency.
+
+This is surprising because the shocks
+have very different amplitudes (table S1).
+
+The spectra you showed is from the S wave.... this arrivval does 
+not represent the source length (from my experience). The source 
+length might not be related to this peak/amplitude of the S wave
+\end{minipage}
 \begin{minipage}{0.45\linewidth}
- \includegraphics[width=1\linewidth]{Figs/fig5.jpg} \\
- {\small (A to C) Comparison of the S-wave ground-velocity spectra of some events. The peak recorded amplitude of
- each event is given in parenthesis and is expressed in micrometers per second.}
+ \includegraphics[width=1\linewidth]{Figs/fig5.jpg}
 \end{minipage}
 
  
 \end{frame}
 
-\begin{frame}{Creep loading surrounding areas?}
+\begin{frame}
+ 
+ Creep loading surrounding areas
+ 
+ Compared with the present events, they
+usually have recurrent times of months or years
+and similar magnitudes. A possible reason for the
+magnitude difference observed here is that the
+interevent time of the pre-Izmit shocks is extremely
+short, possibly forcing the response of the patch.
 
- {\bf Repetive earthquake due to creep:} \\
- \vskip 0.2cm
- They usually have recurrent times of months or years
- and similar magnitudes. \\
- \vskip 0.5cm
 
- {\bf In this case, separated by minutes!} \\
- \vskip 0.2cm
- A possible reason for the magnitude difference 
- observed here is that the interevent time of the 
- pre-Izmit shocks is extremely short, possibly forcing 
- the response of the patch.
-
-  \vskip 0.4cm
-\centering {\bf patch responds not only to the loading but also to
-the loading rate, which may be highly irregular.}
+patch responds not only to the loading but also to
+the loading rate, which may be highly irregular.
 
  
 \end{frame}
@@ -306,25 +300,30 @@ the loading rate, which may be highly irregular.}
   happening around the hypocentral area.}  
  \end{center}
 
+
+
+ 
 \end{frame}
 
-\begin{frame}{Summary}
+\begin{frame}
  
- These observations show that this particular earthquake 
- was preceded by a phase of slow slip occurring at the 
- base of the brittle crust. \\
- \vskip 0.2cm
+ These observations show that this
+particular earthquake was preceded by a phase of
+slow slip occurring at the base of the brittle crust.
 
- This observations (long duration nucleation phase)
- and similarity between foreshocks and mainshock are encouraging
- for early-warning systems... \\
- \vskip 0.2cm
- but
- \vskip 0.2cm
- other well-recorded earthquakes, 1999 Chi-Chi (Taiwan) or 
- 2004 Parkfield (California), o not show evidence for similar 
- foreshocks or nucleation events.
- \vfill
+This observations (long duration nucleation phase)
+and similarity between foreshocks and mainshock are encouraging
+for early-warning systems...
+
+but
+
+other well-recorded earthquakes, 
+1999 Chi-Chi (Taiwan) 
+2004 Parkfield (California) 
+do not show evidence for similar foreshocks or nucleation events.
+
+
+ 
 \end{frame}
 
 

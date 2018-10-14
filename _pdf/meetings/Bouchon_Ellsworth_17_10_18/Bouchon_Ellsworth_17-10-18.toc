@@ -1,3 +1,3 @@
 \beamer@endinputifotherversion {3.24pt}
 \select@language {english}
-\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {1}{Bouchon et al. (2011): Pre-slip observations before the 1999 Izmit earthquake.}{2}{0}{1}
