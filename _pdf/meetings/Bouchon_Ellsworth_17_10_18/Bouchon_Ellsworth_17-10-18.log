@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2017.9.1)  14 OCT 2018 16:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2018.10.15)  15 OCT 2018 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1365,6 +1365,24 @@ Package: perpage 2006/07/15 1.12 Reset/sort counters per page
 )
 \c@pp@a@footnote=\count383
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 117.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 117.
+
 (./Bouchon_Ellsworth_17-10-18.aux)
 \openout1 = `Bouchon_Ellsworth_17-10-18.aux'.
 
@@ -1525,33 +1543,49 @@ LaTeX Info: Redefining \includegraphics on input line 117.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 (./Bouchon_Ellsworth_17-10-18.nav)
-<Figs/cover.jpg, id=17, 1346.02875pt x 524.96124pt>
-File: Figs/cover.jpg Graphic file (type jpg)
- <use Figs/cover.jpg>
-Package pdftex.def Info: Figs/cover.jpg used on input line 120.
-(pdftex.def)             Requested size: 116.72153pt x 45.52458pt.
+<Figs/logo-is.png, id=17, 218.8175pt x 162.6075pt>
+File: Figs/logo-is.png Graphic file (type png)
+ <use Figs/logo-is.png>
+Package pdftex.def Info: Figs/logo-is.png used on input line 120.
+(pdftex.def)             Requested size: 30.63089pt x 22.76228pt.
 
-Overfull \vbox (64.02446pt too high) detected at line 120
+<Figs/logo-uga.jpg, id=19, 487.8225pt x 316.18124pt>
+File: Figs/logo-uga.jpg Graphic file (type jpg)
+ <use Figs/logo-uga.jpg>
+Package pdftex.def Info: Figs/logo-uga.jpg used on input line 120.
+(pdftex.def)             Requested size: 35.11871pt x 22.76228pt.
+
+Overfull \vbox (155.07318pt too high) detected at line 120
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 120.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 120.
+<Figs/fig_izmit.jpg, id=20, 1025.8325pt x 375.4025pt>
+File: Figs/fig_izmit.jpg Graphic file (type jpg)
+ <use Figs/fig_izmit.jpg>
+Package pdftex.def Info: Figs/fig_izmit.jpg used on input line 120.
+(pdftex.def)             Requested size: 179.95857pt x 65.85107pt.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 Overfull \vbox (12.59242pt too high) detected at line 120
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figs/cover.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figs/logo-is.png> <./Fig
+s/logo-uga.jpg> <./Figs/fig_izmit.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 124.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 124.
+
 (./Bouchon_Ellsworth_17-10-18.toc)
 </home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background.png,
- id=27, 238.9728pt x 67.6929pt>
+ id=32, 238.9728pt x 67.6929pt>
 File: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background
 .png Graphic file (type png)
 
@@ -1578,7 +1612,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 142.
 
-<Figs/fig1.jpg, id=35, 642.4pt x 466.74374pt>
+<Figs/fig1.jpg, id=39, 642.4pt x 466.74374pt>
 File: Figs/fig1.jpg Graphic file (type jpg)
  <use Figs/fig1.jpg>
 Package pdftex.def Info: Figs/fig1.jpg used on input line 142.
@@ -1593,7 +1627,7 @@ lor_dark_background.png used on input line 142.
 (pdftex.def)             Requested size: 53.3946pt x 15.12498pt.
  [3
 
- <./Figs/fig1.jpg>] <Figs/fig2.jpg, id=44, 818.05624pt x 598.235pt>
+ <./Figs/fig1.jpg>] <Figs/fig2.jpg, id=48, 818.05624pt x 598.235pt>
 File: Figs/fig2.jpg Graphic file (type jpg)
 
 <use Figs/fig2.jpg>
@@ -1613,13 +1647,13 @@ Overfull \vbox (6.7181pt too high) detected at line 165
 
 [4
 
- <./Figs/fig2.jpg>] <Figs/fig4.jpg, id=50, 970.62625pt x 667.49374pt>
+ <./Figs/fig2.jpg>] <Figs/fig4.jpg, id=54, 970.62625pt x 667.49374pt>
 File: Figs/fig4.jpg Graphic file (type jpg)
 
 <use Figs/fig4.jpg>
 Package pdftex.def Info: Figs/fig4.jpg used on input line 185.
 (pdftex.def)             Requested size: 170.1431pt x 117.00667pt.
- <Figs/fig4_1-2.jpg, id=51, 1390.19376pt x 207.77625pt>
+ <Figs/fig4_1-2.jpg, id=55, 1390.19376pt x 207.77625pt>
 File: Figs/fig4_1-2.jpg Graphic file (type jpg)
 
 <use Figs/fig4_1-2.jpg>
@@ -1636,7 +1670,7 @@ lor_dark_background.png used on input line 185.
  [5
 
  <./Figs/fig4.jpg> <./Figs/fig4_1-2.jpg>]
-<Figs/fig_dist.jpg, id=57, 173.64874pt x 143.53625pt>
+<Figs/fig_dist.jpg, id=61, 173.64874pt x 143.53625pt>
 File: Figs/fig_dist.jpg Graphic file (type jpg)
  <use Figs/fig_dist.jpg>
 Package pdftex.def Info: Figs/fig_dist.jpg used on input line 209.
@@ -1683,7 +1717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--269
 
  []
 
-<Figs/fig5.jpg, id=75, 1180.41pt x 801.99625pt>
+<Figs/fig5.jpg, id=78, 1180.41pt x 801.99625pt>
 File: Figs/fig5.jpg Graphic file (type jpg)
  <use Figs/fig5.jpg>
 Package pdftex.def Info: Figs/fig5.jpg used on input line 269.
@@ -1714,7 +1748,7 @@ lor_dark_background.png used on input line 291.
 (pdftex.def)             Requested size: 53.3946pt x 15.12498pt.
  [10
 
-] <Figs/fig6.jpg, id=86, 1029.8475pt x 731.73375pt>
+] <Figs/fig6.jpg, id=89, 1029.8475pt x 731.73375pt>
 File: Figs/fig6.jpg Graphic file (type jpg)
 
 <use Figs/fig6.jpg>
@@ -1741,11 +1775,126 @@ File: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background
 <use /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background.
 png>
 Package pdftex.def Info: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_co
-lor_dark_background.png used on input line 328.
+lor_dark_background.png used on input line 330.
 (pdftex.def)             Requested size: 53.3946pt x 15.12498pt.
  [12
 
-]
+] <Figs/fig_1ells.jpg, id=100, 810.02625pt x 646.415pt>
+File: Figs/fig_1ells.jpg Graphic file (type jpg)
+
+<use Figs/fig_1ells.jpg>
+Package pdftex.def Info: Figs/fig_1ells.jpg used on input line 337.
+(pdftex.def)             Requested size: 810.02426pt x 646.41342pt.
+
+Overfull \hbox (482.82866pt too wide) in paragraph at lines 337--337
+[][]  
+ []
+
+File: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background
+.png Graphic file (type png)
+
+<use /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background.
+png>
+Package pdftex.def Info: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_co
+lor_dark_background.png used on input line 337.
+(pdftex.def)             Requested size: 53.3946pt x 15.12498pt.
+
+Overfull \vbox (424.33833pt too high) detected at line 337
+ []
+
+[13
+
+ <./Figs/fig_1ells.jpg>]
+<Figs/fig_2ells.jpg, id=107, 837.1275pt x 684.5575pt>
+File: Figs/fig_2ells.jpg Graphic file (type jpg)
+ <use Figs/fig_2ells.jpg>
+Package pdftex.def Info: Figs/fig_2ells.jpg used on input line 345.
+(pdftex.def)             Requested size: 837.12546pt x 684.55582pt.
+
+Overfull \hbox (509.92986pt too wide) in paragraph at lines 345--345
+[][]  
+ []
+
+
+Overfull \hbox (33.10966pt too wide) in paragraph at lines 345--345
+[][]  
+ []
+
+File: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background
+.png Graphic file (type png)
+
+<use /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background.
+png>
+Package pdftex.def Info: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_co
+lor_dark_background.png used on input line 345.
+(pdftex.def)             Requested size: 53.3946pt x 15.12498pt.
+
+Overfull \vbox (462.48073pt too high) detected at line 345
+ []
+
+[14
+
+ <./Figs/fig_2ells.jpg>] <Figs/fig_3ells.jpg, id=113, 819.06pt x 658.46pt>
+File: Figs/fig_3ells.jpg Graphic file (type jpg)
+
+<use Figs/fig_3ells.jpg>
+Package pdftex.def Info: Figs/fig_3ells.jpg used on input line 353.
+(pdftex.def)             Requested size: 819.058pt x 658.4584pt.
+
+Overfull \hbox (491.8624pt too wide) in paragraph at lines 353--353
+[][]  
+ []
+
+
+Overfull \hbox (66.21935pt too wide) in paragraph at lines 353--353
+[][]  
+ []
+
+File: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background
+.png Graphic file (type png)
+
+<use /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background.
+png>
+Package pdftex.def Info: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_co
+lor_dark_background.png used on input line 353.
+(pdftex.def)             Requested size: 53.3946pt x 15.12498pt.
+
+Overfull \vbox (436.38332pt too high) detected at line 353
+ []
+
+[15
+
+ <./Figs/fig_3ells.jpg>]
+<Figs/fig_4ells.jpg, id=119, 453.695pt x 727.71875pt>
+File: Figs/fig_4ells.jpg Graphic file (type jpg)
+ <use Figs/fig_4ells.jpg>
+Package pdftex.def Info: Figs/fig_4ells.jpg used on input line 361.
+(pdftex.def)             Requested size: 453.6939pt x 727.71696pt.
+
+Overfull \hbox (126.49829pt too wide) in paragraph at lines 361--361
+[][]  
+ []
+
+
+Overfull \hbox (99.32347pt too wide) in paragraph at lines 361--361
+[][]  
+ []
+
+File: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background
+.png Graphic file (type png)
+
+<use /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_color_dark_background.
+png>
+Package pdftex.def Info: /home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE//seiscope_co
+lor_dark_background.png used on input line 361.
+(pdftex.def)             Requested size: 53.3946pt x 15.12498pt.
+
+Overfull \vbox (505.64188pt too high) detected at line 361
+ []
+
+[16
+
+ <./Figs/fig_4ells.jpg>]
 \tf@nav=\write6
 \openout6 = `Bouchon_Ellsworth_17-10-18.nav'.
 
@@ -1755,14 +1904,14 @@ lor_dark_background.png used on input line 328.
 \tf@snm=\write8
 \openout8 = `Bouchon_Ellsworth_17-10-18.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
  (./Bouchon_Ellsworth_17-10-18.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 364.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
 Package rerunfilecheck Info: File `Bouchon_Ellsworth_17-10-18.out' has not chan
 ged.
-(rerunfilecheck)             Checksum: AD0638C16C6CD4B6B9C9FC8510E307BA;115.
+(rerunfilecheck)             Checksum: A8835AFEDE88F30803C5CB05FAF06471;121.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1771,14 +1920,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 364.
  ) 
 Here is how much of TeX's memory you used:
- 31852 strings out of 493304
- 609273 string characters out of 6139872
- 784256 words of memory out of 5000000
- 34556 multiletter control sequences out of 15000+600000
- 13128 words of font info for 48 fonts, out of 8000000 for 9000
+ 31905 strings out of 493304
+ 610207 string characters out of 6139870
+ 784788 words of memory out of 5000000
+ 34594 multiletter control sequences out of 15000+600000
+ 15490 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  61i,13n,79p,10392b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
@@ -1788,10 +1937,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Bouchon_Ellsworth_17-10-18.pdf (12 pages, 1405327 bytes).
+Output written on Bouchon_Ellsworth_17-10-18.pdf (16 pages, 2528132 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

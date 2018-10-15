@@ -1,7 +1,7 @@
 \beamer@endinputifotherversion {3.24pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
-\headcommand {\sectionentry {1}{Bouchon et al. (2011): Pre-slip observations before the 1999 Izmit earthquake.}{2}{Bouchon et al. (2011): Pre-slip observations before the 1999 Izmit earthquake.}{0}}
+\headcommand {\sectionentry {1}{Bouchon et al. (2011): Pre-slip observations before the M$_w$7.6 1999 Izmit earthquake.}{2}{Bouchon et al. (2011): Pre-slip observations before the M$_w$7.6 1999 Izmit earthquake.}{0}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
 \headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
@@ -26,8 +26,16 @@
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\slideentry {1}{0}{12}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\beamer@partpages {1}{12}}
-\headcommand {\beamer@subsectionpages {2}{12}}
-\headcommand {\beamer@sectionpages {2}{12}}
-\headcommand {\beamer@documentpages {12}}
-\headcommand {\def \inserttotalframenumber {10}}
+\headcommand {\slideentry {1}{0}{13}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {1}{0}{14}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{0}{15}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{0}{16}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@partpages {1}{16}}
+\headcommand {\beamer@subsectionpages {2}{16}}
+\headcommand {\beamer@sectionpages {2}{16}}
+\headcommand {\beamer@documentpages {16}}
+\headcommand {\def \inserttotalframenumber {14}}
