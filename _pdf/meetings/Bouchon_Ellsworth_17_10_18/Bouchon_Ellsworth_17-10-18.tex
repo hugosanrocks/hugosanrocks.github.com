@@ -85,7 +85,7 @@ cross/.default={20pt}}
 % automatic logo in the header on slides -> should not be changed
 \addtobeamertemplate{frametitle}{}{%
 \begin{tikzpicture}[remember picture,overlay]
-  \node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_dark_background}};
+  \node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{Figs/logo-is2}};
   %\node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_light_background}};
 \end{tikzpicture}}
 
@@ -97,8 +97,8 @@ cross/.default={20pt}}
 
 %-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 % INFORMATIONS
-\title{Articles: Bouchon et al. (2011) and Ellsworth et al. (2018)}								% TITLE
-\subtitle{Pre-slip or cascading earthquakes model for M$_w$7.6 1999 Izmit earthquake?}					% SUBTITLE
+\title{Bouchon et al. (2011) VS Ellsworth et al. (2018)}								% TITLE
+\subtitle{Pre-slip or cascade of earthquakes before the M$_w$7.6 1999 Izmit earthquake?}					% SUBTITLE
 \setbeamertemplate{frame footer}{Earthquake precursors - Reading group}		% BOTTOM TITLE ON EACH SLIDES
 \newdate{date}{05}{01}{2017}							% DEFINE DATE
 \date{\today}
@@ -120,6 +120,38 @@ cross/.default={20pt}}
 \maketitle
 
 
+\section{Introduction: Pre-slip vs cascade of foreshocks}
+
+
+\begin{frame}{Two points of view}
+ \begin{minipage}{0.45\linewidth}
+ \begin{center}
+   {\large Pre-slip model}
+ \end{center}
+   Foreshocks are triggered by aseismic slip over an area surrounding
+   the mainshock hypocentre. \\
+   \vskip 0.5cm
+   {\large Consequences:} \\
+   \vskip 0.1cm
+   The underlying aseismic slip might be a precursor to 
+   the earthquake.
+ \end{minipage} \quad
+ \begin{minipage}{0.45\linewidth}
+ \begin{center}
+  {\large Cascade model}
+ \end{center}
+  Foreshocks might occur by neighbour-to-neighbour stress transfer between them 
+  without an aseismic slip component. \\
+  \vskip 0.3cm
+  {\large Consequences:} \\
+  \vskip 0.1cm
+  The foreshocks are no different than any other set of clustered earthquakes.\\
+  \vskip 0.1cm
+  The mainshock is just a random outcome of triggering.
+ \end{minipage}
+ 
+\end{frame}
+
 
 \section{Bouchon et al. (2011): Pre-slip observations before the M$_w$7.6 1999 Izmit earthquake.}
 
@@ -137,8 +169,7 @@ cross/.default={20pt}}
   \includegraphics[width=1\linewidth]{Figs/fig1.jpg}
  \end{minipage}
 
- 
- 
+
 \end{frame}
 
 
@@ -330,34 +361,152 @@ the loading rate, which may be highly irregular.}
 \end{frame}
 
 
-\begin{frame}{Summary}
+\section{Nucleation of the 1999 Izmit earthquake by a triggered cascade of foreshocks}
+
+\begin{frame}{Main points in the article}
+
+\begin{itemize}
+ \item The foreshocks form a contiguous series of ruptures that progressed
+       systematically from west to east towards the mainshock hypocentre,
+       \vskip 0.5cm
+ \item The Izmit foreshock sequence occurred as a triggered cascade in which one foreshock loads the adjacent fault patch causing
+       it to fail.
+       \vskip 0.5cm
+ \item We find no evidence to support a hypothesized
+       precursory aseismic driving process.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{A big problem of the theory}
  
- \includegraphics{Figs/fig_1ells.jpg}
+ \begin{minipage}{0.45\linewidth}
+  The transition from a locked state to a dynamically growing rupture \\
+  due to pre-seismic growth of slip instability occurs at a reduced area \\
+  ($\approx$ decimeters)
+ \end{minipage} $\longrightarrow$
+ \begin{minipage}{0.45\linewidth}
+  \centering
+  small strain amplitude essentially impossible to detect at the surface \\ 
+  (hypocenter at 5–15 km depth) 
+ \end{minipage}
+ \begin{minipage}{0.3\linewidth}
+  
+ \end{minipage}
+ 
+\end{frame}
+
+
+\begin{frame}{Arguments:}
+ 
+ Similarity of foreshock waveforms only implies close proximity in space, not repeating rupture \\
+ \hfill {(\color{Red} Comment: Not sure about this!)} \\
+ \vskip 0.5cm
+ Analysis of seismograms from nine additional stations to identify, precisely 
+ locate and quantify the foreshocks, and interpret their progression toward the mainshock.\\
+ \vskip 0.7cm
+ The location of foreshocks and stress changes suggest a sequence of triggered earthquakes.
+\end{frame}
+
+
+
+\begin{frame}{Geometry}
+ 
+ \begin{minipage}{0.5\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig_1ells.jpg}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+ {\bf Cluster analysis}
+ \begin{itemize}
+  \item 4 episodes of foreshocks
+  \item each episode has a M$\ge$2.0 principal shock
+  \item Difference between depths (foreshock-mainshock) is $\pm$ 30 m
+ \end{itemize}
+ 
+ \end{minipage}
+
  
 \end{frame}
 
 
 
-\begin{frame}{Summary}
- 
- \includegraphics{Figs/fig_2ells.jpg}
- 
+\begin{frame}{Cluster analysis}
+
+  \begin{minipage}{0.7\linewidth}
+   \hspace{-20pt} \includegraphics[width=1.1\linewidth]{Figs/fig_2ells.jpg}
+  \end{minipage}
+  \begin{minipage}{0.28\linewidth}
+  \begin{itemize}
+   \item[a] Foreshocks
+   \vskip 0.2cm
+   \item[b] Residual after removing common mode.
+   \vskip 0.2cm
+   \item[c] Pairwise cross-correlation of residuals
+   \vskip 0.2cm
+   \item[d] Event family tree correlation based
+  \end{itemize}
+  \end{minipage}
+  
 \end{frame}
 
 
 
-\begin{frame}{Summary}
+\begin{frame}{Evolving shear stress changes on the fault plane during the foreshock sequence}
+ \vskip -0.2cm
  
- \includegraphics{Figs/fig_3ells.jpg}
+  \begin{center}
+   \includegraphics[height=0.6\linewidth]{Figs/fig_3ells.jpg} \\
+   1st: 17 mm 2nd: 39 mm and 4th 100 mm, while 3rd: 4mm \\
+   3rd produced the smallest stress drop
+ \end{center}
+ 
+\end{frame}
+
+\begin{frame}{From the analysis}
+ 
+ Because the foreshock waveforms are slightly dissimilar 
+ from one another, it is unlikely that any are repeating 
+ earthquakes. \\
+ \vskip 0.5cm
+ \centering \includegraphics[width=1\linewidth]{Figs/fig_3ells2.jpg} \\
  
 \end{frame}
 
 
-
 \begin{frame}{Summary}
  
- \includegraphics{Figs/fig_4ells.jpg}
+ \begin{minipage}{0.45\linewidth}
+  The 23:49 foreshock exhibits rupture directivity not seen in the other 
+  foreshocks (corner frequency measurements varying with azimuth). 
+ \end{minipage} \quad
+ \begin{minipage}{0.45\linewidth}
+  \begin{center}
+  \vskip -1cm \includegraphics[height=1.5\linewidth]{Figs/fig_4ells.jpg} \\
+  \end{center}
+
+  \vskip -0.5cm
+  P wave spectral ratios for the 23:49 and 23:59 foreshocks
+  computed using event 23:41 as the denominator and normalized at 1 Hz.
+ \end{minipage}
  
+\end{frame}
+
+
+\begin{frame}{Some conclusions}
+
+ The available seismic recordings presented here can 
+ neither confirm nor refute whether the noise originated 
+ in the foreshock zone or was unrelated to the earthquake.\\
+ \vskip 0.5cm
+ One feature of the foreshocks that we can be confident in is the
+ spatial roughness of slip and stress distribution in each earthquake. \\
+ \vskip 0.5cm
+ The nucleation of the Izmit earthquake and its foreshock sequence
+ can be mostly explained as a cascade of triggered events. \\
+ \vskip 0.5cm
+ While aseismic slip (unobservable) or fault-valve behaviour (at best
+ weakly supported by the evidence) are possible contributors.
 \end{frame}
 
 

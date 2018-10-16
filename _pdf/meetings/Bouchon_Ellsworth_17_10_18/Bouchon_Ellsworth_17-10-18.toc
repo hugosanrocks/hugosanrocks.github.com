@@ -1,3 +1,5 @@
 \beamer@endinputifotherversion {3.24pt}
 \select@language {english}
-\beamer@sectionintoc {1}{Bouchon et al. (2011): Pre-slip observations before the M$_w$7.6 1999 Izmit earthquake.}{2}{0}{1}
+\beamer@sectionintoc {1}{Introduction: Pre-slip vs cascade of foreshocks}{2}{0}{1}
+\beamer@sectionintoc {2}{Bouchon et al. (2011): Pre-slip observations before the M$_w$7.6 1999 Izmit earthquake.}{4}{0}{2}
+\beamer@sectionintoc {3}{Nucleation of the 1999 Izmit earthquake by a triggered cascade of foreshocks}{15}{0}{3}
