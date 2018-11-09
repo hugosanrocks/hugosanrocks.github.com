@@ -26,6 +26,10 @@ Presentations from previous discussions:
   <br>
   <li>04/10/18 Discussion about Dodge et al. (1996). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/Dodge_1996_4_10_18/Reading_groupe_4-10-18.pptx"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
+  <li>17/10/18 Discussion about Bouchon et al. (2011) and Ellsworth et al. (2018). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/Bouchon_Ellsworth_17_10_18/Bouchon_Ellsworth_17-10-18.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
+  <li>31/10/18 Discussion about Kato et al. (2012). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/Kato_2012_31_10_18/Kato_31-10-18.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
 </ol>
 <br>
 <br>
