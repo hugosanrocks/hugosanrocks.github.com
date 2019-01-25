@@ -47,6 +47,8 @@ interplate earthquakes. <em><a href="https://github.com/hugosanrocks/hugosanrock
   <br>
   <li>Huang et al. (2018). Slow Unlocking Processes Preceding the 2015 Mw 8.4 Illapel, Chile, Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Huang_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
+  <li>Helmstetter et al. (2003). Mainshocks are aftershocks of conditional foreshocks: How do foreshock statistical properties emerge from aftershock laws. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Helmstetter_2003_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <br>
   <li>Jones & Molnar (1979). Some characteristics of foreshocks and their possible relationship to earthquake prediction and premonitory slip on faults. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Jones_1979_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
   <li>Kato et al. (2012). Propagation of Slow Slip Leading Up to the 2011 Mw 9.0 Tohoku-Oki Earthquake. <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Kato_2012_SCI.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
