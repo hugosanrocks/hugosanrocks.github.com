@@ -12,7 +12,7 @@ tags: [Seismic precursors, earthquakes, precursory phase]
 <br>
 <hr>
 <hr>
-<b>Attention: Next meeting on 14th November 2018 at 14:00 room 340 (ISTerre Grenoble). The paper to be discussed will be Socquet et al. (2017). Bring your favorite hot drink!</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Socquet_2017_GRL.pdf"><img src="http://hugosanrocks.github.io/assets/img/coffee.png" alt="" width="15" height="16" border="0"></a></em>
+<b>Attention: Next meeting on 28th January 2019 at 14:00 room 042 (ISTerre Grenoble). The paper to be discussed will be Helmstetter et al. (2003). Bring your favorite hot drink!</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/Helmstetter_2003_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/coffee.png" alt="" width="15" height="16" border="0"></a></em>
 <hr>
 <hr>
 <br>
