@@ -1,0 +1,309 @@
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% TUNING OF THE THEME AND PACKAGES
+
+%Here should be chosen the global font size and aspect ratio
+%\documentclass[aspectratio=169,9pt]{beamer}
+\documentclass[aspectratio=43,9pt]{beamer}
+
+%here is the advised tuning of the metroseiscope theme -> a seiscope tuned version of metropolis
+\usetheme[sectionpage=seiscope, numbering=counter, progressbar=frametitle, background=light]{metroseiscope}
+%possible choices are
+%numbering=none,counter,fraction
+%progressbar=foot,head,frametitle
+\usepackage{pifont}
+\usepackage{marvosym}
+\usepackage{appendixnumberbeamer}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{algorithm2e}
+\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{shapes.misc}
+
+\usepackage{animate,media9} %,movie15}
+
+\usepackage{color}
+\input{Figs/rgb}
+
+
+
+
+\tikzset{cross/.style={cross out, draw=black, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},
+%default radius will be 1pt. 
+cross/.default={20pt}}
+
+
+\usepackage{datetime}
+%\usepackage{unicode-math} %work with Xelatex only
+
+\usepackage{animate}
+\usepackage{perpage}       %reinit the footnote number at each page/slide
+\MakePerPage{footnote}
+
+%font of the seiscope logo used for the beamer also
+%\setsansfont{Montserrat}
+
+
+%correct rendering of some png, pdf figure, which appears weird on Adobe Reader
+%\pdfpageattr{/Group <</S /Transparency /I true /CS /DeviceRGB>>}
+
+%*********************
+%footnote management
+%--------------------
+\let\oldfootnote\footnote
+\renewcommand\footnote[1][]{\oldfootnote[frame,#1]}
+%put defaultfootnote without number
+%\renewcommand{\thefootnote}{\*}
+%or manage it on the fly with
+%\renewcommand{\thefootnote}{\arabic{footnote}}
+%\renewcommand{\thefootnote}{\*}
+%*********************
+
+%size of the text, if required
+%\setbeamerfont{footnote}{size=\scriptsize}
+%\setbeamerfont{caption}{size=\scriptsize}
+
+
+%path to logo and biblio -> to be adapted to your local directories management
+\newcommand\dirlogo{/home/hugo/svn/SEISCOPE_ARTICLES/SEISCOPE/}
+\newcommand\dirbiblio{/home/hugo/svn/SEISCOPE_ARTICLES/BIBLIO/}
+
+
+% automatic logo in the header on slides -> should not be changed
+\addtobeamertemplate{frametitle}{}{%
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{Figs/logo-is2}};
+  %\node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_light_background}};
+\end{tikzpicture}}
+
+
+
+% END OF TUNING OF THE THEME AND PACKAGES
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% INFORMATIONS
+\title{Helmstetter et al. (2003)}								% TITLE
+\subtitle{Mainshocks are aftershocks of conditional foreshocks:
+How do foreshock statistical properties emerge from
+aftershock laws}					% SUBTITLE
+\setbeamertemplate{frame footer}{Earthquake precursors - Reading group}		% BOTTOM TITLE ON EACH SLIDES
+\newdate{date}{05}{01}{2017}							% DEFINE DATE
+\date{\today}
+\author{Hugo S. S\'anchez-Reyes}								% AUTHOR
+\institute{ \begin{center}  \end{center} }							% INSTITUTE
+\titlegraphic{\hfill \includegraphics[height=0.8cm]{Figs/logo-is.png} \, \includegraphics[height=0.8cm]{Figs/logo-uga.jpg} \vskip 4cm}	% Edit path to seiscope_color_light_background
+\date{ ISTerre, Universit\'e Grenoble Alpes}
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+
+
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% BEGIN DOCUMENT
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+\begin{document}
+
+% TITLE PAGE
+\maketitle
+
+
+\section{Introduction: Pre-slip vs cascade of foreshocks}
+
+
+\begin{frame}{Two points of view}
+ \begin{minipage}{0.45\linewidth}
+ \begin{center}
+   {\large Pre-slip model}
+ \end{center}
+   Foreshocks are triggered by aseismic slip over an area surrounding
+   the mainshock hypocentre. \\
+   \vskip 0.5cm
+   {\large Consequences:} \\
+   \vskip 0.1cm
+   The underlying aseismic slip might be a precursor to 
+   the earthquake.
+ \end{minipage} \quad
+ \begin{minipage}{0.45\linewidth}
+ \begin{center}
+  {\large Cascade model}
+ \end{center}
+  Foreshocks might occur by neighbour-to-neighbour stress transfer between them 
+  without an aseismic slip component. \\
+  \vskip 0.3cm
+  {\large Consequences:} \\
+  \vskip 0.1cm
+  The foreshocks are no different than any other set of clustered earthquakes.\\
+  \vskip 0.1cm
+  The mainshock is just a random outcome of triggering.
+ \end{minipage}
+ 
+\end{frame}
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig1}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig2}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig3}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig4}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig5}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig6}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig7}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig8}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig9}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
+
+\begin{frame}
+ {}
+ 
+ \begin{minipage}{0.48\linewidth}
+   \includegraphics[width=1\linewidth]{Figs/fig10}
+ \end{minipage}
+ \begin{minipage}{0.48\linewidth}
+
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
+\end{document}
+
+
