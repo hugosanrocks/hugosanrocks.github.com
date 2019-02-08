@@ -32,7 +32,7 @@ Presentations from previous discussions:
   <br>
   <li>18/01/19 Discussion about Jones and Molnar (1979). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/Jones_Molnar_1979_18_01_19/Jones_Molnar_1979_18_01_19.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
-  <li>11/02/19 Discussion about Marsan and Lenliné (2008). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/Marsan_2008_11_02_19/Marsan_2008_11_02_19.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
+  <li>11/02/19 Discussion about Marsan and Lengliné (2008). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/meetings/Marsan_2008_11_02_19/Marsan_2008_11_02_19.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em></li>
   <br>
 </ol>
 <br>
