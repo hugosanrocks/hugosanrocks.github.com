@@ -34,8 +34,8 @@ El tamaño de un terremoto es controlado por la energía que liberó la Tierra y
           data-src="/assets/img/figure1.jpg"
           data-srcset=""
         >
-![Alt text](../assets/img/figure1.svg)
-<img src="../assets/img/figure1.svg">
+![Alt text](https://potherca-blog.github.io/StackOverflow/question.13808020.include-an-svg-hosted-on-github-in-markdown/controllers_brief.svg)
+<img src="https://potherca-blog.github.io/StackOverflow/question.13808020.include-an-svg-hosted-on-github-in-markdown/controllers_brief.svg">
 <br>
 Figura 1: Escalas de magnitud e intensidad.
 <br>
