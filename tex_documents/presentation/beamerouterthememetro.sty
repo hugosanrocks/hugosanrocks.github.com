@@ -1,10 +1,10 @@
 %%
-%% This is file `beamerouterthememetroseiscope.sty',
+%% This is file `beamerouterthememetro.sty',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
-%% beamerouterthememetroseiscope.dtx  (with options: `package')
+%% beamerouterthememetro.dtx  (with options: `package')
 %% ---------------------------------------------------------------------------
 %% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
 %% contributors can be found at
@@ -17,43 +17,43 @@
 %% International License (https://creativecommons.org/licenses/by-sa/4.0/).
 %% ---------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{beamerouterthememetroseiscope}[2016/03/14 metroseiscope outer theme]
+\ProvidesPackage{beamerouterthememetro}[2016/03/14 metro outer theme]
 \RequirePackage{etoolbox}
 \RequirePackage{calc}
 \RequirePackage{pgfopts}
 \pgfkeys{
-  /metroseiscope/outer/numbering/.cd,
+  /metro/outer/numbering/.cd,
     .is choice,
     none/.code=\setbeamertemplate{frame numbering}[none],
     counter/.code=\setbeamertemplate{frame numbering}[counter],
     fraction/.code=\setbeamertemplate{frame numbering}[fraction],
 }
 \pgfkeys{
-  /metroseiscope/outer/progressbar/.cd,
+  /metro/outer/progressbar/.cd,
     .is choice,
     none/.code={%
       \setbeamertemplate{headline}[plain]
       \setbeamertemplate{frametitle}[plain]
       \setbeamertemplate{footline}[plain]
     },
-    head/.code={\pgfkeys{/metroseiscope/outer/progressbar=none}
+    head/.code={\pgfkeys{/metro/outer/progressbar=none}
       \addtobeamertemplate{headline}{}{%
         \usebeamertemplate*{progress bar in head/foot}
       }
     },
-    frametitle/.code={\pgfkeys{/metroseiscope/outer/progressbar=none}
+    frametitle/.code={\pgfkeys{/metro/outer/progressbar=none}
       \addtobeamertemplate{frametitle}{}{%
         \usebeamertemplate*{progress bar in head/foot}
       }
     },
-    foot/.code={\pgfkeys{/metroseiscope/outer/progressbar=none}
+    foot/.code={\pgfkeys{/metro/outer/progressbar=none}
       \addtobeamertemplate{footline}{}{%
         \usebeamertemplate*{progress bar in head/foot}%
       }
     },
 }
-\newcommand{\metroseiscope@outer@setdefaults}{
-  \pgfkeys{/metroseiscope/outer/.cd,
+\newcommand{\metro@outer@setdefaults}{
+  \pgfkeys{/metro/outer/.cd,
     numbering=counter,
     progressbar=none,
   }
@@ -75,59 +75,59 @@
     \usebeamertemplate*{frame numbering}
   \end{beamercolorbox}%
 }
-\newlength{\metroseiscope@frametitle@padding}
-\setlength{\metroseiscope@frametitle@padding}{1.5ex}
-\newcommand{\metroseiscope@frametitlestrut@start}{
-  \rule{0pt}{\metroseiscope@frametitle@padding +%
+\newlength{\metro@frametitle@padding}
+\setlength{\metro@frametitle@padding}{1.5ex}
+\newcommand{\metro@frametitlestrut@start}{
+  \rule{0pt}{\metro@frametitle@padding +%
     \totalheightof{%
-      \ifcsdef{metroseiscope@frametitleformat}{\metroseiscope@frametitleformat X}{X}%
+      \ifcsdef{metro@frametitleformat}{\metro@frametitleformat X}{X}%
     }%
   }%
 }
-\newcommand{\metroseiscope@frametitlestrut@end}{
-  \rule[-\metroseiscope@frametitle@padding]{0pt}{\metroseiscope@frametitle@padding}
+\newcommand{\metro@frametitlestrut@end}{
+  \rule[-\metro@frametitle@padding]{0pt}{\metro@frametitle@padding}
 }
 \defbeamertemplate{frametitle}{plain}{%
   \nointerlineskip%
   \begin{beamercolorbox}[%
       wd=\paperwidth,%
       sep=0pt,%
-      leftskip=\metroseiscope@frametitle@padding,%
-      rightskip=\metroseiscope@frametitle@padding,%
+      leftskip=\metro@frametitle@padding,%
+      rightskip=\metro@frametitle@padding,%
     ]{frametitle}%
-  \metroseiscope@frametitlestrut@start%
+  \metro@frametitlestrut@start%
   \insertframetitle%
   \nolinebreak%
-  \metroseiscope@frametitlestrut@end%
+  \metro@frametitlestrut@end%
   \end{beamercolorbox}%
 }
 \setbeamertemplate{frametitle continuation}{%
   \usebeamerfont{frametitle}
   \romannumeral \insertcontinuationcount
 }
-\newlength{\metroseiscope@progressinheadfoot}
+\newlength{\metro@progressinheadfoot}
 \setbeamertemplate{progress bar in head/foot}{
   \nointerlineskip
-  \setlength{\metroseiscope@progressinheadfoot}{%
+  \setlength{\metro@progressinheadfoot}{%
     \paperwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
   }%
   \begin{beamercolorbox}[wd=\paperwidth]{progress bar in head/foot}
     \begin{tikzpicture}
       \fill[bg] (0,0) rectangle (\paperwidth, 1.2pt);
-      \fill[fg] (0,0) rectangle (\metroseiscope@progressinheadfoot, 2pt);
+      \fill[fg] (0,0) rectangle (\metro@progressinheadfoot, 2pt);
     \end{tikzpicture}%
   \end{beamercolorbox}
 }
 \AtBeginDocument{%
   \apptocmd{\appendix}{%
     \pgfkeys{%
-      /metroseiscope/outer/.cd,
+      /metro/outer/.cd,
       numbering=none,
       progressbar=none}
     }{}{}
 }
-\metroseiscope@outer@setdefaults
-\ProcessPgfPackageOptions{/metroseiscope/outer}
+\metro@outer@setdefaults
+\ProcessPgfPackageOptions{/metro/outer}
 \endinput
 %%
-%% End of file `beamerouterthememetroseiscope.sty'.
+%% End of file `beamerouterthememetro.sty'.

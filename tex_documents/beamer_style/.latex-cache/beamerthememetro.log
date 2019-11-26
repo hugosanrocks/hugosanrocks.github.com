@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2018.10.15)  26 NOV 2019 00:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2018.10.15)  26 NOV 2019 01:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -99,10 +99,10 @@ Generating file(s) ./beamerfontthememetro.sty
 
 Processing file beamerfontthememetro.dtx (package) -> beamerfontthememetro.sty
 File beamerfontthememetro.dtx ended by \endinput.
-Lines  processed: 413
+Lines  processed: 417
 Comments removed: 141
 Comments  passed: 0
-Codelines passed: 268
+Codelines passed: 272
 
 
 Generating file(s) ./beamercolorthememetro.sty 
@@ -149,10 +149,10 @@ Codelines passed: 102
 **************************************************************
 Overall statistics:
 Files  processed: 6
-Lines  processed: 1900
+Lines  processed: 1904
 Comments removed: 893
 Comments  passed: 0
-Codelines passed: 977
+Codelines passed: 981
  ) 
 Here is how much of TeX's memory you used:
  363 strings out of 493305

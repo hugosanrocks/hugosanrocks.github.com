@@ -1,10 +1,10 @@
 %%
-%% This is file `beamerthememetroseiscope.sty',
+%% This is file `beamerthememetro.sty',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
-%% beamerthememetroseiscope.dtx  (with options: `package')
+%% beamerthememetro.dtx  (with options: `package')
 %% ---------------------------------------------------------------------------
 %% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
 %% contributors can be found at
@@ -17,47 +17,47 @@
 %% International License (https://creativecommons.org/licenses/by-sa/4.0/).
 %% ---------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{beamerthememetroseiscope}
-  [2016/03/14 v1.1 metroseiscope Beamer theme]
+\ProvidesPackage{beamerthememetro}
+  [2016/03/14 v1.1 metro Beamer theme]
 \RequirePackage{etoolbox}
 \RequirePackage{pgfopts}
 \setbeamersize{text margin left=2em,text margin right=2em}
-\pgfkeys{/metroseiscope/.cd,
+\pgfkeys{/metro/.cd,
   .search also={
-    /metroseiscope/inner,
-    /metroseiscope/outer,
-    /metroseiscope/color,
-    /metroseiscope/font,
+    /metro/inner,
+    /metro/outer,
+    /metro/color,
+    /metro/font,
   }
 }
 \pgfkeys{
-  /metroseiscope/titleformat plain/.cd,
+  /metro/titleformat plain/.cd,
     .is choice,
     regular/.code={%
-      \let\metroseiscope@plaintitleformat\@empty%
+      \let\metro@plaintitleformat\@empty%
       \setbeamerfont{standout}{shape=\normalfont}%
     },
     smallcaps/.code={%
-      \let\metroseiscope@plaintitleformat\@empty%
+      \let\metro@plaintitleformat\@empty%
       \setbeamerfont{standout}{shape=\scshape}%
     },
     allsmallcaps/.code={%
-      \let\metroseiscope@plaintitleformat\MakeLowercase%
+      \let\metro@plaintitleformat\MakeLowercase%
       \setbeamerfont{standout}{shape=\scshape}%
-      \PackageWarning{beamerthememetroseiscope}{%
+      \PackageWarning{beamerthememetro}{%
         Be aware that titleformat plain=allsmallcaps can lead to problems%
       }
     },
     allcaps/.code={%
-      \let\metroseiscope@plaintitleformat\MakeUppercase%
+      \let\metro@plaintitleformat\MakeUppercase%
       \setbeamerfont{standout}{shape=\normalfont}%
-      \PackageWarning{beamerthememetroseiscope}{%
+      \PackageWarning{beamerthememetro}{%
         Be aware that titleformat plain=allcaps can lead to problems%
       }
     },
 }
 \pgfkeys{
-  /metroseiscope/titleformat/.code=\pgfkeysalso{
+  /metro/titleformat/.code=\pgfkeysalso{
       font/titleformat title=#1,
       font/titleformat subtitle=#1,
       font/titleformat section=#1,
@@ -65,7 +65,7 @@
       titleformat plain=#1,
     }
 }
-\pgfkeys{/metroseiscope/.cd,
+\pgfkeys{/metro/.cd,
   usetitleprogressbar/.code=\pgfkeysalso{outer/progressbar=frametitle},
   noslidenumbers/.code=\pgfkeysalso{outer/numbering=none},
   usetotalslideindicator/.code=\pgfkeysalso{outer/numbering=fraction},
@@ -73,34 +73,34 @@
   darkcolors/.code=\pgfkeysalso{color/background=dark},
   blockbg/.code=\pgfkeysalso{color/block=fill, inner/block=fill},
 }
-\newcommand{\metroseiscope@setdefaults}{
-  \pgfkeys{/metroseiscope/.cd,
+\newcommand{\metro@setdefaults}{
+  \pgfkeys{/metro/.cd,
     titleformat plain=regular,
   }
 }
-\useinnertheme{metroseiscope}
-\useoutertheme{metroseiscope}
-\usecolortheme{metroseiscope}
-\usefonttheme{metroseiscope}
+\useinnertheme{metro}
+\useoutertheme{metro}
+\usecolortheme{metro}
+\usefonttheme{metro}
 \AtEndPreamble{%
   \@ifpackageloaded{pgfplots}{%
     \RequirePackage{pgfplotsthemetol}
   }{}
 }
-\newcommand{\metroset}[1]{\pgfkeys{/metroseiscope/.cd,#1}}
-\def\metroseiscope@plaintitleformat#1{#1}
+\newcommand{\metroset}[1]{\pgfkeys{/metro/.cd,#1}}
+\def\metro@plaintitleformat#1{#1}
 \newcommand{\plain}[2][]{%
-  \PackageWarning{beamerthememetroseiscope}{%
-    The syntax `\plain' may be deprecated in a future version of metroseiscope.
+  \PackageWarning{beamerthememetro}{%
+    The syntax `\plain' may be deprecated in a future version of metro.
     Please use a frame with [standout] instead.
   }
   \begin{frame}[standout]{#1}
-    \metroseiscope@plaintitleformat{#2}
+    \metro@plaintitleformat{#2}
   \end{frame}
 }
 \newcommand{\mreducelistspacing}{\vspace{-\topsep}}
-\metroseiscope@setdefaults
-\ProcessPgfOptions{/metroseiscope}
+\metro@setdefaults
+\ProcessPgfOptions{/metro}
 \endinput
 %%
-%% End of file `beamerthememetroseiscope.sty'.
+%% End of file `beamerthememetro.sty'.

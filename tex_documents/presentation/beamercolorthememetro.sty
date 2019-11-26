@@ -1,10 +1,10 @@
 %%
-%% This is file `beamercolorthememetroseiscope.sty',
+%% This is file `beamercolorthememetro.sty',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
-%% beamercolorthememetroseiscope.dtx  (with options: `package')
+%% beamercolorthememetro.dtx  (with options: `package')
 %% ---------------------------------------------------------------------------
 %% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
 %% contributors can be found at
@@ -17,22 +17,22 @@
 %% International License (https://creativecommons.org/licenses/by-sa/4.0/).
 %% ---------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{beamercolorthememetroseiscope}[2016/03/14 metroseiscope color theme]
+\ProvidesPackage{beamercolorthememetro}[2016/03/14 metro color theme]
 \RequirePackage{pgfopts}
 \pgfkeys{
-  /metroseiscope/color/block/.cd,
+  /metro/color/block/.cd,
     .is choice,
-    transparent/.code=\metroseiscope@block@transparent,
-    fill/.code=\metroseiscope@block@fill,
+    transparent/.code=\metro@block@transparent,
+    fill/.code=\metro@block@fill,
 }
 \pgfkeys{
-  /metroseiscope/color/background/.cd,
+  /metro/color/background/.cd,
     .is choice,
-    dark/.code=\metroseiscope@colors@dark,
-    light/.code=\metroseiscope@colors@light,
+    dark/.code=\metro@colors@dark,
+    light/.code=\metro@colors@light,
 }
-\newcommand{\metroseiscope@color@setdefaults}{
-  \pgfkeys{/metroseiscope/color/.cd,
+\newcommand{\metro@color@setdefaults}{
+  \pgfkeys{/metro/color/.cd,
     background=light,
     block=transparent,
   }
@@ -41,16 +41,16 @@
 \definecolor{mDarkTeal}{HTML}{575757}
 \definecolor{mLightBrown}{HTML}{de9533}
 \definecolor{mLightGreen}{HTML}{14B03D}
-\newcommand{\metroseiscope@colors@dark}{
+\newcommand{\metro@colors@dark}{
   \setbeamercolor{normal text}{%
-    fg=blue!2,
+    fg=black!2,
     bg=mDarkTeal
   }
   \usebeamercolor[fg]{normal text}
 }
-\newcommand{\metroseiscope@colors@light}{
+\newcommand{\metro@colors@light}{
   \setbeamercolor{normal text}{%
-    fg=mDarkTeal,
+    fg=black!100,
     bg=white
   }
 }
@@ -91,7 +91,7 @@
   use=progress bar,
   parent=progress bar
 }
-\newcommand{\metroseiscope@block@transparent}{
+\newcommand{\metro@block@transparent}{
   \setbeamercolor{block title}{%
     use=normal text,
     fg=normal text.fg,
@@ -101,7 +101,7 @@
     bg=
   }
 }
-\newcommand{\metroseiscope@block@fill}{
+\newcommand{\metro@block@fill}{
   \setbeamercolor{block title}{%
     use=normal text,
     fg=normal text.fg,
@@ -126,9 +126,9 @@
 \setbeamercolor{block body example}{use=block body, parent=block body}
 \setbeamercolor{footnote}{fg=normal text.fg!90}
 \setbeamercolor{footnote mark}{fg=.}
-\metroseiscope@color@setdefaults
-\ProcessPgfPackageOptions{/metroseiscope/color}
+\metro@color@setdefaults
+\ProcessPgfPackageOptions{/metro/color}
 \mode<all>
 \endinput
 %%
-%% End of file `beamercolorthememetroseiscope.sty'.
+%% End of file `beamercolorthememetro.sty'.

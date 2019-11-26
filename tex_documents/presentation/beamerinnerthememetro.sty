@@ -1,10 +1,10 @@
 %%
-%% This is file `beamerinnerthememetroseiscope.sty',
+%% This is file `beamerinnerthememetro.sty',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
-%% beamerinnerthememetroseiscope.dtx  (with options: `package')
+%% beamerinnerthememetro.dtx  (with options: `package')
 %% ---------------------------------------------------------------------------
 %% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
 %% contributors can be found at
@@ -17,33 +17,33 @@
 %% International License (https://creativecommons.org/licenses/by-sa/4.0/).
 %% ---------------------------------------------------------------------------
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{beamerinnerthememetroseiscope}[2016/03/14 metroseiscope inner theme]
+\ProvidesPackage{beamerinnerthememetro}[2016/03/14 metro inner theme]
 \RequirePackage{etoolbox}
 \RequirePackage{keyval}
 \RequirePackage{calc}
 \RequirePackage{pgfopts}
 \RequirePackage{tikz}
 \pgfkeys{
-  /metroseiscope/inner/sectionpage/.cd,
+  /metro/inner/sectionpage/.cd,
     .is choice,
-    none/.code=\metroseiscope@disablesectionpage,
-    seiscope/.code=\metroseiscope@customsectionpage,
-    simple/.code={\metroseiscope@enablesectionpage
+    none/.code=\metro@disablesectionpage,
+    theme/.code=\metro@customsectionpage,
+    simple/.code={\metro@enablesectionpage
                   \setbeamertemplate{section page}[simple]},
-    progressbar/.code={\metroseiscope@enablesectionpage
+    progressbar/.code={\metro@enablesectionpage
                        \setbeamertemplate{section page}[progressbar]},
 }
 \pgfkeys{
-  /metroseiscope/inner/subsectionpage/.cd,
+  /metro/inner/subsectionpage/.cd,
     .is choice,
-    none/.code=\metroseiscope@disablesubsectionpage,
-    simple/.code={\metroseiscope@enablesubsectionpage
+    none/.code=\metro@disablesubsectionpage,
+    simple/.code={\metro@enablesubsectionpage
                   \setbeamertemplate{section page}[simple]},
-    progressbar/.code={\metroseiscope@enablesubsectionpage
+    progressbar/.code={\metro@enablesubsectionpage
                        \setbeamertemplate{section page}[progressbar]},
 }
-\newcommand{\metroseiscope@inner@setdefaults}{
-  \pgfkeys{/metroseiscope/inner/.cd,
+\newcommand{\metro@inner@setdefaults}{
+  \pgfkeys{/metro/inner/.cd,
     sectionpage=progressbar,
     subsectionpage=none
   }
@@ -148,7 +148,7 @@
   \vspace{\baselineskip}
 }
 
-\newcommand{\metroseiscope@customsectionpage}{
+\newcommand{\metro@customsectionpage}{
   \AtBeginSection[ ]
   {
   \begin{frame}<beamer>[noframenumbering]
@@ -170,12 +170,12 @@
   }
 }
 
-\newcommand{\metroseiscope@disablesectionpage}{
+\newcommand{\metro@disablesectionpage}{
   \AtBeginSection{
     % intentionally empty
   }
 }
-\newcommand{\metroseiscope@enablesectionpage}{
+\newcommand{\metro@enablesectionpage}{
   \AtBeginSection{
     \ifbeamer@inframe
       \sectionpage
@@ -191,12 +191,12 @@
 \setbeamertemplate{subsection page}{%
   \usebeamertemplate*{section page}
 }
-\newcommand{\metroseiscope@disablesubsectionpage}{
+\newcommand{\metro@disablesubsectionpage}{
   \AtBeginSubsection{
     % intentionally empty
   }
 }
-\newcommand{\metroseiscope@enablesubsectionpage}{
+\newcommand{\metro@enablesubsectionpage}{
   \AtBeginSubsection{
     \ifbeamer@inframe
       \subsectionpage
@@ -209,25 +209,25 @@
     \fi
   }
 }
-\newlength{\metroseiscope@progressonsectionpage}
+\newlength{\metro@progressonsectionpage}
 \setbeamertemplate{progress bar in section page}{
-  \setlength{\metroseiscope@progressonsectionpage}{%
+  \setlength{\metro@progressonsectionpage}{%
     \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
   }%
   \begin{tikzpicture}
     \fill[bg] (0,0) rectangle (\textwidth, 1.2pt);
-    \fill[fg] (0,0) rectangle (\metroseiscope@progressonsectionpage, 1.2pt);
+    \fill[fg] (0,0) rectangle (\metro@progressonsectionpage, 1.2pt);
   \end{tikzpicture}%
 }
 \def\inserttotalframenumber{100}
-\newlength{\metroseiscope@blocksep}
-\newlength{\metroseiscope@blockadjust}
-\setlength{\metroseiscope@blocksep}{0.75ex}
-\setlength{\metroseiscope@blockadjust}{0.25ex}
-\providecommand{\metroseiscope@strut}{%
+\newlength{\metro@blocksep}
+\newlength{\metro@blockadjust}
+\setlength{\metro@blocksep}{0.75ex}
+\setlength{\metro@blockadjust}{0.25ex}
+\providecommand{\metro@strut}{%
   \vphantom{ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz()}%
 }
-\newcommand{\metroseiscope@block}[1]{
+\newcommand{\metro@block}[1]{
   \par\vskip\medskipamount%
   \setlength{\parskip}{0pt}
   \ifbeamercolorempty[bg]{block title#1}{%
@@ -237,15 +237,15 @@
   }%
   {%
     \begin{beamercolorbox}[
-      sep=\dimexpr\metroseiscope@blocksep-\metroseiscope@blockadjust\relax,
-      leftskip=\metroseiscope@blockadjust,
-      rightskip=\dimexpr\metroseiscope@blockadjust plus 4em\relax
+      sep=\dimexpr\metro@blocksep-\metro@blockadjust\relax,
+      leftskip=\metro@blockadjust,
+      rightskip=\dimexpr\metro@blockadjust plus 4em\relax
     ]{block title#1}%
   }}%
       \usebeamerfont*{block title#1}%
-      \metroseiscope@strut%
+      \metro@strut%
       \insertblocktitle%
-      \metroseiscope@strut%
+      \metro@strut%
   \end{beamercolorbox}%
   \nointerlineskip%
   \ifbeamercolorempty[bg]{block body#1}{%
@@ -253,15 +253,15 @@
   \ifbeamercolorempty[bg]{block body}{%
     \begin{beamercolorbox}[vmode]{block body#1}%
   }{%
-    \begin{beamercolorbox}[sep=\metroseiscope@blocksep, vmode]{block body#1}%
-    \vspace{-\metroseiscope@parskip}
+    \begin{beamercolorbox}[sep=\metro@blocksep, vmode]{block body#1}%
+    \vspace{-\metro@parskip}
   }}%
       \usebeamerfont{block body#1}%
-      \setlength{\parskip}{\metroseiscope@parskip}%
+      \setlength{\parskip}{\metro@parskip}%
 }
-\setbeamertemplate{block begin}{\metroseiscope@block{}}
-\setbeamertemplate{block alerted begin}{\metroseiscope@block{ alerted}}
-\setbeamertemplate{block example begin}{\metroseiscope@block{ example}}
+\setbeamertemplate{block begin}{\metro@block{}}
+\setbeamertemplate{block alerted begin}{\metro@block{ alerted}}
+\setbeamertemplate{block example begin}{\metro@block{ example}}
 \setbeamertemplate{block end}{\end{beamercolorbox}\vspace*{0.2ex}}
 \setbeamertemplate{block alerted end}{\end{beamercolorbox}\vspace*{0.2ex}}
 \setbeamertemplate{block example end}{\end{beamercolorbox}\vspace*{0.2ex}}
@@ -273,9 +273,9 @@
   \raggedright
   \usebeamercolor{footnote}\hbox to 0.8em{\hfil\insertfootnotemark}\insertfootnotetext\par%
 }
-\newlength{\metroseiscope@parskip}
-\setlength{\metroseiscope@parskip}{0.5em}
-\setlength{\parskip}{\metroseiscope@parskip}
+\newlength{\metro@parskip}
+\setlength{\metro@parskip}{0.5em}
+\setlength{\parskip}{\metro@parskip}
 \linespread{1.15}
 \define@key{beamerframe}{c}[true]{% centered
   \beamer@frametopskip=0pt plus 1fill\relax%
@@ -284,9 +284,9 @@
   \beamer@framebottomskipautobreak=0pt plus .6\paperheight\relax%
   \def\beamer@initfirstlineunskip{}%
 }
-\providebool{metroseiscope@standout}
+\providebool{metro@standout}
 \define@key{beamerframe}{standout}[true]{%
-  \booltrue{metroseiscope@standout}
+  \booltrue{metro@standout}
   \begingroup
     \setkeys{beamerframe}{c}
     \setkeys{beamerframe}{noframenumbering}
@@ -306,13 +306,13 @@
   \usebeamerfont{standout}
 }
   \apptocmd{\beamer@reseteecodes}{%
-    \ifbool{metroseiscope@standout}{
+    \ifbool{metro@standout}{
       \endgroup
-      \boolfalse{metroseiscope@standout}
+      \boolfalse{metro@standout}
     }{}
   }{}{}
-\metroseiscope@inner@setdefaults
-\ProcessPgfPackageOptions{/metroseiscope/inner}
+\metro@inner@setdefaults
+\ProcessPgfPackageOptions{/metro/inner}
 \endinput
 %%
-%% End of file `beamerinnerthememetroseiscope.sty'.
+%% End of file `beamerinnerthememetro.sty'.
