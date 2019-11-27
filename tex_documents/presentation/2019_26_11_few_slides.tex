@@ -16,8 +16,8 @@
 \usepackage[english]{babel}
 \usepackage{hyperref}
 \usepackage{natbib}
-\usepackage{algorithm2e}
-\usepackage{algorithmic}
+%\usepackage{algorithm2e}
+%\usepackage{algorithmic}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{verbatim}
@@ -96,12 +96,12 @@ cross/.default={20pt}}
 
 %-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 % INFORMATIONS
-\title{Presentation template}								% TITLE
-\subtitle{A simple subtitle}
+\title{MONIFAULT Project}								% TITLE
+\subtitle{David's and Hugo's research topics}
 %\setbeamertemplate{frame footer}{A simple subtitle}		% BOTTOM TITLE ON EACH SLIDES
-\newdate{date}{05}{01}{2017}							% DEFINE DATE
+%\newdate{date}{05}{01}{2017}							% DEFINE DATE
 \date{\today}
-\author{Hugo S. S\'anchez-Reyes}								% AUTHOR
+\author{H. S. S\'anchez-Reyes, D. Essing, P. Poli and E. Beauc\'e }								% AUTHOR
 \institute{ISTerre, Universit\'e Grenoble Alpes}							% INSTITUTE
 %\titlegraphic{}	% Edit path to seiscope_color_light_background
 \titlegraphic{\hfill \includegraphics[height=1cm]{\dirlogo/ISTerre} \qquad \quad \includegraphics[height=1cm]{\dirlogo/UGA} 
@@ -127,32 +127,91 @@ cross/.default={20pt}}
 %---------------------------------------------------------------------
 
 
-\section{Section 1}
+\section{David's PhD topic}
 
-\begin{frame}{Slide 1}
+\begin{frame}{Analisis of foreshock and aftershock sequences using the FMF}
+ 
+  \hskip -1.3cm \begin{minipage}{1\linewidth}
+    \centering Using a detected foreshock to analyze the seismic sequence \\
+    \vskip 0.4cm
+    \centering \includegraphics[width=1.2\linewidth]{figs/1_fore_shock}
+  \end{minipage}
+   
+\end{frame}
 
-  \centering \huge Slide 1
+
+\begin{frame}{Analisis of foreshock and aftershock sequences using the FMF}
+
+  \hskip -1.5cm \begin{minipage}{1\linewidth}
+    \centering 1$^{rst}$ Step -- Building template \\
+    \vskip 0.2cm
+    \centering E-W  \hskip 3.5cm  N-S \hskip 3.8cm U-D \\
+    \centering \includegraphics[width=1.2\linewidth]{figs/2_ml_2p5_2019-11-07_phase_arrivals}
+  \end{minipage}
 
 \end{frame}
 
 
-\section{Section 2}
+\begin{frame}{Analisis of foreshock and aftershock sequences using the FMF}
 
-\begin{frame}{Slide 2}
-
-  \centering \huge Slide 2
+  \hskip -1.5cm \begin{minipage}{1\linewidth}
+    \centering 2$^{nd}$ Step -- Analisis of cross correlation coefficients using FMF \\ \citep{Beauce_2017_FMF} \\
+    \vskip 0.2cm
+    \centering \includegraphics[width=1.2\linewidth]{figs/3_ml_2p5_2019-11-07_correlation_coefficients}
+  \end{minipage}
 
 \end{frame}
 
+
+\begin{frame}{Analisis of foreshock and aftershock sequences using the FMF}
+
+  \hskip -1.1cm \begin{minipage}{1\linewidth}
+    \centering 3$^{th}$ Step -- Extraction of detected events based on CC coefficients \\
+    \vskip 0.4cm
+    \centering \includegraphics[width=1.15\linewidth]{figs/4_ml_2p5_2019-11-07_new_detections}
+  \end{minipage}
+
+\end{frame}
+
+
+\begin{frame}{Analisis of foreshock and aftershock sequences using the FMF}
+
+  \hskip -1.7cm \begin{minipage}{1\linewidth}
+    \centering 4$^{th}$ Step -- Identification of new detected events \\
+    \vskip 0.4cm
+    \centering \includegraphics[width=1.3\linewidth]{figs/5_correlation_coefficients_with_events}
+  \end{minipage}
+
+\end{frame}
+
+
+
+\section{Hugo's PostDoc topic}
+
+\begin{frame}{Detection \& understanding of global long-period events}
+
+   \vskip -0.3cm
+   \centering Using the FMF technique we plan to detect hidden global long-period events \\
+   \vskip 0.3cm
+   \includegraphics[width=1\linewidth]{figs/mixed_src_lat0_lon0-360} \\
+   \begin{minipage}{0.4\linewidth}
+    \vskip -0.9cm \hskip 0.2cm \includegraphics[height=0.4\linewidth,width=1\linewidth]{figs/map_global_test}   
+   \end{minipage}
+   \begin{minipage}{0.55\linewidth}
+    .
+   \end{minipage}
+
+
+\end{frame}
 
 
 
 \begin{frame}{Detection \& understanding of global events}
 
    \vskip -0.3cm
-   \centering Using the FMF technique we plan to detect hidden global long period events \\
-   \vskip 0.3cm
-   \includegraphics[width=1\linewidth]{figs/mixed_src_lat0_lon0-360}
+   \centering Analyzing continious data from all around the world \\
+   \vskip 0.2cm
+   \includegraphics[width=1\linewidth]{figs/map_global}
 
 \end{frame}
 
@@ -162,7 +221,7 @@ cross/.default={20pt}}
    \vskip -0.3cm
    \centering Analyzing continious data from all around the world \\
    \vskip 0.2cm
-   \includegraphics[width=1\linewidth]{figs/map_global}
+   \includegraphics[width=1\linewidth]{figs/map_global_srcs}
 
 \end{frame}
 
