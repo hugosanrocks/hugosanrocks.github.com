@@ -1,4 +1,0 @@
-\beamer@endinputifotherversion {3.24pt}
-\select@language {english}
-\beamer@sectionintoc {1}{David's PhD topic}{3}{0}{1}
-\beamer@sectionintoc {2}{Hugo's PostDoc topic}{9}{0}{2}
