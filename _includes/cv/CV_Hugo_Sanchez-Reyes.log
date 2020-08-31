@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.10.15)  28 AUG 2019 12:31
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2018.10.15)  5 JUN 2020 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -229,8 +229,8 @@ tly
 )
 \Hy@SectionHShift=\skip51
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 29.
-Package hyperref Info: Option `breaklinks' set `true' on input line 29.
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+Package hyperref Info: Option `breaklinks' set `true' on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
@@ -261,28 +261,43 @@ Package graphics Info: Driver file: xetex.def on input line 91.
 \Gin@req@height=\dimen122
 \Gin@req@width=\dimen123
 )
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
+)
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
+
+LaTeX Warning: Unused global option(s):
+    [10.5pt].
+
 (./CV_Hugo_Sanchez-Reyes.aux)
 \openout1 = `CV_Hugo_Sanchez-Reyes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -297,10 +312,10 @@ LaTeX Font Info:    ... okay on input line 51.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=458.58878pt
-* \textheight=840.8299pt
+* \textheight=768.5599pt
 * \oddsidemargin=22.48395pt
 * \evensidemargin=22.48395pt
-* \topmargin=-112.1824pt
+* \topmargin=-68.81996pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -319,7 +334,7 @@ LaTeX Font Info:    ... okay on input line 51.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 62.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -328,9 +343,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count106
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 (./CV_Hugo_Sanchez-Reyes.out) (./CV_Hugo_Sanchez-Reyes.out)
 \@outlinefile=\write3
@@ -340,10 +355,10 @@ File: my_orcid_qrcode.png Graphic file (type QTm)
 
 <use  "my_orcid_qrcode.png" >
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 81.
+(Font)              <5> on input line 90.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 93.
 
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
@@ -352,55 +367,61 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 88.
+(Font)              using `OT1/cmr/bx/n' instead on input line 102.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 118.
+(Font)              <9> on input line 146.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 118.
+(Font)              <6> on input line 146.
 
-Overfull \hbox (12.72833pt too wide) in paragraph at lines 115--137
+Overfull \hbox (24.01663pt too wide) in paragraph at lines 137--165
 [][] 
  []
 
-Missing character: There is no é in font cmr10!
-Missing character: There is no í in font cmr10!
-
-Overfull \hbox (44.08649pt too wide) in paragraph at lines 142--154
-[][] 
- []
-
-
-Overfull \hbox (33.92014pt too wide) in paragraph at lines 157--164
-[][] 
- []
-
-
-Overfull \hbox (22.71762pt too wide) in paragraph at lines 173--181
-[][] 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+Missing character: There is no é in font cmr10!
+Missing character: There is no í in font cmr10!
+
+Overfull \hbox (48.78741pt too wide) in paragraph at lines 172--191
+[][] 
+ []
+
+
+Overfull \hbox (7.11449pt too wide) in paragraph at lines 195--204
+[][] 
+ []
+
+
+Overfull \hbox (34.4324pt too wide) in paragraph at lines 213--223
+[][] 
+ []
+
+
+Overfull \hbox (7.13487pt too wide) in paragraph at lines 231--238
+[][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
  (./CV_Hugo_Sanchez-Reyes.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 287.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 287.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
  ) 
 Here is how much of TeX's memory you used:
- 9635 strings out of 493918
- 132699 string characters out of 6150562
- 215596 words of memory out of 5000000
- 12910 multiletter control sequences out of 15000+600000
- 9015 words of font info for 32 fonts, out of 8000000 for 9000
+ 9762 strings out of 493918
+ 134058 string characters out of 6150562
+ 215602 words of memory out of 5000000
+ 13032 multiletter control sequences out of 15000+600000
+ 9360 words of font info for 33 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 30i,9n,48p,249b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,48p,249b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV_Hugo_Sanchez-Reyes.pdf (1 page).
+Output written on CV_Hugo_Sanchez-Reyes.pdf (2 pages).
