@@ -1,0 +1,842 @@
+% Uncomment the following line to have comments hihglighted
+\documentclass[10pt]{extarticle}
+% Uncomment the following line to disable comments and highlights
+% \documentclass[9pt,final]{extarticle}
+
+\input{addon/pkgloading-for-letter-to-reviewers.tex}
+\input{addon/commands-for-letter-to-reviewers}
+
+% Defines the path for the main output file (so as to cross-reference sections, figures, table there, by prepending "paper:" to the original label )
+\externaldocument[paper:]{../LNCS-skeleton/main}
+
+\def\PaperTitle{An evolutive kinematic source inversion}
+\def\PaperId{{Response letter to review for manuscript 2017JB015388}}
+\def\Journal{{JGR Solid Earth}}
+
+\def\AuthorsInLetter{H. S. S\'anchez\text{-}Reyes, J. Tago, L. M\'etivier, V. M. Cruz\text{-}Atienza and J. Virieux}
+
+
+%opening
+\title{\textbf{\PaperTitle} \\ {\Large Revision notes}}
+%
+%
+\author[1]{H. S. S\'anchez\text{-}Reyes %
+  \thanks{Corresponding author \\
+    {\Letter}~{ISTerre OSUG-C (Maison des Géosciences), 1381 rue de la Piscine, 38400 Saint Martin D'H\`eres, France} \\
+    {\Email}~\texttt{\href{mailto:hugo.sanchez-reyes@univ-grenoble-alpes.fr}{hugo.sanchez-reyes@univ-grenoble-alpes.fr}} \\
+    {\Telefon}~\textsf{+33 07 ​71 89 30 07}%
+  }
+}
+%
+\author[4]{J. Tago}
+%
+\author[2]{L. M\'etivier}
+%
+\author[5]{V. M. Cruz\text{-}Atienza}
+%
+\author[3]{J. Virieux}
+%
+\affil[1]{Institut des Sciences de la Terre (ISTerre), Univ. Grenoble Alpes, CNRS, France}
+\affil[2]{Laboratoire Institut Jean Kuntzmann (LJK), Univ. Grenoble Alpes, CNRS, France}
+\affil[3]{Institut des Sciences de la Terre (ISTerre), Univ. Grenoble Alpes, France}
+\affil[4]{Facultad de Ingenier{\'\i}a, Universidad Nacional Aut\'onoma de M\'exico, M\'exico}
+\affil[5]{Instituto de Geof{\'\i}sica, Universidad Nacional Aut\'onoma de M\'exico, M\'exico}
+%
+\date{\today}
+\begin{document}
+
+\maketitle
+
+%\input{intro}
+Dear Editors,%Dr.\ Motahari Nezhad,
+\\[2em]
+We greatly appreciate your time and effort dedicated to revise our submitted manuscript. 
+We have worked in order to address all the suggestions and comments pointed out by the 
+reviewers and the editor. In the following pages we provide a detailed response to all
+the comments related to this revision. In addition, we attached a PDF file tracking all the 
+changes that have been made in the main paper. We hope that the applied revisions are 
+satisfactory to the reviewers and the editor.
+\\[2em]
+Kind regards,
+\begin{flushright}
+\AuthorsInLetter
+\end{flushright}\vfill
+%\input{manuscriptinfo}
+\section*{Manuscript information}
+
+\begin{description}
+\item[Number:] \PaperId
+\item[Title:] ``\PaperTitle''
+\item[Authors:] \AuthorsInLetter
+\item[Submitted to:] \Journal
+\end{description}
+\vfill
+\pagebreak
+
+%\input{revision-notes/reviewer1}
+
+%\SkipSpaceForReviewerComments
+
+%\input{revision-notes/reviewer2}
+
+%\SkipSpaceForReviewerComments
+
+
+\renewcommand\thefigure{S\arabic{figure}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Reviewer 1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ My impression after reading this paper was that a major component is about prior models
+ for finite sources. What are the allowable limits on fault geometry? Rupture direction?
+ Rupture speed? I wonder if the paper would be easier to follow is all content regarding
+ the prior information on the source be collected and explained near the beginning, prior
+ to introducing the inversion method. As it stands, the information about the prior model
+ permeates several sections and perhaps makes those sections tougher to follow.
+\end{ReviewerComment}
+%
+\begin{Answer}
+%JEAN OK pour ce paragraphe mais ce n'est pas la question du reviewer.
+Reviewer 1 is right about the importance of the prior model. In fact, the physics of the
+rupture is either introduced by pre-specified slip-rate functions (hard constraints) or
+by prior models (soft constraints). Moreover the later preserve the linear formulation of
+the forward problem at the expense of a significant large number of invertible parameters
+in comparison with the available data. Therefore, model regularization terms have to be
+included in order to converge to physically meaningful results. Inspired by the work of
+other authors, we have tried several regularization terms, such as a smoothing Tikhonov
+term, a rupture time penalty term and a minimum moment regularization. At the end, most
+of these  regularization terms could be merged into a single one. Because this term
+included all the prior possible information available, it was pertinent to call it the 
+prior model regularization term. The overall feeling is that prior models provides soft
+bounds which could be crossed when data really require it: it is a good sign to reconsider
+the prior model definition.\\
+\\
+%JEAN ...............  ca ne repond pas a la question
+%However, as it is mentioned from line 212 to line 217 of the paper, it is important to mention that it is possible to achieve satisfactory results even if no prior model is available, being $\underline{V}_p = 0$ in equation (8). The experience gained during this work showed us that while the model weighting matrix, $\underline{\underline{W}}_{\underline{m}}$, controls the existence of the slip-rate function at specific instants and places and the interaction between neighboring nodes (in time and space), the prior model controls the slip amplitude and the slip-rate function shape. \\
+%JEAN trop long ............. For instance, several inversion exercises with $\underline{V}_P=0$ were performed for both cases presented in the paper (synthetic and real cases). For those exercises we achieved a satisfactory reduction of the data misfit, and model misfit for the synthetic case. However, we recognized systematic under- and over-estimations of the slip-rate function amplitudes (and of the final slip as consequence) across the fault surface when no prior model was used in the regularization term. These results evidenced the non-unicity of the solution and the large number of equivalent rupture scenarios. Depending on the source and acquisition geometry, the inversion process might be more prone to place slip-rate contributions at different nodes across the fault and the time. From our experience, the prior model is a way to discern among all the equivalent rupture scenarios and to better focalize the slip and slip-rate amplitude estimation.\\
+Regarding all basic ingredients (except Gaussian filtering and depth-preconditioning) are provided during the benchmark study. We feel that the design of the prior model is mostly driven by the rupture behaviour and it is therefore strongly related to the case study. Therefore, it might be too difficult to provide general statements on how to specify the different limits and how to integrate them. On one side, we have tried to present, in a general way, what the prior model and its associated weighting matrix has to be from lines 174 to 211. On the other way, for each exercise, we have tried to detail as much as possible the contruction of these two entities (for the SIV1 from lines 428 to 473, and for Kumamoto mainshock from lines 744 to 771).
+However, we agree with reviewer 1 that the impact of the prior information permeates the whole paper, which is a taken-away message of this paper.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ On a related note, a few years ago I asked a few experts (Chen Ji, Martin Mai, Kim
+ Olsen, Sarah Minson) about whether there was such thing as a “kinematic rupture maker”
+ that would generate realizations of realistic ruptures—something that could be used for
+ probabilistic studies. Most people replied saying that the problem was complicated and
+ that there were many subtle choices. One code was embedded within the SCEC Community
+ Modeling Environment platform but it could not be used outside the platform.
+ I did come cross two nice papers (Schmedes et al., 2010, 2013) that used dynamic rupture
+ simulations to provide a set of ruptures that could be characterized in terms of a statistical
+ distribution.
+\end{ReviewerComment}
+%
+\begin{Answer}
+ We totally agree with reviewer 1, a realistic rupture generator tool might help us
+ to explore the model space under a probabilistic framework as well as to infer other 
+ interesting parameters related to seismic hazard assessment such as expected PGV, PGA, 
+ etc. Under the kinematic assumption, we developed a simple code that generates a rupture 
+ scenario based on desired local Yoffe-type slip-rate function (defined by its effective 
+ rise time and final slip \citep{Tinti_2005_KSF}) and the expected rupture times estimated 
+ through an Eikonal solver \citep{Podvin_1991_FDC} (lines 432 to 439 in main paper).
+ We used this tool to generate prior models different from the ones shown in the paper to test 
+ the influence of the prior models to the results obtained for both the synthetic and real cases.
+ We also used this tool to create other synthetic scenarios which we tried to reconstruct
+ through inversion exercises with exactly the same geometry of the SIV1 but with a different 
+ and more complex slip distribution..\\
+ \\
+ Even if there are many subtle choices to make, this basic tool helped us to answer questions 
+ regarding the impact on the solution of different choices of the prior model and the type 
+ of targets that might be more difficult to retrieve with the given acquisition and fault 
+ geometry. %For us this tool was very important to build our prior models and retrieve 
+ %an improved amplitude estimation. 
+ We believe that such tool would as well facilitate the uncertainty assessment in our future work.\\
+%HUGO: I removed next paragraph as it was useless in the answer
+% \\
+% Because we agree with reviewer 1 and 2 about the importance of showing the impact of the 
+% chosen prior model on the inversion results, we included a small section inside the 
+% supporting material that addresses this point. In that new section, we compare the different 
+% results that we obtained for two different cases using the acquisition configuration 
+% and fault geometry of the SIV1 case using three different prior models.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ Is this technique only valuable for near-field, where later times reflect later part of the
+ rupture? To given an extreme case, for a teleseismic recording, the end of the rupture, as
+ recorded by the P waves, arrives far earlier than the start of the surface waves, which might
+ be used to constrain the kinematic rupture model.
+ Teleseismic surface waves are useful for finite source inversions, though its unclear how
+ they would appear in the proposed method. (Surface waves are presumably not useful for
+ estimating the source time functions.)
+\end{ReviewerComment}
+%
+\begin{Answer}
+ Assuming that reviewer 1 refers to the Progressive Inversion Strategy (PIS). 
+ There is no theoretical limitation that prevents the use of any teleseismic phase, 
+ as long as the Green functions used to compute the forward problem are consistent 
+ with the teleseismic phases used in the inversion. However, the estimation of 
+ the allowed breakable time-space region, from where a specific teleseismic 
+ phase (body or surface waves) is emitted, will certainly represent a more 
+ challenging problem than in the near-field. An incorrect one-second delay 
+ in the picking of the arrival time of a teleseismic phase would miss-locate the slip on 
+ the fault by approximately 10 to 40 km \citep{Antolik_2001_GEL,Yang_2004_VRT}.
+ Having in mind this, the PIS does not seem to be a good strategy to invert for the 
+ source history using teleseismic phases.
+% On the other hand, even if one may think that teleseismic surface waves are worthless 
+% regarding the slip-rate reconstruction, some authors (e.g. [\hl{ASK JEAN REFERENCE, I 
+% don't remember} Hjorleifsdottir personal discussion]) argued that teleseismic surface 
+% waves might help to constrain the seismic moment and therefore the final slip. 
+ However, even when not used during the inversion, the prediction of teleseismic 
+ body and surface waves could be used as a cross validation exercise.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ The time-evolving estimation reminded me of Kalman filtering, such as transient detection
+ within the GPS community (like Segall and McGuire). It might be worth checking out
+ those papers or even asking someone with this expertise to review the paper.
+\end{ReviewerComment}
+%
+\begin{Answer}
+ We totally agree with reviewer 1 on this intuition about Kalman filter. As we were working 
+ on the PIS, we recognized that part of the not yet recorded data could be predicted from previous 
+ stages of the inverted rupture. This feature immediately called our intuition to apply the Kalman filter to 
+ solve the inverse problem while still being able to account for the uncertainties. 
+ However, contrary to the implementation of Segall and Matthews (1997), the slip-rate history 
+ (state parameters under a Kalman jargon) is not as simple to predict (update from current 
+ epoch $k$ to the next one $k+1$) as the ``always positive random increment`` that these authors 
+ used to described the time varying fault displacement for the long-term deformations. 
+ Regarding the extended Kalman filter presented by McGuire and Segall (2003), we are still 
+ studying if the PIS can be recast into this type of formulation or if a more general 
+ Bayesian framework (such as any MCMC strategy) could be applied. One possible drawback 
+ of the Kalman filter can be the bad performance of this technique when handling a large 
+ number of parameters. Therefore, we have also in mind to explore the possible use of 
+ the Ensemble Kalman Filter to overcome this issue. So far, we have not yet decided 
+ which is the most suitable strategy.\\
+ \\ 
+ We greatly appreciate your suggestions and we will take them into account for our future work.
+ %We might also keep in mind your suggestion as possible reviewers for this future work.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ The method is relevant to early-warning, and I appreciate that the authors did not make
+ this a focus of the paper, since it would require a significant amount of additional literature
+ and discussion. To me, it seems like the goal of early warning is: magnitude, location,
+ and mechanism. Details of the source time function are not so important, though perhaps
+ the duration would help inform the magnitude estimate. The authors might want to scale
+ back the already limited early warning section \textemdash otherwise probably more will be needed to
+ adequately address the topic.
+ (For example, how would this approach compare with the TDMT operational codes of
+ Kawakatsu, Dreger, etc.)
+\end{ReviewerComment}
+%
+\begin{Answer}
+We consider, as well as reviewer 1, that the PIS can be quite relevant to (early)- 
+warning systems. However, and as the reviewer noticed, we did not focus on this 
+topic. The fact that, thanks to the pre-computed Green functions, we can predict 
+a part of the not yet recorded data, is an interesting consequence of causality 
+and it might be exploded in the conception of early-warning systems. Because this
+is not the focus of the paper, we modified the two short references to (early)-warning 
+in the paper (L45 and L901 from previous version) not to drive the reader to focus 
+on this point (see PDF file tracking the changes).\\
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ My impression was that the advantage of the time-evolving estimation was to use the
+ evolving time series to regularize the spatio-temporal rupture. This process could be done
+ on the fly or it could be done months after the earthquake. But the advantage of NOT
+ doing the inversion in real-time is that you would then have better information on the prior
+ model. For example, how could you know the rake angle (or even fault plane) reliably
+ within the first arriving waves?
+\end{ReviewerComment}
+%
+\begin{Answer}
+As pointed out by reviewer 1, the most important advantage of not doing the PIS in real-time
+is that we can add more information to better constrain the solution. Several 
+assumptions have to be made in order to implement this strategy in real-time. For instance, 
+in order to be ready for any possible scenario, we would need to have a large bank of pre-computed 
+Green functions related to all the possible sources and their geometries. About the rake angle, 
+we might have to consider the inversion of the slip-rate vector instead of only inverting for 
+its amplitude, as it is shown in the paper (cases SIS1, SIS2, PIS1 and PIS2). Another possible 
+approach can be done by fixing the rake angle according to the historical tectonic regime in the 
+expected region (ignoring other possible scenarios) or by performing a preliminary fast 
+inversion of first arrivals to determine the most plausible value (as shown by \cite{Pacheco_1998_SPT}). \\
+%
+%HUGO: too long and useless answer
+%\\
+%In a real-time estimation, we might also have to rely on the hypocentral location in order 
+%to select on the fly the most likely scenario of the allowed space-time evolving regions to 
+%carry out the PIS. Even if these evolving scenarios can be pre-computed and stored, as well 
+%as the Green functions, its accuracy might depend on other assumptions such as the limits 
+%of the rupture speed, the velocity structure and the hypocentral location.\\
+\\
+There are still many issues to solve before the PIS can be satisfactory
+applied to solve real-time exercises. Our work does not tackle these issues 
+but we are aware of many of them and we have ideas to overcome some of 
+them in the future.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ You might want to relabel Section 2.1 as “background” or something similar. This would
+ help the reader identify what is new or different in the approach. (The less text in the main
+ paper, the easier it is for the reader to focus on the most important sections.)
+\end{ReviewerComment}
+%
+\begin{Answer}
+As suggested by reviewers, and the editor, we decided to move some of the 
+details of section 2.1 to the supporting material. We entitled this part of the 
+supporting material ''Details on forward modeling''. In addition, we changed 
+the title of section 2.1 to ``Background'' as suggested by reviewer 1.
+All the modifications can be seen at the PDF tracking the changes from previous version.
+We expected that these changes will help the reader to focus on the PIS and the 
+prior model regularization term which are, from our point of view, more relevant 
+contributions of our work. \\
+%\\
+%\hl{I move from section 2.1 details about the linear transformation and the stress-state
+%tensor to a secton inside the supporting material. I did not want to move the part 
+%related to the misfit function. Should I move the misfit function part as well?}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ Figure 14 raises the possibility of a cross-validation approach for selecting epsilon. Or
+ perhaps boot-strapping (data selection) to estimate uncertainties.
+\end{ReviewerComment}
+%
+\begin{Answer}
+ After several trials to invert for all available recordings, we recognized that 
+ some of the recordings were more complex than the others and that their 
+ complexity were drastically impacting the inversion results. In the end, we
+ had to completely discard the 11 receiver locations from the inversion. However,
+ we used them to predict the waveforms. Such waveform prediction is illustrated 
+ in figure 14 as a cross-validation of our inversion results (red dashed lines 
+ representing predicted seismograms versus solid black lines illustrating the real 
+ data set). Further exercises using these receivers to calibrate epsilon or to 
+ assess the uncertainties were not possible. We identified that these 11 receiver 
+ locations (looking at figure 10 in the paper) are placed in the same region to 
+ the south-west of the epicenter. We conclude that the assumed layered medium could 
+ not accurately represent the velocity model at that zone. We recall that the assumed 
+ velocity structure in this work was taken from the result of the travel-time tomography 
+ from \cite{Uchide_2016_KES}, which considered only four out of these 11 receiver 
+ locations to infer the velocity structure. Therefore, we believe that in order to use 
+ these recordings to calibrate epsilon or to assess the uncertainties of our results 
+ we have to first improve the velocity model.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ My impression was that this method would work equivalently if one had a precomputed
+ database of 3D Green’s functions for a set of subsources on a predetermined fault plane. Is
+ that true? If so, it would be worth mentioning this application.
+\end{ReviewerComment}
+%
+\begin{Answer}
+Reviewer 1 is completely right. As it is mentioned in the paper, the inversion strategies 
+take as input the Green functions. The wave propagator does not form part of the 
+source inversion scheme. Therefore, this bank can be precomputed for homogeneous, layered or 
+complex 3D heterogeneous media using any wave propagator tool. We mentioned this feature 
+from line 137 to line 147. Let us cite the following phrase, ``They can describe any 3D 
+heterogeneous media as long as we know how to define these 3D media.''. However, either for 
+the SIV1 and for the 2016 Kumamoto mainshock, the available knowledge of the velocity structures
+was limited to 1D layered media. Therefore, we only used 1D layered media in the paper.
+%Hugo: i rremoved the following blah blah
+%Therefore, we decided to use the indirect boundary-element 
+%method from Perton et al. (2016) to efficiently compute the elastic wave propagation. 
+%Certainly we are interested in applying our strategy in further complex media not only
+%to improve the inversion results but also to assess the uncertainties of the source reconstruction
+%related to the assumed velocity structure, but this was not the purpose of this paper.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ L601. “The new prior model is built as an hybrid of the previous results and the initial
+ prior model.” Also: the final slip on the prior model in Figure 11d.
+ Typically the prior model is something that is independent of the data you are examining.
+ It doesn’t change with iterations. Can your “prior model” instead be thought of as an
+ iterating initial model for the next time window?
+\end{ReviewerComment}
+%
+\begin{Answer}
+The prior and the initial models are two different elements of both the PIS and the SIS. 
+Regarding the PIS, contrary to the SIS, the prior model evolves during the inversion 
+based on the results we obtained from previous stages of the inversion. As the PIS is 
+carried out, both the prior model and the initial model for each stage of the inversion 
+are different from what we knew before. As it is mentioned in line 596: ``The new prior 
+model is built as an hybrid of the previous results and the initial prior model''. On 
+the other hand, the new initial model at the beginning of each inversion stage only 
+depends on the inversion results from the previous stage and it does not directly 
+depend on (or it is not mixed with) the assumed initial prior model defined at the 
+beginning of the inversion procedure. At the beginning of each inversion stage 
+(except the first one) the prior and the initial model have exactly the same 
+information at the zone that was defined as the allowed breakable zone at the 
+previous stage. Outside of this region where prior and initial models are equal, 
+the initial model is equal to zero (no information) while the prior model is equal to 
+the reference prior model that we defined at the beginning of the inversion procedure. 
+Figure \ref{fig:figure_s1} illustrates the evolution of these two models and the associated 
+prior model defined before running the PIS.\\
+%
+%Hugo: I think the followind words are just repetitions from the first paragraph, so i removed it
+%\\
+%Therefore, as reviewer 1 mentioned, the prior final slip shown in Figure 11d changes 
+%during the inversion. More specifically, these changes on the prior model happen 
+%at the beginning of each of the stages of the PIS. What we show in Figure 11d is the 
+%final slip of the prior model before launching the inversion, something that we could 
+%call the initial prior model or the reference prior model. As mentioned before, contrary 
+%to the PIS, this initial prior model is fixed for all the iterations of the SIS, which 
+%significantly impacts more the solution solution of the SIS compared to the one from the PIS.\\
+%\\
+%We consider that this explanation is fundamental to understand the differences between 
+%the SIS and the PIS. In addition, this explanation is crucial to understand how the 
+%evolving prior model inside the PIS supports the causality of the solution at the same 
+%time that helps to remove the footprint of the assumed prior model while still improving
+%the solution significantly. Therefore, we decided to add a second section on the supplementary
+%material to better explain in words and with figures the evolution of the prior and the 
+%initial models. The new section in the supporting material is entitled ``Prior model evolution 
+%for PIS'' and it includes figure \ref{fig:figure_s1} that is also part of this letter. \\
+%\\
+\begin{figure}[!h]
+\begin{center}
+  \includegraphics[width=40pc]{../Figs/evolution_S1}
+\end{center}
+  \caption{Comparison between the final slip distributions of the initial or reference 
+  prior model (panels a-c), the evolving prior model (panels d-f) and the final slip 
+  initial model (panels g-i} at the beginning of three different stages of the PIS.
+    \label{fig:figure_s1}
+\end{figure}
+%\\
+%\hl{I added a section explaining in detail the evolution of the prior model, the 
+%initial model and the reference prior model.}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ Minor English oddities (like L267: resides – should be residuals; L341: an hyper-parameter;
+ L397: scenarii – should be scenarios; L906: drives strongly – should be strongly drives).
+\end{ReviewerComment}
+%
+\begin{Answer}
+All the corresponding corrections were made and included in the new revised version of the 
+paper. The modifications can be seen in the PDF tracking the changes.
+%The corrections were highlighted and the reference to this comment is located on the 
+%left margin next to the word that was changed.
+\Assignment{Hugo} \RevTaskDone
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ No epsilon in (6) (first version) if the sigmas are chosen properly \textemdash bury it 
+ into $\underline{\underline{W}}_{\underline{m}}$
+\end{ReviewerComment}
+%
+\begin{Answer}
+ In this case, we do not agree with reviewer 1. We decided not to move $\epsilon$ from equation
+ (2) of the new revised version of the paper. However, we included the following phrase 
+ (lines 158 to 161 in revised version) that helps to understand why we prefered not to bury it inside the weighting 
+ matrix: ``where the hyperparameter $\epsilon$ will ease the global balance between the data and 
+ model terms of the gradient. This term could be absorded into the definition of the model gradient 
+ but the scaling between these two components is better controlled by this single parameter''.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ For future consideration: Brocher (2008,?) provides some empirical relationships for Vp,
+ Vs, rho that might be more valid than what was used.
+\end{ReviewerComment}
+%
+\begin{Answer}
+ We completely agree with reviewer 1. The first author did not know about this reference
+ \citep{Brocher_2008_KER}. In the future we might use this empirical relationships instead.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ L732. Missing number of fault nodes.
+\end{ReviewerComment}
+%
+\begin{Answer}
+We corrected this mistake by includes this number in the new revised version.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ L806. ``Notice that these time-windows are elaborated under a synthetic rupture scenario
+ based on the prior information we consider.''
+ I do not understand this.
+\end{ReviewerComment}
+%
+\begin{Answer}
+With that phrase we just wanted to stress out that the time limit of each of the data 
+windows used during the PIS-KUMA exercise where estimated through a previous calibration 
+using the results from Asano and Iwata to compute the complete and incomplete recordings
+database.\\
+\\
+We removed that phrase from the new revised version of the paper as it seemed to 
+be unclear and repetitive (see PDF tracking the changes).
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{1}
+\noindent 
+ L919. ``progressive parameter build-up based on increasing data windows reduces the cross-
+ talk between parameters, especially the ambiguity between space and time''\\
+ I follow this, but probably this should be written in more precise (and less colloquial)
+ language.
+\end{ReviewerComment}
+%
+\begin{Answer}
+In the new revised version we replaced that phrase by the following one (lines 912 to 917):
+\\
+the progressive and limited increment of the time-space samples used to invert the 
+source history according to the increasing data time windows reduces the leakage of the
+information over a large fixed number of time-space samples. This way of handling
+simultaneously the data and the unknowns reduces the ambiguity or cross-talk
+between neighboring time-space nodes preventing them from representing an equivalent
+rupture history that, to some extent, fits the data as well as the target solution.\\
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\section*{Reviewer 2}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{ReviewerComment}{2}
+\noindent
+ The most important missing point in this manuscript is 
+ that they did not discuss the effects of prior source 
+ model on the source inversion results. For both of SIV 
+ and Kumamoto cases, they only used one prior rupture 
+ scenario as their prior model. I would like to know 
+ how the final inversion result would change when different 
+ prior models is used.
+\end{ReviewerComment}
+ %
+\begin{Answer}
+We agree with reviewer 2, as well as with reviewer 1, about the
+importance of showing the impact of the chosen prior models.
+In this response letter we include figure S2 and S3 in order to 
+show to the reviewers the implications of using different prior models 
+under the SIV1 configuration. Regarding the 2016 Kumamoto earthquake, 
+we did not perform more exercises using other prior models different 
+from the solution reported by \citep{Asano_2016_SRP}.\\
+\\
+In general, our experience so far indicates that the choice 
+of a correct prior model can significantly improve the identification
+of the areas of maximum slip in cases where these areas are not 
+as easy to resolve as other ones inside the fault. However, as evidenced 
+by figure \ref{fig:figure_s3}, this improvement of the location of maximum 
+slip areas might be also a consequence of using the PIS instead of
+the SIS. In terms of data and model misfit, even when careful calibration 
+of the hyperparameter ($\epsilon$) is done (figure \ref{fig:figure_s2})
+all the solutions achieved similar misfit reductions. However, the correct
+prior model can help to discriminate among the several equivalent solutions
+that fit exactly to the same level the data.  \\
+\\
+In the main paper we discussed the impact of using simplified prior models,
+based on physical assumptions of the seismic rupture, for both the SIS and the PIS 
+(exercises SIS2, SIS2$^*$, PIS2, PIS2$^*$, SIS-KUMA and PIS-KUMA). We consider that 
+such simplified prior models can be built for tackling real data sets, as it was 
+illustrated in the inversion of the 2016 Kumamoto mainshock. From the results presented,
+we can say that the stability of the inversion algorithm is not impacted by a wrong 
+choice of a prior model as long as we ensure that the inversion is mainly driven 
+by the data gradient.
+\begin{figure}[!h]
+\begin{center}
+  \includegraphics[width=40pc]{../Figs/impact_prior_S2} 
+\end{center}
+  \caption{Comparison of final slip distributions of three different prior 
+    models (a) PRI1, (b) PRI2, (c) PRI3 and the inversion results applying either the SIS or 
+    the PIS assuming one of the three different prior models. (d), (e) and (f) 
+    are final slip distributions of SIS using the prior models PRI1, PRI2 and PRI3,
+    respectively. (g), (h) and (i) are the same as (d), (e) and (f) but the PIS was 
+    applied in those cases. (a) PRI1 has a maximum final slip of 1.6 m inside a 
+    central region. (b) PRI2 has a maximum final slip of 1.8 m near the hypocenter and 
+    it decays away from it. (c) PRI3 has a maximum final slip of 1.7 m far from the 
+    hypocenter and near the surface. PRI2 and PRI3 are modified versions of PRI1, which 
+    is described in the main paper. (j) shows the final slip of the target SIV1 and 
+    (k) and (l) illustrate the data and model misfit for all cases.}
+    \label{fig:figure_s2}
+\end{figure}
+\begin{figure}[!h]
+\begin{center}
+  \includegraphics[width=40pc]{../Figs/impact_prior_S4} 
+\end{center}
+  \caption{Same comparison as figure \ref{fig:figure_s2} but in this case the 
+  target to reconstruct is a modified version of the SIV1. All the source 
+  time history of the SIV1 is multiplied by a 2D gaussian function amplifying 
+  the slip amplitude away from the hypocenter. The rupture speed, rise time,
+  rake angle and other features are equal to the original SIV1. (j) shows the final 
+  slip distribution of this modified version of the SIV1.}
+    \label{fig:figure_s3}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{2}
+\noindent
+ Time-windowing of waveforms related to the rupture evolution 
+ depends on the assumed wave type (P or S etc.). Since the 
+ authors used the difference between the complete and incomplete
+ synthetics as the measure for selecting time-window as shown 
+ in Figure 5, S-wave motion primary controls the time-windowing
+ in near-source strong motion data. Thus, I think P-wave from the
+ outside of the breakable region on the source fault would be
+ included in a time-window and it may not be explained by the
+ slip within the breakable region. How do the authors think
+ about it?
+\end{ReviewerComment}
+
+\begin{Answer}
+Reviewer 2 is right to point out this feature of the time-windowing strategy. 
+In order to clarify how the PIS handles this issue we modified the new revised 
+version of the paper to include the following phrase (lines 307 to 309): ``All 
+expected phases should be included in these time windows, from the fastest P-wave 
+phases to the possible surface-wave phases: this is why the P-wave speed is used 
+when solving the Eikonal equation'' (see PDF tracking the changes). 
+%handle the P-waves arriving from outside of the breakable 
+%region at an especific instant, the desing of the model weighting matrix 
+%$\underline{\underline{W}}_{\underline{m}}$, which is based on the estimated
+%rupture times (through the Eikonal solver of \cite{Podvin_1991_FDC}) has to account 
+%for them. We tried to do so by considering a faster rupture speed limit, and its 
+%associated parameter build-up. For the SIV1 case, this faster rupture speed was 
+%fixed to 1.4 times the local shear wave velocity (line 552 in the main paper), while 
+%for the 2016 Kumamoto mainshock such limit was fixed to 1.2 times $V_S$ (line 751).\\
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{2}
+\noindent
+ For SIV1 case, the authors stated that the prior model
+ has the total slip of 1.6 m at the nodes inside a central
+ region of the fault plane and it decays exponentially
+ while approaching the border of the fault geometry in
+ Lines 445-447. However, they stated that a prior
+ homogeneous final slip of 1.6 m is allowed uniformly
+ over the breakable zone in Lines 477-478. Which one is true?
+\end{ReviewerComment}
+%
+\begin{Answer}
+According to the prior model used for the SIV1 case, both statements
+are true. Maybe the way it is written is not clear. Let us link both 
+phrases to better explain the prior model final slip. The first statement 
+points out that the final slip of the prior model for the nodes inside 
+the central region (the breakable zone mentioned on statement two) is 1.6 m. 
+Inside that central region the final slip is homogeneous (uniform for all 
+nodes) and its value is 1.6 m. Far from this central region, near to the 
+edges of the fault surface, the value of the final slip decays exponentially 
+(as statement one pointed out). \\
+\\
+We did not include a figure of this prior model final slip not to mislead 
+the reader to think that the importance of the prior model was mainly focused 
+on the final slip. The impact of the prior model must be seen in time and space 
+and not only in its final effect by comparing the final slip of the inverted 
+models. In this response letter figure \ref{fig:figure_s4} presents a comparison 
+of the final slip distributions between the target model SIV1, the prior model 
+and the inverted models SIS2$^*$ and PIS2$^*$. \\
+%\\
+%As it can be seen in figure \ref{fig:figure_s4}b, the final slip 
+%inside the central allowed breakable region has a maximum uniform 
+%slip amplitude of 1.6 m and it decays exponentially close to the 
+%fault boundaries as it was described in the main paper.\\
+\begin{figure}[!h]
+ \begin{center}
+  \includegraphics[width=0.9\textwidth]{../Figs/prior_finalslip_S3} 
+ \end{center}
+  \caption{Comparison of final slip distributions for (a) the target 
+    SIV1, (b) the assumed prior model and the inversion results for the 
+    cases (c) SIS2$^*$ and (d) PIS2$^*$. See main paper for details on 
+    the construction of the prior model and the inversion exercises 
+    SIS2$^*$ and PIS2$^*$.}
+    \label{fig:figure_s4}
+\end{figure}\\
+%Thanks to this comment from reviewer 2, we decided to include the figure 
+%above illustrated and a short explanation in its caption as part of 
+%the supplementary material. This figure now appears as figure 
+%\ref{fig:figure_s4} inside the supporting information.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{2}
+\noindent
+ Line 36, NIED is not a geological service in Japan.
+\end{ReviewerComment}
+%
+\begin{Answer}
+We change this phrase on the new version of the paper.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{2}
+\noindent
+I could not find the definition of alpha seen in the algorithms 1 and 2.
+\end{ReviewerComment}
+%
+\begin{Answer}
+In algorithm 1 and 2, $\alpha^k$ is a scalar value usually called the step length, 
+which indicates how far should we move along the search direction (i.e. the negative 
+gradient direction) to solve the gradient-based optimization problem.\\
+\\
+We added a small definition of what this scalar represents in line 234 and at the same step of 
+the algorithms where this scalar appears in the new version.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{2}
+\noindent
+ Figure 3b, the scale for weighting value is not shown in the graph.
+\end{ReviewerComment}
+%
+\begin{Answer}
+ In figure 3b, the scale of the weighting values is the same as the scale of the slip-rate 
+ function. However, we never clarified this fact in the figure or in its caption. We modified 
+ the label of the ``y'' axis inside the figure in the new version of the paper to clarify 
+ this point.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+\begin{ReviewerComment}{2}
+\noindent
+ Figure 3c, why the prior model (red) is outside the expected region (blue with cross)?
+\end{ReviewerComment}
+%
+\begin{Answer}
+Reviewer 2 is right, in figure 3c the prior model (red line) is outside the expected region
+which is contoured by the two black lines with asterics. However, this region is only an 
+expected region. That does not mean that either the prior model or the final solution has 
+to be mandatorily inside this region. For instance, if the data gradient forces the solution
+to have a significant slip-rate amplitude at regions outside of this expected zone, the 
+inversion will have to place this slip-rate amplitude there, even if the contribution to 
+total cost of the prior model misfit term can be quite large for doing it. This is always 
+ensured as long as the data misfit term is larger than the model misfit term inside the misfit 
+function. That is why this model regularization terms represents a soft contraint and not 
+hard one.
+%
+%Hugo: I think the next words are less relevant to the answer
+%\\
+%In addition, we believe that the small portion of the prior model slip-rate function that 
+%goes outside the expected region might be caused by an amplitude smoothing filter that 
+%our engine that builds the prior model has to apply in order to place at all the nodes 
+%inside the breakable region exactly the same final slip. This time filter might have 
+%deformed the original shape of the slip-rate function of the prior model.\\
+%\\
+%We added some words regarding the importance and meaning of this expected region 
+%inside the new version of the paper. These words try to clarify the fact that 
+%the solution or the prior model could be, without any problem, outside this region.\\
+%\\
+%\hl{don't forget to put this words in the paper!}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+
+
+%\bibliography{\dirbiblio/biblioseiscope,\dirbiblio/bibliotmp}                                               
+%\bibliographystyle{apalike}
+\newcommand{\SortNoop}[1]{}
+\begin{thebibliography}{}
+
+\bibitem[Antolik et~al., 2001]{Antolik_2001_GEL}
+Antolik, M., Ekstr{\"o}m, G., and Dziewonski, A.~M. (2001).
+\newblock Global event location with full and sparse data sets using
+  three-dimensional models of mantle p-wave velocity.
+\newblock In {\em Monitoring the Comprehensive Nuclear-Test-Ban Treaty: Sourse
+  Location}, pages 291--317. Springer.
+
+\bibitem[Asano and Iwata, 2016]{Asano_2016_SRP}
+Asano, K. and Iwata, T. (2016).
+\newblock Source rupture processes of the foreshock and mainshock in the 2016
+  kumamoto earthquake sequence estimated from the kinematic waveform inversion
+  of strong motion data.
+\newblock {\em Earth, Planets and Space}, 68(1):147.
+
+\bibitem[Brocher, 2008]{Brocher_2008_KER}
+Brocher, T.~M. (2008).
+\newblock Key elements of regional seismic velocity models for long period
+  ground motion simulations.
+\newblock {\em Journal of Seismology}, 12(2):217--221.
+
+\bibitem[Pacheco and Singh, 1998]{Pacheco_1998_SPT}
+Pacheco, J.~F. and Singh, S.~K. (1998).
+\newblock Source parameters of two moderate mexican earthquakes estimated from
+  a single-station, near-source recording, and from mt inversion of regional
+  data: a comparison of the results.
+\newblock {\em Geof{\'\i}sica Internacional}, 37(2):95--102.
+
+\bibitem[Podvin and Lecomte, 1991]{Podvin_1991_FDC}
+Podvin, P. and Lecomte, I. (1991).
+\newblock Finite difference computation of traveltimes in very contrasted
+  velocity model : a massively parallel approach and its associated tools.
+\newblock {\em Geophysical Journal International}, 105:271--284.
+
+\bibitem[Tinti et~al., 2005]{Tinti_2005_KSF}
+Tinti, E., Fukuyama, E., Piatanesi, A., and Cocco, M. (2005).
+\newblock A kinematic source-time function compatible with earthquake dynamics.
+\newblock {\em Bulletin of the Seismological Society of America},
+  95(4):1211--1223.
+
+\bibitem[Uchide et~al., 2016]{Uchide_2016_KES}
+Uchide, T., Horikawa, H., Nakai, M., Matsushita, R., Shigematsu, N., Ando, R.,
+  and Imanishi, K. (2016).
+\newblock The 2016 kumamoto--oita earthquake sequence: aftershock seismicity
+  gap and dynamic triggering in volcanic areas.
+\newblock {\em Earth, Planets and Space}, 68(1):180.
+
+\bibitem[Yang et~al., 2004]{Yang_2004_VRT}
+Yang, X., Bond{\'a}r, I., Bhattacharyya, J., Ritzwoller, M., Shapiro, N.,
+  Antolik, M., Ekstr{\"o}m, G., Israelsson, H., and McLaughlin, K. (2004).
+\newblock Validation of regional and teleseismic travel-time models by
+  relocating ground-truth events.
+\newblock {\em Bulletin of the Seismological Society of America},
+  94(3):897--919.
+
+\end{thebibliography}
+
+
+\end{document}

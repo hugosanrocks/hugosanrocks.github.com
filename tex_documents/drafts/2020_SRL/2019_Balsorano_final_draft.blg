@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 2019_Balsorano_final_draft.aux
+The style file: apalike.bst
+Database file #1: bibliography.bib
+Warning--there's a number but no volume in Hosseini_2017_obspyDMT
+You've used 71 entries,
+            1935 wiz_defined-function locations,
+            959 strings with 18951 characters,
+and the built_in function-call counts, 32325 in all, are:
+= -- 3132
+> -- 1623
+< -- 34
++ -- 597
+- -- 570
+* -- 3063
+:= -- 5632
+add.period$ -- 213
+call.type$ -- 71
+change.case$ -- 636
+chr.to.int$ -- 70
+cite$ -- 72
+duplicate$ -- 1011
+empty$ -- 2069
+format.name$ -- 677
+if$ -- 6132
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 71
+newline$ -- 358
+num.names$ -- 213
+pop$ -- 467
+preamble$ -- 1
+purify$ -- 636
+quote$ -- 0
+skip$ -- 792
+stack$ -- 0
+substring$ -- 2473
+swap$ -- 98
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 426
+warning$ -- 1
+while$ -- 260
+width$ -- 0
+write$ -- 924
+(There was 1 warning)

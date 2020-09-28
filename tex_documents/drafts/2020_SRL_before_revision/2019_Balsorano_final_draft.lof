@@ -1,0 +1,31 @@
+\begin{figure}
+
+    \centering
+     \includegraphics[width=1\linewidth]{map_balsorano.pdf}
+    \caption{Regional map of the study area. The yellow square inside the small map inset on the left corresponds to the central region of Italy represented in the larger topographic map. The small map inset on the right represents magnification of the black dashed area around the epicentral location (red star). The color code used in the map view on the right represents the estimated depth of the foreshock and aftershock activity (estimated in this study: 714 events). The yellow circle represents Balsorano city, and the white triangles represent the stations used in this study. The dashed lines in the right inset map represent the directions A-A' (along strike) and B-B' (normal to the strike) illustrated in the cross sections of Figure 5.}
+
+\end{figure}
+\begin{figure}
+
+    \centering
+     \includegraphics[width=1\linewidth]{spec_rec_mag.png}    \caption{(a) Spectrogram on VVLD.HHZ. The white line is the median of the energy in the frequency band between 5 Hz and 20 Hz calculated within a 1-h sliding window. (b) Blue, cumulative events for the same time period of the experiment; orange, recurrence time for the newly detected events. (c) Estimated magnitudes for the newly detected events. A gap in the continuous data at this receiver location is seen for the night of November 8 to 9, 2019.}
+
+\end{figure}
+\begin{figure}
+
+    \centering
+     \includegraphics[width=1\linewidth]{wigg_cc_mat_cluster.png}    \caption{Illustration of the waveform-based hierarchical clustering output. (a) Pairwise correlation coefficients between the waveforms for the vertical component of station VVLD (Fig. 1) of the 714 detected events. This matrix is used to perform the hierarchical clustering. (b) Cumulative events combined with the results from the hierarchical clustering, according to the color code in the legend. (c) Characteristic normalized waveforms (vertical component) of the five different clusters revealed in the earthquake sequence. These traces are obtained after stacking all of the individually normalized waveforms belonging to each cluster.}
+
+\end{figure}
+\begin{figure}
+
+    \centering
+     \includegraphics[width=1\linewidth]{densities_plot.pdf}         \caption{Spatio-temporal evolution of the earthquake sequences with respect to the mainshock origin time and hypocenter. Left column: Temporal density (number of events per hour). The coefficients of variation (COV) from the recurrence times are indicated for each cluster. Black dashed line, mainshock hypocenter and origin time. Center column: Distance in time and space from each event of the sequence with respect to the mainshock location and origin time. Black dashed line, mainshock hypocenter and origin time. Right column: Spatial density (concentration of events per 0.1 km). Solid line, where 90\% of the seismic activity is concentrated. (a)-(e) Each of the five clusters. The same color code from Figure 3 is used.}
+
+\end{figure}
+\begin{figure}
+
+    \centering
+     \includegraphics[width=0.9\linewidth]{maps_clusters.pdf}     \caption{Map view (left column), and cross-sections along the strike (middle column) and normal-strike (right column) directions for each of the five clusters identified in the sequence (as indicated). All of the locations are relative to the mainshock hypocenter (41.7746$^o$N 13.6066$^o$E; 13.94 km depth, black star). In all of the panels, the same color code is used as in Figures 3 and 4 to represent each different cluster. The solid black line represents a fault plane of 1 km$^2$ with the geometry of the second nodal plane (Supplementary Materials Table S1). The directions A-A' (along strike) and B-B' (normal to the strike) are the same as in Figure 1.}
+
+\end{figure}

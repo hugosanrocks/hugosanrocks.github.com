@@ -1,0 +1,140 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[papersize={8.5in,11in}]{geometry}
+
+\usepackage{natbib}
+\usepackage{lineno}
+\usepackage{soul}
+\usepackage{url}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+            
+\linenumbers
+\usepackage[printfigures]{figcaps}
+
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\usepackage{authblk}
+%\usepackage{setspace}
+%\doublespacing
+\usepackage{inputenc}
+
+\usepackage{lscape}
+
+%\usepackage[paper=portrait,pagesize]{typearea}
+
+
+\usepackage{booktabs}
+\usepackage{dcolumn}
+
+%\def\settablenum#1{\let\caption\savecaption
+%\def\@captype{table}
+%\def\thetable{#1} \let\@currentlabel\thetable  \let\label\savelabel}
+
+
+%opening
+\title{Supplementary materials for "The imbricated foreshock and aftershock activities of the Balsorano (Italy) M$_w$ 4.4 normal fault earthquake and implications for earthquake initiation"}
+
+
+\author{H. S. S\'anchez-Reyes$^1$, D. Essing$^1$, E. Beauc\'e$^2$, P. Poli$^1$}
+
+\affil[1]{Institute of Earth Sciences, University Grenoble Alpes, Grenoble \emph{38100}, France}
+\affil[2]{Department of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, MA, United States}
+\affil[*]{Corresponding author: hugo.sanchez-reyes@univ-grenoble-alpes.fr}
+
+\date{}                     %% if you don't need date to appear
+\setcounter{Maxaffil}{0}
+\renewcommand\Affilfont{\itshape\small}
+
+
+
+\begin{document}
+
+
+\maketitle
+
+%% ------------------------------------------------------------------------ %%
+%
+%  TEXT
+%
+%% ------------------------------------------------------------------------ %%
+
+\noindent\textbf{Contents of this file}
+\begin{enumerate}
+ \item Tables S1 to S4 
+ \item Figures S1 to S2 
+\end{enumerate}
+
+\noindent\textbf{Additional Supporting Information}
+\begin{enumerate}
+  \item Seismic catalog for the seismic sequence associated to the 2019 (M$_W$ 4.4) Balsorano earthquake
+\end{enumerate}
+
+\noindent\textbf{Text S1}
+
+
+\begin{table}
+\renewcommand{\thetable}{S\arabic{table}}
+ \caption{General information of the 2019 M$_w$ 4.4 Balsorano earthquake. All this information is taken from the INGV's online catalog.}
+ \begin{center}
+ \begin{tabular}{@{}l l }
+   \hline
+    {\hskip 2cm Mainshock data}      &            \\
+    \hline
+    Magnitude				        & M$_w$ 4.4    \\
+    Lat (º) / Lon (º)            	& 13.61 / 41.78  \\
+    Depth (km)                      & 14.0           \\    
+    NP1: \ Strike / Dip / Rake  	& 299 /	58 / -120   \\
+    NP2: \ Strike / Dip / Rake     	& 166 / 42 / -51    \\
+    Reported activity 			    & $\approx$ 150 events  \\
+   \# Stations $<$ 100 km		    & 6         
+ \end{tabular}
+ \end{center}
+\label{tab:general_info}
+\end{table}
+
+
+\begin{table}
+\renewcommand{\thetable}{S\arabic{table}}
+\caption{Receiver locations. The distances reported are measured with respect to the mainshock epicentral location (taken from the INGV).}
+\begin{center}
+ \begin{tabular}{@{} l c c c}
+   \hline
+    Receiver  & Lon. ($^o$) & Lat. ($^o$) & Dist. (km) \\
+    \hline
+ CERT & 41.94903 & 12.98176 & 72.297 \\
+ GUAR & 41.79450 & 13.31229 & 33.093 \\
+ INTR & 42.01154 & 13.90460 & 41.820 \\    
+ POFI & 41.71743 & 13.71202 & 13.112 \\
+ PTQR & 42.02193 & 13.40057 & 35.780 \\
+ VVLD & 41.86965 & 13.62324 & 10.411
+ \end{tabular}
+\end{center}
+\label{tab:general_info}
+\end{table}
+
+
+\begin{table}
+\renewcommand{\thetable}{S\arabic{table}}
+ \caption{Velocity model used for the relocation process. A V$_P$/V$_S$ ratio equal to 1.73 is assumed. Slightly modified version from the model proposed by \cite{Bagh_2007_BSC}}
+ \begin{center}
+ \begin{tabular}{@{} c | c}
+    \hline
+    Depth of top of layer (km)	& P-wave velocity (km/s)  \\
+    \hline
+    0.0 & 5.360 \\
+    3.0 & 5.360 \\
+    6.0 & 5.800 \\
+    14.0 & 6.650 \\
+    25.0 & 6.900 
+    \end{tabular}
+ \label{tab:velocitymodel}
+\end{center}
+\end{table}
+
+\begin{landscape}
+[insert table here that will be displayed horizontally]
+\end{landscape}
+
+\end{document}

@@ -1,0 +1,86 @@
+1 wavefroms from the link of piero and cite ...  Add the figures to SI and cite INGV ...   Hugo
+
+2 evidence looking at the surface geololy,
+cite the paper from piero
+
+ === Read paper we discuss 
+ ==  Modify the text (citation) Hugo
+ ==  Modify figure accordingly  David
+
+4 we do not know the geometry of the faults and therefore it's difficult tom make this analysis
+We can not estimate focal mechanism for very small magnitude events... we can not know the geometry... no coulomb analysis.
+
+ === Modify text ... Hugo
+
+5 and 5a fig change figures
+
+ === Modify figures ... Hugo
+
+6 repeat the blabla and add one with the other projection as SI
+
+ === Add figure in SI ... Hugo
+
+
+7 MOST BLABLA SKIP
+
+
+FIGURES CHANGING
+
+Fig 2. Change legend 6pm-6am. Check text for diurnal variability..... David
+
+Fig 4. Add tick to x label for mainshock ... Hugo
+Fig 4. thiner line of 90% activity ... Hugo
+
+
+Mention that we did extensive tests and we choose these parametrization... text Hugo
+
+ 
+Add template hypocenter and magnitude in table S4 ... Hugo
+Include a map with the seismicity from INGV add focal mechanism ... Hugo
+
+focal mechanisms ... David
+
+Add some text in the discussion about the bias of using our templates to catch the whole seismicity
+
+
+
+Magnitude yes we used 23%, but we can show that our templates cover the whole region according to the INGV Catalog. SI.
+
+
+We can show the figure about the magnitude fit of the LS fitting ... David
+
+Add something about the magnitude unimportance .... Hugo
+
+
+
+Add text in clustering section with reviewer comments and also in the 
+
+results mentioning the that cluster 3 is containing the left over of the waveforms.
+
+Check for high correlation values in the foreshock and aftershock sequence (potential repeating earthquakes) ... David
+
+Add comments about repeating equakes to the text ... Hugo
+
+Plot figure 4 (central column) in a logtime scale 0 is origin time. add as SI, and conclude what we see according to the comment ... Hugo
+
+Mention something about repeating equakes in the aftershock sequence and its relevance to determine if there is or not afterslip .... David
+
+check text for medium - moderate - small and be consistent ... Hugo
+
+
+check if we can add fault outcrops ... David.
+
+Figure 3 ... David
+
+Figure S1 ... Check distance and report good value everywhere.  ... Hugo and David
+
+Figure S2 ... bye remove it
+
+SMALL EDITS in text ... Hugo
+
+
+in line 270 (volumetric damage) we add Inbal paper cite
+
+2 and 3 could be also afterslip..
+
+from 
