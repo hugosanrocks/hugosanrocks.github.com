@@ -26,6 +26,7 @@
 \begin{figure}
 
     \centering
-     \includegraphics[width=0.9\linewidth]{maps_clusters.pdf}     \caption{Map view (left column), and cross-sections along the strike (middle column) and normal-strike (right column) directions for each of the five clusters identified in the sequence (as indicated). All of the locations are relative to the mainshock hypocenter (41.7746$^o$N 13.6066$^o$E; 13.94 km depth, black star). In all of the panels, the same color code is used as in Figures 3 and 4 to represent each different cluster. The solid black line represents a fault plane of 1 km$^2$ with the geometry of the second nodal plane (Supplementary Materials Table S1). The directions A-A' (along strike) and B-B' (normal to the strike) are the same as in Figure 1.}
+     \includegraphics[width=0.8\linewidth]{maps_clusters.pdf}
+     \caption{Map view (left column), and cross-sections along the strike (middle column) and normal-strike (right column) directions for each of the five clusters identified in the sequence (as indicated). All of the locations are relative to the mainshock hypocenter (41.7746$^o$N 13.6066$^o$E; 13.94 km depth, black star). In all of the panels, the same color code is used as in Figures 3 and 4 to represent each different cluster. The solid black line represents a fault plane of 1 km$^2$ with the geometry of the second nodal plane (Supplementary Materials Table S1). The directions A-A' (along strike) and B-B' (normal to the strike) are the same as in Figure 1. Each cluster is represented by a correponding label a) Cluster 1 , b) Cluster 2, c) Cluster 3, d) Cluster 4 and e) Cluster 5.}
 
 \end{figure}

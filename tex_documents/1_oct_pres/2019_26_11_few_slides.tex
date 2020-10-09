@@ -1,0 +1,132 @@
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% TUNING OF THE THEME AND PACKAGES
+
+%Here should be chosen the global font size and aspect ratio
+%\documentclass[aspectratio=169,9pt]{beamer}
+\documentclass[aspectratio=43,9pt]{beamer}
+
+\usetheme[sectionpage=theme, numbering=counter, progressbar=frametitle, background=light]{metro}
+%possible choices are
+%numbering=none,counter,fraction
+%progressbar=foot,head,frametitle
+\usepackage{pifont}
+\usepackage{marvosym}
+\usepackage{appendixnumberbeamer}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{natbib}
+%\usepackage{algorithm2e}
+%\usepackage{algorithmic}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{shapes.misc}
+
+\usepackage{animate,media9} %,movie15}
+
+\usepackage{color}
+\input{figs/rgb}
+
+
+
+
+\tikzset{cross/.style={cross out, draw=black, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},
+%default radius will be 1pt. 
+cross/.default={20pt}}
+
+
+\usepackage{datetime}
+%\usepackage{unicode-math} %work with Xelatex only
+
+\usepackage{animate}
+\usepackage{perpage}       %reinit the footnote number at each page/slide
+\MakePerPage{footnote}
+
+%font of the seiscope logo used for the beamer also
+%\setsansfont{Montserrat}
+
+
+%correct rendering of some png, pdf figure, which appears weird on Adobe Reader
+%\pdfpageattr{/Group <</S /Transparency /I true /CS /DeviceRGB>>}
+
+%*********************
+%footnote management
+%--------------------
+\let\oldfootnote\footnote
+\renewcommand\footnote[1][]{\oldfootnote[frame,#1]}
+%put defaultfootnote without number
+%\renewcommand{\thefootnote}{\*}
+%or manage it on the fly with
+%\renewcommand{\thefootnote}{\arabic{footnote}}
+%\renewcommand{\thefootnote}{\*}
+%*********************
+
+%size of the text, if required
+%\setbeamerfont{footnote}{size=\scriptsize}
+%\setbeamerfont{caption}{size=\scriptsize}
+
+
+%path to logo and biblio -> to be adapted to your local directories management
+\newcommand\dirlogo{../logos/}
+\newcommand\dirbiblio{../biblio/}
+
+
+% automatic logo in the header on slides -> should not be changed
+\addtobeamertemplate{frametitle}{}{%
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/UGA} \, \includegraphics[height=3.3ex]{\dirlogo/ISTerre}};
+  %\node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_light_background}};
+\end{tikzpicture}}
+
+
+
+% END OF TUNING OF THE THEME AND PACKAGES
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% INFORMATIONS
+\title{MONIFAULT Project}								% TITLE
+\subtitle{David's and Hugo's research work}
+%\setbeamertemplate{frame footer}{A simple subtitle}		% BOTTOM TITLE ON EACH SLIDES
+%\newdate{date}{05}{01}{2017}							% DEFINE DATE
+\date{\today}
+\author{H. S. S\'anchez-Reyes, D. Essing, E. Beauc\'e and P. Poli}								% AUTHOR
+\institute{ISTerre, Universit\'e Grenoble Alpes}							% INSTITUTE
+%\titlegraphic{}	% Edit path to seiscope_color_light_background
+\titlegraphic{\hfill \includegraphics[height=1cm]{\dirlogo/ISTerre} \qquad \quad \includegraphics[height=1cm]{\dirlogo/UGA} 
+ \par \vspace{0.5cm} \hspace{8.5cm} \includegraphics[height=1.5cm]{\dirlogo/ERC} }
+
+
+
+
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+% BEGIN DOCUMENT
+%-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+\begin{document}
+
+% TITLE PAGE
+\maketitle
+
+
+% OUTLINE
+%---------------------------------------------------------------------
+\begin{frame}{Outline}
+\small \tableofcontents[hideallsubsections] 
+\end{frame}
+%---------------------------------------------------------------------
+
+
+
+\end{document}
+
