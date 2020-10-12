@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  6 OCT 2020 11:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  12 OCT 2020 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,22 +683,25 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [2]
-[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [3]
+[4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
 \tf@pof=\write5
 \openout5 = `2019_Balsorano_final_draft.lof'.
 
 
-[6] [7] [8] [9]
+[8] [9]
 Underfull \vbox (badness 2521) has occurred while \output is active []
 
  [10]
@@ -707,46 +710,47 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 [13]
-Overfull \hbox (70.9831pt too wide) in paragraph at lines 191--192
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+[15]
+Overfull \hbox (70.9831pt too wide) in paragraph at lines 195--196
 \OT1/cmr/m/n/12 ofisica e Vul-canolo-gia (INGV) seis-mo-log-i-cal data cen-ter 
 ([][][]http://cnt.rm.ingv.it/webservices[]and[]software/[][][];
  []
 
 
-Overfull \hbox (11.04317pt too wide) in paragraph at lines 191--192
+Overfull \hbox (11.04317pt too wide) in paragraph at lines 195--196
 \OT1/cmr/m/n/12 last ac-cessed, March 2020) and were down-loaded us-ing ob-spy-
 DMT ([][][]https://github.com/kasra-
  []
 
 
-Overfull \hbox (33.81506pt too wide) in paragraph at lines 191--192
+Overfull \hbox (33.81506pt too wide) in paragraph at lines 195--196
 \OT1/cmr/m/n/12 Some plots were made us-ing the Generic Map-ping Tools ver-sion
  4.5.14 ([][][]www.soest.hawaii.edu/gmt[][][];
  []
 
 
-Overfull \hbox (21.28833pt too wide) in paragraph at lines 191--192
+Overfull \hbox (21.28833pt too wide) in paragraph at lines 195--196
 [][]\OT1/cmr/m/n/12 Wes-sel and Smith[][] ([][]1998[][])). The event clus-ter-i
 ng was per-formed us-ing Scikit-learn ([][]https://scikit-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-[15] [16] [17] [18] [19]
+[16] [17] [18] [19] [20] [21]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [20] [21] [22]
+ [22] [23]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [23] (./2019_Balsorano_final_draft.lofpdfTeX warning (ext4): destination with 
-the same identifier (name{figure.1}) has been already used, duplicate ignored
+ [24] [25]
+(./2019_Balsorano_final_draft.lofpdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.5     \caption
@@ -761,54 +765,53 @@ ation with the same identifier (name{figure.2}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.11 ...1\linewidth]{spec_rec_mag.png}    \caption
-                                                  {(a) Spectrogram on VVLD.H...
+l.12      \caption
+                  {(a) Spectrogram on VVLD.HHZ. The white line is the median...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 ...n for the night of November 8 to 9, 2019.}
+l.12 ...00) and unshaded (6:00 to 18:00) regions.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.3}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.17 ...idth]{wigg_cc_mat_cluster.png}    \caption
+l.18 ...idth]{wigg_cc_mat_cluster.png}    \caption
                                                   {Illustration of the wavef...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 ...ized waveforms belonging to each cluster.}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.4}) has been already used, duplicat
-e ignored
-<to be read again> 
-                   \relax 
-l.23 ...idth]{densities_plot.pdf}         \caption
-                                                  {Spatio-temporal evolution...
-[24
+l.18 ...ized waveforms belonging to each cluster.}
+                                                   [26
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 ...he same color code from Figure 3 is used.}
+l.25      \caption
+                  {Spatio-temporal evolution of the earthquake sequences wit...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 ...he same color code from Figure 3 is used.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.5}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.30      \caption
+l.32      \caption
                   {Map view (left column), and cross-sections along the stri...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 ...Cluster 3, d) Cluster 4 and e) Cluster 5.}
-                                                  ) [25]
+l.32 ...Cluster 3, d) Cluster 4 and e) Cluster 5.}
+                                                  ) [27]
 (./2019_Balsorano_final_draft.lof
-<map_balsorano.pdf, id=518, 1037.79724pt x 492.88138pt>
+<map_balsorano.pdf, id=585, 1037.79724pt x 492.88138pt>
 File: map_balsorano.pdf Graphic file (type pdf)
 <use map_balsorano.pdf>
 Package pdftex.def Info: map_balsorano.pdf  used on input line 4.
@@ -825,117 +828,129 @@ e ignored
                    \relax 
 l.5 ...strated in the cross sections of Figure 5.}
                                                   
-<spec_rec_mag.png, id=519, 876.27374pt x 403.5075pt>
+<spec_rec_mag.png, id=586, 1088.065pt x 533.995pt>
 File: spec_rec_mag.png Graphic file (type png)
 <use spec_rec_mag.png>
 Package pdftex.def Info: spec_rec_mag.png  used on input line 11.
-(pdftex.def)             Requested size: 464.0645pt x 213.69788pt.
+(pdftex.def)             Requested size: 464.0645pt x 227.7556pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 ...n for the night of November 8 to 9, 2019.}
+l.12 ...00) and unshaded (6:00 to 18:00) regions.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.2}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.11 ...n for the night of November 8 to 9, 2019.}
+l.12 ...00) and unshaded (6:00 to 18:00) regions.}
                                                   
-<wigg_cc_mat_cluster.png, id=521, 1046.40938pt x 480.29437pt>
+<wigg_cc_mat_cluster.png, id=588, 1229.59375pt x 701.62125pt>
 File: wigg_cc_mat_cluster.png Graphic file (type png)
 <use wigg_cc_mat_cluster.png>
-Package pdftex.def Info: wigg_cc_mat_cluster.png  used on input line 17.
-(pdftex.def)             Requested size: 464.0645pt x 213.00111pt.
+Package pdftex.def Info: wigg_cc_mat_cluster.png  used on input line 18.
+(pdftex.def)             Requested size: 464.0645pt x 264.79884pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.17 ...ized waveforms belonging to each cluster.}
+l.18 ...ized waveforms belonging to each cluster.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.3}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.17 ...ized waveforms belonging to each cluster.}
+l.18 ...ized waveforms belonging to each cluster.}
                                                   
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26
+ [28
 
 
  <./map_balsorano.pdf>]
+Package epstopdf Info: Source file: <densities_plot.eps>
+(epstopdf)                    date: 2020-10-09 18:23:17
+(epstopdf)                    size: 300268 bytes
+(epstopdf)             Output file: <densities_plot-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-10-12 10:24:26
+(epstopdf)                    size: 50167 bytes
+(epstopdf)             Command: <repstopdf --outfile=densities_plot-eps-convert
+ed-to.pdf densities_plot.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./densities_plot.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<densities_plot.pdf, id=576, 1459.4525pt x 888.31876pt>
-File: densities_plot.pdf Graphic file (type pdf)
-<use densities_plot.pdf>
-Package pdftex.def Info: densities_plot.pdf  used on input line 23.
-(pdftex.def)             Requested size: 464.0645pt x 282.45149pt.
+
+pdfTeX warning: /usr/bin/pdflatex (file ./densities_plot-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<densities_plot-eps-converted-to.pdf, id=642, 731.73375pt x 515.9275pt>
+File: densities_plot-eps-converted-to.pdf Graphic file (type pdf)
+<use densities_plot-eps-converted-to.pdf>
+Package pdftex.def Info: densities_plot-eps-converted-to.pdf  used on input lin
+e 24.
+(pdftex.def)             Requested size: 464.0645pt x 327.20096pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 ...he same color code from Figure 3 is used.}
+l.25 ...he same color code from Figure 3 is used.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.4}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.23 ...he same color code from Figure 3 is used.}
+l.25 ...he same color code from Figure 3 is used.}
                                                   
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./spec_rec_mag.png>]
+ [29 <./spec_rec_mag.png>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./maps_clusters.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<maps_clusters.pdf, id=582, 1899.095pt x 3043.37pt>
+<maps_clusters.pdf, id=648, 1899.095pt x 3043.37pt>
 File: maps_clusters.pdf Graphic file (type pdf)
 <use maps_clusters.pdf>
-Package pdftex.def Info: maps_clusters.pdf  used on input line 29.
+Package pdftex.def Info: maps_clusters.pdf  used on input line 31.
 (pdftex.def)             Requested size: 371.253pt x 594.91757pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 ...Cluster 3, d) Cluster 4 and e) Cluster 5.}
+l.32 ...Cluster 3, d) Cluster 4 and e) Cluster 5.}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.5}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.30 ...Cluster 3, d) Cluster 4 and e) Cluster 5.}
+l.32 ...Cluster 3, d) Cluster 4 and e) Cluster 5.}
                                                   
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./wigg_cc_mat_cluster.png>])
+ [30 <./wigg_cc_mat_cluster.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./densities_plot.pdf>]
+ [31 <./densities_plot-eps-converted-to.pdf>]
 Overfull \vbox (179.15543pt too high) has occurred while \output is active []
 
 
-[30 <./maps_clusters.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
+[32 <./maps_clusters.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 660.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 660.
  (./2019_Balsorano_final_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 656.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 660.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 660.
 Package rerunfilecheck Info: File `2019_Balsorano_final_draft.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 656.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 660.
  ) 
 Here is how much of TeX's memory you used:
- 17134 strings out of 492982
- 322038 string characters out of 6134897
- 387626 words of memory out of 5000000
+ 17137 strings out of 492982
+ 322124 string characters out of 6134897
+ 391630 words of memory out of 5000000
  20287 multiletter control sequences out of 15000+600000
  12652 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,56p,1794b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,5n,56p,1997b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -949,10 +964,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
 r/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on 2019_Balsorano_final_draft.pdf (30 pages, 2604626 bytes).
+Output written on 2019_Balsorano_final_draft.pdf (32 pages, 2544790 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 603 compressed objects within 7 object streams
- 118 named destinations out of 1000 (max. 500000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 666 compressed objects within 7 object streams
+ 120 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

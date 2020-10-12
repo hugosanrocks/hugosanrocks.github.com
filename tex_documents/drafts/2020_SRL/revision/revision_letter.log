@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  6 OCT 2020 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  12 OCT 2020 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1521,164 +1521,255 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--193
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--206
 
- []
+pdfTeX warning: /usr/bin/pdflatex (file ./S3_NP1_NP2_map_cluesters.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<S3_NP1_NP2_map_cluesters.pdf, id=43, 1950.28625pt x 3007.235pt>
+File: S3_NP1_NP2_map_cluesters.pdf Graphic file (type pdf)
+<use S3_NP1_NP2_map_cluesters.pdf>
+Package pdftex.def Info: S3_NP1_NP2_map_cluesters.pdf  used on input line 206.
+(pdftex.def)             Requested size: 358.50317pt x 552.75061pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--250
-
- []
-
-[4] [5 <./maps_clusters.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 259--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--316
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 326--331
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 356--361
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--378
-
- []
-
-<S3_loglog_time.png, id=63, 708.39656pt x 503.63156pt>
-File: S3_loglog_time.png Graphic file (type png)
-<use S3_loglog_time.png>
-Package pdftex.def Info: S3_loglog_time.png  used on input line 390.
-(pdftex.def)             Requested size: 409.72125pt x 291.29192pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--397
+Underfull \hbox (badness 10000) in paragraph at lines 201--214
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 408--413
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--429
+Underfull \hbox (badness 10000) in paragraph at lines 224--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--444
+Underfull \hbox (badness 10000) in paragraph at lines 239--245
 
  []
 
-[8 <./S3_loglog_time.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 454--459
-
- []
+[4] [5 <./maps_clusters.pdf>]
+Overfull \vbox (6.7092pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--474
+[6 <./S3_NP1_NP2_map_cluesters.pdf>]
+<spec_rec_mag.png, id=78, 1088.065pt x 533.995pt>
+File: spec_rec_mag.png Graphic file (type png)
+<use spec_rec_mag.png>
+Package pdftex.def Info: spec_rec_mag.png  used on input line 261.
+(pdftex.def)             Requested size: 512.14963pt x 251.36064pt.
 
- []
-
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¦ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--490
+Underfull \hbox (badness 10000) in paragraph at lines 256--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--504
+Underfull \hbox (badness 10000) in paragraph at lines 277--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--518
+
+pdfTeX warning: /usr/bin/pdflatex (file ./densities_plot.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<densities_plot.pdf, id=80, 731.73375pt x 515.9275pt>
+File: densities_plot.pdf Graphic file (type pdf)
+<use densities_plot.pdf>
+Package pdftex.def Info: densities_plot.pdf  used on input line 296.
+(pdftex.def)             Requested size: 512.14963pt x 361.12317pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--532
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+[7 <./spec_rec_mag.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 321--326
+
+ []
+
+[8 <./densities_plot.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 336--341
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--546
+Underfull \hbox (badness 10000) in paragraph at lines 351--356
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--371
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--386
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 555--560
+Underfull \hbox (badness 10000) in paragraph at lines 398--403
+
+ []
+
+<S3_loglog_time.png, id=98, 708.39656pt x 503.63156pt>
+File: S3_loglog_time.png Graphic file (type png)
+<use S3_loglog_time.png>
+Package pdftex.def Info: S3_loglog_time.png  used on input line 415.
+(pdftex.def)             Requested size: 358.50317pt x 254.88138pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--438
+
+ []
+
+[10 <./S3_loglog_time.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 449--454
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--484
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--499
 
  []
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¦ in font cmr10!
-(./revision_letter.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--543
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 552--557
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--571
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¦ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 593--597
+
+ []
+
+[12] (./revision_letter.bbl
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
-) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 593.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 593.
+) [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
  (./revision_letter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 593.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 593.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 593.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
  ) 
 Here is how much of TeX's memory you used:
- 37064 strings out of 492982
- 732061 string characters out of 6134897
+ 37086 strings out of 492982
+ 732610 string characters out of 6134897
  824554 words of memory out of 5000000
- 40047 multiletter control sequences out of 15000+600000
+ 40066 multiletter control sequences out of 15000+600000
  549120 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,63p,10446b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,7n,63p,10446b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
@@ -1686,20 +1777,21 @@ t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/marvosym/marvosym.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on revision_letter.pdf (10 pages, 807945 bytes).
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/marvosym/marvosym.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on revision_letter.pdf (13 pages, 1225773 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 176 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
