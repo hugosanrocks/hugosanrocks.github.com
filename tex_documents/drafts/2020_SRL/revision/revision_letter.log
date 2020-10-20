@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  16 OCT 2020 16:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  19 OCT 2020 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1487,10 +1487,10 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 <S2_Focal_synthetics.pdf, id=24, 1090.0725pt x 939.51pt>
 File: S2_Focal_synthetics.pdf Graphic file (type pdf)
 <use S2_Focal_synthetics.pdf>
-Package pdftex.def Info: S2_Focal_synthetics.pdf  used on input line 111.
+Package pdftex.def Info: S2_Focal_synthetics.pdf  used on input line 112.
 (pdftex.def)             Requested size: 512.14963pt x 441.41206pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--119
+Underfull \hbox (badness 10000) in paragraph at lines 108--121
 
  []
 
@@ -1498,91 +1498,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--119
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
+<map_balsorano.pdf, id=25, 1314.69171pt x 787.86644pt>
+File: map_balsorano.pdf Graphic file (type pdf)
+<use map_balsorano.pdf>
+Package pdftex.def Info: map_balsorano.pdf  used on input line 140.
+(pdftex.def)             Requested size: 512.14963pt x 306.91805pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--140
+Underfull \hbox (badness 10000) in paragraph at lines 132--147
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 150--156
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--163
 
  []
 
 [3 <./S2_Focal_synthetics.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 165--171
+Underfull \hbox (badness 10000) in paragraph at lines 172--178
 
  []
 
 
 
-pdfTeX warning: /usr/bin/pdflatex (file ./maps_clusters.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<maps_clusters.pdf, id=42, 1899.095pt x 3043.37pt>
-File: maps_clusters.pdf Graphic file (type pdf)
-<use maps_clusters.pdf>
-Package pdftex.def Info: maps_clusters.pdf  used on input line 184.
-(pdftex.def)             Requested size: 358.50317pt x 574.48483pt.
+pdfTeX warning: /usr/bin/pdflatex (file ./map_clusters_templates.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<map_clusters_templates.pdf, id=43, 1939.245pt x 2913.88625pt>
+File: map_clusters_templates.pdf Graphic file (type pdf)
+<use map_clusters_templates.pdf>
+Package pdftex.def Info: map_clusters_templates.pdf  used on input line 191.
+(pdftex.def)             Requested size: 384.11221pt x 577.16469pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--193
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./S3_NP1_NP2_map_cluesters.pdf): PDF in
-clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<S3_NP1_NP2_map_cluesters.pdf, id=43, 1950.28625pt x 3007.235pt>
-File: S3_NP1_NP2_map_cluesters.pdf Graphic file (type pdf)
-<use S3_NP1_NP2_map_cluesters.pdf>
-Package pdftex.def Info: S3_NP1_NP2_map_cluesters.pdf  used on input line 206.
-(pdftex.def)             Requested size: 358.50317pt x 552.75061pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--214
+Underfull \hbox (badness 10000) in paragraph at lines 187--200
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[4 <./map_balsorano.pdf>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
+LaTeX Warning: Text page 5 contains only floats.
+
+[5 <./map_clusters_templates.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 208--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--230
+Underfull \hbox (badness 10000) in paragraph at lines 238--244
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--245
-
- []
-
-[4] [5 <./maps_clusters.pdf>]
-Overfull \vbox (6.7092pt too high) has occurred while \output is active []
-
-
-[6 <./S3_NP1_NP2_map_cluesters.pdf>]
-<spec_rec_mag.png, id=78, 1088.065pt x 533.995pt>
+<spec_rec_mag.png, id=472, 1088.065pt x 533.995pt>
 File: spec_rec_mag.png Graphic file (type png)
 <use spec_rec_mag.png>
-Package pdftex.def Info: spec_rec_mag.png  used on input line 261.
+Package pdftex.def Info: spec_rec_mag.png  used on input line 260.
 (pdftex.def)             Requested size: 512.14963pt x 251.36064pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--269
+Underfull \hbox (badness 10000) in paragraph at lines 255--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--283
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--282
 
  []
 
@@ -1590,66 +1584,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--283
 
 pdfTeX warning: /usr/bin/pdflatex (file ./densities_plot.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<densities_plot.pdf, id=80, 731.73375pt x 515.9275pt>
+<densities_plot.pdf, id=474, 731.73375pt x 515.9275pt>
 File: densities_plot.pdf Graphic file (type pdf)
 <use densities_plot.pdf>
-Package pdftex.def Info: densities_plot.pdf  used on input line 296.
+Package pdftex.def Info: densities_plot.pdf  used on input line 295.
 (pdftex.def)             Requested size: 512.14963pt x 361.12317pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--303
+Underfull \hbox (badness 10000) in paragraph at lines 290--302
 
  []
 
+[6]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--325
 
  []
 
 [7 <./spec_rec_mag.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
+
+pdfTeX warning: /usr/bin/pdflatex (file ./S6_templates_per_cluster_map.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<S6_templates_per_cluster_map.pdf, id=484, 1977.3875pt x 772.8875pt>
+File: S6_templates_per_cluster_map.pdf Graphic file (type pdf)
+<use S6_templates_per_cluster_map.pdf>
+Package pdftex.def Info: S6_templates_per_cluster_map.pdf  used on input line 3
+39.
+(pdftex.def)             Requested size: 512.14963pt x 200.17944pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--348
 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <./densities_plot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--341
-
- []
-
-<S5_lsq_model.png, id=95, 304.88907pt x 209.28188pt>
+<S5_lsq_model.png, id=495, 304.88907pt x 209.28188pt>
 File: S5_lsq_model.png Graphic file (type png)
 <use S5_lsq_model.png>
-Package pdftex.def Info: S5_lsq_model.png  used on input line 355.
+Package pdftex.def Info: S5_lsq_model.png  used on input line 362.
 (pdftex.def)             Requested size: 358.50317pt x 246.09143pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--363
-
- []
-
-[9 <./S5_lsq_model.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 373--378
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--393
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--410
-
- []
-
-<S3_loglog_time.png, id=100, 708.39656pt x 503.63156pt>
-File: S3_loglog_time.png Graphic file (type png)
-<use S3_loglog_time.png>
-Package pdftex.def Info: S3_loglog_time.png  used on input line 422.
-(pdftex.def)             Requested size: 358.50317pt x 254.88138pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--429
+Underfull \hbox (badness 10000) in paragraph at lines 358--370
 
  []
 
@@ -1657,32 +1641,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--429
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--445
+Underfull \hbox (badness 10000) in paragraph at lines 380--385
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 456--461
+[9 <./S6_templates_per_cluster_map.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
 
  []
 
 
-LaTeX Warning: Reference `fig:fig3_zoom' on page 11 undefined on input line 472
+Underfull \hbox (badness 10000) in paragraph at lines 412--417
+
+ []
+
+<S3_loglog_time.png, id=512, 708.39656pt x 503.63156pt>
+File: S3_loglog_time.png Graphic file (type png)
+<use S3_loglog_time.png>
+Package pdftex.def Info: S3_loglog_time.png  used on input line 429.
+(pdftex.def)             Requested size: 358.50317pt x 254.88138pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--436
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./S5_lsq_model.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 447--452
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--468
+
+ []
+
+
+LaTeX Warning: Reference `fig:fig3_zoom' on page 11 undefined on input line 479
 .
 
-<wigg_cc_mat_cluster.png, id=104, 1229.59375pt x 701.62125pt>
+<wigg_cc_mat_cluster.png, id=517, 1229.59375pt x 701.62125pt>
 File: wigg_cc_mat_cluster.png Graphic file (type png)
 <use wigg_cc_mat_cluster.png>
-Package pdftex.def Info: wigg_cc_mat_cluster.png  used on input line 475.
+Package pdftex.def Info: wigg_cc_mat_cluster.png  used on input line 482.
 (pdftex.def)             Requested size: 512.14963pt x 292.23798pt.
-<S4_cumulative_per_cluster_zoom.png, id=105, 695.59875pt x 446.41782pt>
+<S4_cumulative_per_cluster_zoom.png, id=518, 695.59875pt x 446.41782pt>
 File: S4_cumulative_per_cluster_zoom.png Graphic file (type png)
 <use S4_cumulative_per_cluster_zoom.png>
 Package pdftex.def Info: S4_cumulative_per_cluster_zoom.png  used on input line
- 481.
+ 488.
 (pdftex.def)             Requested size: 512.14963pt x 328.69556pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--489
+Underfull \hbox (badness 10000) in paragraph at lines 478--496
 
  []
 
@@ -1692,26 +1704,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[11 <./S3_loglog_time.png>]
 
-LaTeX Warning: Reference `fig:dendrogram' on page 11 undefined on input line 49
-9.
+LaTeX Warning: Reference `fig:dendrogram' on page 12 undefined on input line 50
+6.
 
-<dendrogram_balsorano.png, id=106, 913.4125pt x 502.87875pt>
+<dendrogram_balsorano.png, id=523, 913.4125pt x 502.87875pt>
 File: dendrogram_balsorano.png Graphic file (type png)
 <use dendrogram_balsorano.png>
-Package pdftex.def Info: dendrogram_balsorano.png  used on input line 502.
+Package pdftex.def Info: dendrogram_balsorano.png  used on input line 509.
 (pdftex.def)             Requested size: 512.14963pt x 281.97083pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--510
+Underfull \hbox (badness 10000) in paragraph at lines 505--517
 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <./S3_loglog_time.png>] [12 <./wigg_cc_mat_cluster.png> <./S4_cumulative_pe
-r_cluster_zoom.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 520--525
+[12 <./wigg_cc_mat_cluster.png> <./S4_cumulative_per_cluster_zoom.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 
  []
 
@@ -1719,50 +1728,12 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¦ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--541
+Underfull \hbox (badness 10000) in paragraph at lines 543--548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 552--553
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
-
- []
-
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¦ in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 554--555
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+Underfull \hbox (badness 10000) in paragraph at lines 553--556
 
  []
 
@@ -1776,13 +1747,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--558
 
  []
 
-[13 <./dendrogram_balsorano.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--561
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¦ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--568
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
+
+ []
+
+[13 <./dendrogram_balsorano.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--575
 
  []
 
@@ -1791,11 +1800,11 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
 ) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 573.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 573.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 580.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 580.
  (./revision_letter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 573.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 573.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 580.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 580.
 
 
 LaTeX Warning: There were undefined references.
@@ -1803,38 +1812,42 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 573.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 580.
  ) 
 Here is how much of TeX's memory you used:
- 37112 strings out of 492982
- 733286 string characters out of 6134897
- 824554 words of memory out of 5000000
- 40088 multiletter control sequences out of 15000+600000
+ 37117 strings out of 492982
+ 733471 string characters out of 6134897
+ 825554 words of memory out of 5000000
+ 40092 multiletter control sequences out of 15000+600000
  549120 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,63p,10446b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,7n,63p,10446b,739s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/marvosym/marvosym.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on revision_letter.pdf (14 pages, 1748748 bytes).
+ve/texmf-dist/fonts/type1/public/dejavu/DejaVuSans-Bold.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosy
+m/marvosym.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/sha
+re/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm080
+0.pfb>
+Output written on revision_letter.pdf (14 pages, 51212490 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 606 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
