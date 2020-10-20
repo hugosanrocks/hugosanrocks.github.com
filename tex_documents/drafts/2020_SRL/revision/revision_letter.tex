@@ -327,7 +327,7 @@ It would be helpful to provide the hypocentral locations and magnitudes of templ
 
 
 \begin{Answer}
-We took into account these suggestions and we included more details of the 23 templates as part of the supplementary material (Table S5). In addition, we include also figure S6 to illustrate the relative location (with respect to the mainshock hypocenter) of the 23 templates. Furthermore, we modified figure 5 from the main manuscript to illustrate the location of the templates that belong to each of the different clusters composing the sequence. In this response letter, you can see these modification in figures.
+We took into account these suggestions and we included more details of the 23 templates as part of the supplementary material (Table S5). As metnioned by reviewer \#2, the depth concentration of seismicity might be strongly driven by the fact that 21 out of the 23 events used as templates were also relocated between those depths. In addition, we include also figure S5 in the supplementary material to illustrate the relative location (with respect to the mainshock hypocenter) of the 23 templates. We also modified figure 5 from the main manuscript to illustrate the location of the templates that belong to each of the different clusters composing the sequence. In this response letter, you can see these modification in figures 3 and 6.
 \begin{figure}[!h]
 \begin{center}
  \includegraphics[width=1\linewidth]{S6_templates_per_cluster_map.pdf} 
@@ -345,16 +345,16 @@ We took into account these suggestions and we included more details of the 23 te
 \begin{ReviewerComment}{2}
 \noindent 
 The method to determine the magnitude of earthquakes detected with template matching makes sense. However, the least-square fitting to obtain a linear model for magnitudes using only 23 earthquakes is unlikely to be robust. I suggest using more earthquakes in the INGV catalog to develop this model prior to applying it to the newly detected events.
-
 \end{ReviewerComment}
 
 
 \begin{Answer}
-Thank you for this comment. We totally agree with reviewer \#2 about the possible lack of robustness of the newly estimated magnitudes. However, the estimated magnitudes are used only as a very cualitative measurement in our analysis. We do not use the estimated magnitudes to go further in our analysis or conclusions. Therefore, we think that the estimated magnitudes (using these 23 templates in the least squares model) are enogh accurate for the scope this study. We decided to include as part of the supplementary material figure S5, which illustrates the least squares model that we used for the magnitude estimation. This figure is also included in this response letter as figure \ref{fig:S5_lsq_model}.
+Thank you for this comment. We totally agree with reviewer \#2 about the possible lack of robustness of the newly estimated magnitudes. However, the estimated magnitudes are used only as a qualitative measurement in our analysis. We do not use the estimated magnitudes to go further in our analysis or conclusions. Therefore, we consider that the estimated magnitudes (using these 23 templates to estimate the least squares model) are enough accurate for the intended scope. We decided to include as part of the supplementary material figure S5, which illustrates the least squares model that we used for the magnitude estimation. This figure is also included in this response letter as figure \ref{fig:S5_lsq_model}.
 \begin{figure}[!h]
 \begin{center}
  \includegraphics[width=0.7\linewidth]{S5_lsq_model.png} 
 \end{center}
+\caption{Least squares linear model obtained from the existing relationship between the average root mean square in the time window containing the S waves over all of the stations and components and the local magnitudes reported by the INGV for the 23 events assumed as templates. This linear model is used to estimate the magnitude of the newly detected events.}
 \label{fig:S5_lsq_model}
 \end{figure}
 \Assignment{Hugo} \WorkInProgressRevTask
@@ -455,6 +455,7 @@ Figure 1: The topography in this figure is poor resolution. Is better resolution
 
 
 \begin{Answer}
+We totally agree with reviewer \#2. We modified figure 1 in the main manuscript. The new version of this figure includes higher resolution and the surface scarp of the Liri fault, according to the work reported by \cite{wedmore2017667}. In this response letter this changes can be seen in figure 2.
 \Assignment{Hugo} \WorkInProgressRevTask
 \end{Answer}
 %
@@ -470,10 +471,11 @@ Figure 3: It is difficult to differentiate aftershock clusters on (3b); expand t
 
 
 \begin{Answer}
-We agree with reviewer \#2. We modified figure 3 in the main manuscript so that the cumulative number of events per each cluster can be better seen. In this response letter, Figure \ref{fig:fig3_improved} illustrate the new version. In addition, we include into the supplementary material a figure where a zoom in to the cumulative plot is illustrated for the first 24 hours after the mainshock (figure \ref{fig:fig3_zoom} in this response letter). 
+We greatly appreciate reviewer \#2 for this suggestion. We modified figure 3 in the main manuscript so that the cumulative number of events per each cluster can be better seen. In this response letter, figure \ref{fig:fig3_improved} illustrates the new version. In addition, we include figure S4 as part of the supplementary material to better illustrate the cumulative plot behavior right after the occurrence of the mainshock (figure \ref{fig:fig3_zoom} in this response letter). 
 \begin{figure}[!h]
 \begin{center}
  \includegraphics[width=1\linewidth]{wigg_cc_mat_cluster.png} 
+ \caption{Illustration of the waveform-based hierarchical clustering output. (a) Pairwise correlation coefficients between the waveforms for the vertical component of station VVLD (Fig. 1) of the 714 detected events. This matrix is used to perform the hierarchical clustering. (b) Cumulative events combined with the results from the hierarchical clustering, according to the color code in the legend. (c) Characteristic normalized waveforms (vertical component) of the five different clusters revealed in the earthquake sequence. These traces are obtained after stacking all of the individually normalized waveforms belonging to each cluster.}
 \end{center}
 \label{fig:fig3_improved}
 \end{figure}
@@ -481,7 +483,7 @@ We agree with reviewer \#2. We modified figure 3 in the main manuscript so that 
 \begin{center}
  \includegraphics[width=1\linewidth]{S4_cumulative_per_cluster_zoom.png} 
 \end{center}
-\label{fig:fig3_improved}
+\caption{Zoom in into the cumulative plot (figure 3b in the main manuscript) right after the occurrence of the mainshock.}
 \end{figure}
 \Assignment{Hugo} \WorkInProgressRevTask
 \end{Answer}
@@ -502,7 +504,8 @@ Thank you for this comment. We modified the main manuscript according to the cor
 \begin{center}
  \includegraphics[width=1\linewidth]{dendrogram_balsorano.png} 
 \end{center}
-\label{fig:fig3_improved}
+\caption{Dendrogram obtained from the waveform-based hierarchical clustering performed. The distance metric between two different waveforms ($i$ and $j$) is estimated as 1-C$_{ij}$. Ward's minimum variance linkage technique is used. The distance threshold to define the final number of cluster is set to 5.5 (the largest separation observed form dendrogram). The color code used for every branch represents the five different cluster identified (as in figures 3, 4 and 5 in the main manuscript).}
+\label{fig:dendrogram}
 \end{figure}
 \Assignment{Hugo} \WorkInProgressRevTask
 \end{Answer}

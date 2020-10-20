@@ -180,7 +180,7 @@
 
 \begin{table}
 \renewcommand{\thetable}{S\arabic{table}}
- \caption{Velocity model used for the relocation process. A V$_P$/V$_S$ ratio equal to 1.73 is assumed. Slightly modified version from the model proposed by \cite{Bagh_2007_BSC}}
+ \caption{Summary of the 23 templates used for scanning the continuous data. The estimated magnitude, and relocation resulting from the analysis described in the main manuscript are compared with the information provided from the INGV. The longitude and latitude are given in geographical degrees, depth is given in kilometers and the magnitude is estimated from a linear regression (figure S3).}
  \begin{center}
  \begin{tabular}{@{} c c c c c c c c c c}
 \hline
@@ -197,7 +197,7 @@ ID & Orig. time & Lon. (hh) & Lat. (hh) & Depth (hh) & Est. Mag. & INGV Lon. & I
 423 & 2019-11-08 08:10:56 & 13.6048 & 41.7753 & 14.159 & 1.5235 & 13.6287 & 41.778 & 12.7 & 1.5 \\
 425 & 2019-11-08 08:16:10 & 13.6065 & 41.7704 & 14.95 & 1.6368 & 13.6192 & 41.7772 & 14.9 & 1.6 \\
 433 & 2019-11-08 10:43:24 & 13.6053 & 41.7802 & 13.877 & 2.8811 & 13.5903 & 41.78 & 12.8 & 2.6 \\
-442 & 2019-11-08 12:00:43 & 13.6088 & 41.7767 & 14.029 & 1.1587 & 13.6063 & 41.766 & 14 & 1.1 \\
+442 & 2019-11-08 12:00:43 & 13.6088 & 41.7767 & 14.029 & 1.1587 & 13.6063 & 41.766 & 14.0 & 1.1 \\
 448 & 2019-11-08 13:07:07 & 13.6056 & 41.7811 & 13.719 & 1.7611 & 13.5973 & 41.7817 & 12.7 & 1.8 \\
 453 & 2019-11-08 14:22:12 & 13.6035 & 41.7754 & 13.891 & 1.3305 & 13.5997 & 41.773 & 12.6 & 1.3 \\
 539 & 2019-11-09 10:57:09 & 13.601 & 41.7801 & 13.947 & 1.1306 & 13.6097 & 41.7755 & 13.6 & 1.1 \\
@@ -222,7 +222,7 @@ ID & Orig. time & Lon. (hh) & Lat. (hh) & Depth (hh) & Est. Mag. & INGV Lon. & I
 \begin{center}
  \noindent\includegraphics[width=1\linewidth]{dendrogram_balsorano.png} 
 \end{center}
-\caption{Dendrogram obtained from the waveform-based hierarchical clustering performed. The distance metric between two different waveforms ($i$ and $j$) is estimated as 1-C$_{ij}$. Ward's minimum variance linkage technique is used. The distance threshold to define the final number of cluster is set to 5.5 (the largest separation observed form dendrogram).}
+\caption{Dendrogram obtained from the waveform-based hierarchical clustering performed. The distance metric between two different waveforms ($i$ and $j$) is estimated as 1-C$_{ij}$. Ward's minimum variance linkage technique is used. The distance threshold to define the final number of cluster is set to 5.5 (the largest separation observed form dendrogram). The color code used for every branch represents the five different cluster identified (as in figures 3, 4 and 5 in the main manuscript).}
 \label{fig:dendrogram}
 \end{figure}
 
@@ -235,16 +235,14 @@ ID & Orig. time & Lon. (hh) & Lat. (hh) & Depth (hh) & Est. Mag. & INGV Lon. & I
 \end{figure}
 
 
-\begin{figure}
+\begin{figure}[!h]
 \renewcommand{\thefigure}{S\arabic{figure}}
 \begin{center}
- \noindent  \includegraphics[width=0.7\linewidth]{S3_NP1_NP2_map_cluesters} 
+ \includegraphics[width=0.8\linewidth]{S5_lsq_model.png} 
 \end{center}
-\caption{Map view (left column), and cross-sections along the strike (middle column) and normal-strike (right column) directions for each of the five clusters identified in the sequence (as indicated). All of the locations are relative to the mainshock hypocenter (41.7746$^o$N 13.6066$^o$E; 13.94 km depth, black star). In all of the panels, the same color code is used as in Figures 3 and 4 to represent each different cluster. The solid black line represents a fault plane of 1 km$^2$ with the geometry of the second nodal plane (Supplementary Materials Table S1). The directions A-A' (along strike) and B-B' (normal to the strike) are the same as in Figure 1. Each cluster is represented by a correponding label a) Cluster 1 , b) Cluster 2, c) Cluster 3, d) Cluster 4 and e) Cluster 5. The blue dashed line represent the assumed auxilary plane.}
-\label{fig:map_improved_np1_np2}
+\caption{Least squares linear model obtained from the existing relationship between the average root mean square in the time window containing the S waves over all of the stations and components and the local magnitudes reported by the INGV for the 23 events assumed as templates. This linear model is used to estimate the magnitude of the newly detected events.}
+\label{fig:S5_lsq_model}
 \end{figure}
-
-
 
 
 \begin{figure}[!h]
@@ -252,18 +250,9 @@ ID & Orig. time & Lon. (hh) & Lat. (hh) & Depth (hh) & Est. Mag. & INGV Lon. & I
 \begin{center}
  \includegraphics[width=0.8\linewidth]{S4_cumulative_per_cluster_zoom.png} 
 \end{center}
+\caption{Zoom in into the cumulative plot (figure 3b in the main manuscript) right after the occurrence of the mainshock.}
 \label{fig:S4_fig3_zoom}
 \end{figure}
-
-\begin{figure}[!h]
-\renewcommand{\thefigure}{S\arabic{figure}}
-\begin{center}
- \includegraphics[width=0.8\linewidth]{S5_lsq_model.png} 
-\end{center}
-\label{fig:S5_lsq_model}
-\end{figure}
-
-
 
 
 \begin{figure}[!h]
