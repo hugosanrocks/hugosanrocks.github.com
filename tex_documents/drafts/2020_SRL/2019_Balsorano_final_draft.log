@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  20 OCT 2020 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  22 OCT 2020 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,65 +683,69 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
- [2]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-[4]
+ [2]
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
 \tf@pof=\write5
 \openout5 = `2019_Balsorano_final_draft.lof'.
 
 
-[8] [9]
-Underfull \vbox (badness 2521) has occurred while \output is active []
-
- [10]
-[11]
+[7] [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13]
+ [9]
+[10]
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+ [11]
+[12]
+
+Package natbib Warning: Citation `inbal2017locally' on page 13 undefined on inp
+ut line 178.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
 Underfull \vbox (badness 2521) has occurred while \output is active []
 
  [14]
 [15]
-Overfull \hbox (70.9831pt too wide) in paragraph at lines 197--198
+Overfull \hbox (70.9831pt too wide) in paragraph at lines 199--200
 \OT1/cmr/m/n/12 ofisica e Vul-canolo-gia (INGV) seis-mo-log-i-cal data cen-ter 
 ([][][]http://cnt.rm.ingv.it/webservices[]and[]software/[][][];
  []
 
 
-Overfull \hbox (11.04317pt too wide) in paragraph at lines 197--198
+Overfull \hbox (11.04317pt too wide) in paragraph at lines 199--200
 \OT1/cmr/m/n/12 last ac-cessed, March 2020) and were down-loaded us-ing ob-spy-
 DMT ([][][]https://github.com/kasra-
  []
 
 
-Overfull \hbox (33.81506pt too wide) in paragraph at lines 197--198
+Overfull \hbox (33.81506pt too wide) in paragraph at lines 199--200
 \OT1/cmr/m/n/12 Some plots were made us-ing the Generic Map-ping Tools ver-sion
  4.5.14 ([][][]www.soest.hawaii.edu/gmt[][][];
  []
 
 
-Overfull \hbox (21.28833pt too wide) in paragraph at lines 197--198
+Overfull \hbox (21.28833pt too wide) in paragraph at lines 199--200
 [][]\OT1/cmr/m/n/12 Wes-sel and Smith[][] ([][]1998[][])). The event clus-ter-i
 ng was per-formed us-ing Scikit-learn ([][]https://scikit-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-[17] [18] [19] [20] [21]
+[16] [17] [18] [19] [20] [21]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -756,9 +760,12 @@ Missing character: There is no ” in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
- [25] [26]
-(./2019_Balsorano_final_draft.lofpdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.1}) has been already used, duplicate ignored
+ [25]
+
+Package natbib Warning: There were undefined citations.
+
+[26] (./2019_Balsorano_final_draft.lofpdfTeX warning (ext4): destination with t
+he same identifier (name{figure.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.5     \caption
@@ -819,7 +826,7 @@ s been already used, duplicate ignored
 l.32 ... the templates belonging to each cluster.}
                                                   ) [28]
 (./2019_Balsorano_final_draft.lof
-<map_balsorano.pdf, id=596, 1314.69171pt x 787.86644pt>
+<map_balsorano.pdf, id=576, 1314.69171pt x 787.86644pt>
 File: map_balsorano.pdf Graphic file (type pdf)
 <use map_balsorano.pdf>
 Package pdftex.def Info: map_balsorano.pdf  used on input line 4.
@@ -836,7 +843,7 @@ e ignored
                    \relax 
 l.5 ... (scarp taken from \cite{wedmore2017667}).}
                                                   
-<spec_rec_mag.png, id=601, 1088.065pt x 533.995pt>
+<spec_rec_mag.png, id=581, 1088.065pt x 533.995pt>
 File: spec_rec_mag.png Graphic file (type png)
 <use spec_rec_mag.png>
 Package pdftex.def Info: spec_rec_mag.png  used on input line 11.
@@ -853,7 +860,7 @@ e ignored
                    \relax 
 l.12 ...00) and unshaded (6:00 to 18:00) regions.}
                                                   
-<wigg_cc_mat_cluster.png, id=603, 1229.59375pt x 701.62125pt>
+<wigg_cc_mat_cluster.png, id=583, 1229.59375pt x 701.62125pt>
 File: wigg_cc_mat_cluster.png Graphic file (type png)
 <use wigg_cc_mat_cluster.png>
 Package pdftex.def Info: wigg_cc_mat_cluster.png  used on input line 18.
@@ -890,7 +897,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./densities_plot-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<densities_plot-eps-converted-to.pdf, id=706, 731.73375pt x 515.9275pt>
+<densities_plot-eps-converted-to.pdf, id=685, 731.73375pt x 515.9275pt>
 File: densities_plot-eps-converted-to.pdf Graphic file (type pdf)
 <use densities_plot-eps-converted-to.pdf>
 Package pdftex.def Info: densities_plot-eps-converted-to.pdf  used on input lin
@@ -914,7 +921,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: /usr/bin/pdflatex (file ./map_clusters_templates.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<map_clusters_templates.pdf, id=712, 1924.18875pt x 3038.35126pt>
+<map_clusters_templates.pdf, id=691, 1924.18875pt x 3038.35126pt>
 File: map_clusters_templates.pdf Graphic file (type pdf)
 <use map_clusters_templates.pdf>
 Package pdftex.def Info: map_clusters_templates.pdf  used on input line 31.
@@ -941,24 +948,24 @@ Overfull \vbox (71.21173pt too high) has occurred while \output is active []
 
 
 [33 <./map_clusters_templates.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 684.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 684.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 697.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 697.
  (./2019_Balsorano_final_draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 684.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 684.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 697.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 697.
 Package rerunfilecheck Info: File `2019_Balsorano_final_draft.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 684.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 697.
  ) 
 Here is how much of TeX's memory you used:
- 17150 strings out of 492982
- 322451 string characters out of 6134897
- 391730 words of memory out of 5000000
- 20296 multiletter control sequences out of 15000+600000
+ 17159 strings out of 492982
+ 322643 string characters out of 6134897
+ 392796 words of memory out of 5000000
+ 20303 multiletter control sequences out of 15000+600000
  12652 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,56p,1997b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,5n,56p,2012b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -973,10 +980,10 @@ y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
 r/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type
 1/public/tex-gyre/qhvr.pfb>
-Output written on 2019_Balsorano_final_draft.pdf (33 pages, 25147713 bytes).
+Output written on 2019_Balsorano_final_draft.pdf (33 pages, 25148260 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 712 compressed objects within 8 object streams
- 124 named destinations out of 1000 (max. 500000)
+ 797 PDF objects out of 1000 (max. 8388607)
+ 692 compressed objects within 7 object streams
+ 126 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
