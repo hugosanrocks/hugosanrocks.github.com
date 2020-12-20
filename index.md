@@ -16,7 +16,7 @@ github : [hugosanrocks](https://github.com/hugosanrocks)
 
 research: [ResearchGate](https://www.researchgate.net/profile/Hugo_Sanchez-Reyes) [Google Scholar](https://scholar.google.fr/citations?user=8gr2DhwAAAAJ&hl=es)
 
-Graduate Student at UGA, France
+Postdoctoral Researcher at the Institute of Earth Sciences (ISTerre), UGA, France
 
 Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/cv/CV_Hugo_Sanchez-Reyes.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="CV" width="15" height="16" border="0"></a></em>
 
