@@ -1,0 +1,20 @@
+\begin{figure}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\begin{center}
+ \noindent\includegraphics[width=1\linewidth]{dendrogram_balsorano.png}
+\end{center}
+\caption{Dendrogram obtained from the waveform-based hierarchical clustering performed. The distance metric between two different waveforms ($i$ and $j$) is estimated as 1-C$_{ij}$. Ward's minimum variance linkage technique is used. The distance threshold to define the final number of cluster is set to 5.3 (the largest separation observed form dendrogram).}
+\label{fig:dendrogram}
+
+\end{figure}
+\begin{figure}
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\begin{center}
+ \noindent\includegraphics[width=1\linewidth]{b_value.pdf}
+\end{center}
+\caption{Cumulative number of events per magnitude for a) whole experiment b) foreshocks c) aftershocks. B-values are seen in the legend.}
+\label{fig:b_values}
+
+\end{figure}

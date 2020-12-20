@@ -1,0 +1,601 @@
+% Uncomment the following line to have comments hihglighted
+\documentclass[10pt]{extarticle}
+% Uncomment the following line to disable comments and highlights
+% \documentclass[9pt,final]{extarticle}
+
+\input{../../addon/pkgloading-for-letter-to-reviewers.tex}
+\input{../../addon/commands-for-letter-to-reviewers}
+
+
+\usepackage{natbib}
+% Defines the path for the main output file (so as to cross-reference sections, figures, table there, by prepending "paper:" to the original label )
+\externaldocument[paper:]{../LNCS-skeleton/main}
+
+\def\PaperTitle{The imbricated foreshock and aftershock activities of the Balsorano (Italy) M$_w$ 4.4 normal fault earthquake and implications for earthquake initiation}
+\def\PaperId{{Response letter to review for manuscript D-20-00253}}
+\def\Journal{{Seismological Research Letters}}
+
+\def\AuthorsInLetter{H. S. S\'anchez\text{-}Reyes, D. Essing, E. Beauc\'e, and P. Poli}
+
+\usepackage{hyperref}
+%opening
+\title{\textbf{\PaperTitle} \\ {\Large Revision notes}}
+%
+%
+\author[1]{H. S. S\'anchez\text{-}Reyes %
+  \thanks{Corresponding author \\
+    {\Letter}~{ISTerre OSUG-C (Maison des Géosciences), 1381 rue de la Piscine, 38400 Saint Martin D'H\`eres, France} \\
+    {\Email}~\texttt{\href{mailto:hugo.sanchez-reyes@univ-grenoble-alpes.fr}{hugo.sanchez-reyes@univ-grenoble-alpes.fr}} \\
+    {\Telefon}~\textsf{+33 66 80 73 04}%
+  }
+}
+%
+\author[1]{D. Essing}
+%
+\author[2]{E. Beauc\'e}
+%
+\author[1]{P. Poli}
+
+\affil[1]{Institute of Earth Sciences, University Grenoble Alpes, Grenoble \emph{38100}, France}
+\affil[2]{Department of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology, Cambridge, MA, United States}
+
+\date{\today}
+\begin{document}
+
+\maketitle
+
+%\input{intro}
+Dear Editorial Board,
+\\[2em]
+We greatly appreciate your time and effort dedicated to revise our submitted manuscript. We have worked in order to address all the suggestions and comments pointed out by the reviewers and the associated editor. In the following pages we provide a detailed response to all the comments related to this revision. In addition, we attached a PDF file tracking all the changes that have been made in the main paper. We hope that the applied revisions are satisfactory to the reviewers and the editorial board.
+\\[2em]
+Kind regards,
+\begin{flushright}
+\AuthorsInLetter
+\end{flushright}\vfill
+%\input{manuscriptinfo}
+\section*{Manuscript information}
+
+\begin{description}
+\item[Number:] \PaperId
+\item[Title:] ``\PaperTitle''
+\item[Authors:] \AuthorsInLetter
+\item[Submitted to:] \Journal
+\end{description}
+\vfill
+\pagebreak
+
+%\input{revision-notes/reviewer1}
+
+%\SkipSpaceForReviewerComments
+
+%\input{revision-notes/reviewer2}
+
+%\SkipSpaceForReviewerComments
+
+
+\renewcommand\thefigure{\arabic{figure}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section*{Associate Editor Comment}
+
+We have received two excellent reviews of this manuscript. In general, the reviewers agree that the manuscript provides valuable analysis and results that are appropriate for publication at SRL. Reviewer 2 raises some questions about the details of the analysis and makes some suggestions that could lead to improvements in their results, while Reviewer 1 asks important questions about the implications of the results, in particular about whether or not the pattern observed for this earthquake sequence is unique or common.
+
+\section*{Reviewer \#1}
+
+
+\subsection*{Summary}
+
+This study investigates a seismicity sequence associated with a Mw 4.4 in central Italy. They use network-matched-filtering (which includes waveform cross correlation), clustering, and relocation to detect a large number of earthquakes and then classify them into clusters. They find that one cluster involved a large number of events prior to the mainshock. The study provides an example of how to investigate a seismicity sequence when there is sufficient station coverage near the epicenter. The main questions, to me, are whether the interpretations are reliable (do the dots illuminate a fault?) and whether they are significant (is this earthquake novel, in the global sense)? The authors have done a great job motivating the study and establishing the literature. From my comments below, I suggest that major revisions would be needed. The scientific approach appears to be sound, but the presentation of results could be improved and expanded in order to justify the significance. \\
+
+{\bf Key points (from author):} \\
+\begin{itemize}
+ \item[1] The analysis of the 2019 Balsorano earthquake sequence reveals that imbricated complex processes occur before and after the main earthquake. 
+ \item[2] Clear differences between foreshocks and aftershocks are highlighted by the distinct spatio-temporal patterns unraveled by our analysis.
+ \item[3] These results demonstrate that simple earthquake preparation models are not suitable enough to correctly mimic the observed complex reality.
+\end{itemize}
+
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+Given the detailed study of this M4 earthquake, and also the relevance of the fault planes inferred from the focal mechanism, it would be good to display a figure showing the waveform fits between data and synthetics. Such a figure might be available already from INGV. Or maybe the authors can generate such a figure using an alternative code.
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We agree with reviewer \#1 about the importance of adding this relevant figure. We have included a modified version of the figures provided by the INGV (\url{http://webservices.ingv.it/webservices/ingv_ws_map/data/tdmt/15111/73711301_86_tdmt_reviewer_solution.pdf}) showing the estimated focal mechanism together with a comparison between observed and estimated synthetic sesimograms as part of the supplementary material (as figure S2). We also present here below this figure. The former figure S2 (from the previous version) was removed according to the following comments from reviewer \#2 and this new figure related to the focal mechanism and synthetic seismograms took its place.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[width=1\linewidth]{S2_Focal_synthetics} 
+\end{center}
+\caption{Estimated focal mechanism and comparison of observed (solid lines) and estimated synthetic seismograms (dashed lines) for the Mw 4.4 mainshock. The three components at 22 receiver locations are shown. This figure is a modified version from the original one provided by the INGV \url{http://webservices.ingv.it/webservices/ingv_ws_map/data/tdmt/15111/73711301_86_tdmt_reviewer_solution.pdf}.}
+\label{fig:S2_focal_mechanism}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+L104. "According to a geological study of the location of the main event and its focal mechanism (Supplementary Material Table S1), this event ruptured the Liri fault (Roberts and Michetti, 2004), which is one of the major active normal faults mapped in this region." \\
+
+I did not see the evidence for choosing one of the two fault implied from the focal mechanism. (I looked in the supplement.) This is a critical piece, since the assumed fault plane is referenced in Figure 5.
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Thanks for your comment. We consider that the evidence can be observed looking at the surface geology. According to the work from \cite{Falcucci2016active}, which details the seismic active faults in this region, the second nodal plane from table S1 (strike 166$^o$, dip 42$^o$ and rake -51$^o$) coincides much better with the segment of the surface scarp of the normal Liri Fault. In order to emphasize the superficial scarp of the related Liri Fault, in the revised version we improve the former figure 1, increasing the resolution of the topography and including the observed fault scarp of the Liri fault reported by \cite{wedmore2017667}. We hope that this evidence is clearer in this version of the manuscript. This new figure is also included here below (as figure 2).
+\begin{figure}[!h]
+    \centering
+     \includegraphics[width=1\linewidth]{map_balsorano.pdf}
+    \caption{Regional map of the study area. The yellow square inside the small map inset on the left corresponds to the central region of Italy represented in the larger topographic map. The small map inset on the right represents magnification of the black dashed area around the epicentral location (red star). The color code used in the map view on the right represents the estimated depth of the foreshock and aftershock activity (estimated in this study: 714 events). The yellow circle represents Balsorano city, and the white triangles represent the stations used in this study. The dashed lines in the right inset map represent the directions A-A' (along strike) and B-B' (normal to the strike) illustrated in the cross sections of Figure 5. The solid red line represents the superficial scarp of the Liri fault (scarp taken from \cite{wedmore2017667}).}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+From one event, it is difficult to understand the significance of the findings. Did the authors point their same set of tools at a couple other events? What if all mainshocks in this region have foreshock sequences? What is the meaning of "normal" seismicity sequences in this region? In other words, is this one earthquake significant, or do many other earthquakes -- when examined this closely -- show such complexity? In particular, are there foreshock sequences such as Cluster 1?
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+\hfill {\bf PIERO SAID HE WILL ANSWER THIS}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+I have never done Coulomb stress modeling, but it seems like it was developed for this kind of study, where the fault is (likely) known, and the mechanism would predict aftershock occurrences in certain regions.
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We totally agree with reviewer \#1 about the potential of performing a Coulomb stress analysis in the region. However, the geometry of the faults, and subfaults, that were activated during this sequence are not known (except from the one associated to the mainshock). In addition, the focal mechanisms of most of the earthquakes in the sequence can not be determined due to their small size, noise levels and limited azimuthal coverage. Finally, the slip distribution of the mainshock was not studied or inverted before. Therefore, the available information does not allow to perform a proper Coulomb stress analysis of this sequence. The above information is usually required by the available software performing such analysis \citep{toda2011coulomb}. We add (from lines 328 to 334) to the revised version a small paragraph listing the obstacles to perform such analysis for this sequence.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+Figure 5 is key and needs improvements. There's too much white space to see the details.  Perhaps zoom into +/- 1 km and then leave the full +/- 3 km version in the supplement? No legend is needed, since the caption will tell us that a=Cluster1, b=Cluster2, etc. Save space by not displaying a, b, three times.
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We agree with reviewer \#1. We changed figure 5 in the revised version of the manuscript taking into account your comments and suggestions. We also include more information in this new version, such as the geometry of the auxiliary plane (NP1 in Table S1) and the location of the different templates belonging to each of the inferred clusters. You can also find the new version of this figure here below as figure 3.
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=0.75\linewidth]{map_clusters_templates}
+\end{center}
+\caption{Map view (left column), and cross-sections along the strike (middle column) and normal-strike (right column) directions for each of the five clusters identified in the sequence (as indicated). All of the locations are relative to the mainshock hypocenter (41.7746$^o$N 13.6066$^o$E; 13.94 km depth, black star). In all of the panels, the same color code is used as in Figures 3 and 4 to represent each different cluster. The solid black line represents a fault plane of 1 km$^2$ with the geometry of the second nodal plane (Supplementary Materials Table S1). The dashed blue line represents the assumed auxiliary nodal plane. The directions A-A' (along strike) and B-B' (normal to the strike) are the same as in Figure 1. Each cluster is represented by a corresponding label a) Cluster 1 , b) Cluster 2, c) Cluster 3, d) Cluster 4 and e) Cluster 5. In each panel, the black circles represent the location of the templates belonging to each cluster.}
+\label{fig:map_improved}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+Figure 5a. Perhaps a dashed line for the assumed auxiliary plane? It is not clearcut to me that the dots are collapsing to a plane. (See also point about fault plane vs auxiliary plane above).
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We agree with reviewer \#1. We modified figure 5 in order to  illustrate both nodal planes as well as the relocated seismicity. This new figure is also included here as figure 3.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+If the choice of fault plane is in question, then it would be good to see an alternative version of Figure 5, where the projection planes are chosen based on the now-assumed auxiliary plane (under the assumption that it is the mainshock fault plane).
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We think that the main fault plane is not under discussion thanks to the superficial evidence (from the new version of figure 1 in the main manuscript). However, we decide to show in figure 5 (main manuscript) also the auxiliary plane. You can find this new figure in this response letter as figure 3.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+Most of the results imply complexity associated with the aftershock patterns. Is this exceptional? Are we to assume that the mainshock was complicated and that the aftershocks illuminate the region? Or that these adjacent faults were triggered by the mainshock?
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+{\LARGE Not a good answer for this! I need help or some discussion!}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+Fig. 2: mention diurnal variability in the white curve. Probably 6pm-6am or 18:00-06:00 is a better label. I don't think any legend is needed in b and c.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Reviewer \#1 is right. We modified figure 2 in the new version of the main manuscript to take into account the given suggestions. This new version of the figure is part of this response letter as figure 4.
+\Assignment{Hugo} \WorkInProgressRevTask
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=1\linewidth]{spec_rec_mag.png} 
+ \caption{(a) Spectrogram on VVLD.HHZ. The white line is the median of the energy in the frequency band between 5 Hz and 20 Hz calculated within a 1-h sliding window. Notice the diurnal energy variation. (b) Blue, cumulative events for the same time period of the experiment; orange, recurrence time for the newly detected events. (c) Estimated magnitudes for the newly detected events. A gap in the continuous data at this receiver location is seen for the night of November 8 to 9, 2019. In all panels, day and night periods are represented by shaded (18:00 to 6:00) and unshaded (6:00 to 18:00) regions.}
+\end{center}
+\label{fig:new_fig_2}
+\end{figure}
+\end{Answer}
+%
+%
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+Figure 4. t=0 needs to be a tick mark, since that's the mainshock. (That way, you do not need the legend item for the mainshock either.)
+\end{ReviewerComment}
+
+
+\begin{Answer}
+\Assignment{Hugo} \WorkInProgressRevTask
+We agree with reviewer \#1. This suggestion is taken into account together with the following comment to modify figure 4 from the main manuscript (see figure 5 in this response letter).
+\end{Answer}
+%
+%
+
+
+\begin{ReviewerComment}{1}
+\noindent 
+Figure 4. I'm not finding the 90\% line to be helpful or representative of the distributions. Is it needed?
+\end{ReviewerComment}
+
+
+\begin{Answer}
+\Assignment{Hugo} \WorkInProgressRevTask
+We agree with reviewer \#1. This suggestion, and the previous one, are taken into account in the revised version of the main manuscript. This new figure is also included in this response letter as figure 5. We decide to leave the 90\% concentration line included in the right column of figure 4 (in main manuscript). We consider that this line illustrates the different ways that clusters behave and how their occurrence and location are particular to each group. In addition, the main manuscript makes reference to this line to stress out the different behaviors exhibited during the sequence.
+\begin{figure}[!h]
+\begin{center}
+     \includegraphics[width=1\linewidth]{densities_plot}         \caption{Spatio-temporal evolution of the earthquake sequences with respect to the mainshock origin time and hypocenter. Left column: Temporal density (number of events per hour). The coefficients of variation (COV) from the recurrence times are indicated for each cluster. Center column: Distance in time and space from each event of the sequence with respect to the mainshock location and origin time. The dashed gray line on the left and center column represents the mainshock origin time. Right column: Spatial density (concentration of events per 0.1 km). Dashed black line, where 90\% of the seismic activity is concentrated. (a)-(e) Each of the five clusters progressively ordered. The same color code from Figure 3 is used.}
+\end{center}
+\label{fig:new_fig_4}
+\end{figure}
+\end{Answer}
+%
+%
+
+\section*{Reviewer \#2}
+
+\subsection*{Summary}
+
+This is an overall strong paper that is suitable for publication following minor edits. The authors perform a detailed analysis of foreshocks and aftershocks of the Mw 4.4 2019 Balsorano earthquake and demonstrate the complexity of these sequences, including apparent initiation on an antithetic fault. The authors first enhance the existing earthquake catalog using template matching. Next, they cluster events based on waveform similarity. Last, they relocate the majority of the newly detected events using the double-difference algorithm. The paper is clearly organized and the implications related to initiation processes and rupture complexities are very interesting.  \\
+
+
+\subsection*{Template matching}
+
+\begin{ReviewerComment}{2}
+\noindent
+Enhancing the catalog to 714 events is a significant improvement. However, using 23 out of 135 available catalog events as template earthquakes seems low and may prevent additional event detection. Is the 1-second pre-pick discussed on line 132 before the P-phase arrival? If so, why is the pre-pick time so long? This introduces noise to the signal - about 25% of the waveform - that decreases the signal-to-noise ratio that is then used in template selection. More templates would likely meet the SNR criteria with a shorter pre-pick, unless I misunderstand this 1-second pre-pick.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We appreciate this comment. Regarding the 1-second pre-pick time window, we performed several tests with longer and shorter windows before defining the final duration of this window. Our results with longer windows totally agree with the comment from reviewer \#2, we had less detections and the correlation coefficients had lower values. In contrast, when shorter windows were used we did not see any significant increment of the number of detections. We did not exhaustively explore the results when shorter ($<$ 1 second) windows were used but the number of detections was not affected by this duration length.   
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+\begin{ReviewerComment}{1}
+\noindent 
+It would be helpful to provide the hypocentral locations and magnitudes of template events in Table S4, and include a map of template earthquakes to give a better idea whether detections (including the 13-15 km depth concentration of seismicity) are biased by template locations. Further, focal mechanisms of templates if available would provide additional information about potential biases in earthquake detection (i.e., if locations and focal mechanisms of templates are very similar, dissimilar events will not be detected). That being said, the results do not seem to be over-interpreted and a discussion of these potential biases would be adequate.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We took into account these suggestions and we included more details of the 23 templates as part of the supplementary material (Table S5). As mentioned by reviewer \#2, the depth concentration of seismicity might be strongly driven by the fact that 21 out of the 23 events used as templates were also relocated between those depths. In addition, we include also figure S5 in the supplementary material to illustrate the relative location (with respect to the mainshock hypocenter) of the 23 templates. We also modified figure 5 from the main manuscript to illustrate the location of the templates that belong to each of the different clusters composing the sequence. In this response letter, you can see these modification in figures 3 and 6.
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=1\linewidth]{S6_templates_per_cluster_map.pdf} 
+\end{center}
+\caption{Map view (left), and cross-sections along the strike (middle) and normal-strike (right) directions for the assumed main fault plane (solid black line). The dashed blue line illustrates the auxiliary plane listed in Table S1 (taken from the INGV moment tensor solution). The relative location of the 23 templates used for scanning the continuous recordings are represented by the center of the colored circles. The color code used defines to which cluster each of the templates belongs to. All of the locations are relative to the mainshock hypocenter (41.7746$^o$N 13.6066$^o$E; 13.94 km depth, black star). The directions A-A' (along strike) and B-B' (normal to the strike) are the same as in Figure 1 in the main manuscript.}
+\label{fig:S6_templates_map}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+The method to determine the magnitude of earthquakes detected with template matching makes sense. However, the least-square fitting to obtain a linear model for magnitudes using only 23 earthquakes is unlikely to be robust. I suggest using more earthquakes in the INGV catalog to develop this model prior to applying it to the newly detected events.
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Thank you for this comment. We totally agree with reviewer \#2 about the possible lack of robustness of the newly estimated magnitudes. However, the estimated magnitudes are used only as a qualitative measurement in our analysis. We do not use the estimated magnitudes to go further in our analysis or conclusions. Therefore, we consider that the estimated magnitudes (using these 23 templates to estimate the least squares model) are enough accurate for the intended scope. We decided to include as part of the supplementary material figure S5, which illustrates the least squares model that we used for the magnitude estimation. This figure is also included in this response letter as figure \ref{fig:S5_lsq_model}.
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=0.7\linewidth]{S5_lsq_model.png} 
+\end{center}
+\caption{Least squares linear model obtained from the existing relationship between the average root mean square in the time window containing the S waves over all of the stations and components and the local magnitudes reported by the INGV for the 23 events assumed as templates. This linear model is used to estimate the magnitude of the newly detected events.}
+\label{fig:S5_lsq_model}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+\subsection*{Clustering}
+
+\begin{ReviewerComment}{2}
+\noindent 
+Line 169 states that members of the same cluster should share similarities in position and rupture mechanism.  However, the locations in cluster 3 vary widely. The station nearest to the study region will not have large S-P time differences for most of the events; therefore, events in different locations with similar mechanisms might appear similar. Please expand on this in the waveform-based clustering section of methods, or consider using a farther station (or combining the results of multiple stations) for the waveform-based clustering.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We agree with reviewer \#2 on this comment. We slightly modified the main text taking into account this point. The changes were applied from line 210 to 214 in the revised version.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+The stacked waveform for cluster 3 in Figure 3c is smaller amplitude than the other stacked waveforms and it is difficult to identify phase arrivals. This is likely because events in this cluster are not as similar as other clusters. Please discuss the similarity in this cluster more in the main text.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Reviewer \#2 is right. The waveform from the stacked trace for cluster 3 illustrates precisely the effect of defining a cluster which members seem to have in common, as main feature, the dissimilarity to all the rest of events in the sequence. As it can be seen in figure 5, the events belonging to cluster 3 spread through a much wider volume. However, as mentioned by reviewer \#2 in the previous comment, the fact that we use the similarity between recorded waveforms at the closest station (VVLD) implies that events in different locations with similar mechanisms might appear similar, and therefore, might define an independent cluster. We include some lines on the revised version of the main manuscript (lines 320 to 327), as suggested by the reviewer, where this aspect is mentioned.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+\subsection*{Aseismic slip}
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+Pre-seismic: Line 302 in the Conclusion states that there is a lack of repeating earthquakes in the foreshock sequence. This should be mentioned earlier, perhaps near Lines 256-261 in the Results and Discussion section where the lack of evidence for aseismic slip is discussed.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We appreciate this comment and we would like to go further in our answer. Looking carefully at the waveform-based correlation matrix (using only one component at the closest station) we are able to distinguish approximately 60 pairs with correlation coefficients larger than 0.95. However, given the fact that most of the events in the sequence have significantly small magnitudes (70\% have magnitudes lower than 0.5) and that the frequency range used in the analysis is limited from 5 to 20 Hz, we consider that the available information does not allow us to precisely state the existence of repeaters. This statement is based on the exhaustive studies related to repeating earthquakes presented by Uchida \citep{uchida2019,uchida2019repeating}. We include some words about this limitation of our study from lines    of in the revised version of the main manuscript. 
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+Post-seismic: Line 275 attributes clusters 4 and 5 to afterslip on the main fault. Afterslip can also trigger seismicity/aftershocks off of the main fault (Inbal et al., 2017) but this is still a reasonable mechanism. Is there a log(time) dependence in spatial expansion in these clusters that may also indicate aseismic slip? Are any repeating earthquakes present in the aftershock sequence that may be indicative of co-planar afterslip? I assume not since the foreshocks are the most highly correlated, but it is still worth mentioning in the discussion of afterslip as a mechanism.
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Thank you for this comment. Reviewer \#2 is right on the fact that afterslip can also trigger seismicity/aftershocks off of the main fault. We include some words about this and the citation to the corresponding article in the revised version of the main manuscript (lines ). Regarding the existence of repeaters, as we mentioned in the answer to the previous comment, there are certains pairs with significantly high correlation coefficients. However, the frequency range we are working with, and the small size of the earthquakes, do not provide the required information to correctly determine if repeaters exist or not in this sequence. Finally, we prepared figure 8 and 9 (in this response letter) in order to answer if a log(time) dependence in spatial expansion is observed for any of the different clusters. Looking at these figures, we do not see any clear log(time) space expansion that could indicate afterslip.
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=0.7\linewidth]{S3_loglog_time.png} 
+ \caption{Loglog time space expansion of the different clusters. The color code is the same as the one used for figures 3, 4 and 5 of the main manuscript.}
+\end{center}
+\end{figure}
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=0.7\linewidth]{logtime_expansion} 
+ \caption{Log time space expansion of the different clusters. The color code is the same as the one used for figures 3, 4 and 5 of the main manuscript.}
+\end{center}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+Be consistent with defining small and medium (or moderate-sized) earthquakes. Line 24 has small earthquakes classified as  Mw<5, Line 54 has medium-events listed as Mw < 6, and Line 83 has small-magnitude events classified as Mw<6. It is most common to consider M 4-6 as moderate-sized and Mw < 3 as small magnitude earthquakes. I recommend grouping small to moderate-sized earthquakes as Mw < 6 consistently.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Reviewer \#2 is right. We applied the corresponding modifications to the main manuscript. Thank you for this suggestion.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+Figure 1: The topography in this figure is poor resolution. Is better resolution topography data available? If not, it may be better to remove it because it is distracting and does not add much to the figure. I also recommend adding mapped faults - including the Liri fault. Add scale bar to the main map.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We totally agree with reviewer \#2. We modified figure 1 in the main manuscript. The new version of this figure includes higher resolution and the surface scarp of the Liri fault, according to the work reported by \cite{wedmore2017667}. In this response letter this changes can be seen in figure 2.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+Figure 3: It is difficult to differentiate aftershock clusters on (3b); expand the time series so temporal patterns are visible. Alternatively, you can plot cumulative events per cluster rather than combining them together.  
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We greatly appreciate reviewer \#2 for this suggestion. We modified figure 3 in the main manuscript so that the cumulative number of events per each cluster can be better seen. In this response letter, figure \ref{fig:fig3_improved} illustrates the new version. In addition, we include figure S4 as part of the supplementary material to better illustrate the cumulative plot behavior right after the occurrence of the mainshock (figure \ref{fig:fig3_zoom} in this response letter). 
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=1\linewidth]{wigg_cc_mat_cluster.png} 
+ \caption{Illustration of the waveform-based hierarchical clustering output. (a) Pairwise correlation coefficients between the waveforms for the vertical component of station VVLD (Fig. 1) of the 714 detected events. This matrix is used to perform the hierarchical clustering. (b) Cumulative events combined with the results from the hierarchical clustering, according to the color code in the legend. (c) Characteristic normalized waveforms (vertical component) of the five different clusters revealed in the earthquake sequence. These traces are obtained after stacking all of the individually normalized waveforms belonging to each cluster.}
+\end{center}
+\label{fig:fig3_improved}
+\end{figure}
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=1\linewidth]{S4_cumulative_per_cluster_zoom.png} 
+\end{center}
+\caption{Zoom in into the cumulative plot (figure 3b in the main manuscript) right after the occurrence of the mainshock.}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+Supplementary Figure S1: The distance threshold is listed here as 5.3 but is given as 5.5 in the main text (line 166). Please fix this. Change "form dendrogram" to "FROM dendrogram"
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Thank you for this comment. We modified the main manuscript according to the correct value used for the clustering and we fixed the typo. We also modified the dendrogram figure to respect the color code used in all the other figures. This figure is part of the supplementary material (figure S1) and it is also included in this response letter as figure \ref{fig:dendrogram}.
+\begin{figure}[!h]
+\begin{center}
+ \includegraphics[width=1\linewidth]{dendrogram_balsorano.png} 
+\end{center}
+\caption{Dendrogram obtained from the waveform-based hierarchical clustering performed. The distance metric between two different waveforms ($i$ and $j$) is estimated as 1-C$_{ij}$. Ward's minimum variance linkage technique is used. The distance threshold to define the final number of cluster is set to 5.5 (the largest separation observed form dendrogram). The color code used for every branch represents the five different cluster identified (as in figures 3, 4 and 5 in the main manuscript).}
+\label{fig:dendrogram}
+\end{figure}
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\begin{ReviewerComment}{2}
+\noindent 
+Supplementary Figure S2 is not discussed in the main text. Based on the figure and figure caption alone, the purpose of this figure is not clear. Either add in a reference to it in the main text, or consider removing it.
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+We agree with reviewer \#2. The former figure S2 was removed from the supplementary material.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+\subsection*{Minor edits}
+
+\begin{ReviewerComment}{2}
+\noindent 
+*        Lines 37-38: "…each cluster in this sequence has a distinct triggering mechanism." In the Conclusion clusters 2\&3 and 4\&5 are grouped together in terms of triggering mechanisms; therefore, each cluster does not have a distinct mechanism.  
+
+\end{ReviewerComment}
+
+
+\begin{Answer}
+Reviewer \#2 is right with this comment. We applied the corresponding modifications to the main manuscript.
+\Assignment{Hugo} \WorkInProgressRevTask
+\end{Answer}
+%
+%
+
+
+
+\subsection*{Specific comments:}
+
+\begin{ReviewerComment}{1}
+\noindent Minor edits (suggested additions are in all caps): \\
+\begin{item}
+\vskip -0.5cm \item \noindent Line 40 - I suggest changing "incoming" to another term that expresses more of an expectation in time, such as upcoming, imminent, impending, or forthcoming. \\ 
+\item \noindent Line 41 - "behind the triggering AND NUCLEATION of earthquakes" \\
+\item \noindent Lines 40-41: This introductory sentence would be more compelling if you add in the importance of precursory signals beyond models. Yes, models are important, but they are important because characterizing earthquakes is important.\\
+\item \noindent Line 47 - What is meant by "more significant?" Most compelling? Most impactful? \\
+\item \noindent Line 54 -  change "even for" to "PARTICULARLY for MORE frequent" to emphasize that small to moderate-sized events occur more frequently than larger events and are therefore useful to study. \\
+\item \noindent Line 55 - "Improved observations MAY shed light on the physical processes that occur during the triggering AND NUCLEATION of earthquakes…" \\
+\item \noindent Line 73 - "ASEISMIC slip processes" \\
+\item \noindent Line 85 - Remove "last" before "more recent studies " \\
+\item \noindent Line 101 - Change "~15 km" to the actual hypocenter depth of 14 km \\
+\item \noindent "Poli et al., 2020b" - Fix citation throughout
+\end{item}
+\end{ReviewerComment}
+
+\begin{Answer}
+\Assignment{Hugo} \WorkInProgressRevTask \\ \vskip 0.5cm
+\noindent Thank you for the comments. These suggestions were applied in the revised version of the main manuscript. \\
+\end{Answer}
+%
+%
+
+\bibliography{../bibliography}
+\bibliographystyle{apalike}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+

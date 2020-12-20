@@ -1,0 +1,454 @@
+\begin{thebibliography}{}
+
+\bibitem[Abercrombie and Mori, 1996]{Abercrombie_1996_OPF}
+Abercrombie, R.~E. and Mori, J. (1996).
+\newblock Occurrence patterns of foreshocks to large earthquakes in the western
+  united states.
+\newblock {\em Nature}, 381(6580):303--307.
+
+\bibitem[Antonioli et~al., 2005]{antonioli2005fluid}
+Antonioli, A., Piccinini, D., Chiaraluce, L., and Cocco, M. (2005).
+\newblock Fluid flow and seismicity pattern: Evidence from the 1997
+  umbria-marche (central italy) seismic sequence.
+\newblock {\em Geophysical Research Letters}, 32(10).
+
+\bibitem[Bagh et~al., 2007]{Bagh_2007_BSC}
+Bagh, S., Chiaraluce, L., De~Gori, P., Moretti, M., Govoni, A., Chiarabba, C.,
+  Di~Bartolomeo, P., and Romanelli, M. (2007).
+\newblock Background seismicity in the central apennines of italy: The abruzzo
+  region case study.
+\newblock {\em Tectonophysics}, 444(1-4):80--92.
+
+\bibitem[Beauc{\'e} et~al., 2017]{Beauce_2017_FMF}
+Beauc{\'e}, E., Frank, W.~B., and Romanenko, A. (2017).
+\newblock Fast matched filter (fmf): An efficient seismic matched-filter search
+  for both cpu and gpu architectures.
+\newblock {\em Seismological Research Letters}, 89(1):165.
+
+\bibitem[Bouchon et~al., 2013]{Bouchon_2013_LPP}
+Bouchon, M., Durand, V., Marsan, D., Karabulut, H., and Schmittbuhl, J. (2013).
+\newblock The long precursory phase of most large interplate earthquakes.
+\newblock {\em Nature geoscience}, 6(4):299--302.
+
+\bibitem[Bouchon et~al., 2011]{Bouchon_2011_ENI}
+Bouchon, M., Karabulut, H., Aktar, M., {\"O}zalaybey, S., Schmittbuhl, J., and
+  Bouin, M.-P. (2011).
+\newblock Extended nucleation of the 1999 mw 7.6 izmit earthquake.
+\newblock {\em science}, 331(6019):877--880.
+
+\bibitem[Brune, 1979]{Brune_1979_IET}
+Brune, J.~N. (1979).
+\newblock Implications of earthquake triggering and rupture propagation for
+  earthquake prediction based on premonitory phenomena.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  84(B5):2195--2198.
+
+\bibitem[Cattaneo et~al., 1999]{Cattaneo_1999_WSA}
+Cattaneo, M., Augliera, P., Spallarossa, D., and Lanza, V. (1999).
+\newblock A waveform similarity approach to investigate seismicity patterns.
+\newblock {\em Natural hazards}, 19(2-3):123--138.
+
+\bibitem[Cesca et~al., 2014]{Cesca_2014_SMC}
+Cesca, S., {\c{S}}en, A.~T., and Dahm, T. (2014).
+\newblock Seismicity monitoring by cluster analysis of moment tensors.
+\newblock {\em Geophysical Journal International}, 196(3):1813--1826.
+
+\bibitem[Chen and Shearer, 2013]{Chen_2013_CFS}
+Chen, X. and Shearer, P.~M. (2013).
+\newblock California foreshock sequences suggest aseismic triggering process.
+\newblock {\em Geophysical Research Letters}, 40(11):2602--2607.
+
+\bibitem[Chiaraluce et~al., 2011]{Chiaraluce_2011_AAN}
+Chiaraluce, L., Valoroso, L., Piccinini, D., Di~Stefano, R., and De~Gori, P.
+  (2011).
+\newblock The anatomy of the 2009 l'aquila normal fault system (central italy)
+  imaged by high resolution foreshock and aftershock locations.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 116(B12).
+
+\bibitem[D'agostino et~al., 2001]{Dagostino_2001a_ACE}
+D'agostino, N., Giuliani, R., Mattone, M., and Bonci, L. (2001).
+\newblock Active crustal extension in the central apennines (italy) inferred
+  from gps measurements in the interval 1994--1999.
+\newblock {\em Geophysical Research Letters}, 28(10):2121--2124.
+
+\bibitem[De~Santis et~al., 2019]{DeSantins_2019_PWS}
+De~Santis, A., Marchetti, D., Pav{\'o}n-Carrasco, F.~J., Cianchini, G.,
+  Perrone, L., Abbattista, C., Alfonsi, L., Amoruso, L., Campuzano, S.~A.,
+  Carbone, M., et~al. (2019).
+\newblock Precursory worldwide signatures of earthquake occurrences on swarm
+  satellite data.
+\newblock {\em Scientific reports}, 9(1):1--13.
+
+\bibitem[Dieterich, 1994]{Dieterich_1994_CLR}
+Dieterich, J. (1994).
+\newblock A constitutive law for rate of earthquake production and its
+  application to earthquake clustering.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  99(B2):2601--2618.
+
+\bibitem[Dieterich, 1992]{Dieterich_1992_ENF}
+Dieterich, J.~H. (1992).
+\newblock Earthquake nucleation on faults with rate-and state-dependent
+  strength.
+\newblock {\em Tectonophysics}, 211(1-4):115--134.
+
+\bibitem[Dodge et~al., 1996]{Dodge_1996_DOC}
+Dodge, D.~A., Beroza, G.~C., and Ellsworth, W. (1996).
+\newblock Detailed observations of california foreshock sequences: Implications
+  for the earthquake initiation process.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  101(B10):22371--22392.
+
+\bibitem[Doglioni et~al., 2011]{Doglion_2011_RBD}
+Doglioni, C., Barba, S., Carminati, E., and Riguzzi, F. (2011).
+\newblock Role of the brittle--ductile transition on fault activation.
+\newblock {\em Physics of the Earth and Planetary Interiors},
+  184(3-4):160--171.
+
+\bibitem[Dublanchet, 2018]{dublanchet2018dynamics}
+Dublanchet, P. (2018).
+\newblock The dynamics of earthquake precursors controlled by effective
+  friction.
+\newblock {\em Geophysical Journal International}, 212(2):853--871.
+
+\bibitem[Eftaxias et~al., 2000]{Eftaxias_2000_DEE}
+Eftaxias, K., Kopanas, J., Bogris, N., KAPIRIS, P., ANTONOPOULOS, G., and
+  VAROTSOS, P. (2000).
+\newblock Detection of electromagnetic earthquake precursory signals in greece.
+\newblock {\em Proceedings of the Japan Academy, Series B}, 76(4):45--50.
+
+\bibitem[Ellsworth and Beroza, 1995]{Ellsworth_1995_SEE}
+Ellsworth, W.~L. and Beroza, G.~C. (1995).
+\newblock Seismic evidence for an earthquake nucleation phase.
+\newblock {\em Science}, 268(5212):851--855.
+
+\bibitem[Ellsworth and Bulut, 2018]{Ellsworth_2018_NIE}
+Ellsworth, W.~L. and Bulut, F. (2018).
+\newblock Nucleation of the 1999 izmit earthquake by a triggered cascade of
+  foreshocks.
+\newblock {\em Nature Geoscience}, 11(7):531--535.
+
+\bibitem[Felzer et~al., 2004]{Felzer_2004_COA}
+Felzer, K.~R., Abercrombie, R.~E., and Ekström, G. (2004).
+\newblock A common origin for aftershocks, foreshocks, and multiplets.
+\newblock {\em Bulletin of the Seismological Society of America}, 94(1):88--98.
+
+\bibitem[Gibbons and Ringdal, 2006]{Gibbons_2006_DLM}
+Gibbons, S.~J. and Ringdal, F. (2006).
+\newblock The detection of low magnitude seismic events using array-based
+  waveform correlation.
+\newblock {\em Geophysical Journal International}, 165(1):149--166.
+
+\bibitem[Goebel et~al., 2012]{Goebel_2012_IFH}
+Goebel, T., Becker, T., Schorlemmer, D., Stanchits, S., Sammis, C., Rybacki,
+  E., and Dresen, G. (2012).
+\newblock Identifying fault heterogeneity through mapping spatial anomalies in
+  acoustic emission statistics.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 117(B3).
+
+\bibitem[Hosseini and Sigloch, 2017]{Hosseini_2017_obspyDMT}
+Hosseini, K. and Sigloch, K. (2017).
+\newblock Obspydmt: a python toolbox for retrieving and processing large
+  seismological data sets.
+\newblock {\em Solid Earth}, (5):1047--1070.
+
+\bibitem[Hunstad and England, 1999]{Hunstad_1999_UBR}
+Hunstad, I. and England, P. (1999).
+\newblock An upper bound on the rate of strain in the central apennines, italy,
+  from triangulation measurements between 1869 and 1963.
+\newblock {\em Earth and Planetary Science Letters}, 169(3-4):261--267.
+
+\bibitem[Jones, 1985]{Jones_1985_FTE}
+Jones, L.~M. (1985).
+\newblock Foreshocks and time-dependent earthquake hazard assessment in
+  southern california.
+\newblock {\em Bulletin of the Seismological Society of America},
+  75(6):1669--1679.
+
+\bibitem[Jones and Molnar, 1979]{Jones_1979_SCF}
+Jones, L.~M. and Molnar, P. (1979).
+\newblock Some characteristics of foreshocks and their possible relationship to
+  earthquake prediction and premonitory slip on faults.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  84(B7):3596--3608.
+
+\bibitem[Kagan and Jackson, 1991]{Kagan_1991_LTE}
+Kagan, Y. and Jackson, D.~D. (1991).
+\newblock Long-term earthquake clustering.
+\newblock {\em Geophysical Journal International}, 104(1):117--133.
+
+\bibitem[Kagan and Knopoff, 1978]{Kagan_1978_SSO}
+Kagan, Y. and Knopoff, L. (1978).
+\newblock Statistical study of the occurrence of shallow earthquakes.
+\newblock {\em Geophysical Journal International}, 55(1):67--86.
+
+\bibitem[Kato et~al., 2012]{Kato_2012_PSS}
+Kato, A., Obara, K., Igarashi, T., Tsuruoka, H., Nakagawa, S., and Hirata, N.
+  (2012).
+\newblock Propagation of slow slip leading up to the 2011 mw 9.0 tohoku-oki
+  earthquake.
+\newblock {\em Science}, 335(6069):705--708.
+
+\bibitem[Liu and Rice, 2005]{Liu_2005_AST}
+Liu, Y. and Rice, J.~R. (2005).
+\newblock Aseismic slip transients emerge spontaneously in three-dimensional
+  rate and state modeling of subduction earthquake sequences.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 110(B8).
+
+\bibitem[Malin et~al., 2018]{Malin_2018_MPE}
+Malin, P.~E., Bohnhoff, M., Bl{\"u}mle, F., Dresen, G.,
+  Mart{\'\i}nez-Garz{\'o}n, P., Nurlu, M., Ceken, U., Kadirioglu, F.~T.,
+  Kartal, R.~F., Kilic, T., et~al. (2018).
+\newblock Microearthquakes preceding a m4. 2 earthquake offshore istanbul.
+\newblock {\em Scientific reports}, 8(1):1--11.
+
+\bibitem[Marone, 1998]{Marone_1998_ELR}
+Marone, C. (1998).
+\newblock The effect of loading rate on static friction and the rate of fault
+  healing during the earthquake cycle.
+\newblock {\em Nature}, 391(6662):69--72.
+
+\bibitem[McLaskey, 2019]{mclaskey2019earthquake}
+McLaskey, G.~C. (2019).
+\newblock Earthquake initiation from laboratory observations and implications
+  for foreshocks.
+\newblock {\em Journal of Geophysical Research: Solid Earth}.
+
+\bibitem[McMahon et~al., 2017]{Mcmahon_2017_STE}
+McMahon, N.~D., Aster, R.~C., Yeck, W.~L., McNamara, D.~E., and Benz, H.~M.
+  (2017).
+\newblock Spatiotemporal evolution of the 2011 prague, oklahoma, aftershock
+  sequence revealed using subspace detection and relocation.
+\newblock {\em Geophysical Research Letters}, 44(14):7149--7158.
+
+\bibitem[McMahon et~al., 2019]{Mcmahon2019_STA}
+McMahon, N.~D., Yeck, W.~L., Stickney, M.~C., Aster, R.~C., Martens, H.~R., and
+  Benz, H.~M. (2019).
+\newblock Spatiotemporal analysis of the foreshock--mainshock--aftershock
+  sequence of the 6 july 2017 m w 5.8 lincoln, montana, earthquake.
+\newblock {\em Seismological Research Letters}, 90(1):131--139.
+
+\bibitem[Mignan, 2014]{Mignan_2014_DPV}
+Mignan, A. (2014).
+\newblock The debate on the prognostic value of earthquake foreshocks: A
+  meta-analysis.
+\newblock {\em Scientific reports}, 4:4099.
+
+\bibitem[Mogi, 1963]{Mogi_1963_SDA}
+Mogi, K. (1963).
+\newblock Some discussions on aftershocks, foreshocks and earthquake swarms:
+  the fracture of a semi-infinite body caused by an inner stress origin and its
+  relation to the earthquake phenomena (third paper).
+\newblock {\em 東京大學地震研究所彙報= Bulletin of the Earthquake
+  Research Institute, University of Tokyo}, 41(3):615--658.
+
+\bibitem[Molchanov et~al., 1998]{Molchanov_1998_PES}
+Molchanov, O., Hayakawa, M., Oudoh, T., and Kawai, E. (1998).
+\newblock Precursory effects in the subionospheric vlf signals for the kobe
+  earthquake.
+\newblock {\em Physics of the Earth and Planetary Interiors},
+  105(3-4):239--248.
+
+\bibitem[Papazachos, 1975]{Papazachos_1975_FEP}
+Papazachos, B. (1975).
+\newblock Foreshocks and earthquake prediction.
+\newblock {\em Tectonophysics}, 28(4):213--226.
+
+\bibitem[Pedregosa et~al., 2011]{scikit-learn}
+Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel,
+  O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J.,
+  Passos, A., Cournapeau, D., Brucher, M., Perrot, M., and Duchesnay, E.
+  (2011).
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock {\em Journal of Machine Learning Research}, 12:2825--2830.
+
+\bibitem[Poli et~al., 020a]{poliseasonal}
+Poli, P., Marguin, V., Wang, Q., D’agostino, N., and Johnson, P. (2020a).
+\newblock Seasonal and co-seismic velocity variation in the region of
+  l’aquila from single station measurements and implications for crustal
+  rheology.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, page
+  e2019JB019316.
+
+\bibitem[Poli et~al., 020b]{Poli_2020}
+Poli, P., Soaga, J., Molinari, I., Cascone, V., and Boschi, L. (2020b).
+\newblock The 2020 coronavirus lockdown and seismic monitoring of anthropic
+  activities in northern italy.
+\newblock {\em Sci Rep}, 10:--.
+
+\bibitem[Reasenberg, 1999]{Reasenberg_1999_FOB}
+Reasenberg, P.~A. (1999).
+\newblock Foreshock occurrence before large earthquakes.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  104(B3):4755--4768.
+
+\bibitem[Renard et~al., 2019]{Renard_2019_VSP}
+Renard, F., McBeck, J., Kandula, N., Cordonnier, B., Meakin, P., and Ben-Zion,
+  Y. (2019).
+\newblock Volumetric and shear processes in crystalline rock approaching
+  faulting.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  116(33):16234--16239.
+
+\bibitem[Rikitake, 1975]{Rikitake_1975_EP}
+Rikitake, T. (1975).
+\newblock Earthquake precursors.
+\newblock {\em Bulletin of the Seismological Society of America},
+  65(5):1133--1162.
+
+\bibitem[Roberts and Michetti, 2004]{Roberts_2004_STV}
+Roberts, G.~P. and Michetti, A.~M. (2004).
+\newblock Spatial and temporal variations in growth rates along active normal
+  fault systems: an example from the lazio--abruzzo apennines, central italy.
+\newblock {\em Journal of Structural Geology}, 26(2):339--376.
+
+\bibitem[Rubin and Ampuero, 2005]{Rubin_2005_ENR}
+Rubin, A.~M. and Ampuero, J.-P. (2005).
+\newblock Earthquake nucleation on (aging) rate and state faults.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 110(B11).
+
+\bibitem[Ruiz et~al., 2017]{ruiz2017nucleation}
+Ruiz, S., Aden-Antoniow, F., Baez, J., Otarola, C., Potin, B., del Campo, F.,
+  Poli, P., Flores, C., Satriano, C., Leyton, F., et~al. (2017).
+\newblock Nucleation phase and dynamic inversion of the mw 6.9 valpara{\'\i}so
+  2017 earthquake in central chile.
+\newblock {\em Geophysical Research Letters}, 44(20):10--290.
+
+\bibitem[Ruiz et~al., 2014a]{ruiz2014intense}
+Ruiz, S., Metois, M., Fuenzalida, A., Ruiz, J., Leyton, F., Grandin, R., Vigny,
+  C., Madariaga, R., and Campos, J. (2014a).
+\newblock Intense foreshocks and a slow slip event preceded the 2014 iquique mw
+  8.1 earthquake.
+\newblock {\em Science}, 345(6201):1165--1169.
+
+\bibitem[Ruiz et~al., 2014b]{Ruiz_2014_IFS}
+Ruiz, S., Metois, M., Fuenzalida, A., Ruiz, J., Leyton, F., Grandin, R., Vigny,
+  C., Madariaga, R., and Campos, J. (2014b).
+\newblock Intense foreshocks and a slow slip event preceded the 2014 iquique mw
+  8.1 earthquake.
+\newblock {\em Science}, 345(6201):1165--1169.
+
+\bibitem[Savage et~al., 2017]{Savage_2017_PPS}
+Savage, H.~M., Keranen, K.~M., P.~Schaff, D., and Dieck, C. (2017).
+\newblock Possible precursory signals in damage zone foreshocks.
+\newblock {\em Geophysical Research Letters}, 44(11):5411--5417.
+
+\bibitem[Schoenball and Ellsworth, 2017]{Schoenball_2017_SAS}
+Schoenball, M. and Ellsworth, W.~L. (2017).
+\newblock A systematic assessment of the spatiotemporal evolution of fault
+  activation through induced seismicity in oklahoma and southern kansas.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 122(12):10--189.
+
+\bibitem[Schurr et~al., 2014]{Schurr_2014_GUP}
+Schurr, B., Asch, G., Hainzl, S., Bedford, J., Hoechner, A., Palo, M., Wang,
+  R., Moreno, M., Bartsch, M., Zhang, Y., et~al. (2014).
+\newblock Gradual unlocking of plate boundary controlled initiation of the 2014
+  iquique earthquake.
+\newblock {\em Nature}, 512(7514):299--302.
+
+\bibitem[Shelly et~al., 2007]{Shelly_2007_CET}
+Shelly, D.~R., Beroza, G.~C., and Ide, S. (2007).
+\newblock Complex evolution of transient slip derived from precise tremor
+  locations in western shikoku, japan.
+\newblock {\em Geochemistry, Geophysics, Geosystems}, 8(10).
+
+\bibitem[Shelly and Hardebeck, 2019]{Shelly_2019_IFC}
+Shelly, D.~R. and Hardebeck, J.~L. (2019).
+\newblock Illuminating faulting complexity of the 2017 yellowstone maple creek
+  earthquake swarm.
+\newblock {\em Geophysical Research Letters}, 46(5):2544--2552.
+
+\bibitem[Shen et~al., 1994]{Shen_1994_PDF}
+Shen, Z.-K., Jackson, D.~D., Feng, Y., Cline, M., Kim, M., Fang, P., and Bock,
+  Y. (1994).
+\newblock Postseismic deformation following the landers earthquake, california,
+  28 june 1992.
+\newblock {\em Bulletin of the Seismological Society of America},
+  84(3):780--791.
+
+\bibitem[Singh et~al., 2010]{Singh_2010_PSU}
+Singh, R.~P., Mehdi, W., Gautam, R., Senthil~Kumar, J., Zlotnicki, J., and
+  Kafatos, M. (2010).
+\newblock Precursory signals using satellite and ground data associated with
+  the wenchuan earthquake of 12 may 2008.
+\newblock {\em International Journal of Remote Sensing}, 31(13):3341--3354.
+
+\bibitem[Stein and Lisowski, 1983]{Stein_1983_HVE}
+Stein, R.~S. and Lisowski, M. (1983).
+\newblock The 1979 homestead valley earthquake sequence, california: Control of
+  aftershocks and postseismic deformation.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  88(B8):6477--6490.
+
+\bibitem[Tape et~al., 2018]{Tape_2018_ENF}
+Tape, C., Holtkamp, S., Silwal, V., Hawthorne, J., Kaneko, Y., Ampuero, J.~P.,
+  Ji, C., Ruppert, N., Smith, K., and West, M.~E. (2018).
+\newblock Earthquake nucleation and fault slip complexity in the lower crust of
+  central alaska.
+\newblock {\em Nature Geoscience}, 11(7):536--541.
+
+\bibitem[Tramutoli et~al., 2015]{Tramutoli_2015_VCR}
+Tramutoli, V., Corrado, R., Filizzola, C., Genzano, N., Lisi, M., and Pergola,
+  N. (2015).
+\newblock From visual comparison to robust satellite techniques: 30 years of
+  thermal infrared satellite data analyses for the study of earthquake
+  preparation phases.
+\newblock {\em Bollettino di Geofisica Teorica ed Applicata}, 56(2).
+
+\bibitem[Trugman et~al., 2020]{trugman2020imaging}
+Trugman, D.~T., Ross, Z.~E., and Johnson, P.~A. (2020).
+\newblock Imaging stress and faulting complexity through earthquake waveform
+  similarity.
+\newblock {\em Geophysical Research Letters}, 47(1):e2019GL085888.
+
+\bibitem[Virk and Walia, 2001]{Virk_2001_HRP}
+Virk, H. and Walia, V. (2001).
+\newblock Helium/radon precursory signals of chamoli earthquake, india.
+\newblock {\em Radiation measurements}, 34(1-6):379--384.
+
+\bibitem[Waldhauser, 2001]{Waldhauser_2001_HDD}
+Waldhauser, F. (2001).
+\newblock hypodd—a program to compute double-difference hypocenter locations
+  (hypodd version 1.0-03/2001).
+\newblock {\em US Geol. Surv. Open File Rep., 01}, 113.
+
+\bibitem[Ward~Jr, 1963]{Ward_1963_HGO}
+Ward~Jr, J.~H. (1963).
+\newblock Hierarchical grouping to optimize an objective function.
+\newblock {\em Journal of the American statistical association},
+  58(301):236--244.
+
+\bibitem[Wehling-Benatelli et~al., 2013]{wehling_2013_IDT}
+Wehling-Benatelli, S., Becker, D., Bischoff, M., Friederich, W., and Meier, T.
+  (2013).
+\newblock Indications for different types of brittle failure due to active coal
+  mining using waveform similarities of induced seismic events.
+\newblock {\em Solid Earth}, 4(2).
+
+\bibitem[Wessel and Smith, 1998]{Wessel_1998_NIV}
+Wessel, P. and Smith, W.~H. (1998).
+\newblock New, improved version of generic mapping tools released.
+\newblock {\em Eos, Transactions American Geophysical Union}, 79(47):579--579.
+
+\bibitem[Westaway, 1992]{Westaway_1992_SMS}
+Westaway, R. (1992).
+\newblock Seismic moment summation for historical earthquakes in italy:
+  tectonic implications.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  97(B11):15437--15464.
+
+\bibitem[Yoon et~al., 2019]{Yoon_2019_FMN}
+Yoon, C.~E., Yoshimitsu, N., Ellsworth, W.~L., and Beroza, G.~C. (2019).
+\newblock Foreshocks and mainshock nucleation of the 1999 m w 7.1 hector mine,
+  california, earthquake.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  124(2):1569--1582.
+
+\bibitem[Zang et~al., 1998]{Zang_1998_SAA}
+Zang, A., Christian~Wagner, F., Stanchits, S., Dresen, G., Andresen, R., and
+  Haidekker, M.~A. (1998).
+\newblock Source analysis of acoustic emissions in aue granite cores under
+  symmetric and asymmetric compressive loads.
+\newblock {\em Geophysical Journal International}, 135(3):1113--1130.
+
+\end{thebibliography}

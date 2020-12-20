@@ -1,0 +1,318 @@
+%%
+%% This is file `beamerinnerthememetro.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% beamerinnerthememetro.dtx  (with options: `package')
+%% ---------------------------------------------------------------------------
+%% Copyright 2015 Matthias Vogelgesang and the LaTeX community. A full list of
+%% contributors can be found at
+%% 
+%%     https://github.com/matze/mtheme/graphs/contributors
+%% 
+%% and the original template was based on the HSRM theme by Benjamin Weiss.
+%% 
+%% This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+%% International License (https://creativecommons.org/licenses/by-sa/4.0/).
+%% ---------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerinnerthememetro}[2016/03/14 metro inner theme]
+\RequirePackage{etoolbox}
+\RequirePackage{keyval}
+\RequirePackage{calc}
+\RequirePackage{pgfopts}
+\RequirePackage{tikz}
+\pgfkeys{
+  /metro/inner/sectionpage/.cd,
+    .is choice,
+    none/.code=\metro@disablesectionpage,
+    theme/.code=\metro@customsectionpage,
+    simple/.code={\metro@enablesectionpage
+                  \setbeamertemplate{section page}[simple]},
+    progressbar/.code={\metro@enablesectionpage
+                       \setbeamertemplate{section page}[progressbar]},
+}
+\pgfkeys{
+  /metro/inner/subsectionpage/.cd,
+    .is choice,
+    none/.code=\metro@disablesubsectionpage,
+    simple/.code={\metro@enablesubsectionpage
+                  \setbeamertemplate{section page}[simple]},
+    progressbar/.code={\metro@enablesubsectionpage
+                       \setbeamertemplate{section page}[progressbar]},
+}
+\newcommand{\metro@inner@setdefaults}{
+  \pgfkeys{/metro/inner/.cd,
+    sectionpage=progressbar,
+    subsectionpage=none
+  }
+}
+\setbeamertemplate{title page}{
+  \begin{minipage}[b][\paperheight]{\textwidth}
+    \ifx\inserttitlegraphic\@empty\else\usebeamertemplate*{title graphic}\fi
+    \vfill%
+    \ifx\inserttitle\@empty\else\usebeamertemplate*{title}\fi
+    \ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
+    \usebeamertemplate*{title separator}
+    \ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi
+    \ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
+    \ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+    \vfill
+    \vspace*{1mm}
+  \end{minipage}
+}
+\def\maketitle{%
+  \ifbeamer@inframe
+    \titlepage
+  \else
+    \frame[plain,noframenumbering]{\titlepage}
+  \fi
+}
+\def\titlepage{%
+  \usebeamertemplate{title page}
+}
+\setbeamertemplate{title graphic}{
+  \vbox to 0pt {
+    \vspace*{2em}
+    \inserttitlegraphic%
+  }%
+  \nointerlineskip%
+}
+\setbeamertemplate{title}{
+  \raggedright%
+  \linespread{1.0}%
+  \inserttitle%
+  \par%
+  \vspace*{0.5em}
+}
+\setbeamertemplate{subtitle}{
+  \raggedright%
+  \insertsubtitle%
+  \par%
+  \vspace*{0.5em}
+}
+\setbeamertemplate{title separator}{
+  \begin{tikzpicture}
+    \fill[fg] (0,0) rectangle (\textwidth, 1.5pt);
+  \end{tikzpicture}%
+  \par%
+}
+\setbeamertemplate{author}{
+  \vspace*{2em}
+  \insertauthor%
+  \par%
+  \vspace*{0.25em}
+}
+\setbeamertemplate{date}{
+  \insertdate%
+  \par%
+}
+\setbeamertemplate{institute}{
+  \vspace*{3mm}
+  \insertinstitute%
+  \par%
+}
+\defbeamertemplate{section page}{simple}{
+  % \begin{center}
+    \usebeamercolor[fg]{section title}
+    \usebeamerfont{section title}
+    \frametitle{Outline}
+    % \insertsectionhead\par
+    % \tableofcontents[currentsection]
+    \tableofcontents[currentsection,subsectionstyle=show/show/hide]
+    \ifx\insertsubsectionhead\@empty\else
+      \usebeamercolor[fg]{subsection title}
+      \usebeamerfont{subsection title}
+      \tableofcontents[currentsection,subsectionstyle=show/shaded/hide]
+    \fi
+  % \end{center}
+}
+\defbeamertemplate{section page}{progressbar}{
+  \centering
+  \begin{minipage}{22em}
+    \raggedright
+    \usebeamercolor[fg]{section title}
+    \usebeamerfont{section title}
+    % \insertsectionhead\\[-1ex]
+    \tableofcontents[currentsection]
+    \usebeamertemplate*{progress bar in section page}
+    \par
+    \ifx\insertsubsectionhead\@empty\else%
+      \usebeamercolor[fg]{subsection title}%
+      \usebeamerfont{subsection title}%
+      \insertsubsectionhead
+    \fi
+  \end{minipage}
+  \par
+  \vspace{\baselineskip}
+}
+
+\newcommand{\metro@customsectionpage}{
+  \AtBeginSection[ ]
+  {
+  \begin{frame}<beamer>[noframenumbering]
+  \frametitle{Outline}
+  \small{
+  \tableofcontents[currentsection,subsectionstyle=show/show/hide]
+  }
+  \end{frame}
+  }
+
+  \AtBeginSubsection[ ]
+  {
+  \begin{frame}<beamer>[noframenumbering]
+  \frametitle{Outline}
+  \small{
+  \tableofcontents[currentsection,subsectionstyle=show/shaded/hide]
+  }
+  \end{frame}
+  }
+}
+
+\newcommand{\metro@disablesectionpage}{
+  \AtBeginSection{
+    % intentionally empty
+  }
+}
+\newcommand{\metro@enablesectionpage}{
+  \AtBeginSection{
+    \ifbeamer@inframe
+      \sectionpage
+    \else
+      % \frame[plain,c,noframenumbering]{\sectionpage}
+      {
+      \metroset{numbering=none}
+      \frame[noframenumbering]{\sectionpage}
+      }
+    \fi
+  }
+}
+\setbeamertemplate{subsection page}{%
+  \usebeamertemplate*{section page}
+}
+\newcommand{\metro@disablesubsectionpage}{
+  \AtBeginSubsection{
+    % intentionally empty
+  }
+}
+\newcommand{\metro@enablesubsectionpage}{
+  \AtBeginSubsection{
+    \ifbeamer@inframe
+      \subsectionpage
+    \else
+    % \frame[plain,c,noframenumbering]{\subsectionpage}
+    {
+    \metroset{numbering=none}
+    \frame[noframenumbering]{\subsectionpage}
+    }
+    \fi
+  }
+}
+\newlength{\metro@progressonsectionpage}
+\setbeamertemplate{progress bar in section page}{
+  \setlength{\metro@progressonsectionpage}{%
+    \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+  }%
+  \begin{tikzpicture}
+    \fill[bg] (0,0) rectangle (\textwidth, 1.2pt);
+    \fill[fg] (0,0) rectangle (\metro@progressonsectionpage, 1.2pt);
+  \end{tikzpicture}%
+}
+\def\inserttotalframenumber{100}
+\newlength{\metro@blocksep}
+\newlength{\metro@blockadjust}
+\setlength{\metro@blocksep}{0.75ex}
+\setlength{\metro@blockadjust}{0.25ex}
+\providecommand{\metro@strut}{%
+  \vphantom{ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz()}%
+}
+\newcommand{\metro@block}[1]{
+  \par\vskip\medskipamount%
+  \setlength{\parskip}{0pt}
+  \ifbeamercolorempty[bg]{block title#1}{%
+    \begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}}{%
+  \ifbeamercolorempty[bg]{block title}{%
+    \begin{beamercolorbox}[rightskip=0pt plus 4em]{block title#1}%
+  }%
+  {%
+    \begin{beamercolorbox}[
+      sep=\dimexpr\metro@blocksep-\metro@blockadjust\relax,
+      leftskip=\metro@blockadjust,
+      rightskip=\dimexpr\metro@blockadjust plus 4em\relax
+    ]{block title#1}%
+  }}%
+      \usebeamerfont*{block title#1}%
+      \metro@strut%
+      \insertblocktitle%
+      \metro@strut%
+  \end{beamercolorbox}%
+  \nointerlineskip%
+  \ifbeamercolorempty[bg]{block body#1}{%
+    \begin{beamercolorbox}[vmode]{block body#1}}{
+  \ifbeamercolorempty[bg]{block body}{%
+    \begin{beamercolorbox}[vmode]{block body#1}%
+  }{%
+    \begin{beamercolorbox}[sep=\metro@blocksep, vmode]{block body#1}%
+    \vspace{-\metro@parskip}
+  }}%
+      \usebeamerfont{block body#1}%
+      \setlength{\parskip}{\metro@parskip}%
+}
+\setbeamertemplate{block begin}{\metro@block{}}
+\setbeamertemplate{block alerted begin}{\metro@block{ alerted}}
+\setbeamertemplate{block example begin}{\metro@block{ example}}
+\setbeamertemplate{block end}{\end{beamercolorbox}\vspace*{0.2ex}}
+\setbeamertemplate{block alerted end}{\end{beamercolorbox}\vspace*{0.2ex}}
+\setbeamertemplate{block example end}{\end{beamercolorbox}\vspace*{0.2ex}}
+\setbeamertemplate{itemize items}{\textbullet}
+\setbeamertemplate{caption label separator}{: }
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{footnote}{%
+  \parindent 0em\noindent%
+  \raggedright
+  \usebeamercolor{footnote}\hbox to 0.8em{\hfil\insertfootnotemark}\insertfootnotetext\par%
+}
+\newlength{\metro@parskip}
+\setlength{\metro@parskip}{0.5em}
+\setlength{\parskip}{\metro@parskip}
+\linespread{1.15}
+\define@key{beamerframe}{c}[true]{% centered
+  \beamer@frametopskip=0pt plus 1fill\relax%
+  \beamer@framebottomskip=0pt plus 1fill\relax%
+  \beamer@frametopskipautobreak=0pt plus .4\paperheight\relax%
+  \beamer@framebottomskipautobreak=0pt plus .6\paperheight\relax%
+  \def\beamer@initfirstlineunskip{}%
+}
+\providebool{metro@standout}
+\define@key{beamerframe}{standout}[true]{%
+  \booltrue{metro@standout}
+  \begingroup
+    \setkeys{beamerframe}{c}
+    \setkeys{beamerframe}{noframenumbering}
+    \ifbeamercolorempty[bg]{palette primary}{
+      \setbeamercolor{background canvas}{
+        use=palette primary,
+        bg=-palette primary.fg
+      }
+    }{
+      \setbeamercolor{background canvas}{
+        use=palette primary,
+        bg=palette primary.bg
+      }
+    }
+  \centering
+  \usebeamercolor[fg]{palette primary}
+  \usebeamerfont{standout}
+}
+  \apptocmd{\beamer@reseteecodes}{%
+    \ifbool{metro@standout}{
+      \endgroup
+      \boolfalse{metro@standout}
+    }{}
+  }{}{}
+\metro@inner@setdefaults
+\ProcessPgfPackageOptions{/metro/inner}
+\endinput
+%%
+%% End of file `beamerinnerthememetro.sty'.
