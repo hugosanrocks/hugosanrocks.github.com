@@ -20,6 +20,10 @@ Graduate Student at UGA, France
 
 Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/cv/CV_Hugo_Sanchez-Reyes.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="CV" width="15" height="16" border="0"></a></em>
 
+## Research work
+
+I currently work at the Institut des Sciences de la Terre, Université Grenoble Alpes as a postdoctoral researcher. I work for the ERC Project Monifault leaded by Dr. Piero Poli. In that project, we develop techniques to analyze and classify seismological data to study the evolution of stress in real faults. Furthermore, we are planning to include independent geophysical observations as GPS and velocity variation from ambient noise correlation to better understand the dynamics of faults.
+
 ## Publications
 
 ## 2018
@@ -35,7 +39,7 @@ Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github
 
 ## 2020
 
-1. <b>Sánchez-Reyes, H. S.</b>, Essing, D., Beaucé, E. and Poli, P. The imbricated foreshock and aftershock activities of the Balsorano (Italy) Mw 4.4 normal fault earthquake and implications for earthquake initiation. <i><b>Seismological Research Letters</b></i>, <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2020_SRL_preprint.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
+1. <b>Sánchez-Reyes, H. S.</b>, Essing, D., Beaucé, E. and Poli, P. The imbricated foreshock and aftershock activities of the Balsorano (Italy) Mw 4.4 normal fault earthquake and implications for earthquake initiation. <i><b>Seismological Research Letters</b></i>, <b>in press</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2020_SRL_preprint.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
 
 ## Reading group
 
