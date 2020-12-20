@@ -24,20 +24,18 @@ Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github
 
 ## 2018
 
-1. Jara, J., <b>Sánchez-Reyes, H. S.</b>, Socquet, A., Cotton, F., Virieux, J., Maksymowicz, A., Díaz-Mojica, J., Walpersdorf, A., Ruiz, J., Cotte, N.and Norabuena, E. Kinematic Study of Iquique 2014 Mw8.1 earthquake: understanding the segmentation of the seismogenic zone. <i><b>Earth and Planetary Science Letters</b></i>, <b>DOI: </b> 10.1016/j.epsl.2018.09.025. [link to journal](https://authors.elsevier.com/c/1Xqo3,Ig4DCTm) <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Jara_2018_EPSL.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
+1. <b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i><b>Journal of Geophysical Research</b></i>, <b> DOI: </b> 10.1029/2017JB015388. [link to journal](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388) <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
 <br>
 <br>
-2. Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-Herrera, M. T., Castillo-Aja, R., Singh, S. K. and Ji, C. Was the October 9th 1995 Mw8 Jalisco Mexico earthquake a near trench event? <b><i> Journal of Geophysical Research </i> DOI: </b> 10.1029/2017JB014899 [link to journal](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB014899). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Hjorleifsdottir_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
+2. Jara, J., <b>Sánchez-Reyes, H. S.</b>, Socquet, A., Cotton, F., Virieux, J., Maksymowicz, A., Díaz-Mojica, J., Walpersdorf, A., Ruiz, J., Cotte, N.and Norabuena, E. Kinematic Study of Iquique 2014 Mw8.1 earthquake: understanding the segmentation of the seismogenic zone. <i><b>Earth and Planetary Science Letters</b></i>, <b>DOI: </b> 10.1016/j.epsl.2018.09.025. [link to journal](https://authors.elsevier.com/c/1Xqo3,Ig4DCTm) <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Jara_2018_EPSL.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
 <br>
 <br>
-3. <b>Sánchez-Reyes, H. S.</b>, J. Tago, L. Métivier, V. M. Cruz-Atienza and J. Virieux. An evolutive linear kinematic source inversion. <i><b>Journal of Geophysical Research</b></i>, <b> DOI: </b> 10.1029/2017JB015388. [link to journal](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388) <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
+3. Hjörleifsdóttir, V., <b>Sánchez-Reyes, H. S.</b>, Ruiz-Angulo, A., Ramírez-Herrera, M. T., Castillo-Aja, R., Singh, S. K. and Ji, C. Was the October 9th 1995 Mw8 Jalisco Mexico earthquake a near trench event? <b><i> Journal of Geophysical Research </i> DOI: </b> 10.1029/2017JB014899 [link to journal](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB014899). <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Hjorleifsdottir_2018_JGR.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
 
-
-## Under review
 
 ## 2020
 
-3. <b>Sánchez-Reyes, H. S.</b>, Essing, D., Beaucé, E. and Poli, P. The imbricated foreshock and aftershock activities of the Balsorano (Italy) Mw 4.4 normal fault earthquake and implications for earthquake initiation. <i><b>Seismological Research Letters</b></i>, <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2020_SRL_preprint.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
+1. <b>Sánchez-Reyes, H. S.</b>, Essing, D., Beaucé, E. and Poli, P. The imbricated foreshock and aftershock activities of the Balsorano (Italy) Mw 4.4 normal fault earthquake and implications for earthquake initiation. <i><b>Seismological Research Letters</b></i>, <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2020_SRL_preprint.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
 
 ## Reading group
 

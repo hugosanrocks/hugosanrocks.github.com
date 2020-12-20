@@ -1,0 +1,3 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Catalog}{3}{0}{1}

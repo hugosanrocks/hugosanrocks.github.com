@@ -82,7 +82,7 @@
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\par{\centering{\Huge Hugo \textsc{S. S\'anchez Reyes}}\bigskip\par} % Your name
+\par{\centering{\Huge Hugo \textsc{S. S\'anchez-Reyes}}\bigskip\par} % Your name
 
 
 %\section{Personal Data}
@@ -90,7 +90,7 @@
 \begin{tabular}{rl}
 \textsc{Birth:} & 4 July 1989 \\
 \textsc{Address:} & 1 rue Hyppolite Muller, 38006 Grenoble, France \\
-\textsc{Contact:} & \Email \, \href{mailto:hugo.sanchez-reyes@univ-grenoble-alpes.fr}{hugo.sanchez-reyes@univ-grenoble-alpes.fr} \quad \Telefon \, +33 07 66 80 73 04\\
+\textsc{Contact:} & \Email \, \href{mailto:hugo.geofisica@gmail.com}{hugo.geofisica@gmail.com} \quad \Telefon \, +33 07 66 80 73 04\\
 & \ComputerMouse \, \href{http://hugosanrocks.github.io/}{http://hugosanrocks.github.io/} \, \ComputerMouse \, \href{https://github.com/hugosanrocks}{https://github.com/hugosanrocks}
 \end{tabular}
 
@@ -122,13 +122,13 @@ uncertainty quantification} \\[0.6em]
 & Project: \emph{1D Eikonal equation by a DG Finite Element Method}\\[0.6em]
 %\multicolumn{2}{c}{} \\
 
-{\bf \textsc{Oct. 2012 - Aug. 2013}} & {\bf Geophysical Specialist in Exploration at \textsc{COMESA S. A.}} \\
+{\bf \textsc{Oct. 2012 - Aug. 2013}} & {\bf Geophysical Specialist in Oil Exploration at \textsc{COMESA S. A.}} \\
 & Tasks: \emph{Development of didactic software for PSTM seismic data.}\\[0.6em]
 %\multicolumn{2}{c}{} \\
 {\bf Other activities:}\\[0.6em]
 %------------------------------------------------
-{\bf \textsc{Since Jan.} 2019} & Reviewer for Journal of Geophysical Research and \\
-			       & Geophysical Journal International\\[0.6em]
+{\bf \textsc{Since Jan.} 2019} & Reviewer for Journal of Geophysical Research (JGR) and \\
+			       & Geophysical Journal International (GJI)\\[0.6em]
 \end{tabular}
 
 \vskip 0.5cm
@@ -154,50 +154,66 @@ uncertainty quantification} \\[0.6em]
 
 {\bf Other trainings:}\\[0.6em]
 %------------------------------------------------
+{\bf \textsc{Oct.} 2020} & ChEESE Advanced Training on HPC for Computational Seismology \\
+& Basic use of HP computational codes: ExaHyPE, Salvus, SeisSol and SPECFEM3D \\
+& \small\textbf{Universitat Stuttgart, TUM, LMU, ETH Zurich \& CNRS LMA Marseille}\\[0.6em]
+
+{\bf \textsc{Jul.} 2018} & Mechanics of Earthquake Faulting Workshop \\
+& Lectures, seminars and discussions on earthquakes: theory, simulations and observations. \\
+& \small\textbf{School of Physics "Enrico Fermi" Societa' Italiana di Fisica}\\[0.6em]
+
 {\bf \textsc{Mar.} 2013} & Guralp-Amp\`ere Latin American Instrumentation Workshop\\
 & Basic use and setup of Guralp and FreeWave instruments\\
 & \small\textbf{Amp\`ere Instrumentation and Telemetry}, Mexico\\[0.6em]
 
 {\bf \textsc{Jul.} 2011} & Course of field seismic instrumentation\\
 & Use of seismic sensors and digitizers\\
-& \small\textbf{Institute of Geophysics, National Autonomous University of Mexico}, Mexico\\
+& \small\textbf{Institute of Geophysics, National Autonomous University of Mexico}, Mexico
 \end{tabular}
 
-\pagebreak
-\thispagestyle{empty}
-
-
+%\thispagestyle{empty}
 \vskip 0.5cm
+\section{Teaching experience}
+
+\begin{tabular}{rl}	
+{\bf \textsc{Jun. 2018}} & {\bf Co-Supervision of a Student}, Sol\`ene Jouany. \\
+& \small{Universit\'e Grenoble Alpes} \emph{ $|$ \small Advisors: Prof. J. Virieux, H.S. S\'anchez-Reyes and L. M\'etivier} \\
+& Rapport de Stage: \emph{Inversion cin\'ematique pour une source sismique} \\
+& MSc. Sciences de la Terre et de l'Environnement
+\end{tabular}
+
+
+\vskip 0.2cm
 \section{Scientific publications}
 \begin{tabular}{ll}
- [1] & {\bf S\'anchez-Reyes, H. S.}, Tago, J., Métivier, L., Cruz-Atienza, V. M. and Virieux, J., 2018. \tabularnewline 
+ [1] & {\bf S\'anchez-Reyes, H. S.}, Essing, D., Beauc\'e, E. and Poli, P. (2020). The imbricated foreshock  \tabularnewline
+     & and aftershock activities of the Balsorano (Italy) Mw 4.4 normal fault earthquake and implications \\
+     & for earthquake initiation. {\it Seismological Research Letters}, DOI: XXX-XXX-XXX. {\bf in press}. \href{https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/tex_documents/drafts/2020_SRL/2019_Balsorano_final_draft.pdf}{[Link]} \\[0.6em]
+
+ [2] & {\bf S\'anchez-Reyes, H. S.}, Tago, J., Métivier, L., Cruz-Atienza, V. M. and Virieux, J. (2018). \tabularnewline 
      & An evolutive linear kinematic source inversion. {\it JGR Solid Earth, 123}, \\
      & DOI: 10.1029/2017JB015388. \href{https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388}{[Link]} \\[0.6em]
 
- [2] & Hjorleifsdottir, V., {\bf S\'anchez-Reyes}, H. S., Ruiz Angulo, A., Ramírez-Herrera, M. T., \tabularnewline
-     & Castillo-Aja, R., Singh, S. K. and Ji, C., 2018. Was the October $9^{th}$ 1995 $M_w$ 8 Jalisco, Mexico \\
+ [3] & Hjorleifsdottir, V., {\bf S\'anchez-Reyes}, H. S., Ruiz Angulo, A., Ramírez-Herrera, M. T., \tabularnewline
+     & Castillo-Aja, R., Singh, S. K. and Ji, C. (2018). Was the October $9^{th}$ 1995 $M_w$ 8 Jalisco, Mexico \\
      & earthquake a near trench event? {\it JGR Solid Earth,} DOI: 10.1029/2017JB014899. \href{https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB014899}{[Link]} \\[0.6em]
      
- [3] & Jara, J., {\bf S\'anchez-Reyes, H. S.}, Socquet, A., Cotton, F., Virieux, J., Maksymowicz et al., 2018. \\
+ [4] & Jara, J., {\bf S\'anchez-Reyes, H. S.}, Socquet, A., Cotton, F., Virieux, J., Maksymowicz et al. (2018). \\
      & Kinematic Study of Iquique 2014 M$_w$8.1 earthquake: understanding the segmentation of \\
      & the seismogenic zone. {\it Earth and Planetary Sciences} DOI: 10.1016/j.epsl.2018.09.025. \href{https://www.sciencedirect.com/science/article/pii/S0012821X18305648}{[Link]} \\[0.6em]
      
-{\bf In submission:} & \\[0.6em]
-
- [1] & {\bf S\'anchez-Reyes, H. S.}, Essing, D., Beauc\'e, E. and Poli, P., 2020. \tabularnewline 
-     & Detailed study of the initiation process of a M$_w$4.4 normal fault earthquake in the middle \\
-     & lower crust in the Central Apennines. {\it JGR Solid Earth}, DOI: XXX-XXX-XXX. 
 \end{tabular}
 
-\vskip 0.5cm
+\vskip 0.2cm
 \section{Languages \hspace{0.55cm} \& \hspace{0.55cm} other skills}
 
 \begin{tabular}{{l}{l}|{l}{l}}
-\textsc{French:}  & Fluent B2		 & Basic: 		& ArcGIS, SeismicUnix \\%\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
-\textsc{English:} & Fluent IELTS 7.0 	 & Intermediate: 	& C++, Python, QGIS, OpenQuake, SAC, MPI, Perl, SEISAN \\
-\textsc{Russian:} & Basic A2		 & Advanced: 		& Fortran, OpenMP, MatLab, GMT, \LaTeX \\  
+\textsc{French:}  & Fluent B2		 & Basic: 		& SeismicUnix, QGIS, C++ \\%\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+\textsc{English:} & Fluent IELTS 7.0 	 & Intermediate: 	& Template matching, Python, OpenQuake, \\ 
+\textsc{Russian:} & Basic A2             &                      & SAC, MPI, HypoDD, SEISAN \\
+\textsc{Italian:} & Basic A2		 & Advanced: 		& Fortran, OpenMP, MatLab, GMT \\  
 \textsc{Spanish:} & Mothertongue         & Leadership: 		& 2011-2012 President of UNAM's SEG Student Chapter \\
- &					 & & Organizer of research reading group: \\
+		  &			 & Research:  		& Organizer of a research reading group: \\
  &                                       & & Link: \href{http://hugosanrocks.github.io/reading-group}{``Earthquke Precursors"}
 \end{tabular}
 
@@ -206,41 +222,38 @@ uncertainty quantification} \\[0.6em]
 %----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS AND ADDITIONAL INFO
 %----------------------------------------------------------------------------------------
-\vskip 0.5cm
+\vskip 0.2cm
 \section{Scholarships-Awards \hspace{1.75cm} \& \hspace{1.75cm} Conferences}
 
 \begin{tabular}{{r}{l}|{r}{l}}
-\textbf{2018} & \textbf{AGU Outstanding Student Presentation Award} 	 & 2018 & AGU Fall Meeting ({Oral})  \\
-2018 & Mechanics of Earthquake Faulting	Workshop 	 & 2017 & IAG-IASPEI Kobe Meeting ({Poster})  \\
-2015 & CNRS Recrutement \'etudiant handicap\'e  	 & 2016 & AGU Fall Meeting ({Poster}) \\
-\textbf{2013} & \textbf{Erasmus Mundus Scholarship MEEES}& 2015 & UGM Annual Meeting ({Oral}) \\ 
-\textbf{2012} & \textbf{ExxonMobil Research Scholarship} & 2012 & UGM Annual Meeting ({Oral}) \\
-\textbf{2011} & \textbf{Chevron/SEG Student Leadership Travel Grant}    & & Posters and presentations: \\
-     &                                                   & & \href{https://www.researchgate.net/profile/Hugo_Sanchez-Reyes}{[ResearchGate]}
+{2018} & \textbf{AGU Outstanding Student Presentation Award}     & 2020 & AGU Fall Meeting ({Oral}) \\
+{2015} & CNRS Recrutement \'etudiant handicap\'e  	 	 & 2020 & EGU General Assembly (online)  \\
+{2013} & \textbf{MEEES Erasmus Mundus Scholarship Winner}  	 & 2018 & AGU Fall Meeting ({Oral})  \\
+{2012} & \textbf{ExxonMobil Research Scholarship Award}	 	 & 2017 & IAG-IASPEI Kobe Meeting ({Poster})  \\
+{2011} & \textbf{Chevron/SEG Student Leadership Travel Grant} 	 & 2016 & AGU Fall Meeting ({Poster}) \\
+	      & 						 & 2015 & UGM Annual Meeting ({Oral}) \\ 
+	      & Posters and presentations: \href{https://www.researchgate.net/profile/Hugo_Sanchez-Reyes}{[ResearchGate]} & 2012 & UGM Annual Meeting ({Oral}) \\
 \end{tabular}
 
-\vskip 0.5cm
+\vskip 0.2cm
 \section{Scientific interests}
 
-Inverse problems, Bayesian inference, programming, 
-seismic sources, earthquake physics, signal processing
+Inverse problems, Bayesian inference, seismic sources, earthquake initiation process, signal processing and programming.
 
 \vskip 0.5cm
 \section{Mobility}
 \begin{tabular}{rp{11cm}}
-
-{ \textsc{Sept. 2015 - Mars. 2016 }} & 6 Months PhD. researcher internship at the National Autonomous \\  & University of Mexico, Mexico  \\
-
-{ \textsc{Sept. 2014 - Mars. 2015 }} & 6 Months MSc. program at the Istituto Universitario di Studi Superiori di Pavia, Italy  \\[0.6em] 
-
+{ \textsc{Sep. 2015 - Mar. 2016 }} & 6 Months PhD. researcher internship at the National Autonomous \\
+				     & University of Mexico (UNAM), Mexico  \\
+{ \textsc{Sep. 2014 - Mar. 2015 }} & 6 Months MSc. program at the Istituto Universitario di Studi Superiori di Pavia (IUSS), Italy  \\[0.6em] 
 \end{tabular}
 
 
-\vskip 0.5cm
+\vskip 0.2cm
 \section{Hobbies and other activities}
 
-Languages, literature, writing science-fiction tales,
-playing guitar and saxophone, ice skating
+Scientific divulgation, disability awareness podcasting (\href{https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xZjQ3MjU0Yy9wb2RjYXN0L3Jzcw==}{Link to podcast}),
+playing guitar and saxophone, ice skating, languages, literature, writing science-fiction tales.
 
 
 %\begin{tabular}{rl}
