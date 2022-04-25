@@ -83,16 +83,12 @@ Here is my post list:
 
 ## Social networks
 
-Follow my FB profile at: [Hugo's FB](https://www.facebook.com/hugosamuel.sanchezreyes)
-
-and on Twitter as: [@Hugosanrocks](https://twitter.com/Hugosanrocks)
+Twitter as: [@Hugosanrocks](https://twitter.com/Hugosanrocks)
 
 
 ## Things not related to Seismology
 
-[Short stories](http://hugosanrocks.github.io/Short stories/index.html)
-
-[Positive Reflections](http://hugosanrocks.github.io/Positive Reflections/index.html)
+[Other stories](http://hugosanrocks.github.io/Short stories/index.html)
 
 
 ## To-Do
