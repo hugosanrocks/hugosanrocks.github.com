@@ -30,6 +30,9 @@ Presentations from each of the previous meetings can be found clicking on the fo
 <br>
   <li><a href="http://hugosanrocks.github.io/cycle_team_meetings/">Meeting July 2022</a>.</li>
 <br>
+<br>
+  <li><a href="http://hugosanrocks.github.io/cycle_team_meetings/">Meeting August 2022</a>.</li>
+<br>
 </ol>
 <br>
 <br>
