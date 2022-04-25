@@ -36,7 +36,7 @@ Presentations from each of the previous meetings can be found clicking on the fo
 <font size="6">Links
 <br>
 <font size="3">
-To fork all meetings at once: <a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/cycle_team_meetings/"> follow this link</a> or just do "git clone https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/cycle_team_meetings".
+To fork all meetings at once: <a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_pdf/cycle_team_meetings/"> follow this link</a>.
 
 {% include disqus.html %}
 
