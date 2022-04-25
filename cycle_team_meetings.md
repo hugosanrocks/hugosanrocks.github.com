@@ -12,7 +12,7 @@ tags: [Seismic Cycle, Earthquakes, Precursory phase, Statistics, Modeling, InSAR
 <br>
 <hr>
 <hr>
-<b>Attention: Next meeting on 12th May 2022 in Salle Dolomieu (ISTerre Grenoble). Bring your favorite drink!</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/tree/master/_pdf/cycle_team_meetings/Meeting_12-04-22/"><img src="http://hugosanrocks.github.io/assets/img/coffee.png" alt="" width="15" height="16" border="0"></a></em>
+<b>Attention: Next meeting on 12th May 2022 at 12h30 in Salle Dolomieu (ISTerre Grenoble). Bring your favorite drink!</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/tree/master/_pdf/cycle_team_meetings/Meeting_12-04-22/"><img src="http://hugosanrocks.github.io/assets/img/coffee.png" alt="" width="15" height="16" border="0"></a></em>
 <hr>
 <hr>
 <br>
