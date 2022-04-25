@@ -6,7 +6,7 @@ title: Hugo Samuel Sánchez-Reyes
 
 ## Author coordinates
 
-![useful image](http://hugosanrocks.github.io/assets/img/model_time_space_windows.jpg)
+![useful image](http://hugosanrocks.github.io/assets/img/Hugo.jpg)
     
 Name : Hugo S. Sánchez-Reyes
 
@@ -23,6 +23,9 @@ Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github
 ## Research work
 
 I currently work at the Institut des Sciences de la Terre, Université Grenoble Alpes as a researcher. I work for the IRD. In my project, I develop techniques to analyze and classify seismological data to study the evolution of stress in real faults. Furthermore, we are planning to include independent geophysical observations as GPS and velocity variation from ambient noise correlation to better understand the dynamics of faults.
+
+
+
 
 ## Publications
 
@@ -41,7 +44,10 @@ I currently work at the Institut des Sciences de la Terre, Université Grenoble 
 
 1. <b>Sánchez-Reyes, H. S.</b>, Essing, D., Beaucé, E. and Poli, P. The imbricated foreshock and aftershock activities of the Balsorano (Italy) Mw 4.4 normal fault earthquake and implications for earthquake initiation. <i><b>Seismological Research Letters</b></i>, <b>in press</b> <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/Sanchez-Reyes_2020_SRL_preprint.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="" width="15" height="16" border="0"></a></em>
 
-## Reading group
+
+
+
+## Team Meetings
 
 ## 2022
 
@@ -52,9 +58,13 @@ I currently work at the Institut des Sciences de la Terre, Université Grenoble 
 [Earthquake precursors](http://hugosanrocks.github.io/reading-group)
 
 
+
+
 ## Interests
 
-Inverse problems, uncertainty assessment, kinematic source modeling, strong motion prediction
+Inverse problems, uncertainty assessment, seismic source modeling
+
+
 
 
 ## Quasi-real-time data
@@ -70,6 +80,8 @@ Inverse problems, uncertainty assessment, kinematic source modeling, strong moti
 Data taken from: [SSN webpage](http://www.ssn.unam.mx/sismogramas/)
 
 
+
+
 ## Diary
 
 Here is my post list:
@@ -81,14 +93,20 @@ Here is my post list:
 </ul>
 
 
+
+
 ## Social networks
 
 Twitter as: [@Hugosanrocks](https://twitter.com/Hugosanrocks)
 
 
+
+
 ## Things not related to Seismology
 
 [Other stories](http://hugosanrocks.github.io/Short stories/index.html)
+
+
 
 
 ## To-Do
