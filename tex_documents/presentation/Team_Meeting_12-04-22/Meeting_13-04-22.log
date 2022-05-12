@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  12 MAY 2022 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  12 MAY 2022 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2142,6 +2142,358 @@ Overfull \vbox (25.25873pt too high) detected at line 576
 
 [56
 
+] [57
+
+]
+<images/animations/Sld/Sld_neg_0001.pdf, id=5170, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0001.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0001.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0001.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0001.pdf> <a1,fr0>
+<images/animations/Sld/Sld_neg_0002.pdf, id=5182, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0002.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0002.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0002.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0002.pdf> <a1,fr1>
+<images/animations/Sld/Sld_neg_0003.pdf, id=5194, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0003.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0003.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0003.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0003.pdf>
+<a1,fr2>
+<images/animations/Sld/Sld_neg_0004.pdf, id=5206, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0004.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0004.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0004.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0004.pdf> <a1,fr3>
+<images/animations/Sld/Sld_neg_0005.pdf, id=5218, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0005.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0005.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0005.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0005.pdf> <a1,fr4>
+<images/animations/Sld/Sld_neg_0006.pdf, id=5230, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0006.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0006.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0006.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0006.pdf>
+<a1,fr5>
+<images/animations/Sld/Sld_neg_0007.pdf, id=5242, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0007.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0007.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0007.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0007.pdf> <a1,fr6>
+<images/animations/Sld/Sld_neg_0008.pdf, id=5254, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0008.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0008.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0008.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0008.pdf> <a1,fr7>
+<images/animations/Sld/Sld_neg_0009.pdf, id=5266, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0009.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0009.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0009.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0009.pdf>
+<a1,fr8>
+<images/animations/Sld/Sld_neg_0010.pdf, id=5278, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0010.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0010.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0010.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0010.pdf> <a1,fr9>
+<images/animations/Sld/Sld_neg_0011.pdf, id=5290, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0011.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0011.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0011.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0011.pdf> <a1,fr10>
+<images/animations/Sld/Sld_neg_0012.pdf, id=5302, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0012.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0012.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0012.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0012.pdf>
+<a1,fr11>
+<images/animations/Sld/Sld_neg_0013.pdf, id=5314, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0013.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0013.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0013.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0013.pdf> <a1,fr12>
+<images/animations/Sld/Sld_neg_0014.pdf, id=5327, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0014.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0014.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0014.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0014.pdf> <a1,fr13>
+<images/animations/Sld/Sld_neg_0015.pdf, id=5339, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0015.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0015.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0015.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0015.pdf> <a1,fr14>
+<images/animations/Sld/Sld_neg_0016.pdf, id=5351, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0016.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0016.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0016.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0016.pdf> <a1,fr15>
+<images/animations/Sld/Sld_neg_0017.pdf, id=5363, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0017.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0017.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0017.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0017.pdf> <a1,fr16>
+<images/animations/Sld/Sld_neg_0018.pdf, id=5375, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0018.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0018.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0018.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0018.pdf> <a1,fr17>
+<images/animations/Sld/Sld_neg_0019.pdf, id=5387, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0019.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0019.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0019.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0019.pdf> <a1,fr18>
+<images/animations/Sld/Sld_neg_0020.pdf, id=5399, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0020.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0020.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0020.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0020.pdf> <a1,fr19>
+<images/animations/Sld/Sld_neg_0021.pdf, id=5411, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/Sld/Sld_neg_0021.pdf Graphic file (type pdf)
+<use images/animations/Sld/Sld_neg_0021.pdf, page 1>
+Package pdftex.def Info: images/animations/Sld/Sld_neg_0021.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/Sld/Sld_neg_0021.pdf> <a1,fr20>
+<images/animations/SRd/SRd_neg_0000.pdf, id=5427, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0000.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0000.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0000.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0000.pdf> <a2,fr0>
+<images/animations/SRd/SRd_neg_0001.pdf, id=5439, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0001.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0001.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0001.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0001.pdf> <a2,fr1>
+<images/animations/SRd/SRd_neg_0002.pdf, id=5451, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0002.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0002.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0002.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0002.pdf> <a2,fr2>
+<images/animations/SRd/SRd_neg_0003.pdf, id=5463, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0003.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0003.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0003.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0003.pdf> <a2,fr3>
+<images/animations/SRd/SRd_neg_0004.pdf, id=5475, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0004.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0004.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0004.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0004.pdf> <a2,fr4>
+<images/animations/SRd/SRd_neg_0005.pdf, id=5487, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0005.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0005.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0005.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0005.pdf>
+<a2,fr5>
+<images/animations/SRd/SRd_neg_0006.pdf, id=5499, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0006.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0006.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0006.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0006.pdf> <a2,fr6>
+<images/animations/SRd/SRd_neg_0007.pdf, id=5511, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0007.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0007.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0007.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0007.pdf> <a2,fr7>
+<images/animations/SRd/SRd_neg_0008.pdf, id=5523, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0008.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0008.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0008.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0008.pdf>
+<a2,fr8>
+<images/animations/SRd/SRd_neg_0009.pdf, id=5535, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0009.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0009.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0009.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0009.pdf> <a2,fr9>
+<images/animations/SRd/SRd_neg_0010.pdf, id=5547, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0010.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0010.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0010.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0010.pdf> <a2,fr10>
+<images/animations/SRd/SRd_neg_0011.pdf, id=5559, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0011.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0011.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0011.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0011.pdf>
+<a2,fr11>
+<images/animations/SRd/SRd_neg_0012.pdf, id=5572, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0012.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0012.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0012.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0012.pdf> <a2,fr12>
+<images/animations/SRd/SRd_neg_0013.pdf, id=5584, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0013.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0013.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0013.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0013.pdf> <a2,fr13>
+<images/animations/SRd/SRd_neg_0014.pdf, id=5596, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0014.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0014.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0014.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0014.pdf> <a2,fr14>
+<images/animations/SRd/SRd_neg_0015.pdf, id=5608, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0015.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0015.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0015.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0015.pdf> <a2,fr15>
+<images/animations/SRd/SRd_neg_0016.pdf, id=5620, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0016.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0016.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0016.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0016.pdf> <a2,fr16>
+<images/animations/SRd/SRd_neg_0017.pdf, id=5632, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0017.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0017.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0017.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0017.pdf> <a2,fr17>
+<images/animations/SRd/SRd_neg_0018.pdf, id=5644, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0018.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0018.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0018.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0018.pdf> <a2,fr18>
+<images/animations/SRd/SRd_neg_0019.pdf, id=5656, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0019.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0019.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0019.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0019.pdf> <a2,fr19>
+<images/animations/SRd/SRd_neg_0020.pdf, id=5668, page=1, 285.065pt x 311.1625p
+t>
+File: images/animations/SRd/SRd_neg_0020.pdf Graphic file (type pdf)
+<use images/animations/SRd/SRd_neg_0020.pdf, page 1>
+Package pdftex.def Info: images/animations/SRd/SRd_neg_0020.pdf , page1 used on
+ input line 614.
+(pdftex.def)             Requested size: 285.0643pt x 311.16174pt.
+ <./images/animations/SRd/SRd_neg_0020.pdf> <a2,fr20>
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 614.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [58
+
 ]
 \tf@nav=\write6
 \openout6 = `Meeting_13-04-22.nav'.
@@ -2152,11 +2504,11 @@ Overfull \vbox (25.25873pt too high) detected at line 576
 \tf@snm=\write8
 \openout8 = `Meeting_13-04-22.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 617.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 617.
  (./Meeting_13-04-22.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 617.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 617.
 Package rerunfilecheck Info: File `Meeting_13-04-22.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2165,10 +2517,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35970 strings out of 492982
- 713598 string characters out of 6134897
- 785953 words of memory out of 5000000
- 38759 multiletter control sequences out of 15000+600000
+ 36310 strings out of 492982
+ 725665 string characters out of 6134897
+ 790817 words of memory out of 5000000
+ 39049 multiletter control sequences out of 15000+600000
  545511 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,103p,10419b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2189,10 +2541,10 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/t
 exmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/
 tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvri.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Meeting_13-04-22.pdf (56 pages, 16254298 bytes).
+Output written on Meeting_13-04-22.pdf (58 pages, 17439470 bytes).
 PDF statistics:
- 5253 PDF objects out of 6186 (max. 8388607)
- 3538 compressed objects within 36 object streams
- 129 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5779 PDF objects out of 6186 (max. 8388607)
+ 3803 compressed objects within 39 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 1292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

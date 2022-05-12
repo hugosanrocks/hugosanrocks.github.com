@@ -92,8 +92,12 @@
 \headcommand {\sectionentry {6}{References}{56}{References}{0}}
 \headcommand {\slideentry {6}{0}{0}{56/56}{}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\beamer@partpages {1}{56}}
-\headcommand {\beamer@subsectionpages {55}{56}}
-\headcommand {\beamer@sectionpages {55}{56}}
-\headcommand {\beamer@documentpages {56}}
-\headcommand {\gdef \inserttotalframenumber {28}}
+\headcommand {\slideentry {6}{0}{1}{57/57}{}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {6}{0}{2}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\beamer@partpages {1}{58}}
+\headcommand {\beamer@subsectionpages {55}{58}}
+\headcommand {\beamer@sectionpages {55}{58}}
+\headcommand {\beamer@documentpages {58}}
+\headcommand {\gdef \inserttotalframenumber {30}}
