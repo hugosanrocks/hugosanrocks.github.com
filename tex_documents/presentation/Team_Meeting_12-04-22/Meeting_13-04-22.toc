@@ -1,3 +1,5 @@
 \babel@toc {english}{}
-\beamer@sectionintoc {1}{Motivation}{3}{0}{1}
-\beamer@sectionintoc {2}{Preliminary exploration}{9}{0}{2}
+\beamer@sectionintoc {1}{Motivation}{7}{0}{1}
+\beamer@sectionintoc {2}{Preliminary exploration}{13}{0}{2}
+\beamer@sectionintoc {3}{Preliminary conclusions \& discussion}{47}{0}{3}
+\beamer@sectionintoc {4}{On going work and to dos!}{52}{0}{4}

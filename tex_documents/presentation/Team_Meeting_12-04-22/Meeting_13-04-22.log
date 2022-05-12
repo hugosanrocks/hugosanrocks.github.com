@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  12 MAY 2022 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.7)  12 MAY 2022 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1380,12 +1380,12 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@lstlisting=\count371
 
 (./Meeting_13-04-22.nav)
-<../../logos/logo_all_presentation.pdf, id=13, 1575.34262pt x 260.252pt>
+<../../logos/logo_all_presentation.pdf, id=13, 1977.53pt x 291.93855pt>
 File: ../../logos/logo_all_presentation.pdf Graphic file (type pdf)
 <use ../../logos/logo_all_presentation.pdf>
 Package pdftex.def Info: ../../logos/logo_all_presentation.pdf  used on input l
 ine 103.
-(pdftex.def)             Requested size: 223.88771pt x 36.98866pt.
+(pdftex.def)             Requested size: 250.54002pt x 36.98866pt.
 
 Overfull \vbox (43.88872pt too high) detected at line 103
  []
@@ -1410,7 +1410,7 @@ Overfull \vbox (44.55656pt too high) detected at line 103
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/logo_all_prese
 ntation.pdf>] (./Meeting_13-04-22.toc)
-<../../logos/ISTerre_neg.pdf, id=35, 591.8913pt x 344.7279pt>
+<../../logos/ISTerre_neg.pdf, id=50, 591.8913pt x 344.7279pt>
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
 Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 110.
@@ -1418,185 +1418,163 @@ Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 110.
  [2
 
  <../../logos/ISTerre_neg.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 114.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 125
+.
+LaTeX Font Info:    No file OMScmss.fd. on input line 125.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 125.
+
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 125.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+[3
+
+]
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 125.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [4
+
+]
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 125.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [5
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 114.
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 114.
+line 139.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[3
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 139.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+[6
+
+] [7
 
 ]
-<images/amatrice_1.pdf, id=56, 1215.79219pt x 728.74553pt>
+<images/amatrice_1.pdf, id=95, 1215.79219pt x 728.74553pt>
 File: images/amatrice_1.pdf Graphic file (type pdf)
 <use images/amatrice_1.pdf>
-Package pdftex.def Info: images/amatrice_1.pdf  used on input line 127.
+Package pdftex.def Info: images/amatrice_1.pdf  used on input line 155.
 (pdftex.def)             Requested size: 199.73653pt x 119.7152pt.
-<images/map_italy.png, id=57, 411.79729pt x 622.37224pt>
+<images/map_italy.png, id=96, 411.79729pt x 622.37224pt>
 File: images/map_italy.png Graphic file (type png)
 <use images/map_italy.png>
-Package pdftex.def Info: images/map_italy.png  used on input line 127.
+Package pdftex.def Info: images/map_italy.png  used on input line 155.
 (pdftex.def)             Requested size: 92.1879pt x 139.32495pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 127.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 155.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [4
+ [8
 
  <./images/amatrice_1.pdf> <./images/map_italy.png>]
-<images/amatrice_2.pdf, id=76, 1215.79219pt x 728.74553pt>
+<images/amatrice_2.pdf, id=115, 1215.79219pt x 728.74553pt>
 File: images/amatrice_2.pdf Graphic file (type pdf)
 <use images/amatrice_2.pdf>
-Package pdftex.def Info: images/amatrice_2.pdf  used on input line 140.
+Package pdftex.def Info: images/amatrice_2.pdf  used on input line 168.
 (pdftex.def)             Requested size: 199.73653pt x 119.7152pt.
 File: images/map_italy.png Graphic file (type png)
 <use images/map_italy.png>
-Package pdftex.def Info: images/map_italy.png  used on input line 140.
+Package pdftex.def Info: images/map_italy.png  used on input line 168.
 (pdftex.def)             Requested size: 92.1879pt x 139.32495pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 140.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 168.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [5
+ [9
 
  <./images/amatrice_2.pdf>]
-<images/amatrice_3.pdf, id=99, 1215.79219pt x 728.74553pt>
+<images/amatrice_3.pdf, id=138, 1215.79219pt x 728.74553pt>
 File: images/amatrice_3.pdf Graphic file (type pdf)
 <use images/amatrice_3.pdf>
-Package pdftex.def Info: images/amatrice_3.pdf  used on input line 154.
+Package pdftex.def Info: images/amatrice_3.pdf  used on input line 182.
 (pdftex.def)             Requested size: 199.73653pt x 119.7152pt.
 File: images/map_italy.png Graphic file (type png)
 <use images/map_italy.png>
-Package pdftex.def Info: images/map_italy.png  used on input line 154.
+Package pdftex.def Info: images/map_italy.png  used on input line 182.
 (pdftex.def)             Requested size: 92.1879pt x 139.32495pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 154.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 182.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [6
+ [10
 
  <./images/amatrice_3.pdf>]
-<images/amatrice_4.pdf, id=122, 1215.79219pt x 728.74553pt>
+<images/amatrice_4.pdf, id=162, 1215.79219pt x 728.74553pt>
 File: images/amatrice_4.pdf Graphic file (type pdf)
 <use images/amatrice_4.pdf>
-Package pdftex.def Info: images/amatrice_4.pdf  used on input line 169.
+Package pdftex.def Info: images/amatrice_4.pdf  used on input line 197.
 (pdftex.def)             Requested size: 199.73653pt x 119.7152pt.
 File: images/map_italy.png Graphic file (type png)
 <use images/map_italy.png>
-Package pdftex.def Info: images/map_italy.png  used on input line 169.
+Package pdftex.def Info: images/map_italy.png  used on input line 197.
 (pdftex.def)             Requested size: 92.1879pt x 139.32495pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 169.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 197.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [7
+ [11
 
  <./images/amatrice_4.pdf>]
 File: images/amatrice_1.pdf Graphic file (type pdf)
 <use images/amatrice_1.pdf>
-Package pdftex.def Info: images/amatrice_1.pdf  used on input line 205.
+Package pdftex.def Info: images/amatrice_1.pdf  used on input line 233.
 (pdftex.def)             Requested size: 138.2795pt x 82.87547pt.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 205
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 205.
-
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 205.
-
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 205.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 233.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
 
-Overfull \vbox (15.4289pt too high) detected at line 205
+Overfull \vbox (15.4289pt too high) detected at line 233
  []
 
-[8
+[12
 
-] [9
+] [13
 
 ]
-<images/schematic_view_param_new.pdf, id=166, 642.2069pt x 297.26297pt>
+<images/schematic_view_param_new.pdf, id=204, 642.2069pt x 297.26297pt>
 File: images/schematic_view_param_new.pdf Graphic file (type pdf)
 <use images/schematic_view_param_new.pdf>
 Package pdftex.def Info: images/schematic_view_param_new.pdf  used on input lin
-e 219.
+e 247.
 (pdftex.def)             Requested size: 307.28987pt x 142.24008pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 219.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [10
-
- <./images/schematic_view_param_new.pdf>] [11
-
-]
-<images/simmodeler1.pdf, id=4677, 1097.2894pt x 501.15802pt>
-File: images/simmodeler1.pdf Graphic file (type pdf)
-<use images/simmodeler1.pdf>
-Package pdftex.def Info: images/simmodeler1.pdf  used on input line 244.
-(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 244.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [12
-
- <./images/simmodeler1.pdf>]
-<images/simmodeler2.pdf, id=4690, 1097.2894pt x 501.15802pt>
-File: images/simmodeler2.pdf Graphic file (type pdf)
-<use images/simmodeler2.pdf>
-Package pdftex.def Info: images/simmodeler2.pdf  used on input line 251.
-(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 251.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [13
-
- <./images/simmodeler2.pdf>]
-<images/simmodeler3.pdf, id=4703, 1097.2894pt x 501.15802pt>
-File: images/simmodeler3.pdf Graphic file (type pdf)
-<use images/simmodeler3.pdf>
-Package pdftex.def Info: images/simmodeler3.pdf  used on input line 258.
-(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 258.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 247.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [14
 
- <./images/simmodeler3.pdf>]
-<images/simmodeler4.pdf, id=4715, 1097.2894pt x 501.15802pt>
-File: images/simmodeler4.pdf Graphic file (type pdf)
-<use images/simmodeler4.pdf>
-Package pdftex.def Info: images/simmodeler4.pdf  used on input line 265.
-(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 265.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ <./images/schematic_view_param_new.pdf>] [15
 
-[15
-
- <./images/simmodeler4.pdf>]
-<images/simmodeler5.pdf, id=4727, 1097.2894pt x 501.15802pt>
-File: images/simmodeler5.pdf Graphic file (type pdf)
-<use images/simmodeler5.pdf>
-Package pdftex.def Info: images/simmodeler5.pdf  used on input line 272.
+]
+<images/simmodeler1.pdf, id=4716, 1097.2894pt x 501.15802pt>
+File: images/simmodeler1.pdf Graphic file (type pdf)
+<use images/simmodeler1.pdf>
+Package pdftex.def Info: images/simmodeler1.pdf  used on input line 272.
 (pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
@@ -1604,11 +1582,11 @@ Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 272.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [16
 
- <./images/simmodeler5.pdf>]
-<images/simmodeler6.pdf, id=4739, 1097.2894pt x 501.15802pt>
-File: images/simmodeler6.pdf Graphic file (type pdf)
-<use images/simmodeler6.pdf>
-Package pdftex.def Info: images/simmodeler6.pdf  used on input line 279.
+ <./images/simmodeler1.pdf>]
+<images/simmodeler2.pdf, id=4728, 1097.2894pt x 501.15802pt>
+File: images/simmodeler2.pdf Graphic file (type pdf)
+<use images/simmodeler2.pdf>
+Package pdftex.def Info: images/simmodeler2.pdf  used on input line 279.
 (pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
@@ -1616,11 +1594,11 @@ Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 279.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [17
 
- <./images/simmodeler6.pdf>]
-<images/simmodeler7.pdf, id=4751, 1097.2894pt x 501.15802pt>
-File: images/simmodeler7.pdf Graphic file (type pdf)
-<use images/simmodeler7.pdf>
-Package pdftex.def Info: images/simmodeler7.pdf  used on input line 286.
+ <./images/simmodeler2.pdf>]
+<images/simmodeler3.pdf, id=4740, 1097.2894pt x 501.15802pt>
+File: images/simmodeler3.pdf Graphic file (type pdf)
+<use images/simmodeler3.pdf>
+Package pdftex.def Info: images/simmodeler3.pdf  used on input line 286.
 (pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
@@ -1628,23 +1606,24 @@ Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 286.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [18
 
- <./images/simmodeler7.pdf>]
-<images/simmodeler8.pdf, id=4763, 1097.2894pt x 501.15802pt>
-File: images/simmodeler8.pdf Graphic file (type pdf)
-<use images/simmodeler8.pdf>
-Package pdftex.def Info: images/simmodeler8.pdf  used on input line 293.
+ <./images/simmodeler3.pdf>]
+<images/simmodeler4.pdf, id=4752, 1097.2894pt x 501.15802pt>
+File: images/simmodeler4.pdf Graphic file (type pdf)
+<use images/simmodeler4.pdf>
+Package pdftex.def Info: images/simmodeler4.pdf  used on input line 293.
 (pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
 Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 293.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [19
 
- <./images/simmodeler8.pdf>]
-<images/simmodeler9.pdf, id=4776, 1097.2894pt x 501.15802pt>
-File: images/simmodeler9.pdf Graphic file (type pdf)
-<use images/simmodeler9.pdf>
-Package pdftex.def Info: images/simmodeler9.pdf  used on input line 300.
+[19
+
+ <./images/simmodeler4.pdf>]
+<images/simmodeler5.pdf, id=4765, 1097.2894pt x 501.15802pt>
+File: images/simmodeler5.pdf Graphic file (type pdf)
+<use images/simmodeler5.pdf>
+Package pdftex.def Info: images/simmodeler5.pdf  used on input line 300.
 (pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
@@ -1652,11 +1631,11 @@ Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 300.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [20
 
- <./images/simmodeler9.pdf>]
-<images/simmodeler10.pdf, id=4788, 1097.2894pt x 501.15802pt>
-File: images/simmodeler10.pdf Graphic file (type pdf)
-<use images/simmodeler10.pdf>
-Package pdftex.def Info: images/simmodeler10.pdf  used on input line 307.
+ <./images/simmodeler5.pdf>]
+<images/simmodeler6.pdf, id=4777, 1097.2894pt x 501.15802pt>
+File: images/simmodeler6.pdf Graphic file (type pdf)
+<use images/simmodeler6.pdf>
+Package pdftex.def Info: images/simmodeler6.pdf  used on input line 307.
 (pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
@@ -1664,11 +1643,11 @@ Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 307.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [21
 
- <./images/simmodeler10.pdf>]
-<images/simmodeler11.pdf, id=4800, 1097.2894pt x 501.15802pt>
-File: images/simmodeler11.pdf Graphic file (type pdf)
-<use images/simmodeler11.pdf>
-Package pdftex.def Info: images/simmodeler11.pdf  used on input line 314.
+ <./images/simmodeler6.pdf>]
+<images/simmodeler7.pdf, id=4789, 1097.2894pt x 501.15802pt>
+File: images/simmodeler7.pdf Graphic file (type pdf)
+<use images/simmodeler7.pdf>
+Package pdftex.def Info: images/simmodeler7.pdf  used on input line 314.
 (pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
@@ -1676,22 +1655,70 @@ Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 314.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [22
 
+ <./images/simmodeler7.pdf>]
+<images/simmodeler8.pdf, id=4801, 1097.2894pt x 501.15802pt>
+File: images/simmodeler8.pdf Graphic file (type pdf)
+<use images/simmodeler8.pdf>
+Package pdftex.def Info: images/simmodeler8.pdf  used on input line 321.
+(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 321.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [23
+
+ <./images/simmodeler8.pdf>]
+<images/simmodeler9.pdf, id=4813, 1097.2894pt x 501.15802pt>
+File: images/simmodeler9.pdf Graphic file (type pdf)
+<use images/simmodeler9.pdf>
+Package pdftex.def Info: images/simmodeler9.pdf  used on input line 328.
+(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 328.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [24
+
+ <./images/simmodeler9.pdf>]
+<images/simmodeler10.pdf, id=4825, 1097.2894pt x 501.15802pt>
+File: images/simmodeler10.pdf Graphic file (type pdf)
+<use images/simmodeler10.pdf>
+Package pdftex.def Info: images/simmodeler10.pdf  used on input line 335.
+(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 335.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [25
+
+ <./images/simmodeler10.pdf>]
+<images/simmodeler11.pdf, id=4839, 1097.2894pt x 501.15802pt>
+File: images/simmodeler11.pdf Graphic file (type pdf)
+<use images/simmodeler11.pdf>
+Package pdftex.def Info: images/simmodeler11.pdf  used on input line 342.
+(pdftex.def)             Requested size: 307.28987pt x 140.34622pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 342.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [26
+
  <./images/simmodeler11.pdf>]
-<images/simmodeler12.pdf, id=4812, 645.95142pt x 447.85966pt>
+<images/simmodeler12.pdf, id=4851, 645.95142pt x 447.85966pt>
 File: images/simmodeler12.pdf Graphic file (type pdf)
 <use images/simmodeler12.pdf>
-Package pdftex.def Info: images/simmodeler12.pdf  used on input line 337.
+Package pdftex.def Info: images/simmodeler12.pdf  used on input line 365.
 (pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
-<images/simmodeler13.pdf, id=4813, 744.13599pt x 466.80753pt>
+<images/simmodeler13.pdf, id=4852, 744.13599pt x 466.80753pt>
 File: images/simmodeler13.pdf Graphic file (type pdf)
 <use images/simmodeler13.pdf>
-Package pdftex.def Info: images/simmodeler13.pdf  used on input line 337.
+Package pdftex.def Info: images/simmodeler13.pdf  used on input line 365.
 (pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 337.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 365.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [23
+ [27
 
  <./images/simmodeler12.pdf> <./images/simmodeler13.pdf
 
@@ -1700,176 +1727,420 @@ on: multiple pdfs with page group included in a single page
 >]
 File: images/simmodeler12.pdf Graphic file (type pdf)
 <use images/simmodeler12.pdf>
-Package pdftex.def Info: images/simmodeler12.pdf  used on input line 337.
+Package pdftex.def Info: images/simmodeler12.pdf  used on input line 365.
 (pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
 File: images/simmodeler13.pdf Graphic file (type pdf)
 <use images/simmodeler13.pdf>
-Package pdftex.def Info: images/simmodeler13.pdf  used on input line 337.
+Package pdftex.def Info: images/simmodeler13.pdf  used on input line 365.
 (pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 337.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [24
-
-]
-File: images/simmodeler12.pdf Graphic file (type pdf)
-<use images/simmodeler12.pdf>
-Package pdftex.def Info: images/simmodeler12.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
-File: images/simmodeler13.pdf Graphic file (type pdf)
-<use images/simmodeler13.pdf>
-Package pdftex.def Info: images/simmodeler13.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 337.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [25
-
-]
-File: images/simmodeler12.pdf Graphic file (type pdf)
-<use images/simmodeler12.pdf>
-Package pdftex.def Info: images/simmodeler12.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
-File: images/simmodeler13.pdf Graphic file (type pdf)
-<use images/simmodeler13.pdf>
-Package pdftex.def Info: images/simmodeler13.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 337.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [26
-
-]
-File: images/simmodeler12.pdf Graphic file (type pdf)
-<use images/simmodeler12.pdf>
-Package pdftex.def Info: images/simmodeler12.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
-File: images/simmodeler13.pdf Graphic file (type pdf)
-<use images/simmodeler13.pdf>
-Package pdftex.def Info: images/simmodeler13.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 337.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
- [27
-
-]
-File: images/simmodeler12.pdf Graphic file (type pdf)
-<use images/simmodeler12.pdf>
-Package pdftex.def Info: images/simmodeler12.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
-File: images/simmodeler13.pdf Graphic file (type pdf)
-<use images/simmodeler13.pdf>
-Package pdftex.def Info: images/simmodeler13.pdf  used on input line 337.
-(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 337.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 365.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
  [28
 
 ]
-<images/MC_circle_2.pdf, id=4866, 1462.3694pt x 439.51685pt>
-File: images/MC_circle_2.pdf Graphic file (type pdf)
-<use images/MC_circle_2.pdf>
-Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 374.
-(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: images/simmodeler12.pdf Graphic file (type pdf)
+<use images/simmodeler12.pdf>
+Package pdftex.def Info: images/simmodeler12.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
+File: images/simmodeler13.pdf Graphic file (type pdf)
+<use images/simmodeler13.pdf>
+Package pdftex.def Info: images/simmodeler13.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 374.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 365.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
-
-Overfull \vbox (25.80492pt too high) detected at line 374
- []
-
-[29
-
- <./images/MC_circle_2.pdf>]
-File: images/MC_circle_2.pdf Graphic file (type pdf)
-<use images/MC_circle_2.pdf>
-Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 374.
-(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 374.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
-
-Overfull \vbox (25.80492pt too high) detected at line 374
- []
-
-[30
+ [29
 
 ]
-File: images/MC_circle_2.pdf Graphic file (type pdf)
-<use images/MC_circle_2.pdf>
-Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 374.
-(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: images/simmodeler12.pdf Graphic file (type pdf)
+<use images/simmodeler12.pdf>
+Package pdftex.def Info: images/simmodeler12.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
+File: images/simmodeler13.pdf Graphic file (type pdf)
+<use images/simmodeler13.pdf>
+Package pdftex.def Info: images/simmodeler13.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 374.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 365.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
-
-Overfull \vbox (25.80492pt too high) detected at line 374
- []
-
-[31
+ [30
 
 ]
-File: images/MC_circle_2.pdf Graphic file (type pdf)
-<use images/MC_circle_2.pdf>
-Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 374.
-(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: images/simmodeler12.pdf Graphic file (type pdf)
+<use images/simmodeler12.pdf>
+Package pdftex.def Info: images/simmodeler12.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
+File: images/simmodeler13.pdf Graphic file (type pdf)
+<use images/simmodeler13.pdf>
+Package pdftex.def Info: images/simmodeler13.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 374.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 365.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
-
-Overfull \vbox (25.80492pt too high) detected at line 374
- []
-
-[32
+ [31
 
 ]
-File: images/MC_circle_2.pdf Graphic file (type pdf)
-<use images/MC_circle_2.pdf>
-Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 374.
-(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: images/simmodeler12.pdf Graphic file (type pdf)
+<use images/simmodeler12.pdf>
+Package pdftex.def Info: images/simmodeler12.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 85.21722pt.
+File: images/simmodeler13.pdf Graphic file (type pdf)
+<use images/simmodeler13.pdf>
+Package pdftex.def Info: images/simmodeler13.pdf  used on input line 365.
+(pdftex.def)             Requested size: 122.91406pt x 77.1054pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 374.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 365.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [32
 
-Overfull \vbox (25.80492pt too high) detected at line 374
- []
-
-[33
+] [33
 
 ]
+<images/MC_circle_2.pdf, id=4909, 1462.3694pt x 439.51685pt>
 File: images/MC_circle_2.pdf Graphic file (type pdf)
 <use images/MC_circle_2.pdf>
-Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 374.
+Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 408.
 (pdftex.def)             Requested size: 276.559pt x 83.12009pt.
 File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
 <use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 374.
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 408.
 (pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
 
-Overfull \vbox (25.80492pt too high) detected at line 374
+Overfull \vbox (25.80492pt too high) detected at line 408
  []
 
 [34
 
-] [35
+ <./images/MC_circle_2.pdf>]
+File: images/MC_circle_2.pdf Graphic file (type pdf)
+<use images/MC_circle_2.pdf>
+Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 408.
+(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 408.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
 
-] (./Meeting_13-04-22.bbl)
-Overfull \vbox (1.10886pt too high) detected at line 384
+Overfull \vbox (25.80492pt too high) detected at line 408
+ []
+
+[35
+
+]
+File: images/MC_circle_2.pdf Graphic file (type pdf)
+<use images/MC_circle_2.pdf>
+Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 408.
+(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 408.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (25.80492pt too high) detected at line 408
  []
 
 [36
+
+]
+File: images/MC_circle_2.pdf Graphic file (type pdf)
+<use images/MC_circle_2.pdf>
+Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 408.
+(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 408.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (25.80492pt too high) detected at line 408
+ []
+
+[37
+
+]
+File: images/MC_circle_2.pdf Graphic file (type pdf)
+<use images/MC_circle_2.pdf>
+Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 408.
+(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 408.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (25.80492pt too high) detected at line 408
+ []
+
+[38
+
+]
+File: images/MC_circle_2.pdf Graphic file (type pdf)
+<use images/MC_circle_2.pdf>
+Package pdftex.def Info: images/MC_circle_2.pdf  used on input line 408.
+(pdftex.def)             Requested size: 276.559pt x 83.12009pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 408.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (25.80492pt too high) detected at line 408
+ []
+
+[39
+
+]
+<images/nojump/nojump_neg_0000.png, id=4986, 651.86108pt x 242.56961pt>
+File: images/nojump/nojump_neg_0000.png Graphic file (type png)
+<use images/nojump/nojump_neg_0000.png>
+Package pdftex.def Info: images/nojump/nojump_neg_0000.png  used on input line 
+430.
+(pdftex.def)             Requested size: 651.8595pt x 242.56902pt.
+ <./images/nojump/nojump_neg_0000.png> <a0,fr0>
+<images/nojump/nojump_neg_0001.png, id=4995, 651.86108pt x 242.56961pt>
+File: images/nojump/nojump_neg_0001.png Graphic file (type png)
+<use images/nojump/nojump_neg_0001.png>
+Package pdftex.def Info: images/nojump/nojump_neg_0001.png  used on input line 
+430.
+(pdftex.def)             Requested size: 651.8595pt x 242.56902pt.
+ <./images/nojump/nojump_neg_0001.png> <a0,fr1>
+<images/nojump/nojump_neg_0002.png, id=5004, 651.86108pt x 242.56961pt>
+File: images/nojump/nojump_neg_0002.png Graphic file (type png)
+<use images/nojump/nojump_neg_0002.png>
+Package pdftex.def Info: images/nojump/nojump_neg_0002.png  used on input line 
+430.
+(pdftex.def)             Requested size: 651.8595pt x 242.56902pt.
+ <./images/nojump/nojump_neg_0002.png> <a0,fr2>
+<images/nojump/nojump_neg_0003.png, id=5013, 651.86108pt x 242.56961pt>
+File: images/nojump/nojump_neg_0003.png Graphic file (type png)
+<use images/nojump/nojump_neg_0003.png>
+Package pdftex.def Info: images/nojump/nojump_neg_0003.png  used on input line 
+430.
+(pdftex.def)             Requested size: 651.8595pt x 242.56902pt.
+ <./images/nojump/nojump_neg_0003.png> <a0,fr3>
+<images/nojump/nojump_neg_0004.png, id=5022, 651.86108pt x 242.56961pt>
+File: images/nojump/nojump_neg_0004.png Graphic file (type png)
+<use images/nojump/nojump_neg_0004.png>
+Package pdftex.def Info: images/nojump/nojump_neg_0004.png  used on input line 
+430.
+(pdftex.def)             Requested size: 651.8595pt x 242.56902pt.
+ <./images/nojump/nojump_neg_0004.png>
+<a0,fr4>
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 430.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [40
+
+]
+<images/cases.png, id=5040, 1682.96078pt x 913.7504pt>
+File: images/cases.png Graphic file (type png)
+<use images/cases.png>
+Package pdftex.def Info: images/cases.png  used on input line 439.
+(pdftex.def)             Requested size: 307.28987pt x 166.83823pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 439.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [41
+
+ <./images/cases.png>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/results_table.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/results_table.pdf, id=5047, 1188.44pt x 473.77pt>
+File: images/results_table.pdf Graphic file (type pdf)
+<use images/results_table.pdf>
+Package pdftex.def Info: images/results_table.pdf  used on input line 459.
+(pdftex.def)             Requested size: 307.28987pt x 122.49776pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 459.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (20.96059pt too high) detected at line 459
+ []
+
+[42
+
+ <./images/results_table.pdf>]
+File: images/results_table.pdf Graphic file (type pdf)
+<use images/results_table.pdf>
+Package pdftex.def Info: images/results_table.pdf  used on input line 459.
+(pdftex.def)             Requested size: 307.28987pt x 122.49776pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 459.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (20.96059pt too high) detected at line 459
+ []
+
+[43
+
+]
+File: images/results_table.pdf Graphic file (type pdf)
+<use images/results_table.pdf>
+Package pdftex.def Info: images/results_table.pdf  used on input line 459.
+(pdftex.def)             Requested size: 307.28987pt x 122.49776pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 459.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (20.96059pt too high) detected at line 459
+ []
+
+[44
+
+]
+File: images/results_table.pdf Graphic file (type pdf)
+<use images/results_table.pdf>
+Package pdftex.def Info: images/results_table.pdf  used on input line 459.
+(pdftex.def)             Requested size: 307.28987pt x 122.49776pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 459.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (20.96059pt too high) detected at line 459
+ []
+
+[45
+
+]
+File: images/results_table.pdf Graphic file (type pdf)
+<use images/results_table.pdf>
+Package pdftex.def Info: images/results_table.pdf  used on input line 459.
+(pdftex.def)             Requested size: 307.28987pt x 122.49776pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 459.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (20.96059pt too high) detected at line 459
+ []
+
+[46
+
+] [47
+
+]
+<images/schematic_view_noparam.png, id=5089, 1115.8283pt x 345.9734pt>
+File: images/schematic_view_noparam.png Graphic file (type png)
+<use images/schematic_view_noparam.png>
+Package pdftex.def Info: images/schematic_view_noparam.png  used on input line 
+475.
+(pdftex.def)             Requested size: 307.28987pt x 95.27759pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 475.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [48
+
+ <./images/schematic_view_noparam.png>]
+<images/stress_shadow.png, id=5096, 2183.12643pt x 537.37396pt>
+File: images/stress_shadow.png Graphic file (type png)
+<use images/stress_shadow.png>
+Package pdftex.def Info: images/stress_shadow.png  used on input line 501.
+(pdftex.def)             Requested size: 307.28987pt x 75.63362pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 501.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (11.04222pt too high) detected at line 501
+ []
+
+[49
+
+ <./images/stress_shadow.png>]
+File: images/stress_shadow.png Graphic file (type png)
+<use images/stress_shadow.png>
+Package pdftex.def Info: images/stress_shadow.png  used on input line 501.
+(pdftex.def)             Requested size: 307.28987pt x 75.63362pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 501.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (11.04222pt too high) detected at line 501
+ []
+
+[50
+
+]
+File: images/stress_shadow.png Graphic file (type png)
+<use images/stress_shadow.png>
+Package pdftex.def Info: images/stress_shadow.png  used on input line 501.
+(pdftex.def)             Requested size: 307.28987pt x 75.63362pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 501.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (11.04222pt too high) detected at line 501
+ []
+
+[51
+
+] [52
+
+]
+File: images/map_italy.png Graphic file (type png)
+<use images/map_italy.png>
+Package pdftex.def Info: images/map_italy.png  used on input line 538.
+(pdftex.def)             Requested size: 122.91406pt x 185.76344pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/linking.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<images/linking.pdf, id=5121, 580.1675pt x 435.6275pt>
+File: images/linking.pdf Graphic file (type pdf)
+<use images/linking.pdf>
+Package pdftex.def Info: images/linking.pdf  used on input line 538.
+(pdftex.def)             Requested size: 157.64064pt x 118.36546pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+
+ []
+
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 538.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (27.81998pt too high) detected at line 538
+ []
+
+[53
+
+ <./images/linking.pdf>]
+<images/CSC.png, id=5141, 928.46875pt x 1073.00874pt>
+File: images/CSC.png Graphic file (type png)
+<use images/CSC.png>
+Package pdftex.def Info: images/CSC.png  used on input line 566.
+(pdftex.def)             Requested size: 138.2795pt x 159.79826pt.
+File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 566.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (8.3363pt too high) detected at line 566
+ []
+
+[54
+
+ <./images/CSC.png>] [55
+
+] (./Meeting_13-04-22.bbl)
+Overfull \vbox (25.25873pt too high) detected at line 576
+ []
+
+[56
 
 ]
 \tf@nav=\write6
@@ -1881,11 +2152,11 @@ Overfull \vbox (1.10886pt too high) detected at line 384
 \tf@snm=\write8
 \openout8 = `Meeting_13-04-22.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
  (./Meeting_13-04-22.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 390.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
 Package rerunfilecheck Info: File `Meeting_13-04-22.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1894,32 +2165,34 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35769 strings out of 492982
- 709747 string characters out of 6134897
- 785115 words of memory out of 5000000
- 38616 multiletter control sequences out of 15000+600000
- 544857 words of font info for 73 fonts, out of 8000000 for 9000
+ 35970 strings out of 492982
+ 713598 string characters out of 6134897
+ 785953 words of memory out of 5000000
+ 38759 multiletter control sequences out of 15000+600000
+ 545511 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,103p,10419b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-</usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/
-type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qh
-vri.pfb>
-Output written on Meeting_13-04-22.pdf (36 pages, 13667930 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/t
+exmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/
+tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvri.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Meeting_13-04-22.pdf (56 pages, 16254298 bytes).
 PDF statistics:
- 5025 PDF objects out of 5155 (max. 8388607)
- 3383 compressed objects within 34 object streams
- 86 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5253 PDF objects out of 6186 (max. 8388607)
+ 3538 compressed objects within 36 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 310 words of extra memory for PDF output out of 10000 (max. 10000000)
 
