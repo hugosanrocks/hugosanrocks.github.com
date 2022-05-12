@@ -1,0 +1,63 @@
+\begin{thebibliography}{}
+
+\bibitem[Aochi, 2018]{Aochi_2018_DAN}
+Aochi, H. (2018).
+\newblock Dynamic asymmetry of normal and reverse faults due to constrained
+  depth-dependent stress accumulation.
+\newblock {\em Geophysical Journal International}, 215(3):2134--2143.
+
+\bibitem[Bai and Ampuero, 2017]{Bai_2017_ESD}
+Bai, K. and Ampuero, J.-P. (2017).
+\newblock Effect of seismogenic depth and background stress on physical limits
+  of earthquake rupture across fault step overs.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 122(12):10--280.
+
+\bibitem[Galis et~al., 2015]{Galis_2015_ISS}
+Galis, M., Pelties, C., Kristek, J., Moczo, P., Ampuero, J.-P., and Mai, P.~M.
+  (2015).
+\newblock On the initiation of sustained slip-weakening ruptures by localized
+  stresses.
+\newblock {\em Geophysical Journal International}, 200(2):890--909.
+
+\bibitem[Hu et~al., 2016]{Hu_2016_IEJ}
+Hu, F., Zhang, Z., and Chen, X. (2016).
+\newblock Investigation of earthquake jump distance for strike-slip step overs
+  based on 3-d dynamic rupture simulations in an elastic half-space.
+\newblock {\em Journal of Geophysical Research: Solid Earth}, 121(2):994--1006.
+
+\bibitem[Li and Liu, 2020]{Li_2020_ERT}
+Li, G. and Liu, Y. (2020).
+\newblock Earthquake rupture through a step-over fault system: An exploratory
+  numerical study of the leech river fault, southern vancouver island.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  125(11):e2020JB020059.
+
+\bibitem[Oglesby, 2008]{Oglesby_2008_RTJ}
+Oglesby, D. (2008).
+\newblock Rupture termination and jump on parallel offset faults.
+\newblock {\em Bulletin of the Seismological Society of America},
+  98(1):440--447.
+
+\bibitem[Scognamiglio et~al., 2018]{Scognamiglio_2018_CFG}
+Scognamiglio, L., Tinti, E., Casarotti, E., Pucci, S., Villani, F., Cocco, M.,
+  Magnoni, F., Michelini, A., and Dreger, D. (2018).
+\newblock Complex fault geometry and rupture dynamics of the mw 6.5, 30 october
+  2016, central italy earthquake.
+\newblock {\em Journal of Geophysical Research: Solid Earth},
+  123(4):2943--2964.
+
+\bibitem[Ulrich et~al., 2019]{Ulrich_2019_CPB}
+Ulrich, T., Vater, S., Madden, E.~H., Behrens, J., van Dinther, Y., Van~Zelst,
+  I., Fielding, E.~J., Liang, C., and Gabriel, A.-A. (2019).
+\newblock Coupled, physics-based modeling reveals earthquake displacements are
+  critical to the 2018 palu, sulawesi tsunami.
+\newblock {\em Pure and Applied Geophysics}, 176(10):4069--4109.
+
+\bibitem[Wollherr et~al., 2018]{Wollherr_2018_OFP}
+Wollherr, S., Gabriel, A.-A., and Uphoff, C. (2018).
+\newblock Off-fault plasticity in three-dimensional dynamic rupture simulations
+  using a modal discontinuous galerkin method on unstructured meshes:
+  implementation, verification and application.
+\newblock {\em Geophysical Journal International}, 214(3):1556--1584.
+
+\end{thebibliography}

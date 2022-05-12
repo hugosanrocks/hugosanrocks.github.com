@@ -63,7 +63,7 @@
 
 %path to logo and biblio -> to be adapted to your local directories 
 \newcommand\dirlogo{../../logos/}
-\newcommand\dirbiblio{../../biblio/}
+\newcommand\dirbiblio{../../biblio}
 
 
 
@@ -81,12 +81,12 @@ O., Scotti, S., Hok, A.-A. Gabriel and T. Taufiqurrahman \\
 
 \subject{Group Meeting}
 
-\titlegraphic{\centering \vspace{-15pt}\includegraphics[height=1.3cm]{../../logos/logo_all_presentations_noagu.png} \par} %\qquad  \includegraphics[height=1.4cm]{../../logos/anr_eqtime.png} \par }
+\titlegraphic{\centering \vspace{-15pt}\includegraphics[height=1.3cm]{../../logos/logo_all_presentation.pdf} \par} %\qquad  \includegraphics[height=1.4cm]{../../logos/anr_eqtime.png} \par }
 
 
 \addtobeamertemplate{frametitle}{}{%
 \begin{tikzpicture}[remember picture,overlay]
-  \node[anchor=north east,yshift=0.0ex] at (current page.north east) {\includegraphics[height=4ex]{../../logos/logo_irsn}};
+  \node[anchor=north east,yshift=0.0ex] at (current page.north east) {\includegraphics[height=4ex]{../../logos/ISTerre_neg.pdf}};
   %\node[anchor=north east,yshift=0.5ex] at (current page.north east) {\includegraphics[height=3.3ex]{\dirlogo/seiscope_color_light_background}};
 \end{tikzpicture}}
 
@@ -214,9 +214,130 @@ O., Scotti, S., Hok, A.-A. Gabriel and T. Taufiqurrahman \\
  
   \includegraphics[width=1\linewidth]{images/schematic_view_param_new}
  
- \hfill {\tiny \citep[www.seissol.org; e.g.,][]{Wollherr_2018_OFP, Ulrich_2019_CPB}}
+ \hfill {\small \citep[www.seissol.org; e.g.,][]{Wollherr_2018_OFP, Ulrich_2019_CPB}}
  
 \end{frame}
+
+
+\begin{frame}
+ 
+ \centering \huge SMALL PUBLICIT\'E !!
+ \\ \ \\
+% \\
+ SimModeler: meshing engine
+ \\
+ \&
+ \\ 
+% \\
+ SeisSol: dynamic rupture modeling
+ 
+ 
+\end{frame}
+
+
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler1}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler2}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler3}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler4}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler5}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler6}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler7}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler8}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler9}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler10}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \includegraphics[width=1\linewidth]{images/simmodeler11}
+ 
+\end{frame}
+
+\begin{frame}
+ {SimModeler software : Modeling complex fault geometry}
+ 
+ \begin{minipage}{0.4\linewidth}
+ \includegraphics[width=1\linewidth]{images/simmodeler12.pdf} \\  
+ \includegraphics[width=1\linewidth]{images/simmodeler13.pdf}  
+ \end{minipage}
+ \begin{minipage}{0.58\linewidth}
+ {\bf SimModeler \& SimModSuite}
+ \vskip 0.5cm
+  \begin{itemize}
+   \item Complex mesh \& fault geometries \pause
+   \item Mesh adaptivity \pause
+   \item Simple user-friendly interface \pause
+   \item Academic {\bf Free} License \pause
+   \item Available documentation \pause
+   \item Currently being installed on IST-OAR ... Thanks Jean-Noel!
+  \end{itemize}
+ \end{minipage}
+
+ 
+\end{frame}
+
+
+
 
 \begin{frame}
  {Preliminary exploration: Stress conditions}
@@ -239,9 +360,10 @@ O., Scotti, S., Hok, A.-A. Gabriel and T. Taufiqurrahman \\
  \end{minipage}
  \begin{minipage}{0.48\linewidth} \,
  \begin{itemize}
-  \item \small $\sigma_{zz}$ is fixed to 100 MPa ($\sim$3.6 km depth) \pause
+  \item \small $\sigma_{zz}$ depth-dependent \\ 
+  {\tiny $\sigma_{zz} = (\rho - 1x10^3)*g*\min(-1.5x10^3, z)$}\pause
   \vskip 0.2cm
-  \item \small Homogeneous half-space \\ $V_p$=6.3, $V_s$=3.6 $km/s$, $\rho$=2800 $kg/m^3$ \pause
+  \item \small Layered medium from Tinti et al. (2021) \pause
   \vskip 0.2cm
   \item \small Faults share same stress level
  \end{itemize}
@@ -250,6 +372,25 @@ O., Scotti, S., Hok, A.-A. Gabriel and T. Taufiqurrahman \\
  \hfill {\tiny Inspired by \cite{Aochi_2018_DAN}}
  
 \end{frame}
+
+
+
+
+\section*{References}
+\begin{frame}nbn 
+
+    {\tiny \bibliography{\dirbiblio/bibliography} }							\bibliographystyle{apalike}    
+
+\end{frame}
+
+
+
+
+
+\end{document}
+
+
+
 
 
 \begin{frame}
@@ -670,17 +811,9 @@ but, \pause
 
 
 
-\section*{References}
-\begin{frame}
-
-    {\tiny \bibliography{\dirbiblio/bibliography} }							\bibliographystyle{apalike}    
-
-\end{frame}
 
 
 
-
-\end{document}
 
 
 \begin{frame}
