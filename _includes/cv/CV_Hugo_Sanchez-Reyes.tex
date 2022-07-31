@@ -1,5 +1,5 @@
 
-\documentclass[a4paper,10.5pt]{article} % Default font size and paper size
+\documentclass[a4paper]{article} % Default font size and paper size
 
 %\usepackage{fontspec} % For loading fonts
 %\defaultfontfeatures{Mapping=tex-text}
@@ -21,8 +21,8 @@
 % To reduce the height of the top margin uncomment: 
 %\addtolength{\voffset}{-2cm}
 	\addtolength{\topmargin}{-0.5in}
-	\addtolength{\textheight}{1.5in}
-	\addtolength{\textwidth}{0.7in}
+	\addtolength{\textheight}{1.8in}
+	\addtolength{\textwidth}{1.0in}
 
 \addtolength{\hoffset}{-1cm}
 
@@ -34,7 +34,7 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
 
-\usepackage[dvips,xetex]{graphicx}
+\usepackage{graphicx}
 
 
 
@@ -48,12 +48,19 @@
 
 \def\logo{%
 \begin{picture}(0,0)\unitlength=3cm
-\put (0,-0.25) {\includegraphics[width=4.25em]{logo-is.png}}
+\put (0,-0.25) {\includegraphics[width=4.25em]{ISTerre.pdf}}
 \end{picture}
 }
+
+\def\logoird{%
+\begin{picture}(0,0)\unitlength=3cm
+\put (5.1,-0.45) {\includegraphics[width=4.25em]{IRD.png}}
+\end{picture}
+}
+
 \def\photo{%
 \begin{picture}(0,0)\unitlength=3cm
-\put (4.7,-1.3) {\includegraphics[width=6em]{my_orcid_qrcode.png}}
+\put (4.9,-1.3) {\includegraphics[width=6em]{my_orcid_qrcode.png}}
 \end{picture}
 }
 \usepackage{marvosym}
@@ -71,12 +78,13 @@
 %----------------------------------------------------------------------------------------
 
 
-%\logo \photo
-\photo
+\logo \logoird \photo
+%\photo
+
 
 \pagestyle{empty} % Removes page numbering
 
-\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION
@@ -89,7 +97,7 @@
 \vskip 0.2cm 
 \begin{tabular}{rl}
 \textsc{Birth:} & 4 July 1989 \\
-\textsc{Address:} & 1 rue Hyppolite Muller, 38006 Grenoble, France \\
+\textsc{Address:} & 13 rue Tarillon, 38000 Grenoble, France \\
 \textsc{Contact:} & \Email \, \href{mailto:hugo.geofisica@gmail.com}{hugo.geofisica@gmail.com} \quad \Telefon \, +33 07 66 80 73 04\\
 & \ComputerMouse \, \href{http://hugosanrocks.github.io/}{http://hugosanrocks.github.io/} \, \ComputerMouse \, \href{https://github.com/hugosanrocks}{https://github.com/hugosanrocks}
 \end{tabular}
@@ -97,9 +105,18 @@
 \vskip 0.5cm
 \section{Work Experience}
 
-\begin{tabular}{rp{11cm}}
 
-{\bf \textsc{Nov. 2019 - aCurrently }} & {\bf Postdoctoral researcher at Universit\'e Grenoble Alpes, ISTerre} \\
+\begin{tabular}{rp{12cm}}
+
+{\bf \textsc{Apr. 2022 - Currently}} & {\bf Researcher ``Charg\'e de Recherche"} \\
+& Institut de Recherche pour le D\'eveloppement, IRD - ISTerre \\
+& Study of seismic sources: \emph{Development of techniques to analyze and classify seismic sources and their time-sapce evolution. Inclusion of independent geophysical observations to better understand the dynamics of active faults.} \\
+& \textbf{Strong collaboration with Instituto Geof\'isico del P\'eru}  \\[0.6em] 
+
+{\bf \textsc{Apr. 2021 - Mar. 2022}} & {\bf PostDoc. at Institute for Radiological Protection and Nuclear Safety} \\
+& IRSN ANR EQTime: \emph{Applied physics-based dynamic earthquake rupture simulations to determine if large earthquakes are probable to occur on complex fault systems where multiple segments could be activated by a single event.} \\[0.6em] 
+
+{\bf \textsc{Nov. 2019 - Jan. 2021}} & {\bf Postdoctoral researcher at Universit\'e Grenoble Alpes, ISTerre} \\
 & MONIFAULT ERC Project: \emph{Development and application of novel techniques to analyze and classify seismological data to study the evolution} \\
 & \emph{of the stress field in real active faults.}  \\[0.6em] 
 
@@ -107,15 +124,9 @@
 & Thesis: \emph{Progressive linear kinematic source inversion
 method and its perspectives towards the
 uncertainty quantification} \\[0.6em] 
-%& \footnotesize{Funded by the Centre National de la Recherche Scientifique (CNRS), France}\\
-%\multicolumn{2}{c}{} \\
-%\end{tabular}
 
-%\begin{tabular}{rp{11cm}}
 {\bf \textsc{Mar. 2015 - Jun. 2015}} & {\bf Research Internship at Universit\'e Joseph Fourier, ISTerre} \\
 & Project:  ANR S4 \emph{Subduction: standard and slow seismology}\\[0.6em]
-%& Tasks: \footnotesize{3D kinematic seismic source inversion of mexican earthquakes.}\\
-%\multicolumn{2}{c}{} \\
 
 {\bf \textsc{Feb. 2014 - Jun. 2014}} & {\bf Internship at Universit\'e Joseph Fourier, ISTerre} \\
 %& Equipe: Ondes, Stagiaire Master 2 Erasmus Mundus\\ 
@@ -131,7 +142,7 @@ uncertainty quantification} \\[0.6em]
 			       & Geophysical Journal International (GJI)\\[0.6em]
 \end{tabular}
 
-\vskip 0.5cm
+\vskip 0cm
 \section{Education and trainning}
 
 \begin{tabular}{rl}	
@@ -161,6 +172,9 @@ uncertainty quantification} \\[0.6em]
 {\bf \textsc{Jul.} 2018} & Mechanics of Earthquake Faulting Workshop \\
 & Lectures, seminars and discussions on earthquakes: theory, simulations and observations. \\
 & \small\textbf{School of Physics "Enrico Fermi" Societa' Italiana di Fisica}\\[0.6em]
+\end{tabular}
+
+\begin{tabular}{rl}	
 
 {\bf \textsc{Mar.} 2013} & Guralp-Amp\`ere Latin American Instrumentation Workshop\\
 & Basic use and setup of Guralp and FreeWave instruments\\
@@ -172,7 +186,7 @@ uncertainty quantification} \\[0.6em]
 \end{tabular}
 
 %\thispagestyle{empty}
-\vskip 0.5cm
+\vskip 0.2cm
 \section{Teaching experience}
 
 \begin{tabular}{rl}	
@@ -188,8 +202,9 @@ uncertainty quantification} \\[0.6em]
 \begin{tabular}{ll}
  [1] & {\bf S\'anchez-Reyes, H. S.}, Essing, D., Beauc\'e, E. and Poli, P. (2020). The imbricated foreshock  \tabularnewline
      & and aftershock activities of the Balsorano (Italy) Mw 4.4 normal fault earthquake and implications \\
-     & for earthquake initiation. {\it Seismological Research Letters}, DOI: XXX-XXX-XXX. {\bf in press}. \href{https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/tex_documents/drafts/2020_SRL/2019_Balsorano_final_draft.pdf}{[Link]} \\[0.6em]
-
+     & for earthquake initiation. {\it Seismological Research Letters}, 92(3), 1926-1936,  DOI: 10.1785/0220200253. \href{https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/tex_documents/drafts/2020_SRL/2019_Balsorano_final_draft.pdf}{[Link]} \\[0.6em]
+     
+     
  [2] & {\bf S\'anchez-Reyes, H. S.}, Tago, J., Métivier, L., Cruz-Atienza, V. M. and Virieux, J. (2018). \tabularnewline 
      & An evolutive linear kinematic source inversion. {\it JGR Solid Earth, 123}, \\
      & DOI: 10.1029/2017JB015388. \href{https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2017JB015388}{[Link]} \\[0.6em]
@@ -241,7 +256,7 @@ uncertainty quantification} \\[0.6em]
 
 Inverse problems, Bayesian inference, seismic sources, earthquake initiation process, signal processing and programming.
 
-\vskip 0.5cm
+\vskip 0.2cm
 \section{Mobility}
 \begin{tabular}{rp{11cm}}
 { \textsc{Sep. 2015 - Mar. 2016 }} & 6 Months PhD. research internship at the National Autonomous \\
