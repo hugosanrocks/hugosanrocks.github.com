@@ -1,0 +1,74 @@
+%laden der Präambel mit Latexbefehlen/-klassen
+\include{00-preambel}
+
+\begin{document}
+	\typeout{Poster rendering started}
+	
+\background{
+	\begin{tikzpicture}[remember picture,overlay]%
+	\draw (current page.north west)+(-2em,2em) node[anchor=north west]
+	{\includegraphics[height=1.1\textheight]{figures/background}};
+	\end{tikzpicture}
+}
+
+\color{standardfontcolor}
+
+\begin{poster}{
+		grid=false,
+		columns=3,
+		%colspacing=length
+		headerheight=0.125\textheight,
+		eyecatcher=false,
+        borderColor=bordercol,
+		headerColorOne=headercol1,
+		headerColorTwo=headercol2,
+		headerFontColor=headerfontcol,
+		% Only simple background color used, no shading, so boxColorTwo isn't necessary
+		boxColorOne=boxcolor,
+		headershape=roundedright,
+		headerfont=\sffamily\bfseries\Large,
+		textborder=rectangle,
+		headerborder=open,
+		boxshade=plain,
+		background=none
+%		background=user
+	}
+	%%% Eye Cacther %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	{
+		Eye Catcher, empty if option eyecatcher=false - unused
+	}
+%----------------------------------------------------------------------------------------
+%	TITLE AND AUTHOR NAME
+%----------------------------------------------------------------------------------------
+%
+{
+	\textsf %Sans Serif
+	{\vskip 2.0cm Exploring complex normal faulting systems through \\ physics-based dynamic rupture modeling.}
+}
+{\sf\vspace{-0.1em}\\
+	{\textbf{H.-S. S\'anchez-Reyes$^1$}, O. Scotti$^1$, S. Hok$^1$, A.-A. Gabriel$^2$ and C. Uphoff$^2$}
+	\vspace{0.2em}\\
+	\normalsize{Bureau d’Évaluation des Risques Sismiques pour la Sûreté des Installations, IRSN, 92260 Fontenay-aux-Roses, France
+	\vspace{0.1em}\\
+	Department of Earth and Environmental Sciences, Ludwig-Maximilians-Universitat, 80333 Munchen, Germany 
+	\hfill  \textbf{\normalsize \Letter} \textbf{hugo.sanchezreyes@irsn.fr} \textbf{hugo.geofisica@gmail.com}} \\ \\ \\ \\ \\ 
+}
+% University/lab logo
+{ \begin{minipage}{2cm}
+  \vskip -0cm \hskip -2.5cm \includegraphics[width=4.5cm]{../../logos/ISTerre}
+ \end{minipage}
+ }
+  %\includegraphics[height=2cm]{../../../../logos/logo_irsn.png}} %
+%
+
+\headerbox{{\bf 1.} Introduction}{name=einleitung,column=0,row=0,span=1}{
+
+
+ 
+ 
+}
+
+
+\end{poster}
+\end{document}
+

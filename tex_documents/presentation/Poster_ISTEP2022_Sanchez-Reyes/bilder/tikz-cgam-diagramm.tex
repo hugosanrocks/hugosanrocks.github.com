@@ -1,0 +1,27 @@
+\begin{tikzpicture}[font=\small]
+\begin{axis}[width=75mm,height=70mm,%
+/pgf/number format/1000 sep={.},/pgf/number format/use comma,
+ybar,
+bar width=20pt,
+ymin=0,
+ymajorgrids=true,
+yminorgrids=true,
+minor grid style={gray!25},
+minor tick num=4,
+xtick align=inside,
+major x tick style = transparent,
+minor x tick style = transparent,
+nodes near coords,
+enlargelimits=auto,
+symbolic x coords ={AC,APH,CC,EXP,HRSG},
+ylabel near ticks,
+ylabel={Exergievernichtung, $\dot E_{\text{D,}k}$ [MW]}]
+\addplot[fill=white,postaction={pattern=north east lines}] coordinates {
+	(AC,2.15)
+	(APH,2.64)
+	(CC,25.20)
+	(EXP,2.93)
+	(HRSG,6.24)
+};
+\end{axis}
+\end{tikzpicture}
