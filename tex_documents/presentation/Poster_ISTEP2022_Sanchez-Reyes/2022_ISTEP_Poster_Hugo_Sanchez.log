@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  31 AUG 2022 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  2 SEP 2022 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**poster.tex
-(./poster.tex
+**2022_ISTEP_Poster_Hugo_Sanchez.tex
+(./2022_ISTEP_Poster_Hugo_Sanchez.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 \@input{00-preambel.aux}
@@ -777,8 +777,9 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip102
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count324
-)) (./poster.aux)
-\openout1 = `poster.aux'.
+))
+(./2022_ISTEP_Poster_Hugo_Sanchez.aux)
+\openout1 = `2022_ISTEP_Poster_Hugo_Sanchez.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -794,8 +795,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count325
@@ -825,13 +825,13 @@ e
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: landscape 
-* h-part:(L,W,R)=(12.80386pt, 989.3124pt, 12.80386pt)
-* v-part:(T,H,B)=(12.80386pt, 742.62448pt, 12.80386pt)
-* \paperwidth=1014.92012pt
-* \paperheight=768.23221pt
-* \textwidth=989.3124pt
-* \textheight=742.62448pt
+* modes: 
+* h-part:(L,W,R)=(12.80386pt, 742.62448pt, 12.80386pt)
+* v-part:(T,H,B)=(12.80386pt, 989.3124pt, 12.80386pt)
+* \paperwidth=768.23221pt
+* \paperheight=1014.92012pt
+* \textwidth=742.62448pt
+* \textheight=989.3124pt
 * \oddsidemargin=-59.46613pt
 * \evensidemargin=-59.46613pt
 * \topmargin=-96.46613pt
@@ -889,14 +889,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 Poster rendering started
-<../../logos/logo_poster_2022.png, id=29, 1196.21906pt x 429.85594pt>
+<../../logos/logo_poster_2022.png, id=29, 1196.21906pt x 493.845pt>
 File: ../../logos/logo_poster_2022.png Graphic file (type png)
 <use ../../logos/logo_poster_2022.png>
 Package pdftex.def Info: ../../logos/logo_poster_2022.png  used on input line 6
-1.
-(pdftex.def)             Requested size: 256.0748pt x 92.01712pt.
+0.
+(pdftex.def)             Requested size: 207.7052pt x 85.74597pt.
+
+Overfull \hbox (8.53592pt too wide) in paragraph at lines 60--60
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-1.
+0.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -904,176 +914,55 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+mvs on input line 61.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
 
-<images/Map_Italy.png, id=31, 549.05125pt x 830.10126pt>
-File: images/Map_Italy.png Graphic file (type png)
-<use images/Map_Italy.png>
-Package pdftex.def Info: images/Map_Italy.png  used on input line 148.
-(pdftex.def)             Requested size: 169.07365pt x 255.61877pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-
- []
-
-
-Overfull \hbox (0.79997pt too wide) in paragraph at lines 148--148
-[][] 
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/model.pdf, id=34, 1348.1295pt x 693.22919pt>
-File: images/model.pdf Graphic file (type pdf)
-<use images/model.pdf>
-Package pdftex.def Info: images/model.pdf  used on input line 162.
-(pdftex.def)             Requested size: 313.10326pt x 160.9943pt.
-<images/MC_circle_new.pdf, id=35, 1162.77809pt x 428.67885pt>
-File: images/MC_circle_new.pdf Graphic file (type pdf)
-<use images/MC_circle_new.pdf>
-Package pdftex.def Info: images/MC_circle_new.pdf  used on input line 162.
-(pdftex.def)             Requested size: 234.82744pt x 86.5715pt.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/tests_shmax340.pdf, id=36, 284.06125pt x 173.91975pt>
-File: images/tests_shmax340.pdf Graphic file (type pdf)
-<use images/tests_shmax340.pdf>
-Package pdftex.def Info: images/tests_shmax340.pdf  used on input line 195.
-(pdftex.def)             Requested size: 258.4767pt x 158.26985pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
-
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/horizontal_delta_00018_nofis.png, id=37, 433.62pt x 289.08pt>
-File: images/horizontal_delta_00018_nofis.png Graphic file (type png)
-<use images/horizontal_delta_00018_nofis.png>
-Package pdftex.def Info: images/horizontal_delta_00018_nofis.png  used on input
- line 216.
-(pdftex.def)             Requested size: 291.56432pt x 194.38393pt.
-File: images/horizontal_delta_00018_nofis.png Graphic file (type png)
-<use images/horizontal_delta_00018_nofis.png>
-Package pdftex.def Info: images/horizontal_delta_00018_nofis.png  used on input
- line 216.
-(pdftex.def)             Requested size: 291.56432pt x 194.38393pt.
-File: images/horizontal_delta_00018_nofis.png Graphic file (type png)
-<use images/horizontal_delta_00018_nofis.png>
-Package pdftex.def Info: images/horizontal_delta_00018_nofis.png  used on input
- line 216.
-(pdftex.def)             Requested size: 291.56432pt x 194.38393pt.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-(./poster.bbl)
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [2
+[2
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/logo_poster_20
-22.png> <./images/Map_Italy.png> <./images/model.pdf> <./images/MC_circle_new.p
-df
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/MC_circle_new.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
-> <./images/tests_shmax340.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/tests_shmax340.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00018_nofis.png>] (./poster.aux) ) 
+22.png>] (./2022_ISTEP_Poster_Hugo_Sanchez.aux) ) 
 Here is how much of TeX's memory you used:
- 21982 strings out of 483107
- 461967 string characters out of 5964631
- 744547 words of memory out of 5000000
- 36561 multiletter control sequences out of 15000+600000
- 549005 words of font info for 66 fonts, out of 8000000 for 9000
+ 21423 strings out of 483107
+ 449638 string characters out of 5964631
+ 715479 words of memory out of 5000000
+ 36028 multiletter control sequences out of 15000+600000
+ 543160 words of font info for 56 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 73i,11n,79p,457b,1392s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sanchezh
-/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0500.600pk> </home/sanc
-hezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/
-sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </h
-ome/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk>
- </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.60
-0pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx090
-0.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecb
-x1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecbx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecsx1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecss1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecss1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecsx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/p
-k/ljfour/jknappen/ec/ecsx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marv
-osym.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/tex
-mf/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on poster.pdf (1 page, 1737204 bytes).
+ 73i,9n,79p,481b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/sanchezh/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/sanchezh/.texlive2
+019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/sanchezh/.texl
+ive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/sanchezh/.
+texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2488.600pk></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 238805 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 166 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21649 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 16498 words of extra memory for PDF output out of 17280 (max. 10000000)
 
