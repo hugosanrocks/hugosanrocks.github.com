@@ -55,78 +55,57 @@
 }
 % University/lab logo
 { \begin{minipage}{2cm}
-  \vskip -0.5cm \hskip -5cm \includegraphics[width=7.3cm]{../../logos/logo_poster_2022.png} \\
+  \vskip 0.2cm \hskip -5cm \includegraphics[width=7.3cm]{../../logos/logo_poster_2022.png} \\
  \end{minipage}
  }
-  %\includegraphics[height=2cm]{../../../../logos/logo_irsn.png}} %
-%
 
-
-
-
-
-
-
-
-
-
-
-\end{poster}
-\end{document}
-
+ 
 
 \headerbox{{\bf 1.} Introduction}{name=intro,column=0,row=0,span=1}{
 
-\begin{minipage}{0.54\linewidth}
-\vskip -1cm
-\centering {\bf Norcia-Amatrice-Visso } \vskip 0.4cm 
+\vskip -0.5cm\begin{minipage}{0.5\linewidth}
+\vskip -0cm 
  \includegraphics[width=1\linewidth]{images/Map_Italy}
 \end{minipage}
-\begin{minipage}{0.44\linewidth}
- \vskip -0cm {\small {\bf Geological context:}}
+\begin{minipage}{0.48\linewidth}
+ \vskip 0.6cm {\small {\bf Geological context:}}
  \vskip 0.3cm
  {\small
- \begin{spacing}{1.0}
- 
- The Apennine seismic belt in Ita-\\
- ly is an extensional province cha-\\
- racterized by multi-fault normal-\\
- faulting seismic activity. Earth-\\
- quakes and/or seismic sequences \\
- ocurring across multi-fault seg-\\
- ments during a single event (e.g. \\
- 1980 Ms 6.9 Irpinia Bernanrd \&\\
- Zollo (1989)) or sequences span-\\
- ning a period of days (e.g. 2009 \\
- Mw 6.1 L’Aquila Valoroso et al \\ 
- (2013)) to months (e.g. 2016 A-\\
- matrice-Visso-Norcia Improta et\\
- al. (2019)), are controlled by the\\
- physical complexities of the acti-\\
- ve normal fault system. \\
- 
- Understanding rupture propaga- \\
- tion across step overs, breaking\\
- multiple fault segments during a\\
- single earthquake, is crucial to\\
- enhance the current seismic ha-\\
- zard assessment Bai and Ampue-\\
- ro (2017). \\ \nocite{Bai_2017_ESD} \\
- \end{spacing} 
+ \begin{spacing}{1.0} 
+ The Apennine seismic belt \\
+ in Italy is an extensional\\
+ province characterized by \\
+ multi-fault normal-faulting\\
+ seismic activity. Earthqua-\\
+ kes and/or seismic sequen-\\
+ ces ocurring across multi-\\
+ fault segments during a \\
+ single event (e.g. 1980 \\
+ Ms 6.9 Irpinia Bernanrd \&\\
+ Zollo (1989)) or sequences\\
+ spanning a period of days \\
+ (e.g. 2009 Mw 6.1 L’Aquila \\
+ Valoroso et al (2013)) to
+\end{spacing}
  }
 \end{minipage}
-\vskip -0.8cm
+\vskip -0.3cm{\small  months (e.g. 2016 Amatri-ce-Visso-Norcia Improta et al.\\ (2019)), are controlled by the physical complexities of \\
+the active normal fault system. Understanding rupture \\
+propagation across step-overs, breaking multiple fault\\
+segments during a single earthquake, is crucial to enhan-\\
+ce the current SHA Bai and Ampuero (2017).} \\ \nocite{Bai_2017_ESD}
+\vskip -0.2cm
    \begin{tikzpicture}[%
     auto,
     block/.style={
       rectangle,
-      draw=black,
+      draw=red!200,
       thick,
-      fill=red!100,
+      fill=none,
       text width=\textwidth,
       align=justify,
       rounded corners,
-      minimum height=3em
+      minimum height=4em
     },
     block1/.style={
       rectangle,
@@ -136,97 +115,113 @@
       text width=\textwidth,
       align=center,
       rounded corners,
-      minimum height=2em
+      minimum height=4em
     },
     line/.style={
       draw,thick,
       -latex',
-      shorten >=2pt
+      shorten >=4pt
     },
     cloud/.style={
       draw=red,
       thick,
       ellipse,
       fill=red!20,
-      minimum height=1em
+      minimum height=4em
     }
   ]
-    \draw (2.5,-2) node[block] (C) {\bf \color{white} \footnotesize Goal: Explore dynamic rupture parameters to better understand the physical condition promoting rupture jumps in normal faulting systems};
-  \end{tikzpicture}
+    \draw (2.5,-2) node[block] (C) {
+    \bf \color{red} \small Goal: Explore dynamic rupture parameters to better understand the physical condition promoting rupture jumps in normal faulting systems};     
 
-
+  \end{tikzpicture} \vskip -0.2cm
 }
-
 
 
 \headerbox{{\bf 2.} Geometry-Settings}{name=geo,column=0,row=1,span=1,below=intro}{
 
-\hskip -0.3cm \includegraphics[width=1\linewidth]{images/model.pdf}
+\centering \includegraphics[width=1\linewidth]{images/model.pdf}
 \vskip 0.3cm
-\begin{center}
- \includegraphics[width=0.75\linewidth]{images/MC_circle_new.pdf} 
-\end{center}
-
-
-
+%\begin{center}
+% \includegraphics[width=0.75\linewidth]{images/MC_circle_new.pdf} 
+%\end{center}
 }
 
 
 
-\headerbox{{\bf 3.} Simulation-Results}{name=summary,column=1,row=0,span=2}{
+\headerbox{{\bf 3.} Simulation-Results}{name=summary,column=0,row=2,span=1,below=geo}{
 
-\begin{minipage}{0.4\linewidth}
-\vskip 0.1cm \includegraphics[width=1\linewidth]{images/tests_shmax340}
+\begin{minipage}{1\linewidth}
+\vskip -0.1cm \centering \includegraphics[width=0.9\linewidth]{images/tests_shmax340}
 \end{minipage} 
-\hskip 0.3cm \begin{minipage}{0.55\linewidth}
-
 \vskip 0.2cm
-156 Simulations were performed using this configuration, where $S$ depends only \\
-on the stress level and not on $\mu_s$ or $\mu_d$. In some cases, the rupture did not fully \\ 
-break both faults, mainly due to the pre-stress level of the faults.\\
-\vskip -0.2cm
-\textbf{\small Hanging/foot wall asymmetry:} \\
-\vskip -0.3cm
-A small asymmetry regarding the triggering potential of the secondary fault \\ 
-related to its location with respect to the main fault (hanging or foot wall)\\ 
-is observed. When the secondary fault is on the hanging wall, the dynamica-\\
-lly triggered rupture is more likely to be self-sustainable. \\
-\vskip -0.2cm
-\textbf{\small Stress shadow:} \\
-\vskip -0.3cm
-The final energy released (estimated magnitude) increases/decreases according \\
-to the distance between faults (i.e. offset and gap). Although the overlap in-\\
-creases the triggering effect, the stress shadow, due to the fault proximity, in-\\
-hibits a large stress drop on the secondary fault.
+156 Simulations using this configuration, $S$ depends \\
+on the stress level, not on $\mu_s$ or $\mu_d$. Some cases did \\
+not break both faults, mainly due to prestress state.\\
+\vskip -0.4cm
+\textbf{Hanging/foot wall asymmetry:} \\
+\vskip -0.4cm
+A small asymmetry regarding the triggering poten-\\
+tial of the secondary fault related to its location \\
+with respect to the main fault (hanging or foot wall)\\
+is observed. When the secondary fault is on the \\
+hanging wall, the dynamically triggered rupture \\
+is more likely to be self-sustainable. \\
+\vskip -0.4cm
+\textbf{Stress shadow:} \\
+\vskip -0.4cm
+The final energy released (estimated magnitude) in-\\
+creases/decreases according to the distance between \\
+faults (i.e. offset and gap). Although the overlap in-\\
+creases the triggering effect, the stress shadow, due \\
+to the fault proximity, inhibits a large stress drop on\\
+the secondary fault.
+}
 
 
+\headerbox{{\bf 4.} Jump ? How ? When ? Why ?}{name=snaps,column=1,row=0,span=2}{
+
+\begin{minipage}{0.69\linewidth}
+ \centering {\bf Fault not fixed ($\mu_s=0.6$)} \vskip 0.2cm
+ \includegraphics[width=0.94\linewidth]{images/horizontal_delta_00018_nofix.png}
+\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00080_nofix.png} 
+\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00080_nofix.png} 
+\end{minipage} \vrule width 0.05cm
+\begin{minipage}{0.29\linewidth}
 
 \end{minipage}
 
 }
 
+\headerbox{{\bf 5.} Conclusion \& Discusion}{name=obs,column=1,row=1,span=1,below=snaps}{
 
-
-\headerbox{{\bf 4.} Jump ? How ? When ? Why ?}{name=snaps,column=1,row=1,span=2,below=summary}{
-
-\begin{minipage}{0.48\linewidth}
- \centering {\bf Fault not fixed ($\mu_s=0.6$)}
- \includegraphics[width=0.94\linewidth]{images/horizontal_delta_00018_nofix.png}
-\end{minipage} \vrule width 0.05cm
-\begin{minipage}{0.48\linewidth}
- \centering {\bf Fault fixed ($\mu_s=50.0$)}
-\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00018_fix.png} 
-\end{minipage}\\
-\begin{minipage}{0.48\linewidth}
- \centering {\bf Fault not fixed ($\mu_s=0.6$)}
- \includegraphics[width=0.94\linewidth]{images/horizontal_delta_00080_nofix.png}
-\end{minipage} \vrule width 0.05cm
-\begin{minipage}{0.48\linewidth}
- \centering {\bf Fault fixed ($\mu_s=50.0$)}
-\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00080_fix.png} 
-\end{minipage}\\
 
 }
+
+\headerbox{\,}{name=ref,column=2,row=2,span=1,above=bottom}{
+
+\nocite{Improta_2019_AVN}
+\nocite{Bernard_1989_IRPINIA}
+\nocite{Valoroso_2013_AQUILA}
+\vskip -0.7cm
+    \setlength{\bibsep}{0pt plus 0.3ex} {\tiny
+    \begin{spacing}{1.0}
+    \bibliography{biblio/bibtemp} 
+    \end{spacing}
+    }							
+    \bibliographystyle{apalike}    
+}
+
+\end{poster}
+\end{document}
+
+ 
+
+
+
+
+
+
+
 
 
 %\headerbox{{\bf 5.} Results}{name=results,column=1,row=2,span=1,above=bottom}{
@@ -236,23 +231,6 @@ hibits a large stress drop on the secondary fault.
 
 
 
-
-\headerbox{\,}{name=snaps,column=2,row=1,span=1,above=bottom}{
-
-\nocite{Improta_2019_AVN}
-\nocite{Bernard_1989_IRPINIA}
-\nocite{Valoroso_2013_AQUILA}
-
-\vskip -0.7cm
-    {\tiny
-    \begin{spacing}{1.0}
-     \bibliography{biblio/bibtemp} 
-    \end{spacing}
-    }							
-    \bibliographystyle{apalike}    
-    
-
-}
 
 
 

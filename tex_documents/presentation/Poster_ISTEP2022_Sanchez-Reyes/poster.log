@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  4 SEP 2022 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  23 AUG 2022 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**2022_ISTEP_Poster_Hugo_Sanchez.tex
-(./2022_ISTEP_Poster_Hugo_Sanchez.tex
+**poster.tex
+(./poster.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 \@input{00-preambel.aux}
@@ -541,26 +541,9 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen263
-\ar@mcellbox=\box63
-\extrarowheight=\dimen264
-\NC@list=\toks31
-\extratabsurround=\skip75
-\backup@length=\skip76
-\ar@cellbox=\box64
-)
-\rotheadsize=\dimen265
-\c@nlinenum=\count278
-\TeXr@lab=\toks32
-)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip77
+\@mathmargin=\skip75
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -568,51 +551,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks33
-\ex@=\dimen266
+\@emptytoks=\toks31
+\ex@=\dimen263
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen267
+\pmbraise@=\dimen264
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count279
+\inf@bad=\count278
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count280
-\leftroot@=\count281
+\uproot@=\count279
+\leftroot@=\count280
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count282
-\DOTSCASE@=\count283
+\classnum@=\count281
+\DOTSCASE@=\count282
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box65
-\strutbox@=\box66
-\big@size=\dimen268
+\Mathstrutbox@=\box63
+\strutbox@=\box64
+\big@size=\dimen265
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count284
-\c@MaxMatrixCols=\count285
+\macc@depth=\count283
+\c@MaxMatrixCols=\count284
 \dotsspace@=\muskip16
-\c@parentequation=\count286
-\dspbrk@lvl=\count287
-\tag@help=\toks34
-\row@=\count288
-\column@=\count289
-\maxfields@=\count290
-\andhelp@=\toks35
-\eqnshift@=\dimen269
-\alignsep@=\dimen270
-\tagshift@=\dimen271
-\tagwidth@=\dimen272
-\totwidth@=\dimen273
-\lineht@=\dimen274
-\@envbody=\toks36
-\multlinegap=\skip78
-\multlinetaggap=\skip79
-\mathdisplay@stack=\toks37
+\c@parentequation=\count285
+\dspbrk@lvl=\count286
+\tag@help=\toks32
+\row@=\count287
+\column@=\count288
+\maxfields@=\count289
+\andhelp@=\toks33
+\eqnshift@=\dimen266
+\alignsep@=\dimen267
+\tagshift@=\dimen268
+\tagwidth@=\dimen269
+\totwidth@=\dimen270
+\lineht@=\dimen271
+\@envbody=\toks34
+\multlinegap=\skip76
+\multlinetaggap=\skip77
+\mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -622,7 +605,7 @@ LaTeX Info: Redefining \nobreakspace on input line 54.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box67
+\@eurobox=\box65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -630,55 +613,65 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count291
-\l__pdf_internal_box=\box68
+\l__kernel_color_stack_int=\count290
+\l__pdf_internal_box=\box66
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count292
-\g__xparse_grabber_int=\count293
-\l__xparse_m_args_int=\count294
-\l__xparse_v_nesting_int=\count295
+\l__xparse_current_arg_int=\count291
+\g__xparse_grabber_int=\count292
+\l__xparse_m_args_int=\count293
+\l__xparse_v_nesting_int=\count294
 )
 Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
 
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen272
+\ar@mcellbox=\box67
+\extrarowheight=\dimen273
+\NC@list=\toks36
+\extratabsurround=\skip78
+\backup@length=\skip79
+\ar@cellbox=\box68
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box69
-\l__siunitx_tmp_dim=\dimen275
-\l__siunitx_tmp_int=\count296
-\l__siunitx_number_mantissa_length_int=\count297
-\l__siunitx_number_uncert_length_int=\count298
-\l__siunitx_round_int=\count299
-\l__siunitx_process_decimal_int=\count300
-\l__siunitx_process_uncertainty_int=\count301
-\l__siunitx_process_fixed_int=\count302
-\l__siunitx_process_integer_min_int=\count303
-\l__siunitx_process_precision_int=\count304
-\l__siunitx_group_min_int=\count305
+\l__siunitx_tmp_dim=\dimen274
+\l__siunitx_tmp_int=\count295
+\l__siunitx_number_mantissa_length_int=\count296
+\l__siunitx_number_uncert_length_int=\count297
+\l__siunitx_round_int=\count298
+\l__siunitx_process_decimal_int=\count299
+\l__siunitx_process_uncertainty_int=\count300
+\l__siunitx_process_fixed_int=\count301
+\l__siunitx_process_integer_min_int=\count302
+\l__siunitx_process_precision_int=\count303
+\l__siunitx_group_min_int=\count304
 \l__siunitx_angle_marker_box=\box70
 \l__siunitx_angle_unit_box=\box71
-\l__siunitx_angle_marker_dim=\dimen276
-\l__siunitx_angle_unit_dim=\dimen277
-\l__siunitx_unit_int=\count306
-\l__siunitx_unit_denominator_int=\count307
-\l__siunitx_unit_numerator_int=\count308
-\l__siunitx_unit_prefix_int=\count309
-\l__siunitx_unit_prefix_base_int=\count310
-\l__siunitx_unit_prefix_gram_int=\count311
-\l__siunitx_number_product_int=\count312
+\l__siunitx_angle_marker_dim=\dimen275
+\l__siunitx_angle_unit_dim=\dimen276
+\l__siunitx_unit_int=\count305
+\l__siunitx_unit_denominator_int=\count306
+\l__siunitx_unit_numerator_int=\count307
+\l__siunitx_unit_prefix_int=\count308
+\l__siunitx_unit_prefix_base_int=\count309
+\l__siunitx_unit_prefix_gram_int=\count310
+\l__siunitx_number_product_int=\count311
 \c__siunitx_one_fill_skip=\skip80
 \l__siunitx_table_unit_align_skip=\skip81
-\l__siunitx_table_exponent_dim=\dimen278
-\l__siunitx_table_integer_dim=\dimen279
-\l__siunitx_table_mantissa_dim=\dimen280
-\l__siunitx_table_marker_dim=\dimen281
-\l__siunitx_table_result_dim=\dimen282
-\l__siunitx_table_uncert_dim=\dimen283
-\l__siunitx_table_fill_pre_dim=\dimen284
-\l__siunitx_table_fill_post_dim=\dimen285
-\l__siunitx_table_fill_mid_dim=\dimen286
+\l__siunitx_table_exponent_dim=\dimen277
+\l__siunitx_table_integer_dim=\dimen278
+\l__siunitx_table_mantissa_dim=\dimen279
+\l__siunitx_table_marker_dim=\dimen280
+\l__siunitx_table_result_dim=\dimen281
+\l__siunitx_table_uncert_dim=\dimen282
+\l__siunitx_table_fill_pre_dim=\dimen283
+\l__siunitx_table_fill_post_dim=\dimen284
+\l__siunitx_table_fill_mid_dim=\dimen285
 \l__siunitx_table_pre_box=\box72
 \l__siunitx_table_post_box=\box73
 \l__siunitx_table_mantissa_box=\box74
@@ -695,10 +688,10 @@ Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count313
-\g__chemgreek_tmpa_int=\count314
+\l__chemgreek_tmpa_int=\count312
+\g__chemgreek_tmpa_int=\count313
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count315
+\l__mhchem_ce_distanceFromLastComma_int=\count314
 \__mhchem_arrow_extPgfLength_skip=\skip84
 \mhchem@minispace@tmp=\skip85
 \mhchem@minibackspace@tmp=\skip86
@@ -709,36 +702,20 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \mhchem@smallbondwidth=\skip91
 \mhchem@bondtmp@minussidebearingleft=\skip92
 \mhchem@bondtmp@minussidebearingright=\skip93
-\l__mhchem_option_version_int=\count316
-\mhchem@option@minusmathsidebearingleft=\dimen287
-\mhchem@option@minusmathsidebearingright=\dimen288
-\mhchem@option@minustextsidebearingleft=\dimen289
-\mhchem@option@minustextsidebearingright=\dimen290
+\l__mhchem_option_version_int=\count315
+\mhchem@option@minusmathsidebearingleft=\dimen286
+\mhchem@option@minusmathsidebearingright=\dimen287
+\mhchem@option@minustextsidebearingleft=\dimen288
+\mhchem@option@minustextsidebearingright=\dimen289
 )
-(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
-Package: parskip 2020-01-22 v2.0d non-zero parskip adjustments
-
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count317
-))
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks38
-\MT@count=\count318
+\MT@toks=\toks37
+\MT@count=\count316
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen291
+\MT@outer@kern=\dimen290
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count319
+\MT@listname@count=\count317
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
@@ -754,30 +731,30 @@ File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen292
-\lightrulewidth=\dimen293
-\cmidrulewidth=\dimen294
-\belowrulesep=\dimen295
-\belowbottomsep=\dimen296
-\aboverulesep=\dimen297
-\abovetopsep=\dimen298
-\cmidrulesep=\dimen299
-\cmidrulekern=\dimen300
-\defaultaddspace=\dimen301
-\@cmidla=\count320
-\@cmidlb=\count321
-\@aboverulesep=\dimen302
-\@belowrulesep=\dimen303
-\@thisruleclass=\count322
-\@lastruleclass=\count323
-\@thisrulewidth=\dimen304
+\heavyrulewidth=\dimen291
+\lightrulewidth=\dimen292
+\cmidrulewidth=\dimen293
+\belowrulesep=\dimen294
+\belowbottomsep=\dimen295
+\aboverulesep=\dimen296
+\abovetopsep=\dimen297
+\cmidrulesep=\dimen298
+\cmidrulekern=\dimen299
+\defaultaddspace=\dimen300
+\@cmidla=\count318
+\@cmidlb=\count319
+\@aboverulesep=\dimen301
+\@belowrulesep=\dimen302
+\@thisruleclass=\count320
+\@lastruleclass=\count321
+\@thisrulewidth=\dimen303
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip95
-\multirow@cntb=\count324
+\multirow@cntb=\count322
 \multirow@dima=\skip96
-\bigstrutjot=\dimen305
+\bigstrutjot=\dimen304
 )
 (/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
@@ -785,17 +762,279 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 \plpartopsep=\skip98
 \plitemsep=\skip99
 \plparsep=\skip100
-\pl@lab=\toks39
+\pl@lab=\toks38
 )
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip101
-\bibsep=\skip102
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count325
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count323
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(./2022_ISTEP_Poster_Hugo_Sanchez.aux)
-\openout1 = `2022_ISTEP_Poster_Hugo_Sanchez.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count324
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count325
+\c@listtotal=\count326
+\c@listcount=\count327
+\c@liststart=\count328
+\c@liststop=\count329
+\c@citecount=\count330
+\c@citetotal=\count331
+\c@multicitecount=\count332
+\c@multicitetotal=\count333
+\c@instcount=\count334
+\c@maxnames=\count335
+\c@minnames=\count336
+\c@maxitems=\count337
+\c@minitems=\count338
+\c@citecounter=\count339
+\c@maxcitecounter=\count340
+\c@savedcitecounter=\count341
+\c@uniquelist=\count342
+\c@uniquename=\count343
+\c@refsection=\count344
+\c@refsegment=\count345
+\c@maxextratitle=\count346
+\c@maxextratitleyear=\count347
+\c@maxextraname=\count348
+\c@maxextradate=\count349
+\c@maxextraalpha=\count350
+\c@abbrvpenalty=\count351
+\c@highnamepenalty=\count352
+\c@lownamepenalty=\count353
+\c@maxparens=\count354
+\c@parenlevel=\count355
+\blx@tempcnta=\count356
+\blx@tempcntb=\count357
+\blx@tempcntc=\count358
+\blx@maxsection=\count359
+\blx@maxsegment@0=\count360
+\blx@notetype=\count361
+\blx@parenlevel@text=\count362
+\blx@parenlevel@foot=\count363
+\blx@sectionciteorder@0=\count364
+\blx@entrysetcounter=\count365
+\labelnumberwidth=\skip101
+\labelalphawidth=\skip102
+\biblabelsep=\skip103
+\bibitemsep=\skip104
+\bibnamesep=\skip105
+\bibinitsep=\skip106
+\bibparsep=\skip107
+\bibhang=\skip108
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language8
+\c@mincomprange=\count366
+\c@maxcomprange=\count367
+\c@mincompwidth=\count368
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'nature.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count369
+\c@savedafterword=\count370
+\c@annotator=\count371
+\c@savedannotator=\count372
+\c@author=\count373
+\c@savedauthor=\count374
+\c@bookauthor=\count375
+\c@savedbookauthor=\count376
+\c@commentator=\count377
+\c@savedcommentator=\count378
+\c@editor=\count379
+\c@savededitor=\count380
+\c@editora=\count381
+\c@savededitora=\count382
+\c@editorb=\count383
+\c@savededitorb=\count384
+\c@editorc=\count385
+\c@savededitorc=\count386
+\c@foreword=\count387
+\c@savedforeword=\count388
+\c@holder=\count389
+\c@savedholder=\count390
+\c@introduction=\count391
+\c@savedintroduction=\count392
+\c@namea=\count393
+\c@savednamea=\count394
+\c@nameb=\count395
+\c@savednameb=\count396
+\c@namec=\count397
+\c@savednamec=\count398
+\c@translator=\count399
+\c@savedtranslator=\count400
+\c@shortauthor=\count401
+\c@savedshortauthor=\count402
+\c@shorteditor=\count403
+\c@savedshorteditor=\count404
+\c@labelname=\count405
+\c@savedlabelname=\count406
+\c@institution=\count407
+\c@savedinstitution=\count408
+\c@lista=\count409
+\c@savedlista=\count410
+\c@listb=\count411
+\c@savedlistb=\count412
+\c@listc=\count413
+\c@savedlistc=\count414
+\c@listd=\count415
+\c@savedlistd=\count416
+\c@liste=\count417
+\c@savedliste=\count418
+\c@listf=\count419
+\c@savedlistf=\count420
+\c@location=\count421
+\c@savedlocation=\count422
+\c@organization=\count423
+\c@savedorganization=\count424
+\c@origlocation=\count425
+\c@savedoriglocation=\count426
+\c@origpublisher=\count427
+\c@savedorigpublisher=\count428
+\c@publisher=\count429
+\c@savedpublisher=\count430
+\c@language=\count431
+\c@savedlanguage=\count432
+\c@origlanguage=\count433
+\c@savedoriglanguage=\count434
+\c@pageref=\count435
+\c@savedpageref=\count436
+\shorthandwidth=\skip109
+\shortjournalwidth=\skip110
+\shortserieswidth=\skip111
+\shorttitlewidth=\skip112
+\shortauthorwidth=\skip113
+\shorteditorwidth=\skip114
+\locallabelnumberwidth=\skip115
+\locallabelalphawidth=\skip116
+\localshorthandwidth=\skip117
+\localshortjournalwidth=\skip118
+\localshortserieswidth=\skip119
+\localshorttitlewidth=\skip120
+\localshortauthorwidth=\skip121
+\localshorteditorwidth=\skip122
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count437
+\c@textcitetotal=\count438
+\c@textcitemaxnames=\count439
+\c@biburlbigbreakpenalty=\count440
+\c@biburlbreakpenalty=\count441
+\c@biburlnumpenalty=\count442
+\c@biburlucpenalty=\count443
+\c@biburllcpenalty=\count444
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count445
+)
+Package biblatex Info: Trying to load bibliography style 'nature'...
+Package biblatex Info: ... file 'nature.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-nature/nature.bbx
+File: nature.bbx 2018/10/18 v1.3c biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count446
+\c@bbx:relatedtotal=\count447
+))))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count448
+\c@cbx@tempcntb=\count449
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+
+Package biblatex Warning: 'firstinits' option is deprecated.
+(biblatex)                Please use 'giveninits' instead.
+
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count450
+\@quotereset=\count451
+(./poster.aux)
+\openout1 = `poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -814,21 +1053,32 @@ LaTeX Font Info:    ... okay on input line 4.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen306
+\scratchcounter=\count452
+\scratchdimen=\dimen305
 \scratchbox=\box76
-\nofMPsegments=\count327
-\nofMParguments=\count328
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen307
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks41
+\nofMPsegments=\count453
+\nofMParguments=\count454
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count455
+\MPscratchDim=\dimen306
+\MPnumerator=\count456
+\makeMPintoPDFobject=\count457
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -841,13 +1091,13 @@ e
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(12.80386pt, 742.62448pt, 12.80386pt)
-* v-part:(T,H,B)=(12.80386pt, 989.3124pt, 12.80386pt)
-* \paperwidth=768.23221pt
-* \paperheight=1014.92012pt
-* \textwidth=742.62448pt
-* \textheight=989.3124pt
+* modes: landscape 
+* h-part:(L,W,R)=(12.80386pt, 989.3124pt, 12.80386pt)
+* v-part:(T,H,B)=(12.80386pt, 742.62448pt, 12.80386pt)
+* \paperwidth=1014.92012pt
+* \paperheight=768.23221pt
+* \textwidth=989.3124pt
+* \textheight=742.62448pt
 * \oddsidemargin=-59.46613pt
 * \evensidemargin=-59.46613pt
 * \topmargin=-96.46613pt
@@ -895,6 +1145,23 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `poster.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'poster.bbl' not found.
+
+No file poster.bbl.
+Package biblatex Info: Reference section=0 on input line 4.
+Package biblatex Info: Reference segment=0 on input line 4.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -903,24 +1170,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
 Poster rendering started
-<../../logos/logo_poster_2022.png, id=29, 1196.21906pt x 493.845pt>
-File: ../../logos/logo_poster_2022.png Graphic file (type png)
-<use ../../logos/logo_poster_2022.png>
-Package pdftex.def Info: ../../logos/logo_poster_2022.png  used on input line 6
-0.
-(pdftex.def)             Requested size: 207.7052pt x 85.74597pt.
-
-Overfull \hbox (8.53592pt too wide) in paragraph at lines 60--60
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-
- []
-
+<../../logos/ISTerre.pdf, id=29, 592.2125pt x 345.29pt>
+File: ../../logos/ISTerre.pdf Graphic file (type pdf)
+<use ../../logos/ISTerre.pdf>
+Package pdftex.def Info: ../../logos/ISTerre.pdf  used on input line 60.
+(pdftex.def)             Requested size: 128.0374pt x 74.65211pt.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
 0.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
@@ -930,7 +1185,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 60.
 
+
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
@@ -955,128 +1216,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
 
-<images/Map_Italy.png, id=31, 549.05125pt x 830.10126pt>
-File: images/Map_Italy.png Graphic file (type png)
-<use images/Map_Italy.png>
-Package pdftex.def Info: images/Map_Italy.png  used on input line 137.
-(pdftex.def)             Requested size: 115.4376pt x 174.52907pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-
- []
-
-
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 137--137
-[][] 
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<images/model.pdf, id=34, 1376.40321pt x 847.83302pt>
-File: images/model.pdf Graphic file (type pdf)
-<use images/model.pdf>
-Package pdftex.def Info: images/model.pdf  used on input line 147.
-(pdftex.def)             Requested size: 230.87521pt x 142.2021pt.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/tests_shmax340.pdf, id=35, 284.06125pt x 166.6225pt>
-File: images/tests_shmax340.pdf Graphic file (type pdf)
-<use images/tests_shmax340.pdf>
-Package pdftex.def Info: images/tests_shmax340.pdf  used on input line 178.
-(pdftex.def)             Requested size: 207.78627pt x 121.8851pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<images/horizontal_delta_00018_nofix.png, id=36, 433.62pt x 289.08pt>
-File: images/horizontal_delta_00018_nofix.png Graphic file (type png)
-<use images/horizontal_delta_00018_nofix.png>
-Package pdftex.def Info: images/horizontal_delta_00018_nofix.png  used on input
- line 193.
-(pdftex.def)             Requested size: 312.46207pt x 208.31828pt.
-<images/horizontal_delta_00080_nofix.png, id=37, 433.62pt x 289.08pt>
-File: images/horizontal_delta_00080_nofix.png Graphic file (type png)
-<use images/horizontal_delta_00080_nofix.png>
-Package pdftex.def Info: images/horizontal_delta_00080_nofix.png  used on input
- line 193.
-(pdftex.def)             Requested size: 312.46207pt x 208.31828pt.
-File: images/horizontal_delta_00080_nofix.png Graphic file (type png)
-<use images/horizontal_delta_00080_nofix.png>
-Package pdftex.def Info: images/horizontal_delta_00080_nofix.png  used on input
- line 193.
-(pdftex.def)             Requested size: 312.46207pt x 208.31828pt.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-(./2022_ISTEP_Poster_Hugo_Sanchez.bbl)
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [2
+[2
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/logo_poster_20
-22.png> <./images/Map_Italy.png> <./images/model.pdf> <./images/tests_shmax340.
-pdf
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/ISTerre.pdf>] 
+(./poster.aux)
+Package logreq Info: Writing requests to 'poster.run.xml'.
+\openout1 = `poster.run.xml'.
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/tests_shmax340.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00018_nofix.png> <./images/horizontal_delta_00080_
-nofix.png>] (./2022_ISTEP_Poster_Hugo_Sanchez.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 22773 strings out of 483099
- 474070 string characters out of 5964234
- 762310 words of memory out of 5000000
- 37341 multiletter control sequences out of 15000+600000
- 547808 words of font info for 64 fonts, out of 8000000 for 9000
+ 28338 strings out of 483099
+ 587685 string characters out of 5964234
+ 1237760 words of memory out of 5000000
+ 42859 multiletter control sequences out of 15000+600000
+ 545115 words of font info for 59 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 73i,11n,79p,839b,1396s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sanchezh/.texlive20
-19/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0500.600pk> </home/sanchezh/.texli
-ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/sanchezh/.t
-exlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/sanchez
-h/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/san
-chezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home
-/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </
-home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk
-> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.6
-00pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss14
-40.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-sx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecsx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/typ
-e1/public/tex-gyre/qhvri.pfb>
-Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 2090382 bytes).
+ 73i,9n,79p,817b,1587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.
+600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1
+000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+css1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecss1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecsx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecsx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/m
+arvosym.pfb>
+Output written on poster.pdf (1 page, 60913 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 209 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21137 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 17528 words of extra memory for PDF output out of 20736 (max. 10000000)
 
