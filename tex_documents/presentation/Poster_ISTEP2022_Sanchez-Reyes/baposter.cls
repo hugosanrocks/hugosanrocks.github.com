@@ -242,7 +242,7 @@
 
 % move text/poster body to the right (or to the left if negative)
 \newlength{\baposter@movebody}
-\setlength{\baposter@movebody}{0cm}
+\setlength{\baposter@movebody}{2cm}
 \DeclareOptionX{movebody}[0cm]{\setlength{\baposter@movebody}{#1}}
 
 
