@@ -151,9 +151,9 @@ ce the current SHA Bai and Ampuero (2017).} \\ \nocite{Bai_2017_ESD}
 \headerbox{{\bf 3.} Simulation-Results}{name=summary,column=0,row=2,span=1,below=geo}{
 
 \begin{minipage}{1\linewidth}
-\vskip -0.1cm \centering \includegraphics[width=0.9\linewidth]{images/tests_shmax340}
+\vskip -0.4cm \centering \includegraphics[width=0.88\linewidth]{images/tests_shmax340.pdf}
 \end{minipage} 
-\vskip 0.2cm
+\vskip 0.05cm
 156 Simulations using this configuration, $S$ depends \\
 on the stress level, not on $\mu_s$ or $\mu_d$. Some cases did \\
 not break both faults, mainly due to prestress state.\\
@@ -180,31 +180,56 @@ the secondary fault.
 
 \headerbox{{\bf 4.} Jump ? How ? When ? Why ?}{name=snaps,column=1,row=0,span=2}{
 
-\begin{minipage}{0.69\linewidth}
- \centering {\bf Fault not fixed ($\mu_s=0.6$)} \vskip 0.2cm
- \includegraphics[width=0.94\linewidth]{images/horizontal_delta_00018_nofix.png}
-\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00080_nofix.png} 
-\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00080_nofix.png} 
+\begin{minipage}{0.667\linewidth}
+\vskip -0.0cm \centering {\bf Fault not fixed ($\mu_s=0.6$) \qquad (dynamic analysis)} \vskip 0.1cm
+ \includegraphics[width=0.94\linewidth]{images/horizontal_delta_00018_nofix.pdf}
+\vskip 0.2cm
+\hrule height 0.05cm
+\vskip 0.2cm
+\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00022_nofix.pdf} \\
+\vskip 0.2cm
+\hrule height 0.05cm
+\vskip 0.2cm
+\includegraphics[width=0.94\linewidth]{images/horizontal_delta_00080_nofix.pdf} 
 \end{minipage} \vrule width 0.05cm
-\begin{minipage}{0.29\linewidth}
-
+\begin{minipage}{0.32\linewidth}
+\vskip 0.1cm
+\centering Slip rate snapshots \\
+fault not fixed \& \\ break-away behavior \\
+\vskip 0.15cm
+\centering \includegraphics[width=0.95\linewidth]{images/snaps_00080.pdf}
+\vskip 0.45cm
+\hrule height 0.05cm
+\vskip 0.2cm
+ \centering {\bf Fault fixed ($\mu_s=50.0$)} \\
+ (static analysis) \vskip 0.2cm
+ \includegraphics[width=0.87\linewidth]{images/horizontal_delta_00080_fix_1.pdf}
+\vskip 0.2cm
+\vskip 0.2cm
+\includegraphics[width=0.87\linewidth]{images/horizontal_delta_00080_fix_2.pdf} \\
+\vskip 0.2cm
+\vskip 0.2cm
+\includegraphics[width=0.87\linewidth]{images/horizontal_delta_00080_fix_3.pdf} 
 \end{minipage}
-
 }
 
 \headerbox{{\bf 5.} Conclusion \& Discusion}{name=obs,column=1,row=2,span=1,below=snaps}{
 
 {\bf Under our configuration and assumptions:} \\
-\vskip -0.3cm
+\vskip -0.2cm
 \ding{43} A static analysis seems insuficient to determine a \\
 {\bf ``break-away"} behavior across step-over jumps.\\
-\vskip -0.3cm
+\vskip -0.2cm
 \ding{43} A maximum {\bf 5 km} step-over distance can still be \\
 crossed and promote {\bf break-away ruptures} when \\
-pre-stress levels are high enough and no other obs-\\
-tacles (geometry, SHmax directions, fault friction \\
-properties, etc.) are present.
-
+pre-stress levels are high enough ($S=0.1$) and no \\
+other obstacles (geometry, SHmax directions, fric-\\
+tion properties, etc.) are present.\\
+\vskip -0.2cm
+\ding{43} The {\bf break-away} rupture on the 2nd fault seems\\
+to be triggered by two {\it S} waves arriving simultane-\\
+ously to the 2nd fault from the northern and bot-\\
+tom ends of the 1st fault.
 
 }
 
@@ -243,21 +268,3 @@ properties, etc.) are present.
 
 
 
-
-
-
-\vskip -0.15cm
- \includegraphics[width=1\linewidth]{images/ruptures.pdf}
- \vskip 0.1cm
- \includegraphics[width=1\linewidth]{images/results_table} \\
-\vskip 0cm
-\textbf{\small Hanging/foot wall asymmetry:} \\
-\vskip -0.3cm
-{\small A small asymmetry regarding the triggering potential of the secondary fault related to its location with respect to the main fault (hanging or foot wall) is observed. When the secondary fault is on the hanging wall, the dynamically triggered rupture is more likely to be self-sustainable.} \\
-\vskip 0cm
-\textbf{\small Stress shadow:} \\
-\vskip -0.3cm
-The final energy released (estimated magnitude) increases/decreases according to the distance between faults (i.e. offset and gap). Although the overlap increases the triggering effect, the stress shadow, due to the fault proximity, inhibits a large stress drop on the secondary fault.
-\begin{center}
- \textbf{Could this triggering be controlled by \\ an static or dynamic Coulomb stress change?}
-\end{center}
