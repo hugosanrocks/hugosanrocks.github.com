@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  7 SEP 2022 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  8 SEP 2022 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -909,20 +909,15 @@ Poster rendering started
 File: ../../logos/logo_poster_2022.png Graphic file (type png)
 <use ../../logos/logo_poster_2022.png>
 Package pdftex.def Info: ../../logos/logo_poster_2022.png  used on input line 6
-0.
-(pdftex.def)             Requested size: 207.7052pt x 85.74597pt.
+1.
+(pdftex.def)             Requested size: 202.01474pt x 83.39491pt.
 
-Overfull \hbox (8.53592pt too wide) in paragraph at lines 60--60
-[] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-0.
+1.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -931,42 +926,42 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 <images/Map_Italy.png, id=31, 549.05125pt x 830.10126pt>
 File: images/Map_Italy.png Graphic file (type png)
 <use images/Map_Italy.png>
-Package pdftex.def Info: images/Map_Italy.png  used on input line 137.
+Package pdftex.def Info: images/Map_Italy.png  used on input line 138.
 (pdftex.def)             Requested size: 115.4376pt x 174.52907pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 
  []
 
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 137--137
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 138--138
 [][] 
  []
 
@@ -976,95 +971,95 @@ Missing character: There is no ; in font nullfont!
 <images/model.pdf, id=34, 1376.40321pt x 847.83302pt>
 File: images/model.pdf Graphic file (type pdf)
 <use images/model.pdf>
-Package pdftex.def Info: images/model.pdf  used on input line 147.
+Package pdftex.def Info: images/model.pdf  used on input line 148.
 (pdftex.def)             Requested size: 230.87521pt x 142.2021pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<images/tests_shmax340.pdf, id=35, 274.76505pt x 185.1716pt>
+<images/tests_shmax340.pdf, id=35, 338.49178pt x 155.03084pt>
 File: images/tests_shmax340.pdf Graphic file (type pdf)
 <use images/tests_shmax340.pdf>
-Package pdftex.def Info: images/tests_shmax340.pdf  used on input line 178.
-(pdftex.def)             Requested size: 203.17131pt x 136.92876pt.
+Package pdftex.def Info: images/tests_shmax340.pdf  used on input line 179.
+(pdftex.def)             Requested size: 230.87521pt x 105.74364pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
 
  []
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<images/horizontal_delta_00018_nofix.pdf, id=36, 431.6125pt x 292.42033pt>
-File: images/horizontal_delta_00018_nofix.pdf Graphic file (type pdf)
-<use images/horizontal_delta_00018_nofix.pdf>
-Package pdftex.def Info: images/horizontal_delta_00018_nofix.pdf  used on input
- line 214.
-(pdftex.def)             Requested size: 302.04895pt x 204.64821pt.
-<images/horizontal_delta_00022_nofix.pdf, id=37, 431.6125pt x 287.0725pt>
-File: images/horizontal_delta_00022_nofix.pdf Graphic file (type pdf)
-<use images/horizontal_delta_00022_nofix.pdf>
-Package pdftex.def Info: images/horizontal_delta_00022_nofix.pdf  used on input
- line 214.
-(pdftex.def)             Requested size: 302.04895pt x 200.90556pt.
-<images/horizontal_delta_00080_nofix.pdf, id=38, 431.6125pt x 287.0725pt>
-File: images/horizontal_delta_00080_nofix.pdf Graphic file (type pdf)
-<use images/horizontal_delta_00080_nofix.pdf>
-Package pdftex.def Info: images/horizontal_delta_00080_nofix.pdf  used on input
- line 214.
-(pdftex.def)             Requested size: 302.04895pt x 200.90556pt.
-<images/snaps_00080.pdf, id=39, 251.77629pt x 282.52594pt>
-File: images/snaps_00080.pdf Graphic file (type pdf)
-<use images/snaps_00080.pdf>
-Package pdftex.def Info: images/snaps_00080.pdf  used on input line 214.
-(pdftex.def)             Requested size: 146.4535pt x 164.34367pt.
-<images/horizontal_delta_00080_fix_1.pdf, id=40, 196.2725pt x 284.84203pt>
-File: images/horizontal_delta_00080_fix_1.pdf Graphic file (type pdf)
-<use images/horizontal_delta_00080_fix_1.pdf>
-Package pdftex.def Info: images/horizontal_delta_00080_fix_1.pdf  used on input
- line 214.
-(pdftex.def)             Requested size: 134.12025pt x 194.6462pt.
-<images/horizontal_delta_00080_fix_2.pdf, id=41, 199.79456pt x 124.28963pt>
-File: images/horizontal_delta_00080_fix_2.pdf Graphic file (type pdf)
-<use images/horizontal_delta_00080_fix_2.pdf>
-Package pdftex.def Info: images/horizontal_delta_00080_fix_2.pdf  used on input
- line 214.
-(pdftex.def)             Requested size: 134.12025pt x 83.43861pt.
-<images/horizontal_delta_00080_fix_3.pdf, id=42, 206.15166pt x 119.63263pt>
-File: images/horizontal_delta_00080_fix_3.pdf Graphic file (type pdf)
-<use images/horizontal_delta_00080_fix_3.pdf>
-Package pdftex.def Info: images/horizontal_delta_00080_fix_3.pdf  used on input
- line 214.
-(pdftex.def)             Requested size: 134.12025pt x 77.83513pt.
+<images/horizontal_delta_00018_nofix.png, id=36, 432.73866pt x 293.3608pt>
+File: images/horizontal_delta_00018_nofix.png Graphic file (type png)
+<use images/horizontal_delta_00018_nofix.png>
+Package pdftex.def Info: images/horizontal_delta_00018_nofix.png  used on input
+ line 215.
+(pdftex.def)             Requested size: 298.83253pt x 202.58925pt.
+<images/horizontal_delta_00022_nofix.png, id=37, 432.75449pt x 287.78174pt>
+File: images/horizontal_delta_00022_nofix.png Graphic file (type png)
+<use images/horizontal_delta_00022_nofix.png>
+Package pdftex.def Info: images/horizontal_delta_00022_nofix.png  used on input
+ line 215.
+(pdftex.def)             Requested size: 298.83253pt x 198.7233pt.
+<images/horizontal_delta_00080_nofix.png, id=38, 432.75449pt x 287.78174pt>
+File: images/horizontal_delta_00080_nofix.png Graphic file (type png)
+<use images/horizontal_delta_00080_nofix.png>
+Package pdftex.def Info: images/horizontal_delta_00080_nofix.png  used on input
+ line 215.
+(pdftex.def)             Requested size: 298.83253pt x 198.7233pt.
+<images/snaps_00080.png, id=39, 251.81184pt x 282.5329pt>
+File: images/snaps_00080.png Graphic file (type png)
+<use images/snaps_00080.png>
+Package pdftex.def Info: images/snaps_00080.png  used on input line 215.
+(pdftex.def)             Requested size: 146.4535pt x 164.32616pt.
+<images/horizontal_delta_00080_fix_1.png, id=40, 195.32433pt x 284.58754pt>
+File: images/horizontal_delta_00080_fix_1.png Graphic file (type png)
+<use images/horizontal_delta_00080_fix_1.png>
+Package pdftex.def Info: images/horizontal_delta_00080_fix_1.png  used on input
+ line 215.
+(pdftex.def)             Requested size: 134.12025pt x 195.4233pt.
+<images/horizontal_delta_00080_fix_2.png, id=41, 198.59561pt x 121.42928pt>
+File: images/horizontal_delta_00080_fix_2.png Graphic file (type png)
+<use images/horizontal_delta_00080_fix_2.png>
+Package pdftex.def Info: images/horizontal_delta_00080_fix_2.png  used on input
+ line 215.
+(pdftex.def)             Requested size: 134.12025pt x 82.00568pt.
+<images/horizontal_delta_00080_fix_3.png, id=42, 206.2339pt x 119.66658pt>
+File: images/horizontal_delta_00080_fix_3.png Graphic file (type png)
+<use images/horizontal_delta_00080_fix_3.png>
+Package pdftex.def Info: images/horizontal_delta_00080_fix_3.png  used on input
+ line 215.
+(pdftex.def)             Requested size: 134.12025pt x 77.82799pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 
  []
 
@@ -1085,66 +1080,42 @@ pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./images/tests_shmax340.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00018_nofix.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/horizontal_delta_00018_nofix.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00022_nofix.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/horizontal_delta_00022_nofix.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00080_nofix.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/horizontal_delta_00080_nofix.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
-> <./images/snaps_00080.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/snaps_00080.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00080_fix_1.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/horizontal_delta_00080_fix_1.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00080_fix_2.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/horizontal_delta_00080_fix_2.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00080_fix_3.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/horizontal_delta_00080_fix_3.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
->] (./2022_ISTEP_Poster_Hugo_Sanchez.aux) ) 
+> <./images/horizontal_delta_00018_nofix.png> <./images/horizontal_delta_00022_
+nofix.png> <./images/horizontal_delta_00080_nofix.png> <./images/snaps_00080.pn
+g> <./images/horizontal_delta_00080_fix_1.png> <./images/horizontal_delta_00080
+_fix_2.png> <./images/horizontal_delta_00080_fix_3.png>]
+(./2022_ISTEP_Poster_Hugo_Sanchez.aux) ) 
 Here is how much of TeX's memory you used:
- 22812 strings out of 483107
- 475471 string characters out of 5964631
- 767232 words of memory out of 5000000
- 37368 multiletter control sequences out of 15000+600000
+ 22815 strings out of 483107
+ 475372 string characters out of 5964631
+ 768795 words of memory out of 5000000
+ 37371 multiletter control sequences out of 15000+600000
  548732 words of font info for 67 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  73i,11n,79p,839b,1396s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sanchezh/.texlive2019/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecti0500.600pk> </home/sanchezh/.texlive2019/te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/sanchezh/.texlive201
-9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/sanchezh/.texliv
-e2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/sanchezh/.te
-xlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/sanchezh
-/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/sanc
-hezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/
-sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </h
-ome/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk>
- </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.60
-0pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx144
-0.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-x2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/pu
-blic/tex-gyre/qhvri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding
-/uzdr.pfb>
-Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 1838673 bytes).
+ </home/sanchezh/.texlive2019/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecti0500.600pk> </home/sanchezh/.texlive2019/texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/sanchezh/.texlive2019/t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/sanchezh/.texlive20
+19/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/sanchezh/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/sanchezh/.t
+exlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/sanchez
+h/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/san
+chezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home
+/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </
+home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk
+> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.6
+00pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx24
+88.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/f
+onts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gy
+re/qhvri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 6348385 bytes).
 PDF statistics:
- 2900 PDF objects out of 2984 (max. 8388607)
- 1668 compressed objects within 17 object streams
+ 1243 PDF objects out of 1440 (max. 8388607)
+ 561 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  23210 words of extra memory for PDF output out of 24883 (max. 10000000)
 
