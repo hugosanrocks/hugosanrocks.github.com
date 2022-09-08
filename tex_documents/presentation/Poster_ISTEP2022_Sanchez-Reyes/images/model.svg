@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -732,9 +732,9 @@
      inkscape:window-height="970"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.128168"
-     inkscape:cx="-1658.8444"
-     inkscape:cy="1505.4156"
+     inkscape:zoom="0.256336"
+     inkscape:cx="1409.0328"
+     inkscape:cy="501.11562"
      inkscape:window-x="72"
      inkscape:window-y="61"
      inkscape:window-maximized="1"
@@ -2397,4 +2397,50 @@
        id="tspan12027"
        x="1540.6511"
        y="294.90405">o</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:53.33333206px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="2.5798016"
+     y="1021.9282"
+     id="text433"><tspan
+       sodipodi:role="line"
+       id="tspan431"
+       x="2.5798016"
+       y="1021.9282"
+       style="font-size:46.66666794px">Using SeisSol (Uphoff et al., 2017)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:53.33333206px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="3.8332655"
+     y="1072.3958"
+     id="text437"><tspan
+       sodipodi:role="line"
+       id="tspan435"
+       x="3.8332655"
+       y="1072.3958"
+       style="font-size:46.66666794px">and a linear slip-weakening friction law</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:53.33333206px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="1074.4285"
+     y="395.62552"
+     id="text441"
+     transform="rotate(11.368928)"><tspan
+       sodipodi:role="line"
+       id="tspan439"
+       x="1074.4285"
+       y="395.62552"
+       style="font-size:53.33333206px">1st fault</tspan></text>
+  <text
+     transform="rotate(9.8833156)"
+     id="text445"
+     y="232.12099"
+     x="678.49426"
+     style="font-style:normal;font-weight:normal;font-size:53.33333206px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-size:53.33333206px"
+       y="232.12099"
+       x="678.49426"
+       id="tspan443"
+       sodipodi:role="line">2nd fault</tspan></text>
 </svg>
