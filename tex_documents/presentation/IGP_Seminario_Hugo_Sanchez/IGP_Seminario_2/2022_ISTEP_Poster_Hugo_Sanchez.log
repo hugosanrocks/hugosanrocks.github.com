@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  31 OCT 2022 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  2 NOV 2022 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,11 +986,11 @@ Package pdftex.def Info: images/model.pdf  used on input line 151.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<images/tests_shmax340.pdf, id=36, 338.49178pt x 155.03084pt>
+<images/tests_shmax340.pdf, id=36, 349.89957pt x 155.02925pt>
 File: images/tests_shmax340.pdf Graphic file (type pdf)
 <use images/tests_shmax340.pdf>
 Package pdftex.def Info: images/tests_shmax340.pdf  used on input line 199.
-(pdftex.def)             Requested size: 230.87521pt x 105.74364pt.
+(pdftex.def)             Requested size: 230.87521pt x 102.29358pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 199--199
 
@@ -1019,24 +1019,42 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 199--199
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<images/horizontal_delta_00018_nofix.png, id=37, 431.89243pt x 292.53514pt>
+<images/horizontal_delta_00080_fix_2.png, id=37, 198.59561pt x 121.42928pt>
+File: images/horizontal_delta_00080_fix_2.png Graphic file (type png)
+<use images/horizontal_delta_00080_fix_2.png>
+Package pdftex.def Info: images/horizontal_delta_00080_fix_2.png  used on input
+ line 234.
+(pdftex.def)             Requested size: 134.12025pt x 82.00568pt.
+<images/horizontal_delta_00080_fix_1.png, id=38, 195.32433pt x 284.58754pt>
+File: images/horizontal_delta_00080_fix_1.png Graphic file (type png)
+<use images/horizontal_delta_00080_fix_1.png>
+Package pdftex.def Info: images/horizontal_delta_00080_fix_1.png  used on input
+ line 234.
+(pdftex.def)             Requested size: 134.12025pt x 195.4233pt.
+<images/horizontal_delta_00080_fix_3.png, id=39, 206.48572pt x 119.76172pt>
+File: images/horizontal_delta_00080_fix_3.png Graphic file (type png)
+<use images/horizontal_delta_00080_fix_3.png>
+Package pdftex.def Info: images/horizontal_delta_00080_fix_3.png  used on input
+ line 234.
+(pdftex.def)             Requested size: 134.12025pt x 77.78935pt.
+<images/horizontal_delta_00018_nofix.png, id=40, 431.89243pt x 292.53514pt>
 File: images/horizontal_delta_00018_nofix.png Graphic file (type png)
 <use images/horizontal_delta_00018_nofix.png>
 Package pdftex.def Info: images/horizontal_delta_00018_nofix.png  used on input
  line 234.
-(pdftex.def)             Requested size: 385.3979pt x 261.05177pt.
-<images/horizontal_delta_00022_nofix.png, id=38, 431.89243pt x 286.77658pt>
+(pdftex.def)             Requested size: 254.36401pt x 172.28622pt.
+<images/horizontal_delta_00022_nofix.png, id=41, 431.89243pt x 286.77658pt>
 File: images/horizontal_delta_00022_nofix.png Graphic file (type png)
 <use images/horizontal_delta_00022_nofix.png>
 Package pdftex.def Info: images/horizontal_delta_00022_nofix.png  used on input
  line 234.
-(pdftex.def)             Requested size: 385.3979pt x 255.91296pt.
-<images/horizontal_delta_00080_nofix.png, id=39, 431.89243pt x 287.35243pt>
+(pdftex.def)             Requested size: 254.36401pt x 168.89478pt.
+<images/horizontal_delta_00080_nofix.png, id=42, 431.89243pt x 287.35243pt>
 File: images/horizontal_delta_00080_nofix.png Graphic file (type png)
 <use images/horizontal_delta_00080_nofix.png>
 Package pdftex.def Info: images/horizontal_delta_00080_nofix.png  used on input
  line 234.
-(pdftex.def)             Requested size: 385.3979pt x 256.42685pt.
+(pdftex.def)             Requested size: 254.36401pt x 169.23392pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1081,42 +1099,44 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: /usr/bin/pdflatex (file ./images/tests_shmax340.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
-> <./images/horizontal_delta_00018_nofix.png> <./images/horizontal_delta_00022_
-nofix.png> <./images/horizontal_delta_00080_nofix.png>]
-(./2022_ISTEP_Poster_Hugo_Sanchez.aux) ) 
+> <./images/horizontal_delta_00080_fix_2.png> <./images/horizontal_delta_00080_
+fix_1.png> <./images/horizontal_delta_00080_fix_3.png> <./images/horizontal_del
+ta_00018_nofix.png> <./images/horizontal_delta_00022_nofix.png> <./images/horiz
+ontal_delta_00080_nofix.png>] (./2022_ISTEP_Poster_Hugo_Sanchez.aux) ) 
 Here is how much of TeX's memory you used:
- 22846 strings out of 483107
- 475445 string characters out of 5964631
- 768923 words of memory out of 5000000
- 37391 multiletter control sequences out of 15000+600000
+ 22864 strings out of 483107
+ 476183 string characters out of 5964631
+ 772349 words of memory out of 5000000
+ 37406 multiletter control sequences out of 15000+600000
  552371 words of font info for 82 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  73i,12n,79p,839b,1399s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sanchezh/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecti0500.600pk> </home/sanchezh/.texlive2019/texmf
--var/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> </home/sanchezh/.texlive2019/t
-exmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/sanchezh/.texlive20
-19/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/sanchezh/.texli
-ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk> </home/sanchezh/.t
-exlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/sanchez
-h/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/san
-chezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home
-/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </
-home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk
-> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.6
-00pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx20
-74.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/pub
-lic/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvri.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 4570189 bytes).
+ </home/s
+anchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0500.600pk> </ho
+me/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> 
+</home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600
+pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900
+.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
+0900.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm0900.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecbx1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecbx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecss1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecss1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecsx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/font
+s/pk/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/typ
+e1/public/tex-gyre/qhvri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zap
+fding/uzdr.pfb>
+Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 4998106 bytes).
 PDF statistics:
- 1244 PDF objects out of 1440 (max. 8388607)
- 575 compressed objects within 6 object streams
+ 1535 PDF objects out of 1728 (max. 8388607)
+ 757 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 28315 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 28330 words of extra memory for PDF output out of 29859 (max. 10000000)
 
