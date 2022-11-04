@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  2 NOV 2022 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  4 NOV 2022 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,6 +1081,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--254
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+Package natbib Warning: Citation `Improta_2019_AVN' undefined on input line 269
+.
+
+
+Package natbib Warning: Citation `Bernard_1989_IRPINIA' undefined on input line
+ 269.
+
+
+Package natbib Warning: Citation `Valoroso_2013_AQUILA' undefined on input line
+ 269.
+
+
+Package natbib Warning: Citation `Uphoff_2017_ESM' undefined on input line 269.
+
+
 (./2022_ISTEP_Poster_Hugo_Sanchez.bbl)
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1102,40 +1118,48 @@ sion: multiple pdfs with page group included in a single page
 > <./images/horizontal_delta_00080_fix_2.png> <./images/horizontal_delta_00080_
 fix_1.png> <./images/horizontal_delta_00080_fix_3.png> <./images/horizontal_del
 ta_00018_nofix.png> <./images/horizontal_delta_00022_nofix.png> <./images/horiz
-ontal_delta_00080_nofix.png>] (./2022_ISTEP_Poster_Hugo_Sanchez.aux) ) 
+ontal_delta_00080_nofix.png>]
+
+Package natbib Warning: There were undefined citations.
+
+(./2022_ISTEP_Poster_Hugo_Sanchez.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+) ) 
 Here is how much of TeX's memory you used:
- 22864 strings out of 483107
- 476183 string characters out of 5964631
- 772349 words of memory out of 5000000
- 37406 multiletter control sequences out of 15000+600000
+ 22860 strings out of 483099
+ 476107 string characters out of 5964234
+ 770848 words of memory out of 5000000
+ 37403 multiletter control sequences out of 15000+600000
  552371 words of font info for 82 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  73i,12n,79p,839b,1399s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/s
-anchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0500.600pk> </ho
-me/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0500.600pk> 
-</home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600
-pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900
-.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
-0900.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm0900.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecbx1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecbx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecss1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecss1440.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecsx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/font
-s/pk/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/texmf/fonts/typ
-e1/public/tex-gyre/qhvri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zap
-fding/uzdr.pfb>
-Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 4998106 bytes).
+ </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0500
+.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+0500.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecbx0900.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/tcrm0900.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecrm0900.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/ecbx1000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecbx1440.600pk> </home/sanchezh/.texlive2019/texmf-var/font
+s/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/sanchezh/.texlive2019/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/sanchezh/.texlive2019/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/sanchezh/.texlive2019/te
+xmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb></usr/share/tex
+mf/fonts/type1/public/tex-gyre/qhvri.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/zapfding/uzdr.pfb>
+Output written on 2022_ISTEP_Poster_Hugo_Sanchez.pdf (1 page, 4997457 bytes).
 PDF statistics:
- 1535 PDF objects out of 1728 (max. 8388607)
+ 1533 PDF objects out of 1728 (max. 8388607)
  757 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
  28330 words of extra memory for PDF output out of 29859 (max. 10000000)

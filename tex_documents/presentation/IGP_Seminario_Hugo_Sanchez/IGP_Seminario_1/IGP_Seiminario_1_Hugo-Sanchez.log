@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  28 OCT 2022 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  4 NOV 2022 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1248,11 +1248,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@lstlisting=\count380
 
 (./IGP_Seiminario_1_Hugo-Sanchez.nav)
-<../../logos/logo_seminar_2022.pdf, id=13, 1196.21906pt x 242.27155pt>
-File: ../../logos/logo_seminar_2022.pdf Graphic file (type pdf)
-<use ../../logos/logo_seminar_2022.pdf>
-Package pdftex.def Info: ../../logos/logo_seminar_2022.pdf  used on input line 
-103.
+<../../../logos/logo_seminar_2022.pdf, id=13, 1196.21906pt x 242.27155pt>
+File: ../../../logos/logo_seminar_2022.pdf Graphic file (type pdf)
+<use ../../../logos/logo_seminar_2022.pdf>
+Package pdftex.def Info: ../../../logos/logo_seminar_2022.pdf  used on input li
+ne 103.
 (pdftex.def)             Requested size: 168.58295pt x 34.14322pt.
 
 Overfull \vbox (38.04327pt too high) detected at line 103
@@ -1272,49 +1272,210 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--103
 Overfull \vbox (44.55656pt too high) detected at line 103
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/logo_seminar
-_2022.pdf>]
-<images/map_peru.png, id=34, 404.4711pt x 373.395pt>
-File: images/map_peru.png Graphic file (type png)
-<use images/map_peru.png>
-Package pdftex.def Info: images/map_peru.png  used on input line 113.
-(pdftex.def)             Requested size: 248.90141pt x 229.77615pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 113
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../../logos/logo_semina
+r_2022.pdf>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 113
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 113.
+ut line 105.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<../../logos/ISTerre_neg.pdf, id=35, 591.8913pt x 344.7279pt>
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 113.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
-
-Overfull \vbox (22.96355pt too high) detected at line 113
- []
-
 [2
 
- <../../logos/ISTerre_neg.pdf> <./images/map_peru.png (PNG copy)>]
-<images/snr_event_0_CHVY.pdf, id=49, 1174.12566pt x 774.96637pt>
+]
+<images/conda_create_fmf.png, id=42, 1927.2pt x 1084.05pt>
+File: images/conda_create_fmf.png Graphic file (type png)
+<use images/conda_create_fmf.png>
+Package pdftex.def Info: images/conda_create_fmf.png  used on input line 116.
+(pdftex.def)             Requested size: 307.28987pt x 172.83951pt.
+<../../../logos/ISTerre_neg.pdf, id=44, 591.8913pt x 344.7279pt>
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 116
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [3
+
+ <../../../logos/ISTerre_neg.pdf> <./images/conda_create_fmf.png>]
+<images/conda_activate_fmf_install_obspy.png, id=59, 1927.2pt x 1084.05pt>
+File: images/conda_activate_fmf_install_obspy.png Graphic file (type png)
+<use images/conda_activate_fmf_install_obspy.png>
+Package pdftex.def Info: images/conda_activate_fmf_install_obspy.png  used on i
+nput line 124.
+(pdftex.def)             Requested size: 307.28987pt x 172.83951pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 124
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+[4
+
+ <./images/conda_activate_fmf_install_obspy.png>]
+<images/succes_install_obspy.png, id=67, 1927.2pt x 1084.05pt>
+File: images/succes_install_obspy.png Graphic file (type png)
+<use images/succes_install_obspy.png>
+Package pdftex.def Info: images/succes_install_obspy.png  used on input line 13
+2.
+(pdftex.def)             Requested size: 307.28987pt x 172.83951pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 132
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [5
+
+ <./images/succes_install_obspy.png>]
+<images/jupyter_notebook.png, id=75, 1927.2pt x 1084.05pt>
+File: images/jupyter_notebook.png Graphic file (type png)
+<use images/jupyter_notebook.png>
+Package pdftex.def Info: images/jupyter_notebook.png  used on input line 141.
+(pdftex.def)             Requested size: 307.28987pt x 172.83951pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 141
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [6
+
+ <./images/jupyter_notebook.png>] [7
+
+]
+<images/map_balsorano.pdf, id=92, 1314.69171pt x 787.86644pt>
+File: images/map_balsorano.pdf Graphic file (type pdf)
+<use images/map_balsorano.pdf>
+Package pdftex.def Info: images/map_balsorano.pdf  used on input line 154.
+(pdftex.def)             Requested size: 307.28987pt x 184.15082pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 154
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [8
+
+ <./images/map_balsorano.pdf>]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/S6_templates_per_cluster_map.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/S6_templates_per_cluster_map.pdf, id=195, 1977.3875pt x 772.8875pt>
+File: images/S6_templates_per_cluster_map.pdf Graphic file (type pdf)
+<use images/S6_templates_per_cluster_map.pdf>
+Package pdftex.def Info: images/S6_templates_per_cluster_map.pdf  used on input
+ line 164.
+(pdftex.def)             Requested size: 307.28987pt x 120.10294pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 164
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+[9
+
+ <./images/S6_templates_per_cluster_map.pdf>]
+<images/dendrogram_balsorano.png, id=215, 913.4125pt x 502.87875pt>
+File: images/dendrogram_balsorano.png Graphic file (type png)
+<use images/dendrogram_balsorano.png>
+Package pdftex.def Info: images/dendrogram_balsorano.png  used on input line 17
+3.
+(pdftex.def)             Requested size: 307.28987pt x 169.17328pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 173
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [10
+
+ <./images/dendrogram_balsorano.png>]
+<images/wigg_cc_mat_cluster.png, id=223, 1229.59375pt x 701.62125pt>
+File: images/wigg_cc_mat_cluster.png Graphic file (type png)
+<use images/wigg_cc_mat_cluster.png>
+Package pdftex.def Info: images/wigg_cc_mat_cluster.png  used on input line 183
+.
+(pdftex.def)             Requested size: 307.28987pt x 175.34064pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 183
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+ [11
+
+ <./images/wigg_cc_mat_cluster.png>]
+<images/matrix.png, id=231, 457.71pt x 523.9575pt>
+File: images/matrix.png Graphic file (type png)
+<use images/matrix.png>
+Package pdftex.def Info: images/matrix.png  used on input line 196.
+(pdftex.def)             Requested size: 140.12247pt x 160.40242pt.
+<images/cummulative.png, id=232, 450.18187pt x 255.20343pt>
+File: images/cummulative.png Graphic file (type png)
+<use images/cummulative.png>
+Package pdftex.def Info: images/cummulative.png  used on input line 196.
+(pdftex.def)             Requested size: 140.12247pt x 79.43546pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[][]
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/map_clusters_templates.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/map_clusters_templates.pdf, id=233, 1924.18875pt x 3038.35126pt>
+File: images/map_clusters_templates.pdf Graphic file (type pdf)
+<use images/map_clusters_templates.pdf>
+Package pdftex.def Info: images/map_clusters_templates.pdf  used on input line 
+196.
+(pdftex.def)             Requested size: 145.9622pt x 230.46275pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 196
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (28.33481pt too high) detected at line 196
+ []
+
+[12
+
+ <./images/matrix.png> <./images/cummulative.png> <./images/map_clusters_templa
+tes.pdf>] [13
+
+]
+<images/map_peru.png, id=264, 404.4711pt x 373.395pt>
+File: images/map_peru.png Graphic file (type png)
+<use images/map_peru.png>
+Package pdftex.def Info: images/map_peru.png  used on input line 211.
+(pdftex.def)             Requested size: 248.90141pt x 229.77615pt.
+File: ../../../logos/ISTerre_neg.pdf Graphic file (type pdf)
+<use ../../../logos/ISTerre_neg.pdf>
+Package pdftex.def Info: ../../../logos/ISTerre_neg.pdf  used on input line 211
+.
+(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+
+Overfull \vbox (22.96355pt too high) detected at line 211
+ []
+
+[14
+
+ <./images/map_peru.png (PNG copy)>]
+<images/snr_event_0_CHVY.pdf, id=271, 1174.12566pt x 774.96637pt>
 File: images/snr_event_0_CHVY.pdf Graphic file (type pdf)
 <use images/snr_event_0_CHVY.pdf>
-Package pdftex.def Info: images/snr_event_0_CHVY.pdf  used on input line 123.
+Package pdftex.def Info: images/snr_event_0_CHVY.pdf  used on input line 221.
 (pdftex.def)             Requested size: 307.28987pt x 202.82272pt.
- [3
+ [15
 
  <./images/snr_event_0_CHVY.pdf>]
 \tf@nav=\write6
@@ -1326,31 +1487,35 @@ Package pdftex.def Info: images/snr_event_0_CHVY.pdf  used on input line 123.
 \tf@snm=\write8
 \openout8 = `IGP_Seiminario_1_Hugo-Sanchez.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
- (./IGP_Seiminario_1_Hugo-Sanchez.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+
+(./IGP_Seiminario_1_Hugo-Sanchez.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `IGP_Seiminario_1_Hugo-Sanchez.out' has not c
 hanged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30451 strings out of 483107
- 600152 string characters out of 5964631
- 869230 words of memory out of 5000000
- 44803 multiletter control sequences out of 15000+600000
+ 30633 strings out of 483099
+ 604705 string characters out of 5964234
+ 869689 words of memory out of 5000000
+ 44949 multiletter control sequences out of 15000+600000
  541628 words of font info for 56 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  58i,13n,108p,1846b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on IGP_Seiminario_1_Hugo-Sanchez.pdf (3 pages, 1051828 bytes).
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf/fo
+nts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/type1/public/tex-gyr
+e/qhvr.pfb>
+Output written on IGP_Seiminario_1_Hugo-Sanchez.pdf (15 pages, 27525025 bytes).
+
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
