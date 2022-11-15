@@ -1,5 +1,5 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{Introducci\'on}{2}{0}{1}
-\beamer@sectionintoc {2}{Instalaci\'on}{4}{0}{2}
-\beamer@sectionintoc {3}{Ejemplo}{9}{0}{3}
-\beamer@sectionintoc {4}{Ejercicio}{16}{0}{4}
+\beamer@sectionintoc {2}{Instalaci\'on}{11}{0}{2}
+\beamer@sectionintoc {3}{Ejemplo}{16}{0}{3}
+\beamer@sectionintoc {4}{Ejercicio}{23}{0}{4}
