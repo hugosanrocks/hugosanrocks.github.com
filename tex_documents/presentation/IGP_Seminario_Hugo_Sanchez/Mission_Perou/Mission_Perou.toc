@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Arequipa}{3}{0}{1}
+\beamer@sectionintoc {2}{Lima}{22}{0}{2}
+\beamer@sectionintoc {3}{PhD. Project ARTS}{42}{0}{3}
