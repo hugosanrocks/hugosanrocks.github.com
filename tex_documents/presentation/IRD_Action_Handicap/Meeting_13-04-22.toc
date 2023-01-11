@@ -1,4 +1,4 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{Qui suis-je ? }{3}{0}{1}
-\beamer@sectionintoc {2}{Anectode acad\'emique}{15}{0}{2}
-\beamer@sectionintoc {3}{Parcours suivi}{16}{0}{3}
+\beamer@sectionintoc {2}{Anectdote acad\'emique}{22}{0}{2}
+\beamer@sectionintoc {3}{Parcours suivi}{32}{0}{3}

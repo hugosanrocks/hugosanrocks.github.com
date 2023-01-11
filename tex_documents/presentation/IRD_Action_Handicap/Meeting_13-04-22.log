@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  10 JAN 2023 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  11 JAN 2023 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1354,53 +1354,49 @@ Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 136.
  [6
 
  <./images/handicap_cake2.png>]
-<images/handicaps.png, id=71, 1176.395pt x 400.49625pt>
+<images/handicap_cake3.png, id=71, 1901.8421pt x 789.26448pt>
+File: images/handicap_cake3.png Graphic file (type png)
+<use images/handicap_cake3.png>
+Package pdftex.def Info: images/handicap_cake3.png  used on input line 144.
+(pdftex.def)             Requested size: 307.28987pt x 127.52534pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 144.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [7
+
+ <./images/handicap_cake3.png>]
+<images/handicaps.png, id=80, 1176.395pt x 400.49625pt>
 File: images/handicaps.png Graphic file (type png)
 <use images/handicaps.png>
-Package pdftex.def Info: images/handicaps.png  used on input line 158.
+Package pdftex.def Info: images/handicaps.png  used on input line 166.
 (pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-158.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+166.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 158.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 166.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (7.8494pt too high) detected at line 158
- []
-
-[7
-
- <./images/handicaps.png>]
-File: images/handicaps.png Graphic file (type png)
-<use images/handicaps.png>
-Package pdftex.def Info: images/handicaps.png  used on input line 158.
-(pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
-File: ../../logos/IRD_neg.png Graphic file (type png)
-<use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 158.
-(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
-
-Overfull \vbox (7.8494pt too high) detected at line 158
+Overfull \vbox (28.60423pt too high) detected at line 166
  []
 
 [8
 
-]
+ <./images/handicaps.png>]
 File: images/handicaps.png Graphic file (type png)
 <use images/handicaps.png>
-Package pdftex.def Info: images/handicaps.png  used on input line 158.
+Package pdftex.def Info: images/handicaps.png  used on input line 166.
 (pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 158.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 166.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (7.8494pt too high) detected at line 158
+Overfull \vbox (28.60423pt too high) detected at line 166
  []
 
 [9
@@ -1408,14 +1404,14 @@ Overfull \vbox (7.8494pt too high) detected at line 158
 ]
 File: images/handicaps.png Graphic file (type png)
 <use images/handicaps.png>
-Package pdftex.def Info: images/handicaps.png  used on input line 158.
+Package pdftex.def Info: images/handicaps.png  used on input line 166.
 (pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 158.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 166.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (7.8494pt too high) detected at line 158
+Overfull \vbox (28.60423pt too high) detected at line 166
  []
 
 [10
@@ -1423,14 +1419,14 @@ Overfull \vbox (7.8494pt too high) detected at line 158
 ]
 File: images/handicaps.png Graphic file (type png)
 <use images/handicaps.png>
-Package pdftex.def Info: images/handicaps.png  used on input line 158.
+Package pdftex.def Info: images/handicaps.png  used on input line 166.
 (pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 158.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 166.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (7.8494pt too high) detected at line 158
+Overfull \vbox (28.60423pt too high) detected at line 166
  []
 
 [11
@@ -1438,14 +1434,14 @@ Overfull \vbox (7.8494pt too high) detected at line 158
 ]
 File: images/handicaps.png Graphic file (type png)
 <use images/handicaps.png>
-Package pdftex.def Info: images/handicaps.png  used on input line 158.
+Package pdftex.def Info: images/handicaps.png  used on input line 166.
 (pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 158.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 166.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (7.8494pt too high) detected at line 158
+Overfull \vbox (28.60423pt too high) detected at line 166
  []
 
 [12
@@ -1453,32 +1449,482 @@ Overfull \vbox (7.8494pt too high) detected at line 158
 ]
 File: images/handicaps.png Graphic file (type png)
 <use images/handicaps.png>
-Package pdftex.def Info: images/handicaps.png  used on input line 158.
+Package pdftex.def Info: images/handicaps.png  used on input line 166.
 (pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 158.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 166.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (7.8494pt too high) detected at line 158
+Overfull \vbox (28.60423pt too high) detected at line 166
  []
 
 [13
 
 ]
-<images/visual_problem_neg.png, id=118, 602.25pt x 217.81375pt>
-File: images/visual_problem_neg.png Graphic file (type png)
-<use images/visual_problem_neg.png>
-Package pdftex.def Info: images/visual_problem_neg.png  used on input line 165.
+File: images/handicaps.png Graphic file (type png)
+<use images/handicaps.png>
+Package pdftex.def Info: images/handicaps.png  used on input line 166.
+(pdftex.def)             Requested size: 307.28987pt x 104.61545pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 166.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-(pdftex.def)             Requested size: 230.46739pt x 83.3517pt.
- [14
+Overfull \vbox (28.60423pt too high) detected at line 166
+ []
 
- <./images/visual_problem_neg.png>] [15
-
-] [16
+[14
 
 ]
+<images/visual_problem2.png, id=126, 513.92pt x 183.68625pt>
+File: images/visual_problem2.png Graphic file (type png)
+<use images/visual_problem2.png>
+Package pdftex.def Info: images/visual_problem2.png  used on input line 190.
+(pdftex.def)             Requested size: 138.2795pt x 49.42496pt.
+<images/visual_problem3.png, id=127, 662.475pt x 361.35pt>
+File: images/visual_problem3.png Graphic file (type png)
+<use images/visual_problem3.png>
+Package pdftex.def Info: images/visual_problem3.png  used on input line 190.
+(pdftex.def)             Requested size: 138.2795pt x 75.42258pt.
+<images/visual_problem4.png, id=128, 946.53625pt x 328.22626pt>
+File: images/visual_problem4.png Graphic file (type png)
+<use images/visual_problem4.png>
+Package pdftex.def Info: images/visual_problem4.png  used on input line 190.
+(pdftex.def)             Requested size: 184.3758pt x 63.93123pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 190.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [15
+
+ <./images/visual_problem2.png> <./images/visual_problem3.png> <./images/visual
+_problem4.png>]
+File: images/visual_problem2.png Graphic file (type png)
+<use images/visual_problem2.png>
+Package pdftex.def Info: images/visual_problem2.png  used on input line 190.
+(pdftex.def)             Requested size: 138.2795pt x 49.42496pt.
+File: images/visual_problem3.png Graphic file (type png)
+<use images/visual_problem3.png>
+Package pdftex.def Info: images/visual_problem3.png  used on input line 190.
+(pdftex.def)             Requested size: 138.2795pt x 75.42258pt.
+File: images/visual_problem4.png Graphic file (type png)
+<use images/visual_problem4.png>
+Package pdftex.def Info: images/visual_problem4.png  used on input line 190.
+(pdftex.def)             Requested size: 184.3758pt x 63.93123pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 190.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [16
+
+]
+File: images/visual_problem2.png Graphic file (type png)
+<use images/visual_problem2.png>
+Package pdftex.def Info: images/visual_problem2.png  used on input line 190.
+(pdftex.def)             Requested size: 138.2795pt x 49.42496pt.
+File: images/visual_problem3.png Graphic file (type png)
+<use images/visual_problem3.png>
+Package pdftex.def Info: images/visual_problem3.png  used on input line 190.
+(pdftex.def)             Requested size: 138.2795pt x 75.42258pt.
+File: images/visual_problem4.png Graphic file (type png)
+<use images/visual_problem4.png>
+Package pdftex.def Info: images/visual_problem4.png  used on input line 190.
+(pdftex.def)             Requested size: 184.3758pt x 63.93123pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 190.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [17
+
+]
+<images/visual_problem5.png, id=150, 1347.0325pt x 374.39874pt>
+File: images/visual_problem5.png Graphic file (type png)
+<use images/visual_problem5.png>
+Package pdftex.def Info: images/visual_problem5.png  used on input line 208.
+(pdftex.def)             Requested size: 245.83282pt x 68.32578pt.
+<images/visual_problem6.png, id=151, 948.54375pt x 327.2225pt>
+File: images/visual_problem6.png Graphic file (type png)
+<use images/visual_problem6.png>
+Package pdftex.def Info: images/visual_problem6.png  used on input line 208.
+(pdftex.def)             Requested size: 245.83282pt x 84.80621pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 208.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (13.61984pt too high) detected at line 208
+ []
+
+[18
+
+ <./images/visual_problem5.png> <./images/visual_problem6.png>]
+File: images/visual_problem5.png Graphic file (type png)
+<use images/visual_problem5.png>
+Package pdftex.def Info: images/visual_problem5.png  used on input line 208.
+(pdftex.def)             Requested size: 245.83282pt x 68.32578pt.
+File: images/visual_problem6.png Graphic file (type png)
+<use images/visual_problem6.png>
+Package pdftex.def Info: images/visual_problem6.png  used on input line 208.
+(pdftex.def)             Requested size: 245.83282pt x 84.80621pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 208.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (13.61984pt too high) detected at line 208
+ []
+
+[19
+
+]
+<images/visual_problem_neg.png, id=167, 602.25pt x 217.81375pt>
+File: images/visual_problem_neg.png Graphic file (type png)
+<use images/visual_problem_neg.png>
+Package pdftex.def Info: images/visual_problem_neg.png  used on input line 220.
+
+(pdftex.def)             Requested size: 230.46739pt x 83.3517pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 220.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [20
+
+ <./images/visual_problem_neg.png>]
+File: images/visual_problem_neg.png Graphic file (type png)
+<use images/visual_problem_neg.png>
+Package pdftex.def Info: images/visual_problem_neg.png  used on input line 220.
+
+(pdftex.def)             Requested size: 230.46739pt x 83.3517pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 220.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [21
+
+] [22
+
+]
+<images/lentes.png, id=190, 501.875pt x 262.9825pt>
+File: images/lentes.png Graphic file (type png)
+<use images/lentes.png>
+Package pdftex.def Info: images/lentes.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 48.3059pt.
+<images/compas.png, id=191, 633.36626pt x 472.76625pt>
+File: images/compas.png Graphic file (type png)
+<use images/compas.png>
+Package pdftex.def Info: images/compas.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 68.81265pt.
+<images/examen.png, id=192, 1152.305pt x 1257.69875pt>
+File: images/examen.png Graphic file (type png)
+<use images/examen.png>
+Package pdftex.def Info: images/examen.png  used on input line 243.
+(pdftex.def)             Requested size: 76.81897pt x 73.75067pt.
+<images/teacher.png, id=193, 391.4625pt x 261.97874pt>
+File: images/teacher.png Graphic file (type png)
+<use images/teacher.png>
+Package pdftex.def Info: images/teacher.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 61.69293pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 243.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [23
+
+ <./images/lentes.png> <./images/compas.png> <./images/examen.png> <./images/te
+acher.png>]
+File: images/lentes.png Graphic file (type png)
+<use images/lentes.png>
+Package pdftex.def Info: images/lentes.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 48.3059pt.
+File: images/compas.png Graphic file (type png)
+<use images/compas.png>
+Package pdftex.def Info: images/compas.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 68.81265pt.
+File: images/examen.png Graphic file (type png)
+<use images/examen.png>
+Package pdftex.def Info: images/examen.png  used on input line 243.
+(pdftex.def)             Requested size: 76.81897pt x 73.75067pt.
+File: images/teacher.png Graphic file (type png)
+<use images/teacher.png>
+Package pdftex.def Info: images/teacher.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 61.69293pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 243.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [24
+
+]
+File: images/lentes.png Graphic file (type png)
+<use images/lentes.png>
+Package pdftex.def Info: images/lentes.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 48.3059pt.
+File: images/compas.png Graphic file (type png)
+<use images/compas.png>
+Package pdftex.def Info: images/compas.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 68.81265pt.
+File: images/examen.png Graphic file (type png)
+<use images/examen.png>
+Package pdftex.def Info: images/examen.png  used on input line 243.
+(pdftex.def)             Requested size: 76.81897pt x 73.75067pt.
+File: images/teacher.png Graphic file (type png)
+<use images/teacher.png>
+Package pdftex.def Info: images/teacher.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 61.69293pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 243.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+[25
+
+]
+File: images/lentes.png Graphic file (type png)
+<use images/lentes.png>
+Package pdftex.def Info: images/lentes.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 48.3059pt.
+File: images/compas.png Graphic file (type png)
+<use images/compas.png>
+Package pdftex.def Info: images/compas.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 68.81265pt.
+File: images/examen.png Graphic file (type png)
+<use images/examen.png>
+Package pdftex.def Info: images/examen.png  used on input line 243.
+(pdftex.def)             Requested size: 76.81897pt x 73.75067pt.
+File: images/teacher.png Graphic file (type png)
+<use images/teacher.png>
+Package pdftex.def Info: images/teacher.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 61.69293pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 243.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [26
+
+]
+File: images/lentes.png Graphic file (type png)
+<use images/lentes.png>
+Package pdftex.def Info: images/lentes.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 48.3059pt.
+File: images/compas.png Graphic file (type png)
+<use images/compas.png>
+Package pdftex.def Info: images/compas.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 68.81265pt.
+File: images/examen.png Graphic file (type png)
+<use images/examen.png>
+Package pdftex.def Info: images/examen.png  used on input line 243.
+(pdftex.def)             Requested size: 76.81897pt x 73.75067pt.
+File: images/teacher.png Graphic file (type png)
+<use images/teacher.png>
+Package pdftex.def Info: images/teacher.png  used on input line 243.
+(pdftex.def)             Requested size: 92.1879pt x 61.69293pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 243.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [27
+
+]
+<images/juramento.png, id=229, 1640.1275pt x 2099.845pt>
+File: images/juramento.png Graphic file (type png)
+<use images/juramento.png>
+Package pdftex.def Info: images/juramento.png  used on input line 256.
+(pdftex.def)             Requested size: 138.2795pt x 177.0266pt.
+<images/open1.png, id=230, 384.41489pt x 384.41489pt>
+File: images/open1.png Graphic file (type png)
+<use images/open1.png>
+Package pdftex.def Info: images/open1.png  used on input line 256.
+(pdftex.def)             Requested size: 138.2795pt x 138.2778pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 256.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [28
+
+ <./images/juramento.png> <./images/open1.png>]
+File: images/juramento.png Graphic file (type png)
+<use images/juramento.png>
+Package pdftex.def Info: images/juramento.png  used on input line 256.
+(pdftex.def)             Requested size: 138.2795pt x 177.0266pt.
+File: images/open1.png Graphic file (type png)
+<use images/open1.png>
+Package pdftex.def Info: images/open1.png  used on input line 256.
+(pdftex.def)             Requested size: 138.2795pt x 138.2778pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 256.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [29
+
+]
+File: images/juramento.png Graphic file (type png)
+<use images/juramento.png>
+Package pdftex.def Info: images/juramento.png  used on input line 256.
+(pdftex.def)             Requested size: 138.2795pt x 177.0266pt.
+File: images/open1.png Graphic file (type png)
+<use images/open1.png>
+Package pdftex.def Info: images/open1.png  used on input line 256.
+(pdftex.def)             Requested size: 138.2795pt x 138.2778pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 256.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [30
+
+]
+<images/juramento2.png, id=251, 1230.54324pt x 1574.31406pt>
+File: images/juramento2.png Graphic file (type png)
+<use images/juramento2.png>
+Package pdftex.def Info: images/juramento2.png  used on input line 267.
+(pdftex.def)             Requested size: 138.2795pt x 176.8985pt.
+<images/open2.png, id=252, 384.41489pt x 481.28745pt>
+File: images/open2.png Graphic file (type png)
+<use images/open2.png>
+Package pdftex.def Info: images/open2.png  used on input line 267.
+(pdftex.def)             Requested size: 138.2795pt x 173.12381pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 267.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+[31
+
+ <./images/juramento2.png> <./images/open2.png>] [32
+
+] [33
+
+] [34
+
+]
+<images/photos/2/image2.jpeg, id=283, 971.3088pt x 728.4816pt>
+File: images/photos/2/image2.jpeg Graphic file (type jpg)
+<use images/photos/2/image2.jpeg>
+Package pdftex.def Info: images/photos/2/image2.jpeg  used on input line 296.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 296.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 296
+ []
+
+[35
+
+ <./images/photos/2/image2.jpeg>]
+<images/photos/2/image4.jpeg, id=290, 971.3088pt x 728.4816pt>
+File: images/photos/2/image4.jpeg Graphic file (type jpg)
+<use images/photos/2/image4.jpeg>
+Package pdftex.def Info: images/photos/2/image4.jpeg  used on input line 304.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 304.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 304
+ []
+
+[36
+
+ <./images/photos/2/image4.jpeg>]
+<images/photos/5/image0.jpeg, id=297, 971.3088pt x 728.4816pt>
+File: images/photos/5/image0.jpeg Graphic file (type jpg)
+<use images/photos/5/image0.jpeg>
+Package pdftex.def Info: images/photos/5/image0.jpeg  used on input line 312.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 312.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 312
+ []
+
+[37
+
+ <./images/photos/5/image0.jpeg>]
+<images/photos/5/image5.jpeg, id=305, 971.3088pt x 728.4816pt>
+File: images/photos/5/image5.jpeg Graphic file (type jpg)
+<use images/photos/5/image5.jpeg>
+Package pdftex.def Info: images/photos/5/image5.jpeg  used on input line 319.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 319.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 319
+ []
+
+[38
+
+ <./images/photos/5/image5.jpeg>]
+<images/photos/5/image4.jpeg, id=312, 971.3088pt x 728.4816pt>
+File: images/photos/5/image4.jpeg Graphic file (type jpg)
+<use images/photos/5/image4.jpeg>
+Package pdftex.def Info: images/photos/5/image4.jpeg  used on input line 326.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 326.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 326
+ []
+
+[39
+
+ <./images/photos/5/image4.jpeg>]
+<images/photos/5/image3.jpeg, id=320, 971.3088pt x 728.4816pt>
+File: images/photos/5/image3.jpeg Graphic file (type jpg)
+<use images/photos/5/image3.jpeg>
+Package pdftex.def Info: images/photos/5/image3.jpeg  used on input line 333.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 333.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 333
+ []
+
+[40
+
+ <./images/photos/5/image3.jpeg>]
+<images/photos/5/image2.jpeg, id=327, 971.3088pt x 728.4816pt>
+File: images/photos/5/image2.jpeg Graphic file (type jpg)
+<use images/photos/5/image2.jpeg>
+Package pdftex.def Info: images/photos/5/image2.jpeg  used on input line 340.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 340.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 340
+ []
+
+[41
+
+ <./images/photos/5/image2.jpeg>]
+<images/photos/5/image1.jpeg, id=334, 971.3088pt x 728.4816pt>
+File: images/photos/5/image1.jpeg Graphic file (type jpg)
+<use images/photos/5/image1.jpeg>
+Package pdftex.def Info: images/photos/5/image1.jpeg  used on input line 347.
+(pdftex.def)             Requested size: 307.28987pt x 230.47333pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 347.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+
+Overfull \vbox (23.66072pt too high) detected at line 347
+ []
+
+[42
+
+ <./images/photos/5/image1.jpeg>]
 \tf@nav=\write6
 \openout6 = `Meeting_13-04-22.nav'.
 
@@ -1488,31 +1934,32 @@ Package pdftex.def Info: images/visual_problem_neg.png  used on input line 165.
 \tf@snm=\write8
 \openout8 = `Meeting_13-04-22.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
  (./Meeting_13-04-22.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
 Package rerunfilecheck Info: File `Meeting_13-04-22.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30643 strings out of 483107
- 604543 string characters out of 5964631
- 871246 words of memory out of 5000000
- 44957 multiletter control sequences out of 15000+600000
- 542263 words of font info for 58 fonts, out of 8000000 for 9000
+ 30937 strings out of 483107
+ 610140 string characters out of 5964631
+ 872421 words of memory out of 5000000
+ 45173 multiletter control sequences out of 15000+600000
+ 546058 words of font info for 72 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  58i,13n,108p,1833b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.
 600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on Meeting_13-04-22.pdf (16 pages, 1621592 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on Meeting_13-04-22.pdf (42 pages, 35194064 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
