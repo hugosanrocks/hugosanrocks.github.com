@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Fault2SHA_Hugo-Sanchez_18-01-23.aux
+The style file: apalike.bst
+Database file #1: ../../biblio//bibliography.bib
+You've used 9 entries,
+            1935 wiz_defined-function locations,
+            546 strings with 6215 characters,
+and the built_in function-call counts, 4450 in all, are:
+= -- 425
+> -- 241
+< -- 3
++ -- 86
+- -- 86
+* -- 439
+:= -- 777
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 88
+chr.to.int$ -- 9
+cite$ -- 9
+duplicate$ -- 126
+empty$ -- 280
+format.name$ -- 99
+if$ -- 838
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 27
+pop$ -- 67
+preamble$ -- 1
+purify$ -- 88
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 356
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 0
+while$ -- 35
+width$ -- 0
+write$ -- 119

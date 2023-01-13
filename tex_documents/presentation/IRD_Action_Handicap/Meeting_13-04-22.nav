@@ -25,7 +25,7 @@
 \headcommand {\beamer@framepages {20}{21}}
 \headcommand {\beamer@sectionpages {3}{21}}
 \headcommand {\beamer@subsectionpages {3}{21}}
-\headcommand {\sectionentry {2}{Anectdote acad\'emique}{22}{Anectdote acad\'emique}{0}}
+\headcommand {\sectionentry {2}{Anecdote acad\'emique}{22}{Anecdote acad\'emique}{0}}
 \headcommand {\slideentry {2}{0}{1}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
 \headcommand {\slideentry {2}{0}{2}{23/27}{}{0}}
@@ -41,26 +41,32 @@
 \headcommand {\beamer@framepages {32}{32}}
 \headcommand {\slideentry {3}{0}{2}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {3}{0}{3}{34/34}{}{0}}
-\headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {3}{0}{4}{35/35}{}{0}}
-\headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {3}{0}{5}{36/36}{}{0}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {3}{0}{6}{37/37}{}{0}}
-\headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {3}{0}{7}{38/38}{}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {3}{0}{8}{39/39}{}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {3}{0}{9}{40/40}{}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {3}{0}{10}{41/41}{}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {3}{0}{11}{42/42}{}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@partpages {1}{42}}
-\headcommand {\beamer@subsectionpages {32}{42}}
-\headcommand {\beamer@sectionpages {32}{42}}
-\headcommand {\beamer@documentpages {42}}
-\headcommand {\gdef \inserttotalframenumber {23}}
+\headcommand {\slideentry {3}{0}{3}{34/42}{}{0}}
+\headcommand {\beamer@framepages {34}{42}}
+\headcommand {\slideentry {3}{0}{4}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {3}{0}{5}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {3}{0}{6}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {3}{0}{7}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {3}{0}{8}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {3}{0}{9}{48/48}{}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {3}{0}{10}{49/49}{}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {3}{0}{11}{50/50}{}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {3}{0}{12}{51/51}{}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {3}{0}{13}{52/52}{}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\slideentry {3}{0}{14}{53/53}{}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\beamer@partpages {1}{53}}
+\headcommand {\beamer@subsectionpages {32}{53}}
+\headcommand {\beamer@sectionpages {32}{53}}
+\headcommand {\beamer@documentpages {53}}
+\headcommand {\gdef \inserttotalframenumber {26}}
