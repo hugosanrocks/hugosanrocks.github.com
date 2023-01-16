@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  13 JAN 2023 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  16 JAN 2023 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1256,7 +1256,7 @@ Overfull \vbox (44.55656pt too high) detected at line 101
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/logo_all_pre
 sentation.pdf>] (./Fault2SHA_Hugo-Sanchez_18-01-23.toc)
-<../../logos/logo_irsn_neg.png, id=49, 1003.75pt x 340.27126pt>
+<../../logos/logo_irsn_neg.png, id=50, 1003.75pt x 340.27126pt>
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
 Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 108.
@@ -1286,7 +1286,7 @@ thkerncmss.
 [3
 
 ]
-<images/amatrice_1.pdf, id=65, 1215.79219pt x 728.74553pt>
+<images/amatrice_1.pdf, id=67, 1215.79219pt x 728.74553pt>
 File: images/amatrice_1.pdf Graphic file (type pdf)
 <use images/amatrice_1.pdf>
 Package pdftex.def Info: images/amatrice_1.pdf  used on input line 130.
@@ -1296,7 +1296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--130
 
  []
 
-<images/Map_Italy.png, id=67, 409.06834pt x 611.65097pt>
+<images/Map_Italy.png, id=69, 409.06834pt x 611.65097pt>
 File: images/Map_Italy.png Graphic file (type png)
 <use images/Map_Italy.png>
 Package pdftex.def Info: images/Map_Italy.png  used on input line 130.
@@ -1309,7 +1309,7 @@ Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 130.
 [4
 
  <./images/amatrice_1.pdf> <./images/Map_Italy.png>]
-<images/amatrice_2.pdf, id=89, 1215.79219pt x 728.74553pt>
+<images/amatrice_2.pdf, id=91, 1215.79219pt x 728.74553pt>
 File: images/amatrice_2.pdf Graphic file (type pdf)
 <use images/amatrice_2.pdf>
 Package pdftex.def Info: images/amatrice_2.pdf  used on input line 149.
@@ -1331,7 +1331,7 @@ Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 149.
 [5
 
  <./images/amatrice_2.pdf>]
-<images/amatrice_3.pdf, id=115, 1215.79219pt x 728.74553pt>
+<images/amatrice_3.pdf, id=117, 1215.79219pt x 728.74553pt>
 File: images/amatrice_3.pdf Graphic file (type pdf)
 <use images/amatrice_3.pdf>
 Package pdftex.def Info: images/amatrice_3.pdf  used on input line 169.
@@ -1353,7 +1353,7 @@ Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 169.
 [6
 
  <./images/amatrice_3.pdf>]
-<images/amatrice_4.pdf, id=141, 1215.79219pt x 728.74553pt>
+<images/amatrice_4.pdf, id=143, 1215.79219pt x 728.74553pt>
 File: images/amatrice_4.pdf Graphic file (type pdf)
 <use images/amatrice_4.pdf>
 Package pdftex.def Info: images/amatrice_4.pdf  used on input line 189.
@@ -1511,7 +1511,7 @@ Overfull \vbox (14.37369pt too high) detected at line 226
 ] [16
 
 ]
-<images/model_no_table.png, id=275, 1344.55814pt x 757.99464pt>
+<images/model_no_table.png, id=277, 1344.55814pt x 757.99464pt>
 File: images/model_no_table.png Graphic file (type png)
 <use images/model_no_table.png>
 Package pdftex.def Info: images/model_no_table.png  used on input line 251.
@@ -1638,25 +1638,176 @@ Overfull \vbox (36.65587pt too high) detected at line 251
 [22
 
 ]
-<images/static_analysis.png, id=331, 367.47458pt x 377.88635pt>
-File: images/static_analysis.png Graphic file (type png)
-<use images/static_analysis.png>
-Package pdftex.def Info: images/static_analysis.png  used on input line 264.
-(pdftex.def)             Requested size: 215.10196pt x 221.19812pt.
+<images/static_analysis.pdf, id=333, 595.25456pt x 377.88635pt>
+File: images/static_analysis.pdf Graphic file (type pdf)
+<use images/static_analysis.pdf>
+Package pdftex.def Info: images/static_analysis.pdf  used on input line 263.
+(pdftex.def)             Requested size: 307.28987pt x 195.0778pt.
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 264.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 263.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+ [23
+
+ <./images/static_analysis.pdf>] [24
+
+]
+<images/tests_shmax340.pdf, id=359, 280.75916pt x 148.31685pt>
+File: images/tests_shmax340.pdf Graphic file (type pdf)
+<use images/tests_shmax340.pdf>
+Package pdftex.def Info: images/tests_shmax340.pdf  used on input line 275.
+(pdftex.def)             Requested size: 307.28987pt x 162.33656pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 275.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+ [25
+
+ <./images/tests_shmax340.pdf>]
+<images/tests_shmax340_1plane.pdf, id=866, 280.75916pt x 148.31685pt>
+File: images/tests_shmax340_1plane.pdf Graphic file (type pdf)
+<use images/tests_shmax340_1plane.pdf>
+Package pdftex.def Info: images/tests_shmax340_1plane.pdf  used on input line 2
+91.
+(pdftex.def)             Requested size: 307.28987pt x 162.33656pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 291.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (22.38551pt too high) detected at line 264
+Overfull \vbox (18.28117pt too high) detected at line 291
  []
 
-[23
+[26
 
- <./images/static_analysis.png>] [24
+ <./images/tests_shmax340_1plane.pdf>]
+<images/tests_shmax340_1plane2.pdf, id=1477, 280.7083pt x 191.66483pt>
+File: images/tests_shmax340_1plane2.pdf Graphic file (type pdf)
+<use images/tests_shmax340_1plane2.pdf>
+Package pdftex.def Info: images/tests_shmax340_1plane2.pdf  used on input line 
+319.
+(pdftex.def)             Requested size: 138.2795pt x 94.41667pt.
+<images/tests_asym.pdf, id=1478, 413.04787pt x 345.58441pt>
+File: images/tests_asym.pdf Graphic file (type pdf)
+<use images/tests_asym.pdf>
+Package pdftex.def Info: images/tests_asym.pdf  used on input line 319.
+(pdftex.def)             Requested size: 138.2795pt x 115.69371pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 319.
 
-] (./Fault2SHA_Hugo-Sanchez_18-01-23.bbl) [25
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+
+Overfull \vbox (18.3464pt too high) detected at line 319
+ []
+
+[27
+
+ <./images/tests_shmax340_1plane2.pdf> <./images/tests_asym.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/tests_asym.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+File: images/tests_shmax340_1plane2.pdf Graphic file (type pdf)
+<use images/tests_shmax340_1plane2.pdf>
+Package pdftex.def Info: images/tests_shmax340_1plane2.pdf  used on input line 
+319.
+(pdftex.def)             Requested size: 138.2795pt x 94.41667pt.
+File: images/tests_asym.pdf Graphic file (type pdf)
+<use images/tests_asym.pdf>
+Package pdftex.def Info: images/tests_asym.pdf  used on input line 319.
+(pdftex.def)             Requested size: 138.2795pt x 115.69371pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 319.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+
+Overfull \vbox (18.3464pt too high) detected at line 319
+ []
+
+[28
+
+]
+File: images/tests_shmax340_1plane2.pdf Graphic file (type pdf)
+<use images/tests_shmax340_1plane2.pdf>
+Package pdftex.def Info: images/tests_shmax340_1plane2.pdf  used on input line 
+319.
+(pdftex.def)             Requested size: 138.2795pt x 94.41667pt.
+File: images/tests_asym.pdf Graphic file (type pdf)
+<use images/tests_asym.pdf>
+Package pdftex.def Info: images/tests_asym.pdf  used on input line 319.
+(pdftex.def)             Requested size: 138.2795pt x 115.69371pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 319.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+
+Overfull \vbox (18.3464pt too high) detected at line 319
+ []
+
+[29
+
+]
+File: images/tests_shmax340_1plane2.pdf Graphic file (type pdf)
+<use images/tests_shmax340_1plane2.pdf>
+Package pdftex.def Info: images/tests_shmax340_1plane2.pdf  used on input line 
+342.
+(pdftex.def)             Requested size: 138.2795pt x 94.41667pt.
+<images/tests_stress.pdf, id=2769, 409.06363pt x 248.76828pt>
+File: images/tests_stress.pdf Graphic file (type pdf)
+<use images/tests_stress.pdf>
+Package pdftex.def Info: images/tests_stress.pdf  used on input line 342.
+(pdftex.def)             Requested size: 138.2795pt x 84.09041pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 342.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+ [30
+
+ <./images/tests_stress.pdf>]
+File: images/tests_shmax340_1plane2.pdf Graphic file (type pdf)
+<use images/tests_shmax340_1plane2.pdf>
+Package pdftex.def Info: images/tests_shmax340_1plane2.pdf  used on input line 
+342.
+(pdftex.def)             Requested size: 138.2795pt x 94.41667pt.
+File: images/tests_stress.pdf Graphic file (type pdf)
+<use images/tests_stress.pdf>
+Package pdftex.def Info: images/tests_stress.pdf  used on input line 342.
+(pdftex.def)             Requested size: 138.2795pt x 84.09041pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 342.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+ [31
+
+]
+File: images/tests_shmax340_1plane2.pdf Graphic file (type pdf)
+<use images/tests_shmax340_1plane2.pdf>
+Package pdftex.def Info: images/tests_shmax340_1plane2.pdf  used on input line 
+342.
+(pdftex.def)             Requested size: 138.2795pt x 94.41667pt.
+File: images/tests_stress.pdf Graphic file (type pdf)
+<use images/tests_stress.pdf>
+Package pdftex.def Info: images/tests_stress.pdf  used on input line 342.
+(pdftex.def)             Requested size: 138.2795pt x 84.09041pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 342.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+ [32
+
+] [33
+
+]
+(./Fault2SHA_Hugo-Sanchez_18-01-23.bbl) [34
 
 ]
 \tf@nav=\write6
@@ -1668,37 +1819,43 @@ Overfull \vbox (22.38551pt too high) detected at line 264
 \tf@snm=\write8
 \openout8 = `Fault2SHA_Hugo-Sanchez_18-01-23.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
- (./Fault2SHA_Hugo-Sanchez_18-01-23.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
+
+(./Fault2SHA_Hugo-Sanchez_18-01-23.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
 Package rerunfilecheck Info: File `Fault2SHA_Hugo-Sanchez_18-01-23.out' has not
  changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30800 strings out of 483107
- 608360 string characters out of 5964631
- 875042 words of memory out of 5000000
- 45076 multiletter control sequences out of 15000+600000
- 545484 words of font info for 69 fonts, out of 8000000 for 9000
+ 30885 strings out of 483107
+ 610108 string characters out of 5964631
+ 875418 words of memory out of 5000000
+ 45136 multiletter control sequences out of 15000+600000
+ 546184 words of font info for 71 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  58i,13n,108p,1848b,820s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.
-600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0
-900.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf/fonts/t
-ype1/public/tex-gyre/qhvr.pfb>
-Output written on Fault2SHA_Hugo-Sanchez_18-01-23.pdf (25 pages, 10379425 bytes
+ </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.
+600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1
+000.600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/t
+css0900.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/q
+hvr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Fault2SHA_Hugo-Sanchez_18-01-23.pdf (34 pages, 10793886 bytes
 ).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 64 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3112 PDF objects out of 3580 (max. 8388607)
+ 2131 compressed objects within 22 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
