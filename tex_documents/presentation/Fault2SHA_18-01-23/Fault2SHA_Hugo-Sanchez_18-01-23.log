@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  17 JAN 2023 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.9)  17 JAN 2023 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2049,113 +2049,686 @@ Overfull \vbox (5.08585pt too high) detected at line 408
 [39
 
  <./images/horizontal_delta_00000c.pdf>]
-File: ../../logos/logo_irsn_neg.png Graphic file (type png)
-<use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 423.
-
-(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
- [40
-
-]
-<images/video_waves/horizontal_delta_00012.png, id=3438, 433.62pt x 289.08pt>
+<images/video_waves/horizontal_delta_00000.png, id=3431, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00000.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00000.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00000.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00000.png> <a0,fr0>
+<images/video_waves/horizontal_delta_00001.png, id=3443, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00001.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00001.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00001.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00001.png>
+<a0,fr1>
+<images/video_waves/horizontal_delta_00002.png, id=3454, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00002.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00002.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00002.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00002.png> <a0,fr2>
+<images/video_waves/horizontal_delta_00003.png, id=3465, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00003.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00003.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00003.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00003.png> <a0,fr3>
+<images/video_waves/horizontal_delta_00004.png, id=3476, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00004.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00004.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00004.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00004.png> <a0,fr4>
+<images/video_waves/horizontal_delta_00005.png, id=3487, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00005.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00005.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00005.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00005.png>
+<a0,fr5>
+<images/video_waves/horizontal_delta_00006.png, id=3498, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00006.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00006.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00006.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00006.png> <a0,fr6>
+<images/video_waves/horizontal_delta_00007.png, id=3509, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00007.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00007.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00007.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00007.png> <a0,fr7>
+<images/video_waves/horizontal_delta_00008.png, id=3520, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00008.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00008.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00008.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00008.png> <a0,fr8>
+<images/video_waves/horizontal_delta_00009.png, id=3531, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00009.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00009.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00009.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00009.png>
+<a0,fr9>
+<images/video_waves/horizontal_delta_00010.png, id=3542, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00010.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00010.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00010.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00010.png> <a0,fr10>
+<images/video_waves/horizontal_delta_00011.png, id=3553, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00011.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00011.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00011.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00011.png> <a0,fr11>
+<images/video_waves/horizontal_delta_00012.png, id=3564, 433.62pt x 289.08pt>
 File: images/video_waves/horizontal_delta_00012.png Graphic file (type png)
 <use images/video_waves/horizontal_delta_00012.png>
 Package pdftex.def Info: images/video_waves/horizontal_delta_00012.png  used on
- input line 434.
-(pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00012.png> <a0,fr12>
+<images/video_waves/horizontal_delta_00013.png, id=3575, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00013.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00013.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00013.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00013.png> <a0,fr13>
+<images/video_waves/horizontal_delta_00014.png, id=3586, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00014.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00014.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00014.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00014.png> <a0,fr14>
+<images/video_waves/horizontal_delta_00015.png, id=3597, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00015.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00015.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00015.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00015.png> <a0,fr15>
+<images/video_waves/horizontal_delta_00016.png, id=3608, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00016.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00016.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00016.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00016.png> <a0,fr16>
+<images/video_waves/horizontal_delta_00017.png, id=3619, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00017.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00017.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00017.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00017.png> <a0,fr17>
+<images/video_waves/horizontal_delta_00018.png, id=3630, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00018.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00018.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00018.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00018.png> <a0,fr18>
+<images/video_waves/horizontal_delta_00019.png, id=3641, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00019.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00019.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00019.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00019.png> <a0,fr19>
+<images/video_waves/horizontal_delta_00020.png, id=3652, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00020.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00020.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00020.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00020.png> <a0,fr20>
+<images/video_waves/horizontal_delta_00021.png, id=3663, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00021.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00021.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00021.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00021.png> <a0,fr21>
+<images/video_waves/horizontal_delta_00022.png, id=3674, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00022.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00022.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00022.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00022.png> <a0,fr22>
+<images/video_waves/horizontal_delta_00023.png, id=3685, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00023.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00023.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00023.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00023.png> <a0,fr23>
+<images/video_waves/horizontal_delta_00024.png, id=3696, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00024.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00024.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00024.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00024.png> <a0,fr24>
+<images/video_waves/horizontal_delta_00025.png, id=3707, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00025.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00025.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00025.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00025.png> <a0,fr25>
+<images/video_waves/horizontal_delta_00026.png, id=3719, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00026.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00026.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00026.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00026.png>
+<a0,fr26>
+<images/video_waves/horizontal_delta_00027.png, id=3730, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00027.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00027.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00027.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00027.png> <a0,fr27>
+<images/video_waves/horizontal_delta_00028.png, id=3741, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00028.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00028.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00028.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00028.png> <a0,fr28>
+<images/video_waves/horizontal_delta_00029.png, id=3752, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00029.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00029.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00029.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00029.png> <a0,fr29>
+<images/video_waves/horizontal_delta_00030.png, id=3763, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00030.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00030.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00030.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00030.png> <a0,fr30>
+<images/video_waves/horizontal_delta_00031.png, id=3774, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00031.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00031.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00031.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00031.png> <a0,fr31>
+<images/video_waves/horizontal_delta_00032.png, id=3785, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00032.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00032.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00032.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00032.png> <a0,fr32>
+<images/video_waves/horizontal_delta_00033.png, id=3796, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00033.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00033.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00033.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00033.png> <a0,fr33>
+<images/video_waves/horizontal_delta_00034.png, id=3807, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00034.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00034.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00034.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00034.png> <a0,fr34>
+<images/video_waves/horizontal_delta_00035.png, id=3818, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00035.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00035.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00035.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00035.png> <a0,fr35>
+<images/video_waves/horizontal_delta_00036.png, id=3829, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00036.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00036.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00036.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00036.png> <a0,fr36>
+<images/video_waves/horizontal_delta_00037.png, id=3840, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00037.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00037.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00037.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00037.png> <a0,fr37>
+<images/video_waves/horizontal_delta_00038.png, id=3851, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00038.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00038.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00038.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00038.png> <a0,fr38>
+<images/video_waves/horizontal_delta_00039.png, id=3862, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00039.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00039.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00039.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00039.png> <a0,fr39>
+<images/video_waves/horizontal_delta_00040.png, id=3873, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00040.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00040.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00040.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00040.png> <a0,fr40>
+<images/video_waves/horizontal_delta_00041.png, id=3884, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00041.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00041.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00041.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00041.png> <a0,fr41>
+<images/video_waves/horizontal_delta_00042.png, id=3895, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00042.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00042.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00042.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00042.png> <a0,fr42>
+<images/video_waves/horizontal_delta_00043.png, id=3906, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00043.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00043.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00043.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00043.png>
+<a0,fr43>
+<images/video_waves/horizontal_delta_00044.png, id=3917, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00044.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00044.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00044.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00044.png> <a0,fr44>
+<images/video_waves/horizontal_delta_00045.png, id=3928, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00045.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00045.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00045.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00045.png> <a0,fr45>
+<images/video_waves/horizontal_delta_00046.png, id=3939, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00046.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00046.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00046.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00046.png> <a0,fr46>
+<images/video_waves/horizontal_delta_00047.png, id=3950, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00047.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00047.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00047.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00047.png> <a0,fr47>
+<images/video_waves/horizontal_delta_00048.png, id=3961, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00048.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00048.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00048.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00048.png> <a0,fr48>
+<images/video_waves/horizontal_delta_00049.png, id=3972, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00049.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00049.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00049.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00049.png> <a0,fr49>
+<images/video_waves/horizontal_delta_00050.png, id=3983, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00050.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00050.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00050.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00050.png> <a0,fr50>
+<images/video_waves/horizontal_delta_00051.png, id=3995, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00051.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00051.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00051.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00051.png> <a0,fr51>
+<images/video_waves/horizontal_delta_00052.png, id=4006, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00052.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00052.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00052.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00052.png> <a0,fr52>
+<images/video_waves/horizontal_delta_00053.png, id=4017, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00053.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00053.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00053.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00053.png> <a0,fr53>
+<images/video_waves/horizontal_delta_00054.png, id=4028, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00054.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00054.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00054.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00054.png> <a0,fr54>
+<images/video_waves/horizontal_delta_00055.png, id=4039, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00055.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00055.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00055.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00055.png> <a0,fr55>
+<images/video_waves/horizontal_delta_00056.png, id=4050, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00056.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00056.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00056.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00056.png> <a0,fr56>
+<images/video_waves/horizontal_delta_00057.png, id=4061, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00057.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00057.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00057.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00057.png> <a0,fr57>
+<images/video_waves/horizontal_delta_00058.png, id=4072, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00058.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00058.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00058.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00058.png> <a0,fr58>
+<images/video_waves/horizontal_delta_00059.png, id=4083, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00059.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00059.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00059.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00059.png> <a0,fr59>
+<images/video_waves/horizontal_delta_00060.png, id=4094, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00060.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00060.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00060.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00060.png>
+<a0,fr60>
+<images/video_waves/horizontal_delta_00061.png, id=4105, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00061.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00061.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00061.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00061.png> <a0,fr61>
+<images/video_waves/horizontal_delta_00062.png, id=4116, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00062.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00062.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00062.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00062.png> <a0,fr62>
+<images/video_waves/horizontal_delta_00063.png, id=4127, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00063.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00063.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00063.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00063.png> <a0,fr63>
+<images/video_waves/horizontal_delta_00064.png, id=4138, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00064.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00064.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00064.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00064.png> <a0,fr64>
+<images/video_waves/horizontal_delta_00065.png, id=4149, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00065.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00065.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00065.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00065.png> <a0,fr65>
+<images/video_waves/horizontal_delta_00066.png, id=4160, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00066.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00066.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00066.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00066.png> <a0,fr66>
+<images/video_waves/horizontal_delta_00067.png, id=4171, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00067.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00067.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00067.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00067.png> <a0,fr67>
+<images/video_waves/horizontal_delta_00068.png, id=4182, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00068.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00068.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00068.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00068.png> <a0,fr68>
+<images/video_waves/horizontal_delta_00069.png, id=4193, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00069.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00069.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00069.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00069.png> <a0,fr69>
+<images/video_waves/horizontal_delta_00070.png, id=4204, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00070.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00070.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00070.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00070.png> <a0,fr70>
+<images/video_waves/horizontal_delta_00071.png, id=4215, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00071.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00071.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00071.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00071.png> <a0,fr71>
+<images/video_waves/horizontal_delta_00072.png, id=4226, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00072.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00072.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00072.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00072.png> <a0,fr72>
+<images/video_waves/horizontal_delta_00073.png, id=4237, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00073.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00073.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00073.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00073.png> <a0,fr73>
+<images/video_waves/horizontal_delta_00074.png, id=4248, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00074.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00074.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00074.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00074.png> <a0,fr74>
+<images/video_waves/horizontal_delta_00075.png, id=4259, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00075.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00075.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00075.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00075.png> <a0,fr75>
+<images/video_waves/horizontal_delta_00076.png, id=4271, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00076.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00076.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00076.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00076.png> <a0,fr76>
+<images/video_waves/horizontal_delta_00077.png, id=4282, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00077.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00077.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00077.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00077.png>
+<a0,fr77>
+<images/video_waves/horizontal_delta_00078.png, id=4293, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00078.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00078.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00078.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00078.png> <a0,fr78>
+<images/video_waves/horizontal_delta_00079.png, id=4304, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00079.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00079.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00079.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00079.png> <a0,fr79>
+<images/video_waves/horizontal_delta_00080.png, id=4315, 433.62pt x 289.08pt>
+File: images/video_waves/horizontal_delta_00080.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00080.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00080.png  used on
+ input line 427.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_waves/horizontal_delta_00080.png> <a0,fr80>
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 434.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 427.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (6.05627pt too high) detected at line 434
+Overfull \vbox (32.86166pt too high) detected at line 427
+ []
+
+[40
+
+]
+File: images/video_waves/horizontal_delta_00012.png Graphic file (type png)
+<use images/video_waves/horizontal_delta_00012.png>
+Package pdftex.def Info: images/video_waves/horizontal_delta_00012.png  used on
+ input line 438.
+(pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
+File: ../../logos/logo_irsn_neg.png Graphic file (type png)
+<use ../../logos/logo_irsn_neg.png>
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 438.
+
+(pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
+
+Overfull \vbox (6.05627pt too high) detected at line 438
  []
 
 [41
 
- <./images/video_waves/horizontal_delta_00012.png>]
-<images/video_waves/horizontal_delta_00013.png, id=3446, 433.62pt x 289.08pt>
+]
 File: images/video_waves/horizontal_delta_00013.png Graphic file (type png)
 <use images/video_waves/horizontal_delta_00013.png>
 Package pdftex.def Info: images/video_waves/horizontal_delta_00013.png  used on
- input line 445.
+ input line 449.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 445.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 449.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (6.05627pt too high) detected at line 445
+Overfull \vbox (6.05627pt too high) detected at line 449
  []
 
 [42
 
- <./images/video_waves/horizontal_delta_00013.png>]
-<images/video_waves/horizontal_delta_00014.png, id=3454, 433.62pt x 289.08pt>
+]
 File: images/video_waves/horizontal_delta_00014.png Graphic file (type png)
 <use images/video_waves/horizontal_delta_00014.png>
 Package pdftex.def Info: images/video_waves/horizontal_delta_00014.png  used on
- input line 456.
+ input line 460.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 456.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 460.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (6.05627pt too high) detected at line 456
+Overfull \vbox (6.05627pt too high) detected at line 460
  []
 
 [43
 
- <./images/video_waves/horizontal_delta_00014.png>]
-<images/video_waves/horizontal_delta_00015.png, id=3463, 433.62pt x 289.08pt>
+]
 File: images/video_waves/horizontal_delta_00015.png Graphic file (type png)
 <use images/video_waves/horizontal_delta_00015.png>
 Package pdftex.def Info: images/video_waves/horizontal_delta_00015.png  used on
- input line 467.
+ input line 471.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 467.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 471.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (6.05627pt too high) detected at line 467
+Overfull \vbox (6.05627pt too high) detected at line 471
  []
 
 [44
 
- <./images/video_waves/horizontal_delta_00015.png>]
-<images/video_waves/horizontal_delta_00080.png, id=3471, 433.62pt x 289.08pt>
+]
 File: images/video_waves/horizontal_delta_00080.png Graphic file (type png)
 <use images/video_waves/horizontal_delta_00080.png>
 Package pdftex.def Info: images/video_waves/horizontal_delta_00080.png  used on
- input line 481.
+ input line 485.
 (pdftex.def)             Requested size: 307.28987pt x 204.86888pt.
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 481.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 485.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (42.81113pt too high) detected at line 481
+Overfull \vbox (42.81113pt too high) detected at line 485
  []
 
 [45
 
- <./images/video_waves/horizontal_delta_00080.png>] [46
+] [46
 
 ]
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 512.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 516.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (27.40382pt too high) detected at line 512
+Overfull \vbox (27.40382pt too high) detected at line 516
  []
 
 [47
@@ -2163,11 +2736,11 @@ Overfull \vbox (27.40382pt too high) detected at line 512
 ]
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 512.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 516.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (27.40382pt too high) detected at line 512
+Overfull \vbox (27.40382pt too high) detected at line 516
  []
 
 [48
@@ -2175,11 +2748,11 @@ Overfull \vbox (27.40382pt too high) detected at line 512
 ]
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 512.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 516.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (27.40382pt too high) detected at line 512
+Overfull \vbox (27.40382pt too high) detected at line 516
  []
 
 [49
@@ -2187,11 +2760,11 @@ Overfull \vbox (27.40382pt too high) detected at line 512
 ]
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 512.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 516.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (27.40382pt too high) detected at line 512
+Overfull \vbox (27.40382pt too high) detected at line 516
  []
 
 [50
@@ -2199,11 +2772,11 @@ Overfull \vbox (27.40382pt too high) detected at line 512
 ]
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 512.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 516.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (27.40382pt too high) detected at line 512
+Overfull \vbox (27.40382pt too high) detected at line 516
  []
 
 [51
@@ -2211,11 +2784,11 @@ Overfull \vbox (27.40382pt too high) detected at line 512
 ]
 File: ../../logos/logo_irsn_neg.png Graphic file (type png)
 <use ../../logos/logo_irsn_neg.png>
-Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 512.
+Package pdftex.def Info: ../../logos/logo_irsn_neg.png  used on input line 516.
 
 (pdftex.def)             Requested size: 64.89377pt x 21.99994pt.
 
-Overfull \vbox (27.40382pt too high) detected at line 512
+Overfull \vbox (27.40382pt too high) detected at line 516
  []
 
 [52
@@ -2234,21 +2807,21 @@ Overfull \vbox (27.40382pt too high) detected at line 512
 \tf@snm=\write8
 \openout8 = `Fault2SHA_Hugo-Sanchez_18-01-23.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
 
 (./Fault2SHA_Hugo-Sanchez_18-01-23.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
 Package rerunfilecheck Info: File `Fault2SHA_Hugo-Sanchez_18-01-23.out' has not
  changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31090 strings out of 483107
- 614913 string characters out of 5964631
- 876311 words of memory out of 5000000
- 45286 multiletter control sequences out of 15000+600000
+ 32031 strings out of 483107
+ 650895 string characters out of 5964631
+ 888908 words of memory out of 5000000
+ 46150 multiletter control sequences out of 15000+600000
  550649 words of font info for 87 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  58i,13n,108p,1848b,820s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2267,11 +2840,11 @@ ts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Fault2SHA_Hugo-Sanchez_18-01-23.pdf (54 pages, 12427235 bytes
+Output written on Fault2SHA_Hugo-Sanchez_18-01-23.pdf (54 pages, 23520974 bytes
 ).
 PDF statistics:
- 3625 PDF objects out of 4296 (max. 8388607)
- 2486 compressed objects within 25 object streams
+ 4515 PDF objects out of 5155 (max. 8388607)
+ 2894 compressed objects within 29 object streams
  124 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
