@@ -1,0 +1,6 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Introduction: Les sources sismiques}{2}{0}{1}
+\beamer@sectionintoc {2}{Les mèthodes pour les imager}{6}{0}{2}
+\beamer@sectionintoc {3}{Comment les améliorer ?}{11}{0}{3}
+\beamer@sectionintoc {4}{L'impact des tremblements de terre}{14}{0}{4}
+\beamer@sectionintoc {5}{Projet de thèse ARTS IRD-IGP \\ (à commencer en 2023)}{16}{0}{5}
