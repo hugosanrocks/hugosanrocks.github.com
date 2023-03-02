@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Introduction: Colca Valley (Peru)}{3}{0}{1}
+\beamer@sectionintoc {2}{MT Survey by Svetlana Byrdina \\ (Volcanology Team) }{9}{0}{2}
+\beamer@sectionintoc {3}{Work by R. Machacca \& P. Lesage \\ (Volcanology Team) }{14}{0}{3}
