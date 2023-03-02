@@ -109,7 +109,8 @@
 
 \section{Introduction: Les sources sismiques}
 
-\begin{frame}{Seismic sources and why to study them?}
+\begin{frame}
+{Les sources sismique et pourquoi les étudier}
 
     \begin{center}
         \vskip -0.3cm \includegraphics[width=1\linewidth]{images/earthquake_whys_whats_1-1} \\     
@@ -118,7 +119,8 @@
 \end{frame}
 
 
-\begin{frame}{Seismic sources and why to study them?}
+\begin{frame}
+{Les sources sismique et pourquoi les étudier}
 
     \begin{center}
         \vskip -0.3cm \includegraphics[width=1\linewidth]{images/earthquake_whys_whats_2-1} \\     
@@ -128,7 +130,8 @@
 \end{frame}
 
 
-\begin{frame}{Seismic sources and why to study them?}
+\begin{frame}
+{Les sources sismique et pourquoi les étudier}
 
     \begin{center}
         \vskip -0.3cm \includegraphics[width=1\linewidth]{images/earthquake_whys_whats_3-1} \\     
@@ -138,10 +141,10 @@
 \end{frame}
 
 
-\section{Les mèthodes pour les imager}
+\section{Les méthodes pour les imager et comment les améliorer ?}
 
 \begin{frame}
- {Uncertainty estimation and model space exploration}
+ {Modèles, incertitudes, question scientifique et plan}
 
  \includegraphics[width=1\linewidth]{images/uncertainty_1.pdf}
  
@@ -149,98 +152,154 @@
 
 
 \begin{frame}
- {Uncertainty estimation and model space exploration}
+ {Modèles, incertitudes, question scientifique et plan}
 
+ \includegraphics[width=1\linewidth]{images/uncertainty_1-2.pdf}
+ \addtocounter{framenumber}{-1}
+ 
+\end{frame}
+
+
+\begin{frame}
+ {Modèles, incertitudes, question scientifique et plan}
+
+ \vskip 0cm
  \includegraphics[width=1\linewidth]{images/uncertainty_2.pdf}
  \addtocounter{framenumber}{-1}
  
 \end{frame}
 
-
 \begin{frame}
- {Uncertainty estimation and model space exploration}
+ {Modèles, incertitudes, question scientifique et plan}
 
  \vskip 0cm
- \includegraphics[width=1\linewidth]{images/uncertainty_3.pdf}
+ \includegraphics[width=1\linewidth]{images/uncertainty_2-2.pdf}
  \addtocounter{framenumber}{-1}
  
 \end{frame}
 
+
 \begin{frame}
- {Uncertainty estimation and model space exploration}
+ {Modèles, incertitudes, question scientifique et plan}
+
+ \vskip -0cm
+ \includegraphics[width=1\linewidth]{images/uncertainty_3.pdf}
+ \begin{center}
+ \end{center}
+ \addtocounter{framenumber}{-1}
+ 
+\end{frame}
+
+
+\begin{frame}
+ {Modèles, incertitudes, question scientifique et plan}
 
  \vskip -0cm
  \includegraphics[width=1\linewidth]{images/uncertainty_4.pdf}
- \begin{center}
- {\bf I know bayesian strategies (Hamiltonian Monte Carlo) from applied maths wich I can implement to tackle this problem}
- \end{center}
- \hfill (S\'anchez-Reyes H., PhD. Thesis)
+ \vskip -0.3cm {\bf Plan :} \\
+ {\bf \small Je vais appliquer les stratégies bayésiennes (Hamiltonian Monte Carlo) pour aborder ce problème. Je vais utiliser toutes les informations disponibles à cet effet.} \\
+ \hfill {\scriptsize basé sur S\'anchez-Reyes et al. (2018)}
  \addtocounter{framenumber}{-1}
  
 \end{frame}
 
-
-\section{Comment les améliorer ?}
-
-
-\begin{frame}
- {En tenant compte des conditions physiques}
-
-Conditions physiques favorisant le saut de la rupture sismique ?
-
-\begin{minipage}{0.5\linewidth}
-  \hskip -3cm	\animategraphics[autoplay,loop,width=1.7\textwidth]{1}{images/video_jump/fig_0}{00}{00} 
-\end{minipage}
-\begin{minipage}{0.48\linewidth}
-\vskip -0.7cm Caractéristiques en exploration :
-\vskip 0.1cm
-\begin{itemize}
- \item Champ de contraintes
- \item Géométrie
- \item Inertie
- \item Un mélange de tous
-\end{itemize}
-
-\end{minipage}
-
-\end{frame}
-
-
-\begin{frame}
- {En tenant compte des conditions physiques}
-
-Conditions physiques favorisant le saut de la rupture sismique ?
-
-\begin{minipage}{0.5\linewidth}
-  \hskip -3cm	\animategraphics[autoplay,loop,width=1.7\textwidth]{1}{images/video_jump/fig_0}{00}{00} %27 
-\end{minipage}
-\begin{minipage}{0.48\linewidth}
-\vskip -0.7cm Caractéristiques en exploration :
-\vskip 0.1cm
-\begin{itemize}
- \item Champ de contraintes
- \item Géométrie
- \item Inertie
- \item Un mélange de tous
-\end{itemize}
-
-\end{minipage}
-
-\end{frame}
 
 \section{L'impact des tremblements de terre}
 
 \begin{frame}
- 
- \begin{minipage}{0.45\linewidth}
-  \includegraphics[width=1.5\linewidth]{images/Map_Turkey}
- \end{minipage}
+ {En tenant compte des conditions physiques}
 
+{\bf Conditions physiques favorisant le saut d'une rupture ?}
+
+\begin{minipage}{0.48\linewidth}
+\vskip 0.2cm
+\centering Géométrie de la séquence \\
+2016 Norcia-Amatricede la sequence \\
+\vskip 0.1cm
+\includegraphics[width=0.7\linewidth]{images/Map_Italy.png}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+\vskip 0.3cm
+\begin{center}
+Simulation simple et idéalisée \\
+\end{center}
+\vskip -1cm  \hskip -3cm	\animategraphics[autoplay,loop,width=1.7\textwidth]{1}{images/video_jump/fig_0}{00}{00}
+\begin{center}
+\vskip -0.7cm {\small s'il saut : \\ séisme plus grand $\longrightarrow$ risque majeur }
+\end{center}
+
+%\centering  2016 Norcia-Amatrice EQs ()
+%\includegraphics[width=0.6\linewidth]{images/Map_Italy.png}
+\end{minipage}
+
+\end{frame}
+
+
+\begin{frame}
+ {En tenant compte des conditions physiques}
+
+{\bf Conditions physiques favorisant le saut d'une rupture ?}
+
+\begin{minipage}{0.5\linewidth}
+  \hskip -3cm	\animategraphics[autoplay,loop,width=1.7\textwidth]{1}{images/video_jump/fig_0}{00}{27} %27 
+\end{minipage}
+\begin{minipage}{0.48\linewidth}
+\vskip -0.7cm Caractéristiques en exploration :
+\vskip 0.1cm
+\begin{itemize}
+ \item Champ de contraintes
+ \item Géométrie
+ \item Inertie
+ \item Un mélange de tous
+\end{itemize}
+\end{minipage} \\
+\hfill \small en préparation Sánchez-Reyes et al. (2023)
+\addtocounter{framenumber}{-1}
+
+\end{frame}
+
+
+\begin{frame}
+ {Séismes en Turquie-Syrie, Février 2023}
+ 
+% \begin{minipage}{0.45\linewidth}
+\begin{center}
+ \includegraphics[width=0.65\linewidth]{images/Map_Turkey} \\
+\end{center} 
+Données USGS (mars 2023) \\
+\vskip -0.2cm
+\hfill {\scriptsize bilan actuel $>$50K morts}
+% \end{minipage}
  
 \end{frame}
 
 
 \section{Projet de thèse ARTS IRD-IGP \\ (à commencer en 2023)}
+
+\begin{frame}
+ {La Vallée de Colca : grands séismes historiques}
+
+ \begin{center}
+ \vskip -0.5cm  \includegraphics[width=0.9\linewidth]{images/red_colca_hist.png}  \\  
+ \end{center}
+
+ \hfill {\bf \small Merci à notre partenaire : Instituto Geofísico del Perú}
+
+\end{frame}
+
+\begin{frame}
+ {La Vallée de Colca: Sismicité importante (Mw$>$3)}
+ 
+
+ \begin{center}
+  \vskip -0.5cm \includegraphics[width=0.9\linewidth]{images/red_colca_large.png}  \\
+  Avril 2015 - Juin 2018  
+ \end{center}
+
+ \hfill {\bf \small Merci à notre partenaire : Instituto Geofísico del Perú}
+ 
+\end{frame}
+
 
 
 \end{document}
