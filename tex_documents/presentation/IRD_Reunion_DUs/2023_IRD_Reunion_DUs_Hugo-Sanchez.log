@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.3.1)  2 MAR 2023 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.3.1)  3 MAR 2023 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1354,113 +1354,113 @@ File: images/earthquake_whys_whats_1-1.png Graphic file (type png)
 Package pdftex.def Info: images/earthquake_whys_whats_1-1.png  used on input li
 ne 119.
 (pdftex.def)             Requested size: 307.28987pt x 156.94243pt.
-<../../logos/ISTerre_neg.pdf, id=45, 591.8913pt x 344.7279pt>
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 119.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+<../../logos/IRD_neg.png, id=45, 361.35pt x 297.11pt>
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 119.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [3
 
- <../../logos/ISTerre_neg.pdf> <./images/earthquake_whys_whats_1-1.png>]
-<images/earthquake_whys_whats_2-1.png, id=60, 1229.97981pt x 633.7523pt>
+ <../../logos/IRD_neg.png> <./images/earthquake_whys_whats_1-1.png>]
+<images/earthquake_whys_whats_2-1.png, id=54, 1229.97981pt x 633.7523pt>
 File: images/earthquake_whys_whats_2-1.png Graphic file (type png)
 <use images/earthquake_whys_whats_2-1.png>
 Package pdftex.def Info: images/earthquake_whys_whats_2-1.png  used on input li
 ne 130.
 (pdftex.def)             Requested size: 307.28987pt x 158.3313pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 130.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 130.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
 [4
 
  <./images/earthquake_whys_whats_2-1.png>]
-<images/earthquake_whys_whats_3-1.png, id=68, 1229.97981pt x 633.7523pt>
+<images/earthquake_whys_whats_3-1.png, id=62, 1229.97981pt x 633.7523pt>
 File: images/earthquake_whys_whats_3-1.png Graphic file (type png)
 <use images/earthquake_whys_whats_3-1.png>
 Package pdftex.def Info: images/earthquake_whys_whats_3-1.png  used on input li
 ne 141.
 (pdftex.def)             Requested size: 307.28987pt x 158.3313pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 141.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 141.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [5
 
  <./images/earthquake_whys_whats_3-1.png>] [6
 
 ]
-<images/uncertainty_1.pdf, id=85, 1052.20998pt x 504.47968pt>
+<images/uncertainty_1.pdf, id=79, 1052.20998pt x 504.47968pt>
 File: images/uncertainty_1.pdf Graphic file (type pdf)
 <use images/uncertainty_1.pdf>
 Package pdftex.def Info: images/uncertainty_1.pdf  used on input line 151.
 (pdftex.def)             Requested size: 307.28987pt x 147.32684pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 151.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 151.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [7
 
  <./images/uncertainty_1.pdf>]
-<images/uncertainty_1-2.pdf, id=141, 1052.20998pt x 504.47968pt>
+<images/uncertainty_1-2.pdf, id=135, 1052.20998pt x 504.47968pt>
 File: images/uncertainty_1-2.pdf Graphic file (type pdf)
 <use images/uncertainty_1-2.pdf>
 Package pdftex.def Info: images/uncertainty_1-2.pdf  used on input line 160.
 (pdftex.def)             Requested size: 307.28987pt x 147.32684pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 160.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 160.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [8
 
  <./images/uncertainty_1-2.pdf>]
-<images/uncertainty_2.pdf, id=195, 1052.20998pt x 504.47968pt>
+<images/uncertainty_2.pdf, id=189, 1052.20998pt x 504.47968pt>
 File: images/uncertainty_2.pdf Graphic file (type pdf)
 <use images/uncertainty_2.pdf>
 Package pdftex.def Info: images/uncertainty_2.pdf  used on input line 170.
 (pdftex.def)             Requested size: 307.28987pt x 147.32684pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 170.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 170.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [9
 
  <./images/uncertainty_2.pdf>]
-<images/uncertainty_2-2.pdf, id=575, 1052.20998pt x 504.47968pt>
+<images/uncertainty_2-2.pdf, id=569, 1052.20998pt x 504.47968pt>
 File: images/uncertainty_2-2.pdf Graphic file (type pdf)
 <use images/uncertainty_2-2.pdf>
 Package pdftex.def Info: images/uncertainty_2-2.pdf  used on input line 179.
 (pdftex.def)             Requested size: 307.28987pt x 147.32684pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 179.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 179.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [10
 
  <./images/uncertainty_2-2.pdf>]
-<images/uncertainty_3.pdf, id=1340, 1052.20998pt x 504.47968pt>
+<images/uncertainty_3.pdf, id=1802, 1052.20998pt x 504.47968pt>
 File: images/uncertainty_3.pdf Graphic file (type pdf)
 <use images/uncertainty_3.pdf>
 Package pdftex.def Info: images/uncertainty_3.pdf  used on input line 191.
 (pdftex.def)             Requested size: 307.28987pt x 147.32684pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 191.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 191.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
 [11
 
  <./images/uncertainty_3.pdf>]
-<images/uncertainty_4.pdf, id=1739, 1052.20998pt x 504.47968pt>
+<images/uncertainty_4.pdf, id=2201, 1052.20998pt x 504.47968pt>
 File: images/uncertainty_4.pdf Graphic file (type pdf)
 <use images/uncertainty_4.pdf>
 Package pdftex.def Info: images/uncertainty_4.pdf  used on input line 204.
 (pdftex.def)             Requested size: 307.28987pt x 147.32684pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 204.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 204.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
 Overfull \vbox (17.65295pt too high) detected at line 204
  []
@@ -1470,12 +1470,12 @@ Overfull \vbox (17.65295pt too high) detected at line 204
  <./images/uncertainty_4.pdf>] [13
 
 ]
-<images/Map_Italy.png, id=2539, 549.05125pt x 830.10126pt>
+<images/Map_Italy.png, id=3001, 549.05125pt x 830.10126pt>
 File: images/Map_Italy.png Graphic file (type png)
 <use images/Map_Italy.png>
 Package pdftex.def Info: images/Map_Italy.png  used on input line 235.
-(pdftex.def)             Requested size: 103.24802pt x 156.0996pt.
-<images/video_jump/fig_000.png, id=2540, 433.62pt x 289.08pt>
+(pdftex.def)             Requested size: 98.94833pt x 149.58911pt.
+<images/video_jump/fig_000.png, id=3002, 433.62pt x 289.08pt>
 File: images/video_jump/fig_000.png Graphic file (type png)
 <use images/video_jump/fig_000.png>
 Package pdftex.def Info: images/video_jump/fig_000.png  used on input line 235.
@@ -1483,287 +1483,107 @@ Package pdftex.def Info: images/video_jump/fig_000.png  used on input line 235.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
  <./images/video_jump/fig_000.png>
 <a0,fr0>
-Overfull \hbox (22.20299pt too wide) in paragraph at lines 235--235
+Overfull \hbox (26.50995pt too wide) in paragraph at lines 235--235
  [][][] 
  []
 
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 235.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 235.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (23.08015pt too high) detected at line 235
+Overfull \vbox (17.82225pt too high) detected at line 235
  []
 
 [14
 
  <./images/Map_Italy.png>] <a1,fr0>
-<images/video_jump/fig_001.png, id=2568, 433.62pt x 289.08pt>
-File: images/video_jump/fig_001.png Graphic file (type png)
-<use images/video_jump/fig_001.png>
-Package pdftex.def Info: images/video_jump/fig_001.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_001.png>
-<a1,fr1>
-<images/video_jump/fig_002.png, id=2579, 433.62pt x 289.08pt>
-File: images/video_jump/fig_002.png Graphic file (type png)
-<use images/video_jump/fig_002.png>
-Package pdftex.def Info: images/video_jump/fig_002.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_002.png> <a1,fr2>
-<images/video_jump/fig_003.png, id=2590, 433.62pt x 289.08pt>
-File: images/video_jump/fig_003.png Graphic file (type png)
-<use images/video_jump/fig_003.png>
-Package pdftex.def Info: images/video_jump/fig_003.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_003.png> <a1,fr3>
-<images/video_jump/fig_004.png, id=2601, 433.62pt x 289.08pt>
-File: images/video_jump/fig_004.png Graphic file (type png)
-<use images/video_jump/fig_004.png>
-Package pdftex.def Info: images/video_jump/fig_004.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_004.png> <a1,fr4>
-<images/video_jump/fig_005.png, id=2612, 433.62pt x 289.08pt>
-File: images/video_jump/fig_005.png Graphic file (type png)
-<use images/video_jump/fig_005.png>
-Package pdftex.def Info: images/video_jump/fig_005.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_005.png> <a1,fr5>
-<images/video_jump/fig_006.png, id=2623, 433.62pt x 289.08pt>
-File: images/video_jump/fig_006.png Graphic file (type png)
-<use images/video_jump/fig_006.png>
-Package pdftex.def Info: images/video_jump/fig_006.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_006.png> <a1,fr6>
-<images/video_jump/fig_007.png, id=2634, 433.62pt x 289.08pt>
-File: images/video_jump/fig_007.png Graphic file (type png)
-<use images/video_jump/fig_007.png>
-Package pdftex.def Info: images/video_jump/fig_007.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_007.png> <a1,fr7>
-<images/video_jump/fig_008.png, id=2645, 433.62pt x 289.08pt>
-File: images/video_jump/fig_008.png Graphic file (type png)
-<use images/video_jump/fig_008.png>
-Package pdftex.def Info: images/video_jump/fig_008.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_008.png> <a1,fr8>
-<images/video_jump/fig_009.png, id=2656, 433.62pt x 289.08pt>
-File: images/video_jump/fig_009.png Graphic file (type png)
-<use images/video_jump/fig_009.png>
-Package pdftex.def Info: images/video_jump/fig_009.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_009.png> <a1,fr9>
-<images/video_jump/fig_010.png, id=2667, 433.62pt x 289.08pt>
-File: images/video_jump/fig_010.png Graphic file (type png)
-<use images/video_jump/fig_010.png>
-Package pdftex.def Info: images/video_jump/fig_010.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_010.png>
-<a1,fr10>
-<images/video_jump/fig_011.png, id=2678, 433.62pt x 289.08pt>
-File: images/video_jump/fig_011.png Graphic file (type png)
-<use images/video_jump/fig_011.png>
-Package pdftex.def Info: images/video_jump/fig_011.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_011.png> <a1,fr11>
-<images/video_jump/fig_012.png, id=2690, 433.62pt x 289.08pt>
-File: images/video_jump/fig_012.png Graphic file (type png)
-<use images/video_jump/fig_012.png>
-Package pdftex.def Info: images/video_jump/fig_012.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_012.png> <a1,fr12>
-<images/video_jump/fig_013.png, id=2701, 433.62pt x 289.08pt>
-File: images/video_jump/fig_013.png Graphic file (type png)
-<use images/video_jump/fig_013.png>
-Package pdftex.def Info: images/video_jump/fig_013.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_013.png> <a1,fr13>
-<images/video_jump/fig_014.png, id=2712, 433.62pt x 289.08pt>
-File: images/video_jump/fig_014.png Graphic file (type png)
-<use images/video_jump/fig_014.png>
-Package pdftex.def Info: images/video_jump/fig_014.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_014.png> <a1,fr14>
-<images/video_jump/fig_015.png, id=2723, 433.62pt x 289.08pt>
-File: images/video_jump/fig_015.png Graphic file (type png)
-<use images/video_jump/fig_015.png>
-Package pdftex.def Info: images/video_jump/fig_015.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_015.png> <a1,fr15>
-<images/video_jump/fig_016.png, id=2734, 433.62pt x 289.08pt>
-File: images/video_jump/fig_016.png Graphic file (type png)
-<use images/video_jump/fig_016.png>
-Package pdftex.def Info: images/video_jump/fig_016.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_016.png> <a1,fr16>
-<images/video_jump/fig_017.png, id=2745, 433.62pt x 289.08pt>
-File: images/video_jump/fig_017.png Graphic file (type png)
-<use images/video_jump/fig_017.png>
-Package pdftex.def Info: images/video_jump/fig_017.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_017.png>
-<a1,fr17>
-<images/video_jump/fig_018.png, id=2756, 433.62pt x 289.08pt>
-File: images/video_jump/fig_018.png Graphic file (type png)
-<use images/video_jump/fig_018.png>
-Package pdftex.def Info: images/video_jump/fig_018.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_018.png> <a1,fr18>
-<images/video_jump/fig_019.png, id=2767, 433.62pt x 289.08pt>
-File: images/video_jump/fig_019.png Graphic file (type png)
-<use images/video_jump/fig_019.png>
-Package pdftex.def Info: images/video_jump/fig_019.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_019.png> <a1,fr19>
-<images/video_jump/fig_020.png, id=2778, 433.62pt x 289.08pt>
-File: images/video_jump/fig_020.png Graphic file (type png)
-<use images/video_jump/fig_020.png>
-Package pdftex.def Info: images/video_jump/fig_020.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_020.png> <a1,fr20>
-<images/video_jump/fig_021.png, id=2789, 433.62pt x 289.08pt>
-File: images/video_jump/fig_021.png Graphic file (type png)
-<use images/video_jump/fig_021.png>
-Package pdftex.def Info: images/video_jump/fig_021.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_021.png> <a1,fr21>
-<images/video_jump/fig_022.png, id=2800, 433.62pt x 289.08pt>
-File: images/video_jump/fig_022.png Graphic file (type png)
-<use images/video_jump/fig_022.png>
-Package pdftex.def Info: images/video_jump/fig_022.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_022.png> <a1,fr22>
-<images/video_jump/fig_023.png, id=2811, 433.62pt x 289.08pt>
-File: images/video_jump/fig_023.png Graphic file (type png)
-<use images/video_jump/fig_023.png>
-Package pdftex.def Info: images/video_jump/fig_023.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_023.png> <a1,fr23>
-<images/video_jump/fig_024.png, id=2822, 433.62pt x 289.08pt>
-File: images/video_jump/fig_024.png Graphic file (type png)
-<use images/video_jump/fig_024.png>
-Package pdftex.def Info: images/video_jump/fig_024.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_024.png>
-<a1,fr24>
-<images/video_jump/fig_025.png, id=2833, 433.62pt x 289.08pt>
-File: images/video_jump/fig_025.png Graphic file (type png)
-<use images/video_jump/fig_025.png>
-Package pdftex.def Info: images/video_jump/fig_025.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_025.png> <a1,fr25>
-<images/video_jump/fig_026.png, id=2844, 433.62pt x 289.08pt>
-File: images/video_jump/fig_026.png Graphic file (type png)
-<use images/video_jump/fig_026.png>
-Package pdftex.def Info: images/video_jump/fig_026.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_026.png> <a1,fr26>
-<images/video_jump/fig_027.png, id=2855, 433.62pt x 289.08pt>
-File: images/video_jump/fig_027.png Graphic file (type png)
-<use images/video_jump/fig_027.png>
-Package pdftex.def Info: images/video_jump/fig_027.png  used on input line 259.
-
-(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- <./images/video_jump/fig_027.png> <a1,fr27>
-Overfull \hbox (22.20299pt too wide) in paragraph at lines 259--259
-[] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (18.66173pt too wide) in paragraph at lines 262--262
+[] [][][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-259.
+262.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 259.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 262.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (1.56894pt too high) detected at line 259
+Overfull \vbox (5.04921pt too high) detected at line 262
  []
 
 [15
 
 ]
+<images/Lima1.jpeg, id=3041, 1204.5pt x 1606.0pt>
+File: images/Lima1.jpeg Graphic file (type jpg)
+<use images/Lima1.jpeg>
+Package pdftex.def Info: images/Lima1.jpeg  used on input line 288.
+(pdftex.def)             Requested size: 92.1879pt x 122.89536pt.
+<images/Lima4.jpeg, id=3042, 1541.76pt x 2055.68pt>
+File: images/Lima4.jpeg Graphic file (type jpg)
+<use images/Lima4.jpeg>
+Package pdftex.def Info: images/Lima4.jpeg  used on input line 288.
+(pdftex.def)             Requested size: 92.1879pt x 122.89633pt.
+<images/Lima3.jpeg, id=3043, 2055.68pt x 1541.76pt>
+File: images/Lima3.jpeg Graphic file (type jpg)
+<use images/Lima3.jpeg>
+Package pdftex.def Info: images/Lima3.jpeg  used on input line 288.
+(pdftex.def)             Requested size: 92.1879pt x 69.14095pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 288.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [16
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/Map_Turkey.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<images/Map_Turkey.pdf, id=2878, 411.43712pt x 376.40625pt>
-File: images/Map_Turkey.pdf Graphic file (type pdf)
-<use images/Map_Turkey.pdf>
-Package pdftex.def Info: images/Map_Turkey.pdf  used on input line 274.
-(pdftex.def)             Requested size: 199.73653pt x 182.73485pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 274.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
-
-Overfull \vbox (15.49164pt too high) detected at line 274
- []
-
-[16
-
- <./images/Map_Turkey.pdf>] [17
+ <./images/Lima1.jpeg> <./images/Lima4.jpeg> <./images/Lima3.jpeg>]
+[17
 
 ]
-<images/red_colca_hist.png, id=2908, 1642.5pt x 1149.75pt>
+<images/red_colca_hist.png, id=3059, 1642.5pt x 1149.75pt>
 File: images/red_colca_hist.png Graphic file (type png)
 <use images/red_colca_hist.png>
-Package pdftex.def Info: images/red_colca_hist.png  used on input line 288.
+Package pdftex.def Info: images/red_colca_hist.png  used on input line 305.
 (pdftex.def)             Requested size: 276.559pt x 193.57773pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 288.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 305.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (3.59813pt too high) detected at line 288
+Overfull \vbox (35.79796pt too high) detected at line 305
  []
 
 [18
 
  <./images/red_colca_hist.png>]
-<images/red_colca_large.png, id=2916, 1642.5pt x 1149.75pt>
+<images/red_colca_large.png, id=3067, 1642.5pt x 1149.75pt>
 File: images/red_colca_large.png Graphic file (type png)
 <use images/red_colca_large.png>
-Package pdftex.def Info: images/red_colca_large.png  used on input line 301.
+Package pdftex.def Info: images/red_colca_large.png  used on input line 318.
 (pdftex.def)             Requested size: 276.559pt x 193.57773pt.
-File: ../../logos/ISTerre_neg.pdf Graphic file (type pdf)
-<use ../../logos/ISTerre_neg.pdf>
-Package pdftex.def Info: ../../logos/ISTerre_neg.pdf  used on input line 301.
-(pdftex.def)             Requested size: 37.76982pt x 21.99994pt.
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 318.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (19.23805pt too high) detected at line 301
+Overfull \vbox (19.23805pt too high) detected at line 318
  []
 
 [19
 
  <./images/red_colca_large.png>]
+File: ../../logos/IRD_neg.png Graphic file (type png)
+<use ../../logos/IRD_neg.png>
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 328.
+(pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
+ [20
+
+] [21
+
+]
 \tf@nav=\write6
 \openout6 = `2023_IRD_Reunion_DUs_Hugo-Sanchez.nav'.
 
@@ -1773,38 +1593,40 @@ Overfull \vbox (19.23805pt too high) detected at line 301
 \tf@snm=\write8
 \openout8 = `2023_IRD_Reunion_DUs_Hugo-Sanchez.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
- (./2023_IRD_Reunion_DUs_Hugo-Sanchez.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
+
+(./2023_IRD_Reunion_DUs_Hugo-Sanchez.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
 Package rerunfilecheck Info: File `2023_IRD_Reunion_DUs_Hugo-Sanchez.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32163 strings out of 482504
- 632180 string characters out of 5947331
- 889812 words of memory out of 5000000
- 46459 multiletter control sequences out of 15000+600000
- 547406 words of font info for 77 fonts, out of 8000000 for 9000
+ 31885 strings out of 482504
+ 623683 string characters out of 5947331
+ 889855 words of memory out of 5000000
+ 46198 multiletter control sequences out of 15000+600000
+ 548652 words of font info for 81 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
- 58i,13n,108p,1850b,778s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.
-600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf/fonts/type1/pub
-lic/tex-gyre/qhvr.pfb>
-Output written on 2023_IRD_Reunion_DUs_Hugo-Sanchez.pdf (19 pages, 16501791 byt
-es).
+ 58i,13n,108p,1850b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.
+600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1
+095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf/fonts/type
+1/public/tex-gyre/qhvr.pfb>
+Output written on 2023_IRD_Reunion_DUs_Hugo-Sanchez.pdf (21 pages, 6856836 byte
+s).
 PDF statistics:
- 2971 PDF objects out of 2984 (max. 8388607)
- 1884 compressed objects within 19 object streams
- 43 named destinations out of 1000 (max. 500000)
- 962 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3141 PDF objects out of 3580 (max. 8388607)
+ 2061 compressed objects within 21 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
