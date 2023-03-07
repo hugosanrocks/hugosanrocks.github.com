@@ -1,0 +1,42 @@
+
+=================================================
+Slide 1
+
+Tout d'abord, merci de m'avoir invité à vous présenter mes travaux de recherche. Je suis Hugo Sánchez et dans cette présentation je vais vous parler de comment une meilleure connaissance des sources sismiques peut nous aider à réduire leur impact.
+
+Mon travail de recherche est consacré à étudier, analyser et comprendre les source sismiques. Donc, je travaille pour répondre aux question:
+C'est quoi un tremblement de terre ?
+Pourquoi est-ce arrivé ?
+Quelles caracteristiques avait il ?
+
+Pour y répondre, j'analyse certains type des données: sismograms, images satllites, deplacements GPS avec des gross ordinateurs, équations, méthodes. 
+
+Finalement, Le but du jeu c'est de utiliser c'est que j'apprnds et comprends sur les sources sismique pour le rendre utile à la société, ... par example, pour mieux estimer l'alea sismique d'un endroit quelquonc. 
+
+
+==================================
+Slide 2
+
+Une modèle de source essaie de décrire l'evolution du glissemt qui a eu lieu sur une surface (qu'on appele la faille) qui represente l'interface de contact entre deux bloques lequels ont été en mouvement relatif entre eux. 
+
+'Grâce aux équations de la physiques des ondes, c'est possible estimer le mouvement qui pourrait être produit par une source sismique qui respecte l'evolution que nous avons modelisé. La comparaison entre les données observées (sismograms, gps, etc.) et le mouvement synthetic estimé, est donc utilisé comme indicatif de la distance qui existe entre le modèle de source modelisé et la rupture réele.
+
+Ce modèle créé peut être construit selon different techniques, approximations et types de données, étant les trois principales 
+
+Statique
+Cinematique
+Dynamique
+
+Chacun prends en compte different parametres, types des données et regard temporaires et physique.
+
+Le grand problème actuelement dans cet domaine est que pour un seul trembleument de terre nous avons autant modèles de source sismique differents que auteurs des modèles. Ici, par exemple, je vous montre la distribution du glissement final sur la faille proposée par 4 groupes de travail differents pour le tremblement de Landers en 1992. 
+
+Cette difference étonant me permets d'arriver à ma question scientique: 
+Comment, pourquoi et où s'est passé le glissement ?
+
+
+
+
+
+
+
