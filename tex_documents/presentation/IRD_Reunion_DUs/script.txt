@@ -34,6 +34,49 @@ Le grand problème actuelement dans cet domaine est que pour un seul trembleumen
 Cette difference étonant me permets d'arriver à ma question scientique: 
 Comment, pourquoi et où s'est passé le glissement ?
 
+En raison de cette non-unicité de la solution, associé aux numbreuses incertitudes, il est nécessaire de faire une exploration des possibles scenario. Le problème donc, au lieu d'être une problème d'optimization, devient un problème de description de la function de probabilité de modèles.
+
+Et afin d'attaque ce problème mon plan est d'appliquer les stratégies bayésiennes (Hamiltonian Monte Carlo) pour aborder ce problème. De plus je vais utiliser toutes les informations disponibles à cet effet.
+
+=====================================================
+slide 3
+
+J'aimerais maintenant vous montrer un exemple de comment une meilleure connaissance des sources sismiques peux nous aider à diminuer leur impact societale.
+
+Ici, je vous montrer la geometrie d'un cas particuilier, d'une sequence sismique qui a eu lieu en 2016 en Italie Centrale. Deux tremblement de terre ont eu lieu sur deux failles voisines, très proche une de l'autre, avec quelques mois entre les deux eventements. Le premier avec une magnitude 6.2 et le deuxieme avec une magnitude 5.5.
+
+Mes travaux de recherche dans ce context, par exemple, cherche à comprendre quelles sraient les conditions physiques qui pourraient permettre à la rupture sismique de saute d'une faille à l'autre.
+
+L'importance de ce type d'étude est claire. Si la rupture saut pendant un seul eventement, nous aurons une rupture plus longue et large et par consequence un risque majeur. 
+
+Maintenant, Je vais vous montrer une vidéo d'une de mes simulation númerique où on pourra voir comment la rupture sismique, grâce à une combinaison de conditions physiques, notament le champ de contrantes, la geometrie et l'inertie du systeme, arrive à sauter d'une faille à l'autre.
+
+
+=====================================================
+slide 4
+
+Maintenant, j'aimerais vous montrer comment toutes ces connaissances peuvent être utiliser pour diminuer l'impact de seisme. Ici je partages quelques photos de ma mission au Pérou en novembre 2022. Pendant cette mission, j'ai eu l'opportunité de donner une formation aux chercheurs et ingenieurs de recherche de notre partenaire Instituto Geofísico del Perú. Le but pour moi, c'est de leur partager tous nos connaissances, codes, et development afin d'ameliorer l'étude de seismes la bas ainsi que ameliorer l'estimation de l'alea sismique au Perou.
+
+
+==========================================================
+slide 5
+
+Pour finir j'aimerais partager avec vous un projet de thèse qui commencera en 2023 et que je vais encadrer conjointement avec mes collegues ici à ISTerre grâce à la bourse ARTS co-financé par l'IRD et mon partenaire au Perou IGP.
+
+-----------------------------
+Dans cette carte, je vous présente la région de la Vallée de Colca au Sud de Pérou. Vous voyez ici le réseau des failles connues (representées avec les lignes) dans la région, ainsi que les plus grands seisme selon les catalogues historique et instrumental (representés avec les étoiles).
+
+Il est très important de mentioner que dans cette région il y a un volcan active, le volcan Sabancaya.
+
+Maintenant, dans cette nouvelle carte, je vous présente la localisation des seismes plus importants dans cette même région.
+
+
+Alors, le but de notre projet de thèse dans cette région est de savoir Quel est le lien existant entre la tectonique, la sismicité et le volcanisme actif dans cette région ?
+
+
+
+Merci de votre attention !
+
 
 
 

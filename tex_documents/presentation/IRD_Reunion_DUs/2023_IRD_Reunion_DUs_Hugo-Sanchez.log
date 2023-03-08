@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.3.1)  3 MAR 2023 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.3.1)  8 MAR 2023 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1546,14 +1546,14 @@ Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 288.
 <images/red_colca_hist.png, id=3059, 1642.5pt x 1149.75pt>
 File: images/red_colca_hist.png Graphic file (type png)
 <use images/red_colca_hist.png>
-Package pdftex.def Info: images/red_colca_hist.png  used on input line 305.
+Package pdftex.def Info: images/red_colca_hist.png  used on input line 304.
 (pdftex.def)             Requested size: 276.559pt x 193.57773pt.
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 305.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 304.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (35.79796pt too high) detected at line 305
+Overfull \vbox (3.59813pt too high) detected at line 304
  []
 
 [18
@@ -1562,14 +1562,14 @@ Overfull \vbox (35.79796pt too high) detected at line 305
 <images/red_colca_large.png, id=3067, 1642.5pt x 1149.75pt>
 File: images/red_colca_large.png Graphic file (type png)
 <use images/red_colca_large.png>
-Package pdftex.def Info: images/red_colca_large.png  used on input line 318.
+Package pdftex.def Info: images/red_colca_large.png  used on input line 317.
 (pdftex.def)             Requested size: 276.559pt x 193.57773pt.
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 318.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 317.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
 
-Overfull \vbox (19.23805pt too high) detected at line 318
+Overfull \vbox (19.23805pt too high) detected at line 317
  []
 
 [19
@@ -1577,7 +1577,7 @@ Overfull \vbox (19.23805pt too high) detected at line 318
  <./images/red_colca_large.png>]
 File: ../../logos/IRD_neg.png Graphic file (type png)
 <use ../../logos/IRD_neg.png>
-Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 328.
+Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 327.
 (pdftex.def)             Requested size: 26.7527pt x 21.99994pt.
  [20
 
@@ -1593,12 +1593,12 @@ Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 328.
 \tf@snm=\write8
 \openout8 = `2023_IRD_Reunion_DUs_Hugo-Sanchez.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 352.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 352.
 
 (./2023_IRD_Reunion_DUs_Hugo-Sanchez.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 352.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 352.
 Package rerunfilecheck Info: File `2023_IRD_Reunion_DUs_Hugo-Sanchez.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1622,7 +1622,7 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf/fonts/type
 1/public/tex-gyre/qhvr.pfb>
-Output written on 2023_IRD_Reunion_DUs_Hugo-Sanchez.pdf (21 pages, 6856836 byte
+Output written on 2023_IRD_Reunion_DUs_Hugo-Sanchez.pdf (21 pages, 6856648 byte
 s).
 PDF statistics:
  3141 PDF objects out of 3580 (max. 8388607)
