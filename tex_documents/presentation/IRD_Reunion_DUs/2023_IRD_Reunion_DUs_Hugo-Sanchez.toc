@@ -1,4 +1,4 @@
-\babel@toc {french}{}
+\babel@toc {nil}{}
 \beamer@sectionintoc {1}{Introduction: Les sources sismiques}{2}{0}{1}
 \beamer@sectionintoc {2}{Les méthodes pour les imager et comment les améliorer ?}{6}{0}{2}
 \beamer@sectionintoc {3}{L'impact des tremblements de terre}{13}{0}{3}

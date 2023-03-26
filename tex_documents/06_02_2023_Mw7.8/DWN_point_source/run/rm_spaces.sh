@@ -20,3 +20,6 @@ for f in SEISMO_TURKEY/*nord; do
  echo $f $f.mod
 done
 
+mv SEISMO_TURKEY/ARPRnord.mod SEISMO_TURKEY/ARPRAnord.mod
+mv SEISMO_TURKEY/ARPRvert.mod SEISMO_TURKEY/ARPRAvert.mod
+mv SEISMO_TURKEY/ARPRest.mod SEISMO_TURKEY/ARPRAest.mod

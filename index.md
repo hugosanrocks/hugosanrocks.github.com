@@ -3,29 +3,53 @@ layout: page
 title: Hugo Samuel Sánchez-Reyes
 ---
 
+<style>
+    .author-image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .contact-link {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .cv-link {
+        margin-top: 10px;
+    }
+    .publication-item {
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    .publication-item a {
+        text-decoration: none;
+        color: #444;
+    }
+</style>
 
 ## Author coordinates
 
-![useful image](http://hugosanrocks.github.io/assets/img/Hugo.jpg)
-    
-Name : Hugo S. Sánchez-Reyes
-
-e-mail : [hugo.sanchez-reyes@univ-grenoble-alpes.fr](mailto:hugo.sanchez-reyes@univ-grenoble-alpes.fr)
-
-GitHub : [hugosanrocks](https://github.com/hugosanrocks)
-
-Research: [ResearchGate](https://www.researchgate.net/profile/Hugo_Sanchez-Reyes) [Google Scholar](https://scholar.google.fr/citations?user=8gr2DhwAAAAJ&hl=es)
-
-Researcher at the "<it>Institut de Recherche pour le Développement</it>" (IRD) working at the Institute of Earth Sciences (ISTerre), UGA, France.
-
-Access to my CV <em><a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/cv/CV_Hugo_Sanchez-Reyes.pdf"><img src="http://hugosanrocks.github.io/assets/img/pdf_image.jpg" alt="CV" width="15" height="16" border="0"></a></em>
+<div style="display: flex; align-items: center;">
+    <img class="author-image" src="http://hugosanrocks.github.io/assets/img/Hugo.jpg" alt="Hugo Samuel Sánchez-Reyes">
+    <div style="margin-left: 20px;">
+        <div style="font-size: 1.5em; font-weight: bold;">Hugo S. Sánchez-Reyes</div>
+        <div>
+            <a class="contact-link" href="mailto:hugo.sanchez-reyes@univ-grenoble-alpes.fr">hugo.sanchez-reyes@univ-grenoble-alpes.fr</a>
+            <a class="contact-link" href="https://github.com/hugosanrocks">GitHub</a>
+        </div>
+        <div>
+            <a class="contact-link" href="https://www.researchgate.net/profile/Hugo_Sanchez-Reyes">ResearchGate</a>
+            <a class="contact-link" href="https://scholar.google.fr/citations?user=8gr2DhwAAAAJ&hl=es">Google Scholar</a>
+        </div>
+        <div class="cv-link">
+            <a href="https://github.com/hugosanrocks/hugosanrocks.github.com/blob/master/_includes/cv/CV_Hugo_Sanchez-Reyes.pdf">Access to my CV</a>
+        </div>
+    </div>
+</div>
 
 ## Research work
 
-I currently work at the Institut des Sciences de la Terre, Université Grenoble Alpes as a researcher. I work for the IRD. In my project, I develop techniques to analyze and classify seismological data to study the evolution of stress in real faults. Furthermore, we are planning to include independent geophysical observations as GPS and velocity variation from ambient noise correlation to better understand the dynamics of faults.
-
-
-
+I am a researcher at the Institut de Recherche pour le Développement (IRD) working at the Institute of Earth Sciences (ISTerre), UGA, France. My project involves developing techniques to analyze and classify seismological data to study the evolution of stress in real faults. We are also planning to include independent geophysical observations such as GPS and velocity variation from ambient noise correlation to better understand the dynamics of faults.
 
 ## Publications
 

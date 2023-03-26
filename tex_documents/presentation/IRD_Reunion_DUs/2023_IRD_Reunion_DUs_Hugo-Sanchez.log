@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.3.1)  8 MAR 2023 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  8 MAR 2023 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,16 +696,25 @@ Package: babel 2020/02/14 3.40 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2020/02/14 3.40 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-french/francais.ldf
-Language: francais 2020/01/30 v3.5g French support from the babel system
 
+! Package babel Error: Unknown option `francais'. Either you misspelled it
+(babel)                or the language definition file francais.ldf was not fou
+nd.
 
-Package francais.ldf Warning: Option `francais' for Babel is *deprecated*,
-(francais.ldf)                it might be removed sooner or later. Please
-(francais.ldf)                use `french' instead; reported on input line 31.
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.542 \ProcessOptions*
+                      
+Valid options are: shorthands=, KeepShorthandsActive,
+activeacute, activegrave, noconfigs, safe=, main=, math=
+headfoot=, strings=, config=, hyphenmap=, or a language name.
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2020/01/30 v3.5g French support from the babel system
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 572.
+(/usr/share/texlive/texmf-dist/tex/generic/babel/nil.ldf
+Language: nil 2020/02/14 3.40 Nil language
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/14 3.40 Babel common definitions
@@ -717,36 +726,8 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 LaTeX Info: Redefining \textlatin on input line 2319.
 \bbl@dirlevel=\count317
 )
-Package babel Info: \l@acadian = using hyphenrules for french
-(babel)             (\language9) on input line 91.
-Package babel Info: \l@canadien = using hyphenrules for french
-(babel)             (\language9) on input line 92.
-\FB@nonchar=\count318
-Package babel Info: Making : an active character on input line 419.
-Package babel Info: Making ; an active character on input line 420.
-Package babel Info: Making ! an active character on input line 421.
-Package babel Info: Making ? an active character on input line 422.
-\FBguill@level=\count319
-\FBold@everypar=\toks45
-\FB@Mht=\dimen282
-\mc@charclass=\count320
-\mc@charfam=\count321
-\mc@charslot=\count322
-\std@mcc=\count323
-\dec@mcc=\count324
-\c@FBcaption@count=\count325
-\listindentFB=\dimen283
-\descindentFB=\dimen284
-\labelindentFB=\dimen285
-\labelwidthFB=\dimen286
-\leftmarginFB=\dimen287
-\parindentFFN=\dimen288
-\FBfnindent=\dimen289
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-Package french.ldf Info: No list customisation for the beamer class,
-(french.ldf)             reported on input line 10.
-
+\l@nil=\language8
+))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
@@ -765,23 +746,23 @@ LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count326
+\lst@mode=\count318
 \lst@gtempboxa=\box75
-\lst@token=\toks46
-\lst@length=\count327
-\lst@currlwidth=\dimen290
-\lst@column=\count328
-\lst@pos=\count329
-\lst@lostspace=\dimen291
-\lst@width=\dimen292
-\lst@newlines=\count330
-\lst@lineno=\count331
-\lst@maxwidth=\dimen293
+\lst@token=\toks45
+\lst@length=\count319
+\lst@currlwidth=\dimen282
+\lst@column=\count320
+\lst@pos=\count321
+\lst@lostspace=\dimen283
+\lst@width=\dimen284
+\lst@newlines=\count322
+\lst@lineno=\count323
+\lst@maxwidth=\dimen285
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count332
-\lst@skipnumbers=\count333
+\c@lstnumber=\count324
+\lst@skipnumbers=\count325
 \lst@framebox=\box76
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -791,13 +772,13 @@ Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count334
-\csq@gtype=\count335
-\csq@glevel=\count336
-\csq@qlevel=\count337
-\csq@maxlvl=\count338
-\csq@tshold=\count339
-\csq@ltx@everypar=\toks47
+\csq@reset=\count326
+\csq@gtype=\count327
+\csq@glevel=\count328
+\csq@qlevel=\count329
+\csq@maxlvl=\count330
+\csq@tshold=\count331
+\csq@ltx@everypar=\toks46
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
@@ -817,10 +798,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks48
-\XKV@tempa@toks=\toks49
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count340
+\XKV@depth=\count332
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
@@ -835,7 +816,7 @@ Package zref Info: New property list: main on input line 763.
 Package zref Info: New property: default on input line 764.
 Package zref Info: New property: page on input line 765.
 )
-\c@abspage=\count341
+\c@abspage=\count333
 Package zref Info: New property: abspage on input line 66.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
@@ -844,7 +825,7 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count342
+\l__kernel_color_stack_int=\count334
 \l__pdf_internal_box=\box77
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -852,60 +833,60 @@ Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 )
 Package: pdfbase 2020/01/27 v0.36 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count343
-\g_pbs_oc_int=\count344
+\g_pbs_page_int=\count335
+\g_pbs_oc_int=\count336
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2019/11/04 v0.17 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count345
+\g_ocgbase_nd_int=\count337
 )
 \@anim@box=\box78
 \@anim@measbox=\box79
-\@anim@tmpdima=\dimen294
-\@anim@tmpdimb=\dimen295
-\@anim@num=\count346
-\@anim@curframe=\count347
-\@anim@curframe@zb=\count348
-\@anim@resizeflags=\count349
-\@anim@skipfram=\count350
-\@anim@mulframecnt=\count351
+\@anim@tmpdima=\dimen286
+\@anim@tmpdimb=\dimen287
+\@anim@num=\count338
+\@anim@curframe=\count339
+\@anim@curframe@zb=\count340
+\@anim@resizeflags=\count341
+\@anim@skipfram=\count342
+\@anim@mulframecnt=\count343
 \@anim@@tmlnfile=\read4
-\@anim@tmpcnt=\count352
-\c@@anim@ltxcnt=\count353
-\@anim@curlayer=\count354
-\@anim@lineno=\count355
-\@anim@curfield=\count356
-\@anim@@resizeflags=\count357
+\@anim@tmpcnt=\count344
+\c@@anim@ltxcnt=\count345
+\@anim@curlayer=\count346
+\@anim@lineno=\count347
+\@anim@curfield=\count348
+\@anim@@resizeflags=\count349
 )
 (/usr/share/texlive/texmf-dist/tex/latex/media9/media9.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count358
-\g__xparse_grabber_int=\count359
-\l__xparse_m_args_int=\count360
-\l__xparse_v_nesting_int=\count361
+\l__xparse_current_arg_int=\count350
+\g__xparse_grabber_int=\count351
+\l__xparse_m_args_int=\count352
+\l__xparse_v_nesting_int=\count353
 )
 Package: media9 2020/01/27 v1.05 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count362
+\g_mix_pkgresizeflag_int=\count354
 \l_mix_poster_box=\box80
-\g_mix_wd_dim=\dimen296
-\g_mix_ht_dim=\dimen297
-\g_mix_dp_dim=\dimen298
-\g_mix_rmcnt_int=\count363
-\l_mix_viewcnt_int=\count364
-\g@mix@page@int=\count365
-\g_mix_resizeflag_int=\count366
-\l_mix_lineno_int=\count367
+\g_mix_wd_dim=\dimen288
+\g_mix_ht_dim=\dimen289
+\g_mix_dp_dim=\dimen290
+\g_mix_rmcnt_int=\count355
+\l_mix_viewcnt_int=\count356
+\g@mix@page@int=\count357
+\g_mix_resizeflag_int=\count358
+\l_mix_lineno_int=\count359
 \l_mix_pbtn_box=\box81
-\mix@btn@dim=\dimen299
-\g_mix_mbtncnt_int=\count368
+\mix@btn@dim=\dimen291
+\g_mix_mbtncnt_int=\count360
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen300
-\WF@size=\dimen301
-\c@WF@wrappedlines=\count369
+\wrapoverhang=\dimen292
+\WF@size=\dimen293
+\c@WF@wrappedlines=\count361
 \WF@box=\box82
-\WF@everypar=\toks50
+\WF@everypar=\toks49
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -921,8 +902,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen302
-\pgf@nodesepend=\dimen303
+\pgf@nodesepstart=\dimen294
+\pgf@nodesepend=\dimen295
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -936,10 +917,10 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen304
-\pgffor@skip=\dimen305
-\pgffor@stack=\toks51
-\pgffor@toks=\toks52
+\pgffor@iter=\dimen296
+\pgffor@skip=\dimen297
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -947,33 +928,33 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count370
-\pgfplotmarksize=\dimen306
+\pgf@plot@mark@count=\count362
+\pgfplotmarksize=\dimen298
 )
-\tikz@lastx=\dimen307
-\tikz@lasty=\dimen308
-\tikz@lastxsaved=\dimen309
-\tikz@lastysaved=\dimen310
-\tikz@lastmovetox=\dimen311
-\tikz@lastmovetoy=\dimen312
-\tikzleveldistance=\dimen313
-\tikzsiblingdistance=\dimen314
+\tikz@lastx=\dimen299
+\tikz@lasty=\dimen300
+\tikz@lastxsaved=\dimen301
+\tikz@lastysaved=\dimen302
+\tikz@lastmovetox=\dimen303
+\tikz@lastmovetoy=\dimen304
+\tikzleveldistance=\dimen305
+\tikzsiblingdistance=\dimen306
 \tikz@figbox=\box84
 \tikz@figbox@bg=\box85
 \tikz@tempbox=\box86
 \tikz@tempbox@bg=\box87
-\tikztreelevel=\count371
-\tikznumberofchildren=\count372
-\tikznumberofcurrentchild=\count373
-\tikz@fig@count=\count374
+\tikztreelevel=\count363
+\tikznumberofchildren=\count364
+\tikznumberofcurrentchild=\count365
+\tikz@fig@count=\count366
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count375
-\pgfmatrixcurrentcolumn=\count376
-\pgf@matrix@numberofcolumns=\count377
+\pgfmatrixcurrentrow=\count367
+\pgfmatrixcurrentcolumn=\count368
+\pgf@matrix@numberofcolumns=\count369
 )
-\tikz@expandcount=\count378
+\tikz@expandcount=\count370
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -984,7 +965,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip67
 \bibsep=\skip68
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count379
+\c@NAT@ctr=\count371
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 Package: fontawesome5 2020/01/17 v5.12.0.1 Font Awesome 5
@@ -1006,8 +987,8 @@ opolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
  (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks53
-\pgfopts@list@add@b@toks=\toks54
+\pgfopts@list@add@a@toks=\toks52
+\pgfopts@list@add@b@toks=\toks53
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthem
 emetropolis.sty
@@ -1045,7 +1026,7 @@ aTeX to use the Fira fonts on input line 95.
 
 )) (/usr/share/texlive/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count380
+\c@ifsymcnt=\count372
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1082,8 +1063,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'french'.
-(./2023_IRD_Reunion_DUs_Hugo-Sanchez.aux)
+
+Package csquotes Warning: No style for language 'nil'.
+(csquotes)                Using fallback style on input line 102.
+
+Package csquotes Info: Redefining alias 'default' -> 'fallback'.
+(./2023_IRD_Reunion_DUs_Hugo-Sanchez.aux
+
+Package babel Warning: Unknown language `french'. Very likely you
+(babel)                requested it in a previous run. Expect some
+(babel)                wrong results in this run, which should vanish
+(babel)                in the next one. Reported on input line 32.
+
+)
 \openout1 = `2023_IRD_Reunion_DUs_Hugo-Sanchez.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
@@ -1139,17 +1131,17 @@ LaTeX Font Info:    ... okay on input line 102.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count381
-\scratchdimen=\dimen315
+\scratchcounter=\count373
+\scratchdimen=\dimen307
 \scratchbox=\box88
-\nofMPsegments=\count382
-\nofMParguments=\count383
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count384
-\MPscratchDim=\dimen316
-\MPnumerator=\count385
-\makeMPintoPDFobject=\count386
-\everyMPtoPDFconversion=\toks56
+\nofMPsegments=\count374
+\nofMParguments=\count375
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count376
+\MPscratchDim=\dimen308
+\MPnumerator=\count377
+\makeMPintoPDFobject=\count378
+\everyMPtoPDFconversion=\toks55
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1180,7 +1172,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count387
+\c@section@level=\count379
 )
 LaTeX Info: Redefining \ref on input line 102.
 LaTeX Info: Redefining \pageref on input line 102.
@@ -1276,20 +1268,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Info: Redefining \degres on input line 102.
-LaTeX Info: Redefining \dots on input line 102.
+\c@lstlisting=\count380
 
-
-Package french.ldf Warning: Please load the "natbib" package
-(french.ldf)                BEFORE babel/french; reported on input line 102.
-
-LaTeX Info: Redefining \up on input line 102.
-
-Package french.ldf Warning: OT1 encoding should not be used for French.
-(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 102.
-
-\c@lstlisting=\count388
 (./2023_IRD_Reunion_DUs_Hugo-Sanchez.nav)
 <../../logos/logo_seminar_2022.pdf, id=13, 1196.21906pt x 242.27155pt>
 File: ../../logos/logo_seminar_2022.pdf Graphic file (type pdf)
@@ -1325,8 +1305,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--108
 Overfull \vbox (44.55656pt too high) detected at line 108
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/logo_seminar
-_2022.pdf>]
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../logos/logo_seminar_2
+022.pdf>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 110
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1498,8 +1480,187 @@ Overfull \vbox (17.82225pt too high) detected at line 235
 [14
 
  <./images/Map_Italy.png>] <a1,fr0>
+<images/video_jump/fig_001.png, id=3030, 433.62pt x 289.08pt>
+File: images/video_jump/fig_001.png Graphic file (type png)
+<use images/video_jump/fig_001.png>
+Package pdftex.def Info: images/video_jump/fig_001.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_001.png>
+<a1,fr1>
+<images/video_jump/fig_002.png, id=3041, 433.62pt x 289.08pt>
+File: images/video_jump/fig_002.png Graphic file (type png)
+<use images/video_jump/fig_002.png>
+Package pdftex.def Info: images/video_jump/fig_002.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_002.png> <a1,fr2>
+<images/video_jump/fig_003.png, id=3052, 433.62pt x 289.08pt>
+File: images/video_jump/fig_003.png Graphic file (type png)
+<use images/video_jump/fig_003.png>
+Package pdftex.def Info: images/video_jump/fig_003.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_003.png> <a1,fr3>
+<images/video_jump/fig_004.png, id=3063, 433.62pt x 289.08pt>
+File: images/video_jump/fig_004.png Graphic file (type png)
+<use images/video_jump/fig_004.png>
+Package pdftex.def Info: images/video_jump/fig_004.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_004.png> <a1,fr4>
+<images/video_jump/fig_005.png, id=3074, 433.62pt x 289.08pt>
+File: images/video_jump/fig_005.png Graphic file (type png)
+<use images/video_jump/fig_005.png>
+Package pdftex.def Info: images/video_jump/fig_005.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_005.png> <a1,fr5>
+<images/video_jump/fig_006.png, id=3085, 433.62pt x 289.08pt>
+File: images/video_jump/fig_006.png Graphic file (type png)
+<use images/video_jump/fig_006.png>
+Package pdftex.def Info: images/video_jump/fig_006.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_006.png> <a1,fr6>
+<images/video_jump/fig_007.png, id=3096, 433.62pt x 289.08pt>
+File: images/video_jump/fig_007.png Graphic file (type png)
+<use images/video_jump/fig_007.png>
+Package pdftex.def Info: images/video_jump/fig_007.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_007.png> <a1,fr7>
+<images/video_jump/fig_008.png, id=3107, 433.62pt x 289.08pt>
+File: images/video_jump/fig_008.png Graphic file (type png)
+<use images/video_jump/fig_008.png>
+Package pdftex.def Info: images/video_jump/fig_008.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_008.png> <a1,fr8>
+<images/video_jump/fig_009.png, id=3118, 433.62pt x 289.08pt>
+File: images/video_jump/fig_009.png Graphic file (type png)
+<use images/video_jump/fig_009.png>
+Package pdftex.def Info: images/video_jump/fig_009.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_009.png> <a1,fr9>
+<images/video_jump/fig_010.png, id=3129, 433.62pt x 289.08pt>
+File: images/video_jump/fig_010.png Graphic file (type png)
+<use images/video_jump/fig_010.png>
+Package pdftex.def Info: images/video_jump/fig_010.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_010.png>
+<a1,fr10>
+<images/video_jump/fig_011.png, id=3141, 433.62pt x 289.08pt>
+File: images/video_jump/fig_011.png Graphic file (type png)
+<use images/video_jump/fig_011.png>
+Package pdftex.def Info: images/video_jump/fig_011.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_011.png> <a1,fr11>
+<images/video_jump/fig_012.png, id=3152, 433.62pt x 289.08pt>
+File: images/video_jump/fig_012.png Graphic file (type png)
+<use images/video_jump/fig_012.png>
+Package pdftex.def Info: images/video_jump/fig_012.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_012.png> <a1,fr12>
+<images/video_jump/fig_013.png, id=3163, 433.62pt x 289.08pt>
+File: images/video_jump/fig_013.png Graphic file (type png)
+<use images/video_jump/fig_013.png>
+Package pdftex.def Info: images/video_jump/fig_013.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_013.png> <a1,fr13>
+<images/video_jump/fig_014.png, id=3174, 433.62pt x 289.08pt>
+File: images/video_jump/fig_014.png Graphic file (type png)
+<use images/video_jump/fig_014.png>
+Package pdftex.def Info: images/video_jump/fig_014.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_014.png> <a1,fr14>
+<images/video_jump/fig_015.png, id=3185, 433.62pt x 289.08pt>
+File: images/video_jump/fig_015.png Graphic file (type png)
+<use images/video_jump/fig_015.png>
+Package pdftex.def Info: images/video_jump/fig_015.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_015.png> <a1,fr15>
+<images/video_jump/fig_016.png, id=3196, 433.62pt x 289.08pt>
+File: images/video_jump/fig_016.png Graphic file (type png)
+<use images/video_jump/fig_016.png>
+Package pdftex.def Info: images/video_jump/fig_016.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_016.png> <a1,fr16>
+<images/video_jump/fig_017.png, id=3207, 433.62pt x 289.08pt>
+File: images/video_jump/fig_017.png Graphic file (type png)
+<use images/video_jump/fig_017.png>
+Package pdftex.def Info: images/video_jump/fig_017.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_017.png>
+<a1,fr17>
+<images/video_jump/fig_018.png, id=3218, 433.62pt x 289.08pt>
+File: images/video_jump/fig_018.png Graphic file (type png)
+<use images/video_jump/fig_018.png>
+Package pdftex.def Info: images/video_jump/fig_018.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_018.png> <a1,fr18>
+<images/video_jump/fig_019.png, id=3229, 433.62pt x 289.08pt>
+File: images/video_jump/fig_019.png Graphic file (type png)
+<use images/video_jump/fig_019.png>
+Package pdftex.def Info: images/video_jump/fig_019.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_019.png> <a1,fr19>
+<images/video_jump/fig_020.png, id=3240, 433.62pt x 289.08pt>
+File: images/video_jump/fig_020.png Graphic file (type png)
+<use images/video_jump/fig_020.png>
+Package pdftex.def Info: images/video_jump/fig_020.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_020.png> <a1,fr20>
+<images/video_jump/fig_021.png, id=3251, 433.62pt x 289.08pt>
+File: images/video_jump/fig_021.png Graphic file (type png)
+<use images/video_jump/fig_021.png>
+Package pdftex.def Info: images/video_jump/fig_021.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_021.png> <a1,fr21>
+<images/video_jump/fig_022.png, id=3262, 433.62pt x 289.08pt>
+File: images/video_jump/fig_022.png Graphic file (type png)
+<use images/video_jump/fig_022.png>
+Package pdftex.def Info: images/video_jump/fig_022.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_022.png> <a1,fr22>
+<images/video_jump/fig_023.png, id=3273, 433.62pt x 289.08pt>
+File: images/video_jump/fig_023.png Graphic file (type png)
+<use images/video_jump/fig_023.png>
+Package pdftex.def Info: images/video_jump/fig_023.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_023.png> <a1,fr23>
+<images/video_jump/fig_024.png, id=3284, 433.62pt x 289.08pt>
+File: images/video_jump/fig_024.png Graphic file (type png)
+<use images/video_jump/fig_024.png>
+Package pdftex.def Info: images/video_jump/fig_024.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_024.png>
+<a1,fr24>
+<images/video_jump/fig_025.png, id=3295, 433.62pt x 289.08pt>
+File: images/video_jump/fig_025.png Graphic file (type png)
+<use images/video_jump/fig_025.png>
+Package pdftex.def Info: images/video_jump/fig_025.png  used on input line 262.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+ <./images/video_jump/fig_025.png> <a1,fr25>
 Overfull \hbox (18.66173pt too wide) in paragraph at lines 262--262
-[] [][][] 
+[] [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
@@ -1518,17 +1679,17 @@ Overfull \vbox (5.04921pt too high) detected at line 262
 [15
 
 ]
-<images/Lima1.jpeg, id=3041, 1204.5pt x 1606.0pt>
+<images/Lima1.jpeg, id=3317, 1204.5pt x 1606.0pt>
 File: images/Lima1.jpeg Graphic file (type jpg)
 <use images/Lima1.jpeg>
 Package pdftex.def Info: images/Lima1.jpeg  used on input line 288.
 (pdftex.def)             Requested size: 92.1879pt x 122.89536pt.
-<images/Lima4.jpeg, id=3042, 1541.76pt x 2055.68pt>
+<images/Lima4.jpeg, id=3318, 1541.76pt x 2055.68pt>
 File: images/Lima4.jpeg Graphic file (type jpg)
 <use images/Lima4.jpeg>
 Package pdftex.def Info: images/Lima4.jpeg  used on input line 288.
 (pdftex.def)             Requested size: 92.1879pt x 122.89633pt.
-<images/Lima3.jpeg, id=3043, 2055.68pt x 1541.76pt>
+<images/Lima3.jpeg, id=3319, 2055.68pt x 1541.76pt>
 File: images/Lima3.jpeg Graphic file (type jpg)
 <use images/Lima3.jpeg>
 Package pdftex.def Info: images/Lima3.jpeg  used on input line 288.
@@ -1543,7 +1704,7 @@ Package pdftex.def Info: ../../logos/IRD_neg.png  used on input line 288.
 [17
 
 ]
-<images/red_colca_hist.png, id=3059, 1642.5pt x 1149.75pt>
+<images/red_colca_hist.png, id=3336, 1642.5pt x 1149.75pt>
 File: images/red_colca_hist.png Graphic file (type png)
 <use images/red_colca_hist.png>
 Package pdftex.def Info: images/red_colca_hist.png  used on input line 304.
@@ -1559,7 +1720,7 @@ Overfull \vbox (3.59813pt too high) detected at line 304
 [18
 
  <./images/red_colca_hist.png>]
-<images/red_colca_large.png, id=3067, 1642.5pt x 1149.75pt>
+<images/red_colca_large.png, id=3344, 1642.5pt x 1149.75pt>
 File: images/red_colca_large.png Graphic file (type png)
 <use images/red_colca_large.png>
 Package pdftex.def Info: images/red_colca_large.png  used on input line 317.
@@ -1604,13 +1765,13 @@ ot changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31885 strings out of 482504
- 623683 string characters out of 5947331
- 889855 words of memory out of 5000000
- 46198 multiletter control sequences out of 15000+600000
+ 31445 strings out of 483099
+ 620393 string characters out of 5964234
+ 874910 words of memory out of 5000000
+ 45700 multiletter control sequences out of 15000+600000
  548652 words of font info for 81 fonts, out of 8000000 for 9000
- 395 hyphenation exceptions out of 8191
- 58i,13n,108p,1850b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59 hyphenation exceptions out of 8191
+ 58i,13n,108p,1850b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.
 600pk> </home/sanchezh/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1
 095.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
@@ -1622,11 +1783,11 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf/fonts/type
 1/public/tex-gyre/qhvr.pfb>
-Output written on 2023_IRD_Reunion_DUs_Hugo-Sanchez.pdf (21 pages, 6856648 byte
-s).
+Output written on 2023_IRD_Reunion_DUs_Hugo-Sanchez.pdf (21 pages, 14359533 byt
+es).
 PDF statistics:
- 3141 PDF objects out of 3580 (max. 8388607)
- 2061 compressed objects within 21 object streams
+ 3417 PDF objects out of 3580 (max. 8388607)
+ 2186 compressed objects within 22 object streams
  47 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 914 words of extra memory for PDF output out of 10000 (max. 10000000)
 
