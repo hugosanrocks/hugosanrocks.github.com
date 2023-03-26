@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+ <Domain>
+  <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+   <Grid Name="step_000000000000" GridType="Uniform"><!-- mesh id: 0, mesh step: 0 -->
+    <Topology TopologyType="Triangle" NumberOfElements="21260">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="21260 3">offm2p5_gapm5p0-surface_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="63780">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="63780 3">offm2p5_gapm5p0-surface_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="0"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="21260">offm2p5_gapm5p0-surface_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 21260">offm2p5_gapm5p0-surface_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 21260">offm2p5_gapm5p0-surface_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 21260">offm2p5_gapm5p0-surface_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="U" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 21260">offm2p5_gapm5p0-surface_cell/mesh0/U.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="V" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 21260">offm2p5_gapm5p0-surface_cell/mesh0/V.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="W" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 21260">offm2p5_gapm5p0-surface_cell/mesh0/W.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="locationFlag" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">0 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="1 21260">offm2p5_gapm5p0-surface_cell/mesh0/locationFlag.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000001" GridType="Uniform"><!-- mesh id: 0, mesh step: 1 -->
+    <Topology TopologyType="Triangle" NumberOfElements="21260">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="21260 3">offm2p5_gapm5p0-surface_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="63780">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="63780 3">offm2p5_gapm5p0-surface_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="5"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="21260">offm2p5_gapm5p0-surface_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 21260">offm2p5_gapm5p0-surface_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 21260">offm2p5_gapm5p0-surface_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 21260">offm2p5_gapm5p0-surface_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="U" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 21260">offm2p5_gapm5p0-surface_cell/mesh0/U.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="V" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 21260">offm2p5_gapm5p0-surface_cell/mesh0/V.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="W" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 21260">offm2p5_gapm5p0-surface_cell/mesh0/W.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="locationFlag" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">1 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="2 21260">offm2p5_gapm5p0-surface_cell/mesh0/locationFlag.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000002" GridType="Uniform"><!-- mesh id: 0, mesh step: 2 -->
+    <Topology TopologyType="Triangle" NumberOfElements="21260">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="21260 3">offm2p5_gapm5p0-surface_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="63780">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="63780 3">offm2p5_gapm5p0-surface_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="10"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="21260">offm2p5_gapm5p0-surface_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 21260">offm2p5_gapm5p0-surface_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 21260">offm2p5_gapm5p0-surface_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 21260">offm2p5_gapm5p0-surface_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="U" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 21260">offm2p5_gapm5p0-surface_cell/mesh0/U.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="V" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 21260">offm2p5_gapm5p0-surface_cell/mesh0/V.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="W" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 21260">offm2p5_gapm5p0-surface_cell/mesh0/W.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="locationFlag" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">2 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="3 21260">offm2p5_gapm5p0-surface_cell/mesh0/locationFlag.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000003" GridType="Uniform"><!-- mesh id: 0, mesh step: 3 -->
+    <Topology TopologyType="Triangle" NumberOfElements="21260">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="21260 3">offm2p5_gapm5p0-surface_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="63780">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="63780 3">offm2p5_gapm5p0-surface_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="15"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="21260">offm2p5_gapm5p0-surface_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">3 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="4 21260">offm2p5_gapm5p0-surface_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">3 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="4 21260">offm2p5_gapm5p0-surface_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">3 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="4 21260">offm2p5_gapm5p0-surface_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="U" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">3 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="4 21260">offm2p5_gapm5p0-surface_cell/mesh0/U.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="V" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">3 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="4 21260">offm2p5_gapm5p0-surface_cell/mesh0/V.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="W" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">3 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="4 21260">offm2p5_gapm5p0-surface_cell/mesh0/W.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="locationFlag" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">3 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="4 21260">offm2p5_gapm5p0-surface_cell/mesh0/locationFlag.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+   <Grid Name="step_000000000004" GridType="Uniform"><!-- mesh id: 0, mesh step: 4 -->
+    <Topology TopologyType="Triangle" NumberOfElements="21260">
+     <DataItem NumberType="Int" Precision="8" Format="Binary" Dimensions="21260 3">offm2p5_gapm5p0-surface_cell/mesh0/connect.bin</DataItem>
+    </Topology>
+    <Geometry name="geo" GeometryType="XYZ" NumberOfElements="63780">
+     <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="63780 3">offm2p5_gapm5p0-surface_vertex/mesh0/geometry.bin</DataItem>
+    </Geometry>
+    <Time Value="20"/>
+    <Attribute Name="partition" Center="Cell">
+     <DataItem  NumberType="Int" Precision="4" Format="Binary" Dimensions="21260">offm2p5_gapm5p0-surface_cell/mesh0/partition.bin</DataItem>
+    </Attribute>
+    <Attribute Name="u" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">4 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="5 21260">offm2p5_gapm5p0-surface_cell/mesh0/u.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="v" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">4 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="5 21260">offm2p5_gapm5p0-surface_cell/mesh0/v.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="w" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">4 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="5 21260">offm2p5_gapm5p0-surface_cell/mesh0/w.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="U" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">4 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="5 21260">offm2p5_gapm5p0-surface_cell/mesh0/U.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="V" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">4 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="5 21260">offm2p5_gapm5p0-surface_cell/mesh0/V.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="W" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">4 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="5 21260">offm2p5_gapm5p0-surface_cell/mesh0/W.bin</DataItem>
+     </DataItem>
+    </Attribute>
+    <Attribute Name="locationFlag" Center="Cell">
+     <DataItem ItemType="HyperSlab" Dimensions="21260">
+      <DataItem NumberType="UInt" Precision="4" Format="XML" Dimensions="3 2">4 0 1 1 1 21260</DataItem>
+      <DataItem NumberType="Float" Precision="8" Format="Binary" Dimensions="5 21260">offm2p5_gapm5p0-surface_cell/mesh0/locationFlag.bin</DataItem>
+     </DataItem>
+    </Attribute>
+   </Grid>
+  </Grid>
+ </Domain>
+</Xdmf>

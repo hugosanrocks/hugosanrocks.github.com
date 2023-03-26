@@ -1,0 +1,5 @@
+TITLE = "Temporal Signal for receiver number 04060"
+VARIABLES = "Time","xx","yy","zz","xy","yz","xz","u","v","w"
+# x1       3.636334660000e+05
+# x2       4.739642600000e+06
+# x3       -1.450000000000e+04

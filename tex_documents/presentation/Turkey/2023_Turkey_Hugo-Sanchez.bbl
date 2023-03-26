@@ -1,0 +1,10 @@
+\begin{thebibliography}{}
+
+\bibitem[Woollam et~al., 2022]{SeisBench}
+Woollam, J., M{\"u}nchmeyer, J., Tilmann, F., Rietbrock, A., Lange, D.,
+  Bornstein, T., Diehl, T., Giunchi, C., Haslinger, F., Jozinovi{\'c}, D.,
+  et~al. (2022).
+\newblock Seisbench—a toolbox for machine learning in seismology.
+\newblock {\em Seismological Society of America}, 93(3):1695--1709.
+
+\end{thebibliography}
