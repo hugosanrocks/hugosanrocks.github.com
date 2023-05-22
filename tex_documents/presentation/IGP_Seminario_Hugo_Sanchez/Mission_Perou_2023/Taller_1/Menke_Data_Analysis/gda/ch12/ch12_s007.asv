@@ -1,0 +1,160 @@
+% gda12_??
+%
+% L1 and Linf norm; fitting of a straight line
+
+% auxillary variable, z
+N=40;
+zmin = 0;
+zmax = 1;
+Dz = (zmax-zmin)/(N-1);
+z = zmin + Dz*[0:N-1]';
+
+% set up for linear fit
+M=2;
+mtrue = [1, 3]';
+G = [ones(N,1), z];
+dtrue = G*mtrue;
+
+% syntehtic data, with noise drawn from a two-sided exponential
+% distribution with variance sd^2.
+sd = 0.4 * ones(N,1);
+dobs=zeros(N,1);
+for i=[1:N]
+    r=random('exp',sd(i)/sqrt(2)).*(2*(random('unid',2)-1.5));
+    dobs(i) = dtrue(i) + r;
+end
+
+% Part 1: L2 Norm
+% least squares solution (sure the easiest!)
+mls = (G'*G)\(G'*dobs);
+dls = G*mls;
+
+% Part 1: L1 norm
+% set up for linear programming problem
+% min f*x subject to A x <= b,  Aeq x = beq
+
+% variables
+% m = mp - mpp
+% x = [mp', mpp', alpha', x', xp']
+% with mp, mpp length M and alpha, x, xp, length N
+L = 2*M+3*N;
+x = zeros(L,1);
+
+% f is length L
+% minimize sum aplha(i)/sd(i)
+f = zeros(L,1);
+f(2*M+1:2*M+N)=1./sd;
+
+% equality constraints
+Aeq = zeros(2*N,L);
+beq = zeros(2*N,1);
+% first equation G(mp-mpp)+x-alpha=d
+Aeq(1:N,1:M)             =  G;
+Aeq(1:N,M+1:2*M)         = -G;
+Aeq(1:N,2*M+1:2*M+N)     = -eye(N,N);
+Aeq(1:N,2*M+N+1:2*M+2*N) =  eye(N,N);
+beq(1:N)                 =  dobs;
+% second equation G(mp-mpp)-xp+alpha=d
+Aeq(N+1:2*N,1:M)               =  G;
+Aeq(N+1:2*N,M+1:2*M)           = -G;
+Aeq(N+1:2*N,2*M+1:2*M+N)       =  eye(N,N);
+Aeq(N+1:2*N,2*M+2*N+1:2*M+3*N) = -eye(N,N);
+beq(N+1:2*N)                   =  dobs;
+
+% inequality constraints A x <= b
+% part 1: everything positive
+A = zeros(L+2*M,L);
+b = zeros(L+2*M,1);
+A(1:L,:) = -eye(L,L);
+b(1:L) = zeros(L,1);
+% part 2; mp and mpp have an upper bound.  Note: 
+% Without this constraint, a potential problem is that
+% mp and mpp are individually unbounded, though their
+% difference, m=mp-mpp, is not.  Thus there might be cases
+% where the algroithm strays to very large mp and mpp.
+A(L+1:L+2*M,:) = eye(2*M,L);
+mupperbound=10*max(mls); % needs to be adjusted for problem at hand
+b(L+1:L+2*M) = mupperbound;
+
+% solve linear programming problem
+[x, fmin] = linprog(f,A,b,Aeq,beq);
+fmin=-fmin;
+mestL1 = x(1:M) - x(M+1:2*M);
+dpreL1 = G*mestL1;
+
+% Part 3: Linf Norm
+% set up for linear programming problem
+% min f*x subject to A x <= b,  Aeq x = beq
+
+% variables
+% m = mp - mpp
+% x = [mp', mpp', alpha', x', xp']
+% with mp, mpp length M; alpha length 1, x, xp, length N
+L = 2*M+1+2*N;
+x = zeros(L,1);
+
+% f is length L
+% minimize alpha
+f = zeros(L,1);
+f(2*M+1:2*M+1)=1;
+
+% equality constraints
+Aeq = zeros(2*N,L);
+beq = zeros(2*N,1);
+% first equation G(mp-mpp)+x-alpha=d
+Aeq(1:N,1:M)             =  G;
+Aeq(1:N,M+1:2*M)         = -G;
+Aeq(1:N,2*M+1:2*M+1)     = -1./sd;
+Aeq(1:N,2*M+1+1:2*M+1+N) =  eye(N,N);
+beq(1:N)                 =  dobs;
+% second equation G(mp-mpp)-xp+alpha=d
+Aeq(N+1:2*N,1:M)                 =  G;
+Aeq(N+1:2*N,M+1:2*M)             = -G;
+Aeq(N+1:2*N,2*M+1:2*M+1)         =  1./sd;
+Aeq(N+1:2*N,2*M+1+N+1:2*M+1+2*N) = -eye(N,N);
+beq(N+1:2*N)                   =  dobs;
+
+% inequality constraints A x <= b
+% part 1: everything positive
+A = zeros(L+2*M,L);
+b = zeros(L+2*M,1);
+A(1:L,:) = -eye(L,L);
+b(1:L) = zeros(L,1);
+% part 2; mp and mpp have an upper bound.  Note: 
+% A potential problem without this constraint is that
+% mp and mpp are individually unbounded, though their
+% difference, m=mp-mpp, is not.  Thus there might be cases
+% where the algroithm strays to very large mp and mpp.
+A(L+1:L+2*M,:) = eye(2*M,L);
+mupperbound=100; % needs to be adjusted for problem at hand
+b(L+1:L+2*M) = mupperbound;
+
+% solve linear programming problem
+[x, fmin] = linprog(f,A,b,Aeq,beq);
+fmin=-fmin;
+mestLinf = x(1:M) - x(M+1:2*M);
+dpreLinf = G*mestLinf;
+
+% plot
+figure(1);
+clf;
+set(gca,'LineWidth',2);
+hold on;
+axis( [zmin, zmax, 0, 5 ] );
+plot( z, dtrue, 'k-', 'Linewidth', 2);
+plot( z, dobs, 'ko', 'Linewidth', 2);
+plot( z, dpreL1, 'g-', 'Linewidth', 3);
+plot( z, dls, 'b-', 'Linewidth', 2);
+plot( z, dpreLinf, 'r-', 'Linewidth', 3);
+
+xlabel('z');
+ylabel('d');
+
+fprintf('black:   d-true\n');
+fprintf('circles: d-obs\n');
+fprintf('green:   d-L1\n');
+fprintf('blue:    d-L2\n');
+fprintf('red:     d-Linf\n');
+
+
+

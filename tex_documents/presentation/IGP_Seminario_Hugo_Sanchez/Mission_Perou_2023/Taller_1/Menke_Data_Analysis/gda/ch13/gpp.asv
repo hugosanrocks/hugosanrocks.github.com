@@ -1,0 +1,4 @@
+function gout = gpp(t,t0,sigma)
+gout = (1/(sqrt(2*pi)*sigma))*(sigma^-2)*(1+((t-t0)^2)
+end
+

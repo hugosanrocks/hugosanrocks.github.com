@@ -1,0 +1,170 @@
+% gda09_??
+% Bootstrap estimate of confidence intervas
+% for solutio computed via Newton's method
+% This function with these derivatives is being solved
+% y = sin( w0 m1  x) + m1 m2;
+% dy/dm1 = w0 x cos( w0 m1 x) + m2
+% dy/dm2 = m2
+
+% data are in a sinple auxillary variable, x
+N=40;
+xmin=0;
+xmax=1.0;
+Dx=(xmax-xmin)/(N-1);
+x = Dx*[0:N-1]';
+
+% true model parameters
+M=2;
+mt = [1.21, 1.54]';
+
+% y=f(x, m1, m2);
+w0=20;
+dtrue = sin(w0*mt(1)*x) + mt(1)*mt(2);
+sd=0.4;
+dobs = dtrue + random('Normal',0,sd,N,1);
+
+% 2D grid, for plotting purposes only
+L = 101;
+Dm = 0.02;
+m1min=0;
+m2min=0;
+m1a = m1min+Dm*[0:L-1]';
+m2a = m2min+Dm*[0:L-1]';
+m1max = m1a(L);
+m2max = m2a(L);
+
+% compute error, E, on grid for plotting purposed only
+E = zeros(L,L);
+for j = [1:L]
+for k = [1:L]
+    dpre = sin(w0*m1a(j)*x) + m1a(j)*m2a(k);
+    E(j,k) = (dobs-dpre)'*(dobs-dpre);
+end
+end
+
+% plot error surface
+figure(1);
+clf;
+set(gca,'LineWidth',2);
+hold on;
+axis( [m2min, m2max, m1min, m1max] );
+axis ij;
+imagesc( [m2min, m2max], [m1min, m1max], E);
+colorbar;
+xlabel('m2');
+ylabel('m1');
+plot( mt(2), mt(1), 'go', 'LineWidth', 3 );
+
+Nresamples = 1000;
+m1save = zeros(Nresamples,1);
+m2save = zeros(Nresamples,1);
+for ir = [1:Nresamples]
+
+	% resampling with duplications of data
+	% (first estimate is without resampling)
+    if( ir==1 )
+        dresampled = dobs;
+        xresampled = x;
+    else
+        rowinded = unidrnd(N,N,1);
+        xresampled = x( rowinded );
+        dresampled = dobs( rowinded );
+    end
+    
+    % initial guess and corresponding error
+    mg = [1.3, 1.5]';
+    dg = sin(w0*mg(1)*xresampled) + mg(1)*mg(2);
+    Eg = (dobs-dg)'*(dobs-dg);
+
+    % iterate to improve initial guess
+    Niter=100;
+    for k = [1:Niter]
+
+        dg = sin( w0*mg(1)*xresampled) + mg(1)*mg(2);
+        dd = dresampled-dg;
+        Eg=dd'*dd;
+        Ehis(k+1)=Eg;
+    
+        G = zeros(N,2);
+        G(:,1) = w0 * xresampled .* cos( w0 * mg(1) * xresampled ) + mg(2);
+        G(:,2) = mg(2)*ones(N,1);
+    
+        % least squares solution
+        dm = (G'*G)\(G'*dd);
+    
+        % update
+        mg = mg+dm;
+    end
+    
+    m1save(ir) = mg(1);
+    m2save(ir) = mg(2);
+    
+    if( ir==1 )
+        % plot estimated solution
+        m1est = mg(1);
+        m2est = mg(2);
+        plot( m2est, m1est, 'ro', 'LineWidth', 2 );
+    else
+        % plot resampled solutions
+        plot( mg(2), mg(1), 'w.', 'LineWidth', 2 );
+    end
+
+end
+
+% plot again so is on top
+plot( mt(2), mt(1), 'go', 'LineWidth', 3 );
+plot( m2est, m1est, 'ro', 'LineWidth', 2 );
+
+% histogram plot
+figure(2);
+clf;
+
+% histogram2 for m1 and m2
+Nbins=50;
+m1hmin=min(m1save);
+m1hmax=max(m1save);
+Dm1bins = (m1hmax-m1hmin)/(Nbins-1);
+m1bins=m1hmin+Dm1bins*[0:Nbins-1]';
+m1hist = hist(m1save,m1bins);
+pm1 = m1hist/(Dm1bins*sum(m1hist)); % norm al to pdf
+Pm1 = Dm1bins*cumsum(pm1);
+m1low=m1bins(find(Pm1>0.025,1));
+m1high=m1bins(find(Pm1>0.975,1));
+subplot(2,1,1);
+set(gca,'LineWidth',2);
+hold on;
+maxpm1=max(pm1);
+axis( [m1hmin, m1hmax, 0, maxpm1] );
+plot( m1bins, pm1, 'k-', 'LineWidth', 3 );
+plot( [m1low, m1low]', [0 maxpm1/20]', 'r-', 'LineWidth', 3 );
+plot( [m1high, m1high]', [0 maxpm1/20]', 'r-', 'LineWidth', 3 );
+fprintf('estimated m1: %f < %f < %f\n', m1low, m1est, m1high );
+m2hmin=min(m2save);
+m2hmax=max(m2save);
+Dm2bins = (m1hmax-m1hmin)/(Nbins-1);
+m1bins=m1hmin+Dm1bins*[0:Nbins-1]';
+m1hist = hist(m1save,m1bins);
+pm1 = m1hist/(Dm1bins*sum(m1hist)); % norm al to pdf
+Pm1 = Dm1bins*cumsum(pm1);
+m1low=m1bins(find(Pm1>0.025,1));
+m1high=m1bins(find(Pm1>0.975,1));
+subplot(2,1,1);
+set(gca,'LineWidth',2);
+hold on;
+maxpm1=max(pm1);
+axis( [m1hmin, m1hmax, 0, maxpm1] );
+plot( m1bins, pm1, 'k-', 'LineWidth', 3 );
+plot( [m1low, m1low]', [0 maxpm1/20]', 'r-', 'LineWidth', 3 );
+plot( [m1high, m1high]', [0 maxpm1/20]', 'r-', 'LineWidth', 3 );
+fprintf('estimated m1: %f < %f < %f\n', m1low, m1est, m1high );
+
+
+
+
+
+
+
+
+
+    
+

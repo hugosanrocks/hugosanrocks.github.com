@@ -1,0 +1,6 @@
+function y = afun(v,transp_flag)
+global F e;
+% impliments (G'G + eI)v = G'(G v)
+temp = F*v;
+y = F'*temp;
+return

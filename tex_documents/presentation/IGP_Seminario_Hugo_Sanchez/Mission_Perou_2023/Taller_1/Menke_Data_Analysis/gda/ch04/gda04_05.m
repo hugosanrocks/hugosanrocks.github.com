@@ -1,0 +1,104 @@
+% gda04_05
+%
+% trade off of resolution and variance
+
+% model, m(z), moztly zero but a few spikes
+M=101;
+zmin=0;
+zmax=10;
+Dz=(zmax-zmin)/(M-1);
+z=zmin+Dz*[0:M-1]';
+
+% experiment: exponential smoothing of model
+N=80;
+cmin=0.00;
+cmax=0.10;
+Dc=(cmax-cmin);
+c = cmin + Dc*[0:N-1]';
+G = exp(-c*z');
+
+% Part 1: Backus-Gilbert
+alphavec = [0.999, 0.995, 0.99, 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.01, 0.001, 0.0001, 0.00001]';
+iahalf=find(alphavec==0.5);
+Na=length(alphavec);
+spreadR1=zeros(Na,1);
+sizeC1=zeros(Na,1);
+
+for a=[1:Na]
+    
+    alpha = alphavec(a);
+    
+    % construct Backus-Gilbert solution row-wise
+    GMG = zeros(M,N);
+    u = G*ones(M,1);
+    for k = [1:M]
+        S = G * diag(([1:M]-k).^2) * G';
+        Sp = alpha*S + (1-alpha)*eye(N,N);
+        uSpinv = u'/Sp;
+        GMG(k,:) = uSpinv / (uSpinv*u);
+    end
+    
+    Cm1 = GMG*GMG';
+    R1 = GMG*G;
+    sizeC1(a) = sum(diag(Cm1));
+
+    % the hard way, to check result
+    % spreadR(a)=0;
+    % for i = [1:M]
+    % for j = [1:M]
+    %    spreadR(a) = spreadR(a) + ((i-j)^2)*(R(i,j)^2);
+    % end
+    % end
+
+    spreadR1(a) = sum(sum( (([1:M]'*ones(1,M)-ones(M,1)*[1:M]).^2).*(R1.^2) ));
+
+end
+
+% plot
+figure(1);
+clf;
+subplot(1,2,1);
+
+set(gca,'LineWidth',3);
+hold on;
+axis( [2, 3.5, -3, 5 ]' );
+plot( log10(spreadR1), log10(sizeC1), 'k-', 'LineWidth', 4);
+% plot( log10(spreadR1), log10(sizeC1), 'ro', 'LineWidth', 2);
+plot( log10([spreadR1(1), spreadR1(iahalf), spreadR1(Na)]') , log10([sizeC1(1), sizeC1(iahalf), sizeC1(Na)]'), 'ko', 'LineWidth', 2);
+xlabel('log10 spread(R)');
+ylabel('log10 size(Cm)');
+
+% Part 2: Damped minimum length
+
+alphavec = [0.9999, 0.999, 0.995, 0.99, 0.5, 0.4, 0.3, 0.2, 0.1, 0.05, 0.01]';
+iahalf=find(alphavec==0.5);
+Na=length(alphavec);
+spreadR2=zeros(Na,1);
+sizeC2=zeros(Na,1);
+
+for a=[1:Na]
+    
+    alpha = alphavec(a);
+    
+    GMG = (alpha*G')/(alpha*(G*G')+ (1-alpha)*eye(N,N));
+    
+    Cm2 = GMG*GMG';
+    R2 = GMG*G;
+    sizeC2(a) = sum(diag(Cm2));
+    spreadR2(a) = sum(sum((R2-eye(M)).^2));
+
+end
+
+
+subplot(1,2,2);
+set(gca,'LineWidth',3);
+hold on;
+axis( [90, 100, -3, 4 ]' );
+plot( (spreadR2), log10(sizeC2), 'k-', 'LineWidth', 4);
+% plot( (spreadR2), log10(sizeC2), 'ro', 'LineWidth', 2);
+plot( ([spreadR2(1), spreadR2(iahalf), spreadR2(Na)]') , log10([sizeC2(1), sizeC2(iahalf), sizeC2(Na)]'), 'ko', 'LineWidth', 2);
+xlabel('spread(R)');
+ylabel('size(Cm)');
+
+[alphavec, spreadR2, log10(sizeC2)]
+

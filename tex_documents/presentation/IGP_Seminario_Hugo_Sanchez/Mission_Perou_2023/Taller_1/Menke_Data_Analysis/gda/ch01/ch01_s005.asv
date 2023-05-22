@@ -1,0 +1,78 @@
+% gda01_
+% 
+% G for various cases
+
+z = [1, 2, 4, 8, 9, 12, 15, 20]';
+N=length(z);
+
+% straight line case
+M=2;
+G=zeros(N,M);
+G=[ones(N,1), z];
+fprintf('Kernel for linear case\n');
+G
+
+% quadratic case
+M=2;
+G=zeros(N,M);
+G=[ones(N,1), z, z.^2];
+fprintf('Kernel for quadratic case\n');
+G
+
+% acoustic tomography case
+N=8;
+M=16;
+G=zeros(N,M);
+for i = [1:4]
+for j = [1:4]
+    % measurements over rows
+    k = (i-1)*4 + j;
+    G(i,k)=1;
+    % measurements over columns
+    k = (j-1)*4 + i;
+    G(i+4,k)=1;
+end
+end
+fprintf('Kernel for tomography case\n');
+G
+
+% CAT scan case
+% let the image be square, from (0 to 1) in both x and y
+% let it be divided into M=KxL pixels 
+% let N rays be collected with endpoits at (x1,y1) and (x2,y2).
+K=10;
+L=10;
+M=K*L;
+N=2;
+Dx=1/K; % x dimension of pixel
+Dy=1/L; % y dimension of pizel
+% endpoints of rays
+X1 = [ [0,0]', [0,1]' ];
+X2 = [ [1,0]', [1,1]' ];
+Ds = 0.01;
+
+G = spalloc( N, M, 3*max(K,L) );
+for n=[1:N]
+    % step alomg ray
+    x1=X1(:,i); x2=X2(:,i); % end points of ray
+    R = sqrt((x2-x1)'*(x2-x1)); % length of ray
+    t = (x2-t1)/R; % tangent to ray
+    Nr = floor( R/Ds ); % number of ray segments
+    x=x1; % starting point along ray
+    for ir = [1:Nr]
+        x = x1 + (ir-1)*Ds*t; % point along ray
+        px = floor( x(1) / Dx );
+        if( px<1 )
+            px=1;
+        elseif( px>K )
+            px=K;
+        end
+        py = floor( x(2) / Dy );
+        if( py<1 )
+            py=1;
+        elseif( py>K )
+            py=K;
+        end
+        
+    end
+end

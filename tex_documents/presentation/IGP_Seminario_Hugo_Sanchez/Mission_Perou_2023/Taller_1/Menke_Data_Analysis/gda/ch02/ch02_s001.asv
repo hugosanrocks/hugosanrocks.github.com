@@ -1,0 +1,67 @@
+% gda02_??
+%
+% distribution and histogram
+
+% axes
+Dd = 0.1;
+N = 101;
+d = Dd*[0:N-1]';
+dmin=0;
+dmax=10;
+
+sd = 1.0;
+dbar = 5.0;
+p = exp(-0.5*(d-dbar).^2/(sd^2))/(sqrt(2*pi)*sd);
+norm = Dd*sum(p);
+p = p/norm;
+
+M=1000;
+r=random('Normal',dbar,sd,M,1);
+Nb=26;
+Db=(dmax-dmin)/(Nb-1);
+bins=dmin+Db*[0:Nb-1]';
+h = hist(r,bins)';
+hmax=max(h);
+
+figure(1);
+clf;
+
+% plot pdf
+subplot(1,3,1);
+set(gca,'LineWidth',2);
+hold on;
+axis( [dmin, dmax, 0, 0.5 ] );
+plot(d,p,'r-','LineWidth',3);
+xlabel('d');
+ylabel('p(d)');
+
+%plot histogram
+subplot(1,3,2);
+set(gca,'LineWidth',2);
+hold on;
+axis( [dmin, dmax, 0, hmax ] );
+% improvise bar chart
+for i = [1:Nb]
+    tb = [bins(i)-Db/2, bins(i)-Db/2, bins(i)+Db/2, bins(i)+Db/2]';
+    th = [0, h(i), h(i), 0]';
+    plot(tb,th,'b-','LineWidth',3);
+end
+xlabel('d');
+ylabel('counts');
+
+% convert histogram to an approximate pdf
+subplot(1,3,3);
+set(gca,'LineWidth',2);
+hold on;
+axis( [dmin, dmax, 0, 0.5 ] );
+% improvise bar chart
+for i = [1:Nb]
+    tb = [bins(i)-Db/2, bins(i)-Db/2, bins(i)+Db/2, bins(i)+Db/2]';
+    th = [0, h(i), h(i), 0]';
+    plot(tb,th,'b-','LineWidth',3);
+end
+plot(d,p,'r-','LineWidth',3);
+xlabel('d');
+ylabel('counts');
+
+

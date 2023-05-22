@@ -1,0 +1,81 @@
+% gda_
+%
+% Constructing just one row of the resolution matrix
+
+% inverse problem is an acoustic tomography problem, where
+% the observations are along just rows and columns
+
+% grid of unknowns is Lx by Ly
+Lx = 20;
+Ly = 20;
+M = Lx*Ly;
+
+% observations only along rows and columns
+N=Lx+Ly;
+
+% build backward index tables for convenience
+ixofj=zeros(M,1); % backward index table, ix(j)
+iyofj=zeros(M,1); % backward index table, iy(j)
+for ix=[1:Lx]
+    for iy=[1:Ly]
+        j = (ix-1)*Ly+iy; % map model parameter at (ix,iy) into scalar index j
+        ixofj(j)=ix;
+        iyofj(j)=iy;
+    end 
+end
+
+G=zeros(N,M);
+% observations across rows
+for ix=[1:Lx]
+    for iy=[1:Ly]
+        j = (ix-1)*Ly+iy; % map model parameter at (ix,iy) into scalar index j
+        G(ix,j)=1;
+    end 
+end
+% observations across columns
+for iy=[1:Ly]
+    for ix=[1:Lx]
+        j = (ix-1)*Ly+iy; % map model parameter at (ix,iy) into scalar index j
+        G(iy+Lx,j)=1;
+    end 
+end
+
+% construct minimum-length solution
+GMG = G'/(G*G');
+
+% compute the complete resolution matrix for comparison
+Rres = GMG*G;
+
+% pull out just one row of the resolution matrix, a row
+% corresponding to a model parameter near the middle of
+% the model volume
+ix=floor(Lx/2);
+iy=floor(Lx/2);
+irowB=(ix-1)*Ly+iy;
+RirowB=zeros(Lx,Ly);
+for i=[1:M]
+    RirowB(ixofj(i),iyofj(i))=Rres(irowB,i);
+end
+
+% now construct just that row
+% model parameter with unity in that row
+mk = zeros(M,1);
+mk(irowB) = 1;
+% data it predicts
+dk=G*mk;
+% solve inverse problem, interpret the result as
+% a row of the resolution matrix.  In this case, I
+% solve the inverse problem using the generalized
+% inverse.  But it could as well have been solved
+% iterative, using biconjugate gradients.  First
+% write  rk = GMG dk = GT (GGT-1) dk = GT x
+% with x = (GGT-1) dk or 
+rk = GMG*dk;
+% reorganize to 2D physical model space
+Rk=zeros(Lx,Ly);
+for i=[1:M]
+    Rk(ixofj(i),iyofj(i))=rk(i);
+end
+
+gda_draw(' ',RirowB,' ',Rk);
+

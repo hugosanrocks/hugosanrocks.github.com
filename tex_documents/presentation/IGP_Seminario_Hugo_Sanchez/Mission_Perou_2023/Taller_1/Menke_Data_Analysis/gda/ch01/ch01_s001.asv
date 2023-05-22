@@ -1,0 +1,48 @@
+% gda01_
+% 
+% straight line fit to 1965-2010 global temperature data
+
+% Hansen, J., Mki. Sato, R. Ruedy, K. Lo, D.W. Lea, and M. Medina-Elizade,
+% 2006: Global temperature change. Proc. Natl. Acad. Sci., 103, 14288-14293,
+% doi:10.1073/pnas.0606291103. 
+
+D=load('../data/global_temp.txt');
+t=D(:,1);
+d=D(:,2);
+N=length(d);
+
+% plot data
+figure(1);
+set(gca,'LineWidth',2);
+hold on;
+axis( [1965, 2010, -0.5, 1.0] );
+plot(t,d,'r-','LineWidth',3);
+plot(t,d,'ro','LineWidth',3);
+xlabel('calendar year');
+ylabel('temperature anomaly, deg C');
+
+% set up data kernel
+M=2;
+G=zeros(N,M);
+G(:,1)=1;
+G(:,2)=t;
+
+% least squares solution and predicted data
+mest = (G'*G)\(G'*d);
+dpre = G*mest;
+
+% plot straight line fit
+plot(t,dpre,'b-','LineWidth',3);
+
+% variance calculation
+e = (d - dpre);
+E = e'*e;
+s2d = E/N;
+C = s2d * inv(G'*G);
+sm = sqrt(C(2,2));
+
+% display slope
+disp(sprintf('slope: %f +/- %f deg/yr', mest(2), 2*sm));
+
+
+

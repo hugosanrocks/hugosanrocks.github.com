@@ -1,0 +1,18 @@
+% gda09_??
+%
+
+z = [1, 2, 3, 4]';
+d = [1, 2, 3, 5]';
+N=length(z);
+M=2;
+G=[ones(N,1), z];
+mest = (G'*G)\(G'*d);
+fprintf('d(z): intercept %f slope %f\n', mest(1), mest(2) );
+
+G=[ones(N,1), d];
+mest2 = (G'*G)\(G'*z);
+mest3(1)=-mest2(1)/mest2(2);
+mest3(1)=1/m
+fprintf('dp(zp): intercept %f slope %f\n', mest2(1), mest2(2) );
+
+

@@ -1,0 +1,33 @@
+% gda00_13
+% avoiding loops
+
+% define a matrix M
+M = [ [1, 4, 7]', [2, 5, 8]', [3, 6, 9]']; 
+
+% extract diagonal
+a = diag(M);
+M
+a
+
+% reverse order of rows
+N = fliplr(M);
+M
+N
+
+% another way of reversing order order of rows
+N = M(:,end:-1:1);
+M
+N
+
+% define vector a
+a = [ 1, 2, 1, 4, 3, 2, 6, 4, 9, 2, 1, 4 ]';
+
+% clip to 6
+b=a;
+b(find(a>6))=6;
+a, b
+
+% alternative way to clip to 6
+b = a.*(a<6)+6.*(a>=6);
+a
+b

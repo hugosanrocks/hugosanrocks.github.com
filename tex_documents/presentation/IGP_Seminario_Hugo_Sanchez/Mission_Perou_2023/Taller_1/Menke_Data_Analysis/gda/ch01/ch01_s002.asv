@@ -1,0 +1,109 @@
+% gda01_
+% 
+% model mars rover Mosbauer spectra
+
+% load data
+D=load('../data/mars_soil.txt');
+v=D(:,1);
+d=D(:,2);
+d=d/max(d); % normalize
+N=length(d);
+
+% delete negative velocities
+i=find(v>=0,1);
+v=v(i:N);
+d=d(i:N);
+N=length(v);
+
+% plot data
+figure(1);
+clf;
+set(gca,'LineWidth',2);
+hold on;
+axis( [0, 12, min(d), max(d)] );
+plot(v,d,'r-','LineWidth',3);
+plot(v,d,'ro','LineWidth',3);
+xlabel('velocity, mm.s');
+ylabel('counts');
+
+% lorentzian curve of peak amplitude a
+% f(v)   = a c^2 / ( (v-v0)^2 + c^2) )
+% df/da  = c^2 / ( (v-v0)^2 + c^2) )
+% df/dv0 = 2 a c^2 (v-v0) / ( (v-v0)^2 + c^2) )^2
+% df/dc  = 2 a c / ( (v-v0)^2 + c^2) ) - a c^3 / ( (v-v0)^2 + c^2) )^2
+% 3 model parameters per lorentzian, (a, v0, c)
+
+% estimate of backgroind level
+A = max(d);
+
+% number of peaks determined by clicking on graph
+disp('click on the bottom each peak');
+disp('    click to the left of zero when done');
+disp(' ');
+
+MAXPEAKS=100;
+a = zeros(MAXPEAKS,1);
+v0 = zeros(MAXPEAKS,1);
+c = zeros(MAXPEAKS,1);
+K=0;
+for k = [1:20]
+    p = ginput(1);
+    if( p(1) < 0 )
+        break;
+    end
+    K=K+1;
+    a(K) = p(2)-A;
+    v0(K)=p(1);
+    c(K)=0.1;
+end
+a = a(1:K);
+v0 = v0(1:K);
+c = c(1:K);
+
+% model parameters
+M=K*3;
+m = [a', v0', c']';
+
+for iter=[1:1]
+
+dpre = A*ones(N,1);
+for i = [1:K]
+    temp = ((v-m(K+i)).^2+m(2*K+i)^2);
+    dpre = dpre + m(i)*(m(2*K+i)^2)./temp;
+end
+plot(v,dpre,'b-','LineWidth',3);
+
+% data kernel
+G=zeros(N,M);
+for i = [1:K]
+    temp = ((v-m(K+i)).^2+m(2*K+i)^2);
+    G(:,i) = (m(2*K+i)^2)./temp; % d/da 
+    G(:,K+i) = 2*m(i)*(m(2*K+i)^2)*(v-m(K+i))./(temp.^2);  % d/dv0
+    G(:,2*K+i) = 2*m(i)*m(2*K+i)./temp - 2*m(i)*m(2*K+i)^3./(temp.^2);  % d/dc
+end
+
+% deviations in data
+dd = d - dpre;
+E = dd'*dd;
+
+% updated model
+dm = (G'*G+0.1*eye(M))\(G'*dd);
+m = m+dm;
+
+disp(sprintf('%f', E));
+
+end
+
+% plot
+dpre2 = A*ones(N,1);
+for i = [1:K]
+    temp = ((v-m(K+i)).^2+m(2*K+i)^2);
+    dpre = dpre + m(i)*(m(2*K+i)^2)./temp;
+end
+plot(v,dpre2,'g-','LineWidth',3);
+
+
+
+
+
+

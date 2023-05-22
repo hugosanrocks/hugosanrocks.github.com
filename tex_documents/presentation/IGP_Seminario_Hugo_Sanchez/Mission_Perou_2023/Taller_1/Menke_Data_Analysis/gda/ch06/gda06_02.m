@@ -1,0 +1,84 @@
+% gda06_01
+%
+% bounds on averaging function example #2
+% G composed of decaying exponentials
+
+clear all;
+
+% model, m(z), moztly zero but a few spikes
+M=101;
+zmin=0;
+zmax=10;
+Dz=(zmax-zmin)/(M-1);
+z=zmin+Dz*[0:M-1]';
+mtrue = 0.5+0.03*z;
+
+% experiment: exponential smoothing of model
+N=40;
+G = zeros(N,M);
+for i = 1:N;
+    j = floor(i*M/N );
+    % G(i,1:j) = [j:-1:1]/j;
+    G(i,1:j)=[j:-1:1]/j+random('Normal',0,0.15,1,j);
+end
+
+fprintf('det %f\n',det(G*G'));
+
+sd=0.001;
+dtrue = G*mtrue;
+dobs = dtrue + random('Normal',0,sd,N,1);
+
+gda_draw(dtrue,'=',G,' ',mtrue);
+
+% minimum length solution
+epsilon=1e-12;
+GMG = G'/(G*G'+epsilon*eye(N,N));
+mest = GMG * dobs;
+Rres = GMG*G;
+
+% plot
+figure(2);
+clf;
+
+pmmin=-0.5;
+pmmax=1.5;
+
+set(gca,'LineWidth',2);
+hold on;
+axis( [zmin, zmax, pmmin, pmmax ]' );
+plot( z, mtrue, 'r-', 'LineWidth', 2);
+plot( z, mest,  'b-', 'LineWidth', 2);
+xlabel('z');
+ylabel('m');
+
+% upper bound: mi <= 1
+mub = ones(M,1);
+
+% lower bound: mi >= -1
+mlb = -ones(M,1);
+
+% half width of averaging kernel
+hw = 10;
+
+amin=zeros(M,1);
+amax=zeros(M,1)
+for i=[1:M]
+    % averageing vector centered at M of width w
+    a = zeros(M,1);
+    j=i-hw;
+    if( j<1 )
+        j=1;
+    end
+    k=i+hw;
+    if(k>M)
+        k=M;
+    end
+    a(j:k)=1/(k-j+1);
+    [mest1, amin(i)] = linprog(  a, [], [], G, dobs, mlb, mub );
+    [mest2, amax(i)] = linprog( -a, [], [], G, dobs, mlb, mub );    
+    amax(i)=-amax(i);
+end
+
+
+plot( z, amin, 'k-', 'LineWidth', 2);
+plot( z, amax, 'k-', 'LineWidth', 2);

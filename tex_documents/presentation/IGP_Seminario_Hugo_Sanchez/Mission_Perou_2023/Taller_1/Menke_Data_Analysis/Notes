@@ -1,0 +1,35 @@
+Equation (2.17b) is very important, because the covariance of the data is a mea-
+sure of the amount of measurement error. The equation functions as a rule for
+error propagation; that is, given [cov d] representing measurement error, it
+provides a way to compute [cov m] representing the corresponding error in the
+model parameters. While the rule requires that the data and the model param-
+eters be linearly related, it is independent of the functional form of the proba-
+bility density function p(d). Furthermore, it can be shown to be correct even
+when the matrix M is not square.
+
+The model parameters now have the interpretation of a set of unknown quan-
+tities that define the shape of the distribution for the data. One approach to in-
+verse theory (which will be pursued in Chapter 5) is to use the data to determine
+the distribution and thus the values of the model parameters.
+
+A posteriori estimates are usually overestimates because in-
+accuracies in the model contribute to the size of the prediction error.
+
+Small
+errors in determining the shape of E(m) due to random fluctuations in the data
+lead to only small errors in m est . Conversely, if E(m) has a broad minimum, we
+expect that m est has a large variance. Since the curvature of a function is a mea-
+sure of the sharpness of its minimum, we expect that the variance of the solution
+is related to the curvature of E(m) at its minimum, which in turn depends on the
+structure of the data kernel G (Figure 3.13).
+
+The covariance [cov m] can be interpreted as being controlled either by the
+variance of the data times a measure of how error in the data is mapped into
+error in the model parameters or by the standard deviation of the total pre-
+diction error times a measure of the curvature of the prediction error at its
+minimum.
+
+
+The unit covariance matrix is a useful tool in experimental design, especially
+because it is independent of the actual values and variances of the data
+themselves.

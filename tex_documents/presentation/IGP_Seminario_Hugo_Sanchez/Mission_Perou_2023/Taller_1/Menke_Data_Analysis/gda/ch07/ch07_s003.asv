@@ -1,0 +1,21 @@
+% gda07_??
+
+M=11;
+mmin = 0.0;
+mmax=5;
+Dm = (mmax-mmin)/(M-1);
+m = mmin + Dm*[0:M-1]';
+
+N=M;
+G=zeros(N,M);
+g1 = [1, -8, 28, -56, 70, -56, 28, -8, 1]';
+g=[ g1', zeros(1,M-length(g1)) ]';
+for i=[1:N]
+   G(i,:) = circshift(g,i-3)';
+end
+
+[U, S1, V] = svd(G);
+s1 = diag(S1);
+s1
+plot( [1:M], s1, 'k-', 'LineWidth', 2 );
+

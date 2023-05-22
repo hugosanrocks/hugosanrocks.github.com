@@ -1,0 +1,69 @@
+% gda05_??
+% illustration of F-test to assess difference in fit of two models
+
+
+N = 11;
+z = [0:N-1]'/(N-1);
+dtrue = z - 0.5*z.*z;
+
+% simulated data
+sigmad=0.05;
+dobs = dtrue + random('Normal', 0, sigmad, N, 1 );
+
+figure(1);
+clf;
+subplot(2,1,1);
+set(gca,'LineWidth',2);
+hold on;
+plot(z,dobs,'ro','LineWidth',3);
+
+% fit 1, straight line
+M=2;
+G=zeros(N,M);
+G(:,1)=1;
+G(:,2)=z;
+mestA=(G'*G)\(G'*dobs);
+dpreA = G*mestA;
+plot(z,dpreA,'b-','LineWidth',2);
+title('linear fit');
+xlabel('zs');
+ylabel('d(z)');
+EA = (d-dpreA)'*(d-dpreA);
+vA = N-M;
+disp(sprintf('linear error %f, degrees of freedom %d', EA, vA));
+
+
+subplot(2,1,2);
+set(gca,'LineWidth',2);
+hold on;
+plot(z,d,'ro','LineWidth',2);
+
+% fit 1, straight line
+M=4;
+G=zeros(N,M);
+G(:,1)=1;
+G(:,2)=t;
+G(:,3)=t.*t;
+G(:,4)=t.^3;
+mestB=(G'*G)\(G'*d);
+dpreB = G*mestB;
+plot(t,dpreB,'k-','LineWidth',2);
+title('cubic fit');
+xlabel('time t, hours');
+ylabel('d(i)');
+EB = (d-dpreB)'*(d-dpreB);
+vB = N-M;
+disp(sprintf('cubic error %f, degrees of freedom %d', EB, vB));
+
+disp(sprintf('improvement in error %f', (EA-EB)/EA));
+
+F = (EA/vA) / (EB/vB);
+disp(sprintf('1/F %f F %f', 1/F, F));
+
+if( F<1 )
+    F=1/F
+end
+P = 1 - (fcdf(F,vA,vB)-fcdf(1/F,vA,vB));
+disp(sprintf('P(F<%f or F>%f) = %f', 1/F, F, P));
+
+

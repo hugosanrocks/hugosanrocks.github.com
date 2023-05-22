@@ -1,0 +1,130 @@
+% gda09_05
+%
+% E(m) for several 1D non-linear problems
+
+% auxiliary parameter z
+N = 11;
+zmin = 0;
+zmax = 5.0;
+Dz = (zmax-zmin)/(N-1);
+z = zmin + Dz*[0:N-1]';
+
+% grid search
+Mg = 501;
+mmin = 0;
+mmax = 5;
+Dm = (mmax-mmin)/(Mg-1);
+m = mmin + Dm*[0:Mg-1];
+
+% only one model parameter, m1
+M=1;
+
+% model 1
+m1true=2.5;
+d1true = sin(5*(m1true-2.5)*z)-((m1true-2.5))*z;
+sd=2;
+d1obs=d1true+random('Normal',0,sd,N,1);
+
+% Grid search
+E1=zeros(Mg,1);
+for i=[1:Mg]
+    d1pre = sin(5*(m(i)-2.5)*z)-((m(i)-2.5))*z;
+    e = d1obs - d1pre;
+    E1(i) = (e'*e);
+end
+
+[E1min, iE1min] = min(E1);
+m1est=m(iE1min);
+
+figure(1);
+clf;
+
+subplot(2,2,1);
+set(gca,'LineWidth',2);
+hold on;
+axis( [mmin, mmax, 0, max(E1)] );
+axis xy;
+plot( m, E1, 'k-', 'Linewidth', 3 );
+xlabel('m');
+ylabel('E');
+
+% model 2
+m1true=2.5;
+d1true = ((abs((m1true-2))-0.5)*z);
+sd=2;
+d1obs=d1true+random('Normal',0,sd,N,1);
+
+% Grid search
+E1=zeros(Mg,1);
+for i=[1:Mg]
+    d1pre = ((abs((m(i)-2))-0.5)*z);
+    e = d1obs - d1pre;
+    E1(i) = (e'*e);
+end
+
+[E1min, iE1min] = min(E1);
+m1est=m(iE1min);
+
+subplot(2,2,2);
+set(gca,'LineWidth',2);
+hold on;
+axis( [mmin, mmax, 0, max(E1)] );
+axis xy;
+plot( m, E1, 'k-', 'Linewidth', 3 );
+xlabel('m');
+ylabel('E');
+
+% model 3
+m1true=2.5;
+d1true = sin(5*(m1true+z));
+sd=1;
+d1obs=d1true+random('Normal',0,sd,N,1);
+
+% Grid search
+E1=zeros(Mg,1);
+for i=[1:Mg]
+    d1pre = sin(5*(m(i)+z));
+    e = d1obs - d1pre;
+    E1(i) = (e'*e);
+end
+
+[E1min, iE1min] = min(E1);
+m1est=m(iE1min);
+
+subplot(2,2,3);
+set(gca,'LineWidth',2);
+hold on;
+axis( [mmin, mmax, 0, max(E1)] );
+axis xy;
+plot( m, E1, 'k-', 'Linewidth', 3 );
+xlabel('m');
+ylabel('E');
+
+% model 4
+m1true=2.5;
+t = abs(m1true-2.0) + abs(m1true-3.0);
+d1true = exp( -(t*z/10).^2 );
+sd=1;
+d1obs=d1true+random('Normal',0,sd,N,1);
+
+% Grid search
+E1=zeros(Mg,1);
+for i=[1:Mg]
+    t = abs(m(i)-2.0) + abs(m(i)-3.0);
+    d1pre = exp( -(t*z/10).^2 );
+    e = d1obs - d1pre;
+    E1(i) = (e'*e);
+end
+
+[E1min, iE1min] = min(E1);
+m1est=m(iE1min);
+
+subplot(2,2,4);
+set(gca,'LineWidth',2);
+hold on;
+axis( [mmin, mmax, 0, max(E1)] );
+axis xy;
+plot( m, E1, 'k-', 'Linewidth', 3 );
+xlabel('m');
+ylabel('E');
+

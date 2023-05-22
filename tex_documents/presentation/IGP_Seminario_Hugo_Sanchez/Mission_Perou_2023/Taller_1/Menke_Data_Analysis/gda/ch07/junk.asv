@@ -1,0 +1,17 @@
+% test
+
+M=20;
+zmin = 0.0;
+zmax=5;
+Dz = (zmax-zmin)/(M-1);
+z = zmin + Dz*[0:M-1]';
+
+c = [0, random('Uniform',0.1,0.9), 1, random('Uniform40]';
+N = length(c);
+G = exp( -(c * z') );
+
+[U, S1, V] = svd(G);
+sp = diag(S1);
+sp
+
+gda_draw(G);

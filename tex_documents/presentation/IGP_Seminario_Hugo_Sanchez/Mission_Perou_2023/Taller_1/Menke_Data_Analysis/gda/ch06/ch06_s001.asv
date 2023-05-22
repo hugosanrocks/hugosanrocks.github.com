@@ -1,0 +1,46 @@
+% gda06_??
+%
+
+
+
+% data equation: mean of d
+M=21; % must be odd
+N=1;
+mtrue = random('Uniform',-1,1,M,1);
+mtrue = mtrue - mean(mtrue);
+G=ones(N,M)/M;
+dtrue=G*mtrue;
+
+% upper bound: mi <= 1
+Aub = eye(M,M);
+bub = ones(M,1);
+
+% lower bound: mi >= -1  or -mi <= 1
+Alb = -eye(M,M);
+blb = ones(M,1);
+
+% concatenate
+A = [Aub', Alb']';
+b = [bub', blb']';
+
+M2 = floor(M/2)+1;
+L=0; % counter
+for i=[0:floor(M/2)]
+    L=L+1;
+    % averageing vector centered at N/2 of width 2*i+1
+    f = zeros(M,1);
+    f(M2-i:M2+i) = 1;
+    I(L)=sum(f);
+    f=f/I(L);
+    [mest1, fmin(L)] = linprog(  f, A, b, G, dtrue );
+    [mest2, fmax(L)] = linprog( -f, A, b, G, dtrue );    
+end
+
+figure(1);
+set(gca,'LineWidth',2);
+axis( [1, M, 0, 1.5] );
+plot(I,-fmax);
+
+
+
+

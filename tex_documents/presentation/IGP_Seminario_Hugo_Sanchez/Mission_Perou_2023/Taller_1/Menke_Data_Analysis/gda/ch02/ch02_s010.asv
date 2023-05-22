@@ -1,0 +1,113 @@
+% gda02_??
+%
+% create realizations of an exponential p.d.f. in two ways,
+% transformation of a uniform distribution, and the Metropolis
+% algoritm.  In this example, the p.d.f. is
+% p(d) = c*exp(-d)/c); for d>0
+
+dmin = -10;
+dmax = 10;
+N = 201;
+Dd = (dmax-dmin)/(N-1);
+d = dmin + Dd*[0:N-1]';
+
+% evaluate exponential distribution
+c = 2.0;
+pexp = (0.5/c)*exp(-abs(d)/c);
+
+% the usual transformation rule is p(d) = p(m(d)) |dm/dd|
+% suppose that p(m) is uniform over m=(-1,1) with amplitude 0.5
+% handle the absolute value sign by breaking into two parts,
+% Part 1: m>0, 
+%     (1/c)*exp(-d/c)=(+/-)dm/dd.  Choose the + sign, in order
+%     to map m=0 with d=0 and m=1 to d=infinity.  Then 
+%     m =(integral)(1/c)*exp(-d/c)dd+constant.  Choose constant=1
+%     so m=1-exp(-d/c). Inverting gives d=-c*ln((1-m))
+
+% transform realizations of a uniform distribution to p(d)
+M=5000;
+rm=random('Uniform',0,1,M,1);
+rd=-c*log((1-rm));
+
+% histogram
+Nb=26;
+Db=(dmax-dmin)/(Nb-1);
+bins=dmin+Db*[0:Nb-1]';
+h = hist(rd,bins)';
+
+% convert histogram to a p.d.f.
+norm=Db*sum(h);
+h=h/norm;
+
+figure(1);
+clf;
+
+% plot histogram of transformed realizations and true pdf
+subplot(1,2,1);
+set(gca,'LineWidth',2);
+hold on;
+axis( [dmin, dmax, 0, 0.5 ] );
+% improvise bar chart
+for i = [1:Nb-1]
+    tb = [bins(i)-Db/2, bins(i)-Db/2, bins(i)+Db/2, bins(i)+Db/2]';
+    th = [0, h(i), h(i), 0]';
+    plot(tb,th,'b-','LineWidth',3);
+end
+plot(d,pexp,'r-','LineWidth',3);
+xlabel('d');
+ylabel('p(d)');
+
+
+% Metropolis
+Niter=5000;
+rd  = zeros(Niter,1);
+prd = zeros(Niter,1);
+rd(1)  = 0.5;
+prd(1) = (1/c)*exp(-y(1)/c);
+s = 0.3;
+
+for k = [2:Niter]
+    % old realization
+    rdo = rd(k-1);
+    prdo = prd(k-1);
+    dr = random('Normal',0,s);
+    % handle d>0 requirement by reflecting the data
+    rdn=abs(rdo+dr);
+    prdn = (1/c)*exp(-rdn/c);
+    % test parameter, ratio of probabilities
+    a = prdn/prdo;
+    % acceptance test
+    if( a>1 )
+        rd(k) = rdn;
+        prd(k) = prdn;
+    else
+        r = random('Uniform',0,1);
+        if( a>r )
+            rd(k) = rdn;
+            prd(k) = prdn;
+        else
+            rd(k) = rdo;
+            prd(k) = prdo;
+        end
+    end
+end
+
+% histogram, converted to a p.d.f.
+h = hist(rd,bins)';
+norm=Db*sum(h);
+h=h/norm;
+
+% plot histogram of transformed realizations and true pdf
+subplot(1,2,2);
+set(gca,'LineWidth',2);
+hold on;
+axis( [dmin, dmax, 0, 0.5 ] );
+% improvise bar chart
+for i = [1:Nb-1]
+    tb = [bins(i)-Db/2, bins(i)-Db/2, bins(i)+Db/2, bins(i)+Db/2]';
+    th = [0, h(i), h(i), 0]';
+    plot(tb,th,'b-','LineWidth',3);
+end
+plot(d,pexp,'r-','LineWidth',3);
+xlabel('d');
+ylabel('p(d)');
